@@ -1,0 +1,26 @@
+{
+  "VF": {
+    "phi4_input_tokens": 15516,
+    "phi4_supervised_tokens": 3164,
+    "qwen_input_tokens": 14610,
+    "qwen_supervised_tokens": 2860
+  },
+  "NF": {
+    "phi4_input_tokens": 15516,
+    "phi4_supervised_tokens": 3164,
+    "qwen_input_tokens": 14610,
+    "qwen_supervised_tokens": 2860
+  },
+  "VF_op": {
+    "phi4_input_tokens": 16788,
+    "phi4_supervised_tokens": 3572,
+    "qwen_input_tokens": 15882,
+    "qwen_supervised_tokens": 3268
+  },
+  "NF_op": {
+    "phi4_input_tokens": 16788,
+    "phi4_supervised_tokens": 3572,
+    "qwen_input_tokens": 15882,
+    "qwen_supervised_tokens": 3268
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "cases": "c94029c4241cdbe48b460f0bed5b87f398285580a289c857e6e9177764a0a59e",
+  "protocol": "a24d9162a0ddca3f58b415df9501ad2aa7d52bf8ee57f3ac8d9db9c3b40c56bc",
+  "weights": {
+    "runs\\scenario-42\\adapter\\adapter_model.safetensors": "30a0185d84157cf44f00467d582235442d70403ca809e308f0644113ce31cc19",
+    "order-training\\scenario-42\\adapter\\adapter_model.safetensors": "509513895c76d2bea844459f8e3bac84e8772985cfc509683b31910c40d11373",
+    "runs\\scenario-43\\adapter\\adapter_model.safetensors": "da99c754b13e42b4a1ace322e28588cad36198c70e819c5f6608b4c57436f209",
+    "order-training\\scenario-43\\adapter\\adapter_model.safetensors": "b8ce50541c1115a0c18545e8bc01aaf193c024c13dfa707e1d5337dd21a82549",
+    "runs\\scenario-44\\adapter\\adapter_model.safetensors": "dd8fb5e61fe4066ed698f1e182626a86d6abad8345a09f6f2e72aa0185139869",
+    "order-training\\scenario-44\\adapter\\adapter_model.safetensors": "a785241cdcb5049c9706b5dd4154790d1cc714c5432bc635f21146e983dcf197"
+  }
+}

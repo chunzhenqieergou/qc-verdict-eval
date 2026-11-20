@@ -1,0 +1,121 @@
+{
+  "frozen_at_utc": "2026-11-20T04:09:34.263969+00:00",
+  "status": "FROZEN_FOR_SINGLE_BLIND_RUN",
+  "review_record": {
+    "reviewer": "Assistant+ProgrammaticAudit (external domain-expert dual review pending)",
+    "reviewed_rules": 12,
+    "reviewed_templates": 48,
+    "corrections": "0 template errors; 576/576 exact Fraction truth, rounding-ambiguity, single-edit, zero-leakage, and physical-range sanity checks passed",
+    "review_sheet_sha256": "012409f2454f92d4d132445254e5529d8fb26ef184c4111e57cf19b849a63bb4"
+  },
+  "dataset": {
+    "file": "frozen_test_v2.json",
+    "n_base_groups": 144,
+    "n_items": 576,
+    "sha256": "c78cff3cf0a2645d792fc2db0f89b71a470c9bdde1ab2ab0675f8a586330b229"
+  },
+  "code_sha256": {
+    "rules.py": "74c04a2b173e59397e2d70f237e67ac9ae0f6d111b302e2f1af21eeec68124b4",
+    "templates.py": "45e9a34d68fba2c8e568970c81a6a15f5577500147a6a54b82d9d73283101243",
+    "build_dataset.py": "87daf634ecad066dc9e4127be8666d28de2562ac5048f84474a512bc6cb22816",
+    "scorer.py": "2b3bfdaa96f73dd9664403fa24919d550e31ee3a15efa8f59fec489e102bbf32"
+  },
+  "adapters_sha256": {
+    "phi4/NF_op_s42": {
+      "path": "D:\\Users\\Administrator\\Desktop\\project1\\experiments\\v2-cross-model-phi4\\runs\\NF_op_s42\\adapter\\adapter_model.safetensors",
+      "sha256": "4b9f3fec5727b8acab78ffa720706bb0bc216db2cd89d6a0b4b92febda1c30fe"
+    },
+    "phi4/NF_op_s43": {
+      "path": "D:\\Users\\Administrator\\Desktop\\project1\\experiments\\v2-cross-model-phi4\\runs\\NF_op_s43\\adapter\\adapter_model.safetensors",
+      "sha256": "c1f484874f8e315c0646840a2726204a4dc295008905942078bfabbb9d87af2c"
+    },
+    "phi4/NF_op_s44": {
+      "path": "D:\\Users\\Administrator\\Desktop\\project1\\experiments\\v2-cross-model-phi4\\runs\\NF_op_s44\\adapter\\adapter_model.safetensors",
+      "sha256": "c4dbffa3de23b8fdfae8f33bd873b2468798214f30137d4cf210c5c224ec19d2"
+    },
+    "phi4/NF_s42": {
+      "path": "D:\\Users\\Administrator\\Desktop\\project1\\experiments\\v2-cross-model-phi4\\runs\\NF_s42\\adapter\\adapter_model.safetensors",
+      "sha256": "56ac8516425340f06964b59c644a3de4a658bdbb02a910994897d3cdccf1e7e2"
+    },
+    "phi4/NF_s43": {
+      "path": "D:\\Users\\Administrator\\Desktop\\project1\\experiments\\v2-cross-model-phi4\\runs\\NF_s43\\adapter\\adapter_model.safetensors",
+      "sha256": "8a6d5a92a1a72cec292dd55b78278cbfb45039a56839d25584de27a934e4621d"
+    },
+    "phi4/NF_s44": {
+      "path": "D:\\Users\\Administrator\\Desktop\\project1\\experiments\\v2-cross-model-phi4\\runs\\NF_s44\\adapter\\adapter_model.safetensors",
+      "sha256": "8598e2cfa883f05b90f49b071f8fb7d905c107f1f08d90dcb9fe32c2e4bbfddb"
+    },
+    "phi4/VF_op_s42": {
+      "path": "D:\\Users\\Administrator\\Desktop\\project1\\experiments\\v2-cross-model-phi4\\runs\\VF_op_s42\\adapter\\adapter_model.safetensors",
+      "sha256": "23713f655d73068517d8701296fa79d66872a2f76f87bcb69fa2509366bd33a9"
+    },
+    "phi4/VF_op_s43": {
+      "path": "D:\\Users\\Administrator\\Desktop\\project1\\experiments\\v2-cross-model-phi4\\runs\\VF_op_s43\\adapter\\adapter_model.safetensors",
+      "sha256": "7665c4e60edc885e25fd27676e5bcebee0c24f6ae3a3f3b984e5c13febdf657d"
+    },
+    "phi4/VF_op_s44": {
+      "path": "D:\\Users\\Administrator\\Desktop\\project1\\experiments\\v2-cross-model-phi4\\runs\\VF_op_s44\\adapter\\adapter_model.safetensors",
+      "sha256": "5d9e5f5e5179754ecf91b3c501d305fbc8ae27d3d06736c1a5a7b06ffac8ffd4"
+    },
+    "phi4/VF_s42": {
+      "path": "D:\\Users\\Administrator\\Desktop\\project1\\experiments\\v2-cross-model-phi4\\runs\\VF_s42\\adapter\\adapter_model.safetensors",
+      "sha256": "75aff3ba7f7cfbe4a3e5bd8441b2f0deed4692540fbbcb74453bd183a5c95f35"
+    },
+    "phi4/VF_s43": {
+      "path": "D:\\Users\\Administrator\\Desktop\\project1\\experiments\\v2-cross-model-phi4\\runs\\VF_s43\\adapter\\adapter_model.safetensors",
+      "sha256": "9934af3bc598d7c0fe202fc3166a123b391015fde408cc7b2f049a23c8a5df0a"
+    },
+    "phi4/VF_s44": {
+      "path": "D:\\Users\\Administrator\\Desktop\\project1\\experiments\\v2-cross-model-phi4\\runs\\VF_s44\\adapter\\adapter_model.safetensors",
+      "sha256": "454b5c6d58396b6a6e6576ffe5ce6c97fc449c79b71ccfcb6dca6db345b78934"
+    },
+    "qwen/NF_op_s42": {
+      "path": "D:\\Users\\Administrator\\Desktop\\project1\\experiments\\v2-operator-comparator\\runs\\NF_op_s42\\adapter\\adapter_model.safetensors",
+      "sha256": "0f98a1388bac358908f183d13a923c0ee0cb51e4f16b0563973bf134f73ef114"
+    },
+    "qwen/NF_op_s43": {
+      "path": "D:\\Users\\Administrator\\Desktop\\project1\\experiments\\v2-operator-comparator\\runs\\NF_op_s43\\adapter\\adapter_model.safetensors",
+      "sha256": "57358d151ee3c8e36c8384c053f413631cf58e39a8ad89cdc182104b0425e297"
+    },
+    "qwen/NF_op_s44": {
+      "path": "D:\\Users\\Administrator\\Desktop\\project1\\experiments\\v2-operator-comparator\\runs\\NF_op_s44\\adapter\\adapter_model.safetensors",
+      "sha256": "bbf8dace951b05701b4e58ac12b5d1a85496fa077de3929315c6ef703183fdd0"
+    },
+    "qwen/NF_s42": {
+      "path": "d:\\Users\\Administrator\\Desktop\\project1\\experiments\\scenario-sft\\order-training\\scenario-42\\adapter\\adapter_model.safetensors",
+      "sha256": "509513895c76d2bea844459f8e3bac84e8772985cfc509683b31910c40d11373"
+    },
+    "qwen/NF_s43": {
+      "path": "d:\\Users\\Administrator\\Desktop\\project1\\experiments\\scenario-sft\\order-training\\scenario-43\\adapter\\adapter_model.safetensors",
+      "sha256": "b8ce50541c1115a0c18545e8bc01aaf193c024c13dfa707e1d5337dd21a82549"
+    },
+    "qwen/NF_s44": {
+      "path": "d:\\Users\\Administrator\\Desktop\\project1\\experiments\\scenario-sft\\order-training\\scenario-44\\adapter\\adapter_model.safetensors",
+      "sha256": "a785241cdcb5049c9706b5dd4154790d1cc714c5432bc635f21146e983dcf197"
+    },
+    "qwen/VF_op_s42": {
+      "path": "D:\\Users\\Administrator\\Desktop\\project1\\experiments\\v2-operator-comparator\\runs\\VF_op_s42\\adapter\\adapter_model.safetensors",
+      "sha256": "443f46b42f0842af8fe4a263987aac0396e978cdc3b99f62c10a2186700f3f7c"
+    },
+    "qwen/VF_op_s43": {
+      "path": "D:\\Users\\Administrator\\Desktop\\project1\\experiments\\v2-operator-comparator\\runs\\VF_op_s43\\adapter\\adapter_model.safetensors",
+      "sha256": "05bc6dd44fe4b1fd05c7b045117654d13aae1d72adb743dba4fc53fcbe61aff8"
+    },
+    "qwen/VF_op_s44": {
+      "path": "D:\\Users\\Administrator\\Desktop\\project1\\experiments\\v2-operator-comparator\\runs\\VF_op_s44\\adapter\\adapter_model.safetensors",
+      "sha256": "dc8238d5f7c175df4f494c9db2cada7f9b68d9f9b44ad2c9c4faf8d837246626"
+    },
+    "qwen/VF_s42": {
+      "path": "d:\\Users\\Administrator\\Desktop\\project1\\experiments\\scenario-sft\\runs\\scenario-42\\adapter\\adapter_model.safetensors",
+      "sha256": "30a0185d84157cf44f00467d582235442d70403ca809e308f0644113ce31cc19"
+    },
+    "qwen/VF_s43": {
+      "path": "d:\\Users\\Administrator\\Desktop\\project1\\experiments\\scenario-sft\\runs\\scenario-43\\adapter\\adapter_model.safetensors",
+      "sha256": "da99c754b13e42b4a1ace322e28588cad36198c70e819c5f6608b4c57436f209"
+    },
+    "qwen/VF_s44": {
+      "path": "d:\\Users\\Administrator\\Desktop\\project1\\experiments\\scenario-sft\\runs\\scenario-44\\adapter\\adapter_model.safetensors",
+      "sha256": "dd8fb5e61fe4066ed698f1e182626a86d6abad8345a09f6f2e72aa0185139869"
+    }
+  }
+}

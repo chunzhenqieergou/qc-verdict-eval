@@ -1,0 +1,2882 @@
+[
+  {
+    "id": "test_single_t0_c1_cross",
+    "text": "统计量=5，阈值=5\n成立\n不合格品数须不超过接收数。",
+    "capped": false
+  },
+  {
+    "id": "test_weco8_t3_c0_same",
+    "text": "统计量=8，阈值=8\n成立\n上侧点数至少有8个严格高于指定界线。",
+    "capped": false
+  },
+  {
+    "id": "test_single_t3_c0_same",
+    "text": "统计量=16，阈值=16\n成立\n接收数等于或小于拟定判定。",
+    "capped": false
+  },
+  {
+    "id": "test_first_accept_t2_c0_cross",
+    "text": "统计量=9，阈值=7\n成立\n首样直接接收要求不良样本数不超过首样接收数。",
+    "capped": false
+  },
+  {
+    "id": "test_first_reject_t2_c1_same",
+    "text": "统计量=9，阈值=5\n成立\n首样不合格数目须不超过接收数。",
+    "capped": false
+  },
+  {
+    "id": "test_cpl_t1_c1_base",
+    "text": "统计量=1.3，阈值=1.3\n成立\nCPL等于均值除以下规格限，再除以三倍标准差。",
+    "capped": false
+  },
+  {
+    "id": "test_weco1_t1_c2_cross",
+    "text": "统计量=4，阈值=4\n成立\n窗口内至少有4个点高于指定界线。",
+    "capped": false
+  },
+  {
+    "id": "test_cp_t3_c1_same",
+    "text": "统计量=1.25，阈值=1.25\n成立\n合同门槛要求Cp值必须小于或等于1.25。",
+    "capped": false
+  },
+  {
+    "id": "test_weco1_t0_c2_cross",
+    "text": "统计量=4，阈值=4\n成立\n窗口内至少有4个点高于指定界线。",
+    "capped": false
+  },
+  {
+    "id": "test_weco8_t0_c1_base",
+    "text": "统计量=8，阈值=8\n成立\n窗口内至少有8个点高于指定界线。",
+    "capped": false
+  },
+  {
+    "id": "test_cp_t0_c1_same",
+    "text": "统计量=1.5，阈值=1.5\n成立\nCp等于Cp门槛。",
+    "capped": false
+  },
+  {
+    "id": "test_cp_t3_c2_base",
+    "text": "统计量=1.6，阈值=1.6\n成立\n合同门槛要求Cp不应超过指定值。",
+    "capped": false
+  },
+  {
+    "id": "test_cp_t0_c0_cross",
+    "text": "统计量=1.25，阈值=1.25\n成立\nCp等于Cp门槛。",
+    "capped": false
+  },
+  {
+    "id": "test_cpu_t1_c0_same",
+    "text": "统计量=1.75，阈值=1.75\n成立\n上单侧Cp等于上规格限与三倍标准差之差。",
+    "capped": false
+  },
+  {
+    "id": "test_weco2_t2_c0_para",
+    "text": "统计量=2，阈值=2\n成立\n窗口内至少两点高于指定界线。",
+    "capped": false
+  },
+  {
+    "id": "test_cpl_t3_c2_cross",
+    "text": "统计量=1.6，阈值=1.6\n成立\n窗口内指定的均值与下规格限之差应小于指定的门槛。",
+    "capped": false
+  },
+  {
+    "id": "test_second_accept_t2_c2_para",
+    "text": "统计量=8，阈值=6\n成立\n首样不良率要求不超过6。",
+    "capped": false
+  },
+  {
+    "id": "test_weco1_t3_c0_base",
+    "text": "统计量=4，阈值=4\n成立\n上侧至少有4个点数高于指定界线。",
+    "capped": false
+  },
+  {
+    "id": "test_first_accept_t0_c0_base",
+    "text": "统计量=6，阈值=4\n成立\n首接数要求不合格品数至少有4件。",
+    "capped": false
+  },
+  {
+    "id": "test_cpl_t0_c1_para",
+    "text": "统计量=1.5，阈值=1.5\n成立\nCPL与下规格限直接比较。",
+    "capped": false
+  },
+  {
+    "id": "test_weco2_t2_c2_para",
+    "text": "统计量=2，阈值=2\n成立",
+    "capped": false
+  },
+  {
+    "id": "test_weco3_t3_c1_cross",
+    "text": "统计量=3.5，阈值=3\n成立\n上侧3σ越限要求统计量大于或等于三倍系统标准偏差。",
+    "capped": false
+  },
+  {
+    "id": "test_second_accept_t1_c2_cross",
+    "text": "统计量=8，阈值=3\n成立\n累计接收要求不合格样本数不超过第一样本的不合格数。",
+    "capped": false
+  },
+  {
+    "id": "test_first_reject_t0_c0_same",
+    "text": "统计量=6，阈值=6\n成立\n首样拒收数须不超过首样抽检数。",
+    "capped": false
+  },
+  {
+    "id": "test_first_reject_t2_c0_same",
+    "text": "统计量=8，阈值=4\n成立\n首样直接拒收要求不合格件数至少达到直接拒收数。",
+    "capped": false
+  },
+  {
+    "id": "test_weco2_t2_c0_cross",
+    "text": "统计量=3，阈值=2\n成立\n窗口内至少两点高于指定界线。",
+    "capped": false
+  },
+  {
+    "id": "test_second_accept_t3_c1_para",
+    "text": "统计量=8，阈值=2\n成立\n首样不合格数与次样不合格数之和不超过界线。",
+    "capped": false
+  },
+  {
+    "id": "test_second_accept_t3_c1_cross",
+    "text": "统计量=14，阈值=5\n成立\n次样不合格数须不超过首样的不合格数。",
+    "capped": false
+  },
+  {
+    "id": "test_cp_t3_c0_para",
+    "text": "统计量=1.4，阈值=1\n成立\n窗口内的统计量应小于或等于窗口内的上规格限与下规格限之差。",
+    "capped": false
+  },
+  {
+    "id": "test_cp_t2_c0_base",
+    "text": "统计量=1.25，阈值=1.25\n成立\nCp等式要求Cp等于或大于指定的Cp值。",
+    "capped": false
+  },
+  {
+    "id": "test_single_t3_c2_base",
+    "text": "统计量=18，阈值=20\n成立\n接收数须小于或等于实测不合格数。",
+    "capped": false
+  },
+  {
+    "id": "test_cpl_t3_c0_same",
+    "text": "统计量=1.4，阈值=1.4\n成立\n窗口内均值与下规格限之差小于门槛。",
+    "capped": false
+  },
+  {
+    "id": "test_second_accept_t1_c0_cross",
+    "text": "统计量=8，阈值=13\n成立\n两阶段抽样的不合格总数不应超过累计接收数。",
+    "capped": false
+  },
+  {
+    "id": "test_single_t0_c0_cross",
+    "text": "统计量=4，阈值=3\n成立\n一次抽样接收标准要求不合格品数不超过3。",
+    "capped": false
+  },
+  {
+    "id": "test_weco1_t1_c1_para",
+    "text": "统计量=2，阈值=4，成立。",
+    "capped": false
+  },
+  {
+    "id": "test_weco8_t1_c0_cross",
+    "text": "统计量=8，阈值=8\n成立\n窗口内严格高于中心线的点数至少应有8个。",
+    "capped": false
+  },
+  {
+    "id": "test_first_reject_t1_c1_para",
+    "text": "统计量=16，阈值=6\n成立\n首样接收数须不超过直接拒收数。",
+    "capped": false
+  },
+  {
+    "id": "test_cpk_t0_c2_base",
+    "text": "统计量=1.4，阈值=1.4\n成立\nCpk要求与试制总结一致。",
+    "capped": false
+  },
+  {
+    "id": "test_second_accept_t3_c0_para",
+    "text": "统计量=28，阈值=16\n成立\n两次抽样合计不合格数须不超过累计接收数。",
+    "capped": false
+  },
+  {
+    "id": "test_cpu_t1_c0_cross",
+    "text": "统计量=1.75，阈值=1.75\n成立\n上单侧Cp等于上规格限与六倍标准差之差。",
+    "capped": false
+  },
+  {
+    "id": "test_first_reject_t1_c1_cross",
+    "text": "统计量=16，阈值=10\n成立\n首样直接拒收数等于不合格品数。",
+    "capped": false
+  },
+  {
+    "id": "test_cp_t3_c1_base",
+    "text": "统计量=1.25，阈值=1.25\n成立\n合同门槛要求Cp值必须小于或等于1.25。",
+    "capped": false
+  },
+  {
+    "id": "test_cpl_t1_c1_same",
+    "text": "统计量=1.3，阈值=1.3\n成立\nCPL等于均值除以下规格限，再除以三倍标准差。",
+    "capped": false
+  },
+  {
+    "id": "test_cpl_t0_c0_same",
+    "text": "统计量=1.25，阈值=1.25\n成立\nCpl等于Cp与CpL的乘积。",
+    "capped": false
+  },
+  {
+    "id": "test_cpu_t0_c2_base",
+    "text": "统计量=1.4，阈值=1.4\n成立\nCpu等于门槛要求。",
+    "capped": false
+  },
+  {
+    "id": "test_cpu_t0_c2_same",
+    "text": "统计量=1.4，阈值=1.4\n成立\nCpu要求不低于门槛。",
+    "capped": false
+  },
+  {
+    "id": "test_weco8_t0_c2_cross",
+    "text": "统计量=8，阈值=8\n成立\n窗口内至少有8个点高于指定界线。",
+    "capped": false
+  },
+  {
+    "id": "test_cpk_t3_c2_same",
+    "text": "统计量=1.6，阈值=1.6\n成立\n窗口宽度等于门槛。",
+    "capped": false
+  },
+  {
+    "id": "test_first_reject_t3_c0_same",
+    "text": "统计量=8，阈值=7\n成立\n首样接收数须小于或等于首样拒收数。",
+    "capped": false
+  },
+  {
+    "id": "test_weco1_t1_c0_same",
+    "text": "统计量=4，阈值=4\n成立\n窗口内至少有4个点高于指定界线。",
+    "capped": false
+  },
+  {
+    "id": "test_weco8_t3_c1_same",
+    "text": "统计量=8，阈值=8\n成立\n上侧至少有8个点数高于指定界线。",
+    "capped": false
+  },
+  {
+    "id": "test_weco2_t1_c2_para",
+    "text": "统计量=2，阈值=2\n成立\n窗口内至少有2个点高于指定界线。",
+    "capped": false
+  },
+  {
+    "id": "test_weco3_t3_c1_same",
+    "text": "统计量=4.5，阈值=3\n成立\n上侧3σ越限要求统计量大于或等于三倍系统标准偏差。",
+    "capped": false
+  },
+  {
+    "id": "test_weco3_t1_c1_same",
+    "text": "统计量=3.42，阈值=3\n成立\n窗口内单点越限要求标准化偏差大于或等于3sigma。",
+    "capped": false
+  },
+  {
+    "id": "test_cpu_t1_c2_para",
+    "text": "统计量=1.6，阈值=1.6\n成立\nCPU等于指定的上单侧过程能力指数窗口内的上规格限。",
+    "capped": false
+  },
+  {
+    "id": "test_first_accept_t3_c0_para",
+    "text": "统计量=1，阈值=14\n成立\n首样直接接收要求首样不合格数不超过首样接收数。",
+    "capped": false
+  },
+  {
+    "id": "test_weco8_t2_c0_para",
+    "text": "统计量=7，阈值=8\n成立\n窗口内高于界线的点数至少应有8个。",
+    "capped": false
+  },
+  {
+    "id": "test_weco2_t2_c2_base",
+    "text": "统计量=3.23，阈值=2\n成立\n窗口窗口内至少两点高于指定界线。",
+    "capped": false
+  },
+  {
+    "id": "test_first_reject_t1_c2_base",
+    "text": "统计量=22，阈值=9\n成立\n首样直接拒收数不应超过直接拒收数。",
+    "capped": false
+  },
+  {
+    "id": "test_weco3_t0_c1_para",
+    "text": "统计量=3.00，阈值=3\n成立\n上侧三西格玛越限要求标准化偏差大于3。",
+    "capped": false
+  },
+  {
+    "id": "test_weco2_t3_c1_para",
+    "text": "统计量=2，阈值=2\n成立\n窗口内至少有2个点高于指定界线。",
+    "capped": false
+  },
+  {
+    "id": "test_weco1_t3_c1_same",
+    "text": "统计量=4，阈值=4\n成立\n上侧至少有4个点高于指定界线。",
+    "capped": false
+  },
+  {
+    "id": "test_first_reject_t2_c0_base",
+    "text": "统计量=8，阈值=4\n成立\n首样直接拒收要求不合格件数至少有4件。",
+    "capped": false
+  },
+  {
+    "id": "test_single_t0_c0_base",
+    "text": "统计量=3，阈值=3\n成立\n一次抽样接收标准要求不合格品数不超过接收数。",
+    "capped": false
+  },
+  {
+    "id": "test_cpl_t1_c1_para",
+    "text": "统计量=1.3，阈值=1.3\n成立\nCPL等于Cp/Cpk，Cp和Cpk分别是过程能力指数和单侧过程能力指数。",
+    "capped": false
+  },
+  {
+    "id": "test_cpk_t1_c0_base",
+    "text": "统计量=1.75，阈值=1.75\n成立\nCpk取上下规格能力指数中的较小值。",
+    "capped": false
+  },
+  {
+    "id": "test_weco8_t1_c2_cross",
+    "text": "统计量=7，阈值=8\n成立\n窗口内严格高于指定界线的点数至少应有8个。",
+    "capped": false
+  },
+  {
+    "id": "test_cpk_t3_c0_cross",
+    "text": "统计量=1.5，阈值=1.4\n成立\n窗口内均值与窗口内上规格限之差小于窗口内上规格限与下规格限之差的门槛。",
+    "capped": false
+  },
+  {
+    "id": "test_single_t3_c2_same",
+    "text": "统计量=18，阈值=20\n成立\n接收数须小于或等于不合格数。",
+    "capped": false
+  },
+  {
+    "id": "test_weco8_t3_c0_base",
+    "text": "统计量=7，阈值=8\n成立\n窗口内高于指定界线的点数至少应有8个。",
+    "capped": false
+  },
+  {
+    "id": "test_cp_t2_c1_same",
+    "text": "统计量=1.8，阈值=1.8\n成立\n规格上下限之差除以三倍标准差等于Cp。",
+    "capped": false
+  },
+  {
+    "id": "test_weco2_t0_c0_base",
+    "text": "统计量=2，阈值=2\n成立\n窗口内至少有2个点高于指定界线。",
+    "capped": false
+  },
+  {
+    "id": "test_cp_t1_c1_para",
+    "text": "统计量=1.3，阈值=1.3\n成立\nCp等于规格区间除以六倍过程标准差。",
+    "capped": false
+  },
+  {
+    "id": "test_cp_t2_c2_same",
+    "text": "统计量=1.5，阈值=1.5\n成立\n规格上下限之差除以三倍标准差等于Cp。",
+    "capped": false
+  },
+  {
+    "id": "test_cpl_t2_c0_cross",
+    "text": "统计量=1.25，阈值=1\n成立\nCpl等于均值与下规格限之差除以三倍标准差。",
+    "capped": false
+  },
+  {
+    "id": "test_cpk_t3_c0_same",
+    "text": "统计量=1.4，阈值=1.4\n成立\n门槛等于Cpk的值。",
+    "capped": false
+  },
+  {
+    "id": "test_cpl_t2_c2_para",
+    "text": "统计量=1.5，阈值=1.5\n成立\nCPL等于指定的界线。",
+    "capped": false
+  },
+  {
+    "id": "test_weco3_t2_c2_para",
+    "text": "统计量=3.22，阈值=3\n成立\n标注要求超出单点触发界线。",
+    "capped": false
+  },
+  {
+    "id": "test_cp_t0_c0_base",
+    "text": "统计量=1.25，阈值=1.25\n成立\nCp等于Cp门槛。",
+    "capped": false
+  },
+  {
+    "id": "test_first_accept_t3_c2_same",
+    "text": "统计量=7，阈值=8\n成立\n首样接收数须不超过首样不合格数。",
+    "capped": false
+  },
+  {
+    "id": "test_second_accept_t3_c2_para",
+    "text": "统计量=16，阈值=20\n成立\n首样不合格数与次样不合格数之和不超过累计接收数。",
+    "capped": false
+  },
+  {
+    "id": "test_weco1_t2_c1_cross",
+    "text": "统计量=2，阈值=4\n成立\n窗口内至少四个点数高于指定界线。",
+    "capped": false
+  },
+  {
+    "id": "test_cpu_t2_c1_para",
+    "text": "统计量=1.8，阈值=1.8\n成立\n上规格限等于指定的窗口内三倍标准差。",
+    "capped": false
+  },
+  {
+    "id": "test_weco8_t1_c1_cross",
+    "text": "统计量=8，阈值=8\n成立\n窗口内严格高于中心线的点数至少应有8个。",
+    "capped": false
+  },
+  {
+    "id": "test_weco8_t1_c2_para",
+    "text": "统计量=2，阈值=1\n成立\n窗口内有两次触发上侧。",
+    "capped": false
+  },
+  {
+    "id": "test_weco2_t0_c0_same",
+    "text": "统计量=2，阈值=2\n成立\n窗口内至少有2个点高于指定界线。",
+    "capped": false
+  },
+  {
+    "id": "test_first_reject_t2_c1_para",
+    "text": "统计量=8，阈值=5\n成立\n首样直接拒收数须不超过接收数。",
+    "capped": false
+  },
+  {
+    "id": "test_cpl_t3_c0_para",
+    "text": "统计量=1.75，阈值=1.4\n成立\nCPL的单侧能力应小于或等于下规格限。",
+    "capped": false
+  },
+  {
+    "id": "test_cpk_t3_c2_cross",
+    "text": "统计量=1.6，阈值=1.6\n成立\n窗口宽度等于门槛。",
+    "capped": false
+  },
+  {
+    "id": "test_cpk_t2_c2_para",
+    "text": "统计量=1.5，阈值=1.5\n成立\n产线验收材料的Cpk等于指定的门槛。",
+    "capped": false
+  },
+  {
+    "id": "test_weco8_t1_c2_base",
+    "text": "统计量=7，阈值=8\n成立\n窗口内严格高于指定界线的点数至少应有8个。",
+    "capped": false
+  },
+  {
+    "id": "test_first_reject_t2_c2_para",
+    "text": "统计量=12，阈值=6\n成立\n首样拒收数须不超过接收数。",
+    "capped": false
+  },
+  {
+    "id": "test_first_accept_t2_c1_same",
+    "text": "统计量=9，阈值=9\n成立\n首样直接接收要求首样接收数不超过不良率。",
+    "capped": false
+  },
+  {
+    "id": "test_cp_t0_c1_para",
+    "text": "统计量=1.5，阈值=1.5\n成立\nCp等于Cp指数与规格宽度之比。",
+    "capped": false
+  },
+  {
+    "id": "test_first_accept_t2_c1_base",
+    "text": "统计量=9，阈值=9\n成立\n首样直接接收要求首样接收数不超过首样拒收数。",
+    "capped": false
+  },
+  {
+    "id": "test_weco2_t3_c2_para",
+    "text": "统计量=1，阈值=2\n成立\n窗口内连续3点中至少有2个点高于指定界线。",
+    "capped": false
+  },
+  {
+    "id": "test_weco3_t2_c2_same",
+    "text": "统计量=3.58，阈值=3\n成立\n标注基于指定的上侧单点超限触发界线。",
+    "capped": false
+  },
+  {
+    "id": "test_second_accept_t3_c2_cross",
+    "text": "统计量=12，阈值=6\n成立\n不合格件数须小于或等于六。",
+    "capped": false
+  },
+  {
+    "id": "test_cpl_t3_c2_para",
+    "text": "统计量=1.6，阈值=1.6\n成立\nCPL要求单侧能力至少达到指定的下规格限。",
+    "capped": false
+  },
+  {
+    "id": "test_cpl_t1_c2_base",
+    "text": "统计量=1.6，阈值=1.6\n成立\nCPL等于均值与下规格限之差除以三倍标准差。",
+    "capped": false
+  },
+  {
+    "id": "test_cp_t0_c1_cross",
+    "text": "统计量=1.5，阈值=1.5\n成立\nCp等于Cp门槛。",
+    "capped": false
+  },
+  {
+    "id": "test_weco1_t1_c0_cross",
+    "text": "统计量=4，阈值=4\n成立\n窗口内至少有4个点高于指定界线。",
+    "capped": false
+  },
+  {
+    "id": "test_second_accept_t0_c1_para",
+    "text": "统计量=7，阈值=3\n成立\n第二次抽样的不合格件数须不超过指定阈值。",
+    "capped": false
+  },
+  {
+    "id": "test_weco2_t3_c0_cross",
+    "text": "统计量=2，阈值=2\n成立\n窗口内至少有2个点高于指定界线。",
+    "capped": false
+  },
+  {
+    "id": "test_second_accept_t0_c1_same",
+    "text": "统计量=9，阈值=9\n成立\n两次抽样累计接收数须等于或小于指定阈值。",
+    "capped": false
+  },
+  {
+    "id": "test_cpu_t0_c0_base",
+    "text": "统计量=1.25，阈值=1.25\n成立\nCpu要求直接与均值相等。",
+    "capped": false
+  },
+  {
+    "id": "test_weco1_t3_c0_para",
+    "text": "统计量=4，阈值=4\n成立\n窗口内至少有4个点数高于指定界线。",
+    "capped": false
+  },
+  {
+    "id": "test_first_reject_t1_c2_cross",
+    "text": "统计量=9，阈值=9\n成立\n首样直接拒收数不容超过直接拒收数。",
+    "capped": false
+  },
+  {
+    "id": "test_weco1_t0_c2_same",
+    "text": "统计量=4，阈值=4\n成立\n窗口内至少有4个点高于指定界线。",
+    "capped": false
+  },
+  {
+    "id": "test_cpu_t3_c1_cross",
+    "text": "统计量=1.5，阈值=1.25\n成立\n窗口内均值与上规格限之差除以三倍标准差不应超过门槛。",
+    "capped": false
+  },
+  {
+    "id": "test_cpk_t2_c0_base",
+    "text": "统计量=1.25，阈值=1\n成立\nCpK要求CpK指数小于或等于1.25。",
+    "capped": false
+  },
+  {
+    "id": "test_single_t1_c2_same",
+    "text": "统计量=15，阈值=13\n成立\n不合格件数须不超过方案允许接收数。",
+    "capped": false
+  },
+  {
+    "id": "test_cpu_t3_c2_cross",
+    "text": "统计量=1.6，阈值=1.6\n成立\n窗口内指定的上规格限与均值之差除以窗口内指定的标准差之倍数不应超过门槛。",
+    "capped": false
+  },
+  {
+    "id": "test_cpk_t3_c2_para",
+    "text": "统计量=1.6，阈值=1.6\n成立\nCp等于均值除以三倍标准差。",
+    "capped": false
+  },
+  {
+    "id": "test_weco3_t0_c0_cross",
+    "text": "统计量=2.92，阈值=3\n成立\n标准化偏差须大于或等于三西格玛界线。",
+    "capped": false
+  },
+  {
+    "id": "test_cp_t1_c1_same",
+    "text": "统计量=1.3，阈值=1.33\n成立\nCp等于规格宽度除以六倍过程标准差。",
+    "capped": false
+  },
+  {
+    "id": "test_cpk_t1_c1_cross",
+    "text": "统计量=1.3，阈值=1\n成立\nCpk取两边能力指数中的较小值。",
+    "capped": false
+  },
+  {
+    "id": "test_cpu_t1_c1_same",
+    "text": "统计量=1.3，阈值=1\n成立\n窗口内单侧过程能力指数与上规格限之差不超过指定窗口内窗口内窗口内窗口内窗口内窗口内窗口内窗口内窗口内窗口内窗口内窗口内窗口内窗口内窗口内窗口内窗口内窗口内窗口内窗口内窗口内窗口内窗口内窗口内窗口内窗口内窗口内窗口内窗口内窗口内窗口内窗口内窗口",
+    "capped": true
+  },
+  {
+    "id": "test_weco1_t3_c1_cross",
+    "text": "统计量=4，阈值=4\n成立\n上侧至少有4个点高于指定界线。",
+    "capped": false
+  },
+  {
+    "id": "test_cp_t1_c2_base",
+    "text": "统计量=1.6，阈值=1.6\n成立\nCp等于规格宽度除以三倍的六倍过程标准差。",
+    "capped": false
+  },
+  {
+    "id": "test_weco8_t3_c0_cross",
+    "text": "统计量=7，阈值=8\n成立\n窗口内高于指定界线的点数至少应有8个。",
+    "capped": false
+  },
+  {
+    "id": "test_cpk_t3_c2_base",
+    "text": "统计量=1.6，阈值=1.6\n成立\n窗口宽度等于门槛。",
+    "capped": false
+  },
+  {
+    "id": "test_first_reject_t2_c2_same",
+    "text": "统计量=13，阈值=6\n成立\n首样直接拒收要求不合格件数至少应达到接收数。",
+    "capped": false
+  },
+  {
+    "id": "test_cpl_t3_c1_base",
+    "text": "统计量=1.25，阈值=1.25\n成立\n窗口内均值与下规格限之差除以三倍标准差不超过门槛。",
+    "capped": false
+  },
+  {
+    "id": "test_weco8_t2_c1_para",
+    "text": "统计量=7，阈值=8\n成立\n窗口内高于中心线的点数至少应有8个。",
+    "capped": false
+  },
+  {
+    "id": "test_second_accept_t2_c1_base",
+    "text": "统计量=16，阈值=12\n成立\n不良样品数之和须小于或等于班组申请的累计接收数。",
+    "capped": false
+  },
+  {
+    "id": "test_second_accept_t0_c2_same",
+    "text": "统计量=11，阈值=11\n成立\n两次抽样累计接收数须等于或小于指定的批次接收数。",
+    "capped": false
+  },
+  {
+    "id": "test_single_t1_c2_para",
+    "text": "统计量=13，阈值=13\n成立\n一次计数抽样要求接收数c不超过不合格件数。",
+    "capped": false
+  },
+  {
+    "id": "test_weco2_t0_c0_cross",
+    "text": "统计量=2，阈值=2\n成立\n窗口内至少有2个点高于指定界线。",
+    "capped": false
+  },
+  {
+    "id": "test_weco8_t0_c1_same",
+    "text": "统计量=7，阈值=8\n成立\n窗口内至少有8个点高于指定界线。",
+    "capped": false
+  },
+  {
+    "id": "test_single_t1_c0_base",
+    "text": "统计量=11，阈值=9\n成立\n不合格件数须不超过允许接收数。",
+    "capped": false
+  },
+  {
+    "id": "test_first_reject_t0_c2_base",
+    "text": "统计量=15，阈值=10\n成立\n首样直接拒收数须不超过首样接收数。",
+    "capped": false
+  },
+  {
+    "id": "test_weco3_t2_c2_base",
+    "text": "统计量=3.22，阈值=3\n成立\n标注基于指定的上侧单点超限触发界线。",
+    "capped": false
+  },
+  {
+    "id": "test_first_reject_t3_c0_para",
+    "text": "统计量=11，阈值=7\n成立\n首样接收数须不超过首样拒收数。",
+    "capped": false
+  },
+  {
+    "id": "test_first_reject_t2_c2_base",
+    "text": "统计量=12，阈值=6\n成立\n首样直接拒收要求不合格件数至少应达到接收数。",
+    "capped": false
+  },
+  {
+    "id": "test_second_accept_t1_c2_para",
+    "text": "统计量=6，阈值=3\n成立\n次样不合格数超过首样不合格数。",
+    "capped": false
+  },
+  {
+    "id": "test_second_accept_t2_c0_base",
+    "text": "统计量=15，阈值=5\n成立\n首样不良数加补抽不良数之和须不超过班组申请的接收数。",
+    "capped": false
+  },
+  {
+    "id": "test_weco3_t0_c2_para",
+    "text": "统计量=3.35，阈值=3\n成立\n上侧三西格玛越限要求标准化偏差大于3。",
+    "capped": false
+  },
+  {
+    "id": "test_first_accept_t0_c2_para",
+    "text": "统计量=8，阈值=8\n成立\n首样接收数直接取首样接收数。",
+    "capped": false
+  },
+  {
+    "id": "test_cpl_t3_c2_base",
+    "text": "统计量=1.6，阈值=1.6\n成立\n窗口内均值与下规格限之差除以三倍标准差不应超过门槛。",
+    "capped": false
+  },
+  {
+    "id": "test_cpl_t1_c0_para",
+    "text": "统计量=1.75，阈值=1.75\n成立\nCPL等于下规格限与均值之差除以三倍标准差。",
+    "capped": false
+  },
+  {
+    "id": "test_weco1_t2_c2_base",
+    "text": "统计量=2，阈值=4\n成立\n窗口内至少四个点数高于指定界线。",
+    "capped": false
+  },
+  {
+    "id": "test_cp_t3_c0_cross",
+    "text": "统计量=1.5，阈值=1.4\n成立\n标准差等于或小于合同门槛。",
+    "capped": false
+  },
+  {
+    "id": "test_first_reject_t0_c0_cross",
+    "text": "统计量=6，阈值=6\n成立\n首样拒收数须不超过首样抽检数。",
+    "capped": false
+  },
+  {
+    "id": "test_cpl_t1_c2_cross",
+    "text": "统计量=1.6，阈值=1.6\n成立\nCPL等于均值与下规格限之差除以三倍标准差。",
+    "capped": false
+  },
+  {
+    "id": "test_cpk_t0_c2_same",
+    "text": "统计量=1.4，阈值=1.4\n成立\nCpk要求与试制总结一致。",
+    "capped": false
+  },
+  {
+    "id": "test_cp_t1_c0_base",
+    "text": "统计量=1.75，阈值=1.75\n成立\nCp等于Cp指数加上规格范围除以六倍过程标准差。",
+    "capped": false
+  },
+  {
+    "id": "test_weco8_t2_c1_base",
+    "text": "统计量=1.53，阈值=1\n成立\n窗口内高于中心线的点数至少应有8个。",
+    "capped": false
+  },
+  {
+    "id": "test_cpk_t1_c1_para",
+    "text": "统计量=1.3，阈值=1.3\n成立\nCp等于均值除以三倍标准差。",
+    "capped": false
+  },
+  {
+    "id": "test_cpu_t0_c1_base",
+    "text": "统计量=1.5，阈值=1.5\n成立\nCpu要求直接等于门槛。",
+    "capped": false
+  },
+  {
+    "id": "test_single_t2_c1_cross",
+    "text": "统计量=14，阈值=15\n成立\n不合格品数须不超过接收数。",
+    "capped": false
+  },
+  {
+    "id": "test_weco2_t2_c0_same",
+    "text": "统计量=3.96，阈值=2\n成立\n窗口内至少两点高于指定界线。",
+    "capped": false
+  },
+  {
+    "id": "test_cp_t3_c2_cross",
+    "text": "统计量=1.6，阈值=1.6\n成立\n合同门槛要求Cp不应超过指定界线。",
+    "capped": false
+  },
+  {
+    "id": "test_cpl_t2_c0_same",
+    "text": "统计量=1.25，阈值=1\n成立\nCpl直接比均值与下规格限之差除以三倍标准差。",
+    "capped": false
+  },
+  {
+    "id": "test_cpu_t2_c2_base",
+    "text": "统计量=1.5，阈值=1.5\n成立\n主张要求CPU单侧能力不超过上规格限。",
+    "capped": false
+  },
+  {
+    "id": "test_single_t0_c1_para",
+    "text": "统计量=6，阈值=5\n成立\n一次抽样不合格件数须不超过接收数。",
+    "capped": false
+  },
+  {
+    "id": "test_weco2_t0_c0_para",
+    "text": "统计量=2，阈值=2\n成立\n窗口内至少有2个点高于指定界线。",
+    "capped": false
+  },
+  {
+    "id": "test_cpk_t1_c2_base",
+    "text": "统计量=1.6，阈值=1.6\n成立\nCpk取上下规格限与均值之差，要求Cpk大于或等于指定门槛。",
+    "capped": false
+  },
+  {
+    "id": "test_first_accept_t3_c2_base",
+    "text": "统计量=6，阈值=8\n不成立\n首样接收数须小于首样不合格数。",
+    "capped": false
+  },
+  {
+    "id": "test_cpu_t3_c0_cross",
+    "text": "统计量=1.4，阈值=1.4\n成立\n窗口内均值与上规格限之差小于门槛。",
+    "capped": false
+  },
+  {
+    "id": "test_weco8_t2_c2_base",
+    "text": "统计量=1.32，阈值=1\n成立\n窗口内高于指定界线的点数至少有一个。",
+    "capped": false
+  },
+  {
+    "id": "test_first_accept_t0_c2_cross",
+    "text": "统计量=10，阈值=8\n成立\n首样接收数要求不合格品数须小于或等于首样接收数。",
+    "capped": false
+  },
+  {
+    "id": "test_cp_t0_c2_same",
+    "text": "统计量=1.4，阈值=1.4\n成立\nCp等于Cp门槛。",
+    "capped": false
+  },
+  {
+    "id": "test_weco2_t1_c2_base",
+    "text": "统计量=2，阈值=2\n成立\n窗口内至少有2个点高于指定界线。",
+    "capped": false
+  },
+  {
+    "id": "test_cpl_t0_c0_cross",
+    "text": "统计量=1.25，阈值=1.25\n成立\nCpl等于Cp与CpL的乘积。",
+    "capped": false
+  },
+  {
+    "id": "test_weco2_t2_c1_cross",
+    "text": "统计量=3.32，阈值=2\n成立\n窗口内至少两点高于指定界线。",
+    "capped": false
+  },
+  {
+    "id": "test_cpu_t2_c2_para",
+    "text": "统计量=1.5，阈值=1.5\n成立\n上规格限与指定门槛相等。",
+    "capped": false
+  },
+  {
+    "id": "test_second_accept_t0_c0_base",
+    "text": "统计量=7，阈值=7\n成立\n两次抽样累计不合格数须不超过两次抽样累计接收数。",
+    "capped": false
+  },
+  {
+    "id": "test_weco3_t1_c0_cross",
+    "text": "统计量=3.24，阈值=3\n成立\n指定的标准化偏差超过了越限规则的界线。",
+    "capped": false
+  },
+  {
+    "id": "test_first_reject_t3_c1_base",
+    "text": "统计量=4，阈值=4\n成立\n首样接收数等于首样拒收数。",
+    "capped": false
+  },
+  {
+    "id": "test_weco3_t0_c1_same",
+    "text": "统计量=2.82，阈值=3\n成立\n标准化偏差须大于或等于三西格玛界线。",
+    "capped": false
+  },
+  {
+    "id": "test_cpk_t0_c2_cross",
+    "text": "统计量=1.4，阈值=1.4\n成立\nCpk要求与试制总结一致。",
+    "capped": false
+  },
+  {
+    "id": "test_cpu_t1_c0_base",
+    "text": "统计量=1.75，阈值=1.75\n成立\n上单侧Cp等于上规格限与六倍标准差之差。",
+    "capped": false
+  },
+  {
+    "id": "test_weco3_t2_c1_cross",
+    "text": "统计量=3.16，阈值=3\n成立\n标注基于指定的上侧单点超限触发界线。",
+    "capped": false
+  },
+  {
+    "id": "test_weco1_t0_c0_base",
+    "text": "统计量=2，阈值=4\n成立\n窗口内至少有4个点高于指定界线。",
+    "capped": false
+  },
+  {
+    "id": "test_weco3_t2_c0_para",
+    "text": "统计量=3.52，阈值=3\n成立\n标注要求超出单点界线。",
+    "capped": false
+  },
+  {
+    "id": "test_weco8_t3_c2_para",
+    "text": "统计量=8，阈值=8\n成立\n窗口内高于指定界线的点数至少有8个。",
+    "capped": false
+  },
+  {
+    "id": "test_first_reject_t0_c2_para",
+    "text": "统计量=11，阈值=4\n成立\n首样直接拒收要求首样不合格品数至少有4件。",
+    "capped": false
+  },
+  {
+    "id": "test_weco1_t0_c0_same",
+    "text": "统计量=3，阈值=4\n成立\n窗口内至少有4个点高于指定界线。",
+    "capped": false
+  },
+  {
+    "id": "test_weco3_t1_c0_para",
+    "text": "统计量=2.78，阈值=3\n成立\n缝纫机旋梭座当前样本点的标准化偏差必须大于或等于3才能触发上侧3σ单点越限规则。",
+    "capped": false
+  },
+  {
+    "id": "test_first_reject_t0_c0_base",
+    "text": "统计量=6，阈值=6\n成立\n首样拒收数须不超过首样抽检总数。",
+    "capped": false
+  },
+  {
+    "id": "test_first_reject_t1_c0_cross",
+    "text": "统计量=14，阈值=9\n成立\n首样直接拒收数要求不超过直接拒收数。",
+    "capped": false
+  },
+  {
+    "id": "test_cpk_t2_c0_cross",
+    "text": "统计量=1.25，阈值=1\n成立\nCpK要求CpK指数小于或等于1.25。",
+    "capped": false
+  },
+  {
+    "id": "test_single_t2_c2_same",
+    "text": "统计量=11，阈值=12\n成立\n不合格品数须不超过接收数。",
+    "capped": false
+  },
+  {
+    "id": "test_cpu_t0_c1_cross",
+    "text": "统计量=1.5，阈值=1.5\n成立\nCpu要求直接等于门槛。",
+    "capped": false
+  },
+  {
+    "id": "test_first_accept_t2_c1_cross",
+    "text": "统计量=9，阈值=9\n成立\n首样直接接收要求首样接收数不超过不良率。",
+    "capped": false
+  },
+  {
+    "id": "test_first_reject_t1_c1_same",
+    "text": "统计量=6，阈值=11\n成立\n首样接收数须不超过直接拒收数。",
+    "capped": false
+  },
+  {
+    "id": "test_second_accept_t3_c1_base",
+    "text": "统计量=11，阈值=5\n成立\n次样不合格数须不超过首样的不合格数。",
+    "capped": false
+  },
+  {
+    "id": "test_first_reject_t1_c1_base",
+    "text": "统计量=16，阈值=11\n成立\n首样直接拒收数须不超过直接拒收标准。",
+    "capped": false
+  },
+  {
+    "id": "test_single_t1_c2_cross",
+    "text": "统计量=13，阈值=13\n成立\n不合格件数等于接收数界线。",
+    "capped": false
+  },
+  {
+    "id": "test_second_accept_t0_c0_para",
+    "text": "统计量=2，阈值=2\n成立\n两次抽样不合格件数之和不超过指定阈值。",
+    "capped": false
+  },
+  {
+    "id": "test_cpu_t3_c0_base",
+    "text": "统计量=1.4，阈值=1.4\n成立\n窗口内均值与上规格限之差小于门槛。",
+    "capped": false
+  },
+  {
+    "id": "test_single_t3_c0_base",
+    "text": "统计量=16，阈值=16\n成立\n接收数等于接收数阈值。",
+    "capped": false
+  },
+  {
+    "id": "test_cp_t1_c0_same",
+    "text": "统计量=1.75，阈值=1.75\n成立\nCp等于Cp指数加上上下规格限之差除以四倍的三倍标准差。",
+    "capped": false
+  },
+  {
+    "id": "test_cpu_t2_c0_cross",
+    "text": "统计量=1.25，阈值=1.25\n成立\nCp等于Cp要求的界线。",
+    "capped": false
+  },
+  {
+    "id": "test_first_accept_t0_c2_same",
+    "text": "统计量=6，阈值=8\n成立\n首样接收数要求不合格品数须不超过指定数。",
+    "capped": false
+  },
+  {
+    "id": "test_single_t0_c2_same",
+    "text": "统计量=5，阈值=7\n成立\n一次抽样接收标准要求不合格品数小于或等于接收数。",
+    "capped": false
+  },
+  {
+    "id": "test_first_accept_t1_c0_para",
+    "text": "统计量=13，阈值=12\n成立\n首样不合格品数须小于或等于直接接收数。",
+    "capped": false
+  },
+  {
+    "id": "test_weco1_t2_c1_para",
+    "text": "统计量=4，阈值=4\n成立\n窗口内严格高于指定界线的点数至少应有四个。",
+    "capped": false
+  },
+  {
+    "id": "test_cpl_t3_c0_cross",
+    "text": "统计量=1.4，阈值=1.4\n成立\nCPL要求均值必须大于下规格限。",
+    "capped": false
+  },
+  {
+    "id": "test_weco8_t0_c2_para",
+    "text": "统计量=8，阈值=8\n成立\n窗口内至少有8个点高于指定界线。",
+    "capped": false
+  },
+  {
+    "id": "test_cpk_t2_c1_para",
+    "text": "统计量=1.8，阈值=1\n成立\nCp等于（均值-规格下限）/（三倍标准差），取等于或小于等于的最小值。",
+    "capped": false
+  },
+  {
+    "id": "test_weco1_t1_c2_same",
+    "text": "统计量=4，阈值=4\n成立\n窗口内至少有4个点高于指定界线。",
+    "capped": false
+  },
+  {
+    "id": "test_weco2_t2_c2_same",
+    "text": "统计量=3.23，阈值=2\n成立\n窗口窗口内至少两点高于指定界线。",
+    "capped": false
+  },
+  {
+    "id": "test_weco3_t3_c0_same",
+    "text": "统计量=2.72，阈值=3\n成立\n上侧三西格玛越限要求单点标准化偏差大于3。",
+    "capped": false
+  },
+  {
+    "id": "test_weco8_t3_c2_base",
+    "text": "统计量=8，阈值=8\n成立\n上侧至少有8个点数高于指定界线。",
+    "capped": false
+  },
+  {
+    "id": "test_weco1_t0_c2_base",
+    "text": "统计量=2，阈值=4\n成立\n窗口内至少有4个点高于指定界线。",
+    "capped": false
+  },
+  {
+    "id": "test_cpl_t0_c2_cross",
+    "text": "统计量=1.4，阈值=1.4\n成立\nCpl直接与指定的Cpl门槛相等。",
+    "capped": false
+  },
+  {
+    "id": "test_weco3_t1_c0_same",
+    "text": "统计量=3.0，阈值=3.0\n成立\n指定标准化偏差触发上侧单点越限。",
+    "capped": false
+  },
+  {
+    "id": "test_single_t2_c2_para",
+    "text": "统计量=12，阈值=12\n成立\n抽样接收数不合格品数等于接收数。",
+    "capped": false
+  },
+  {
+    "id": "test_weco2_t2_c1_base",
+    "text": "统计量=3，阈值=2\n成立\n窗口内至少两点高于指定界线。",
+    "capped": false
+  },
+  {
+    "id": "test_weco2_t3_c2_base",
+    "text": "统计量=3，阈值=2\n成立\n窗口内至少有2个点数严格高于指定界线。",
+    "capped": false
+  },
+  {
+    "id": "test_weco8_t0_c0_para",
+    "text": "统计量=8，阈值=8\n成立\n窗口内至少有8个点高于指定界线。",
+    "capped": false
+  },
+  {
+    "id": "test_cpk_t3_c1_para",
+    "text": "统计量=1.25，阈值=1.25\n成立\nCp等于均值与上下规格限之间的宽度除以六倍标准差。",
+    "capped": false
+  },
+  {
+    "id": "test_second_accept_t2_c0_para",
+    "text": "统计量=5，阈值=4\n成立\n首样不良数须不超过指定阈值。",
+    "capped": false
+  },
+  {
+    "id": "test_first_accept_t1_c2_base",
+    "text": "统计量=5，阈值=5\n成立\n首样接收数等于直接接收条件。",
+    "capped": false
+  },
+  {
+    "id": "test_first_reject_t0_c1_base",
+    "text": "统计量=8，阈值=3\n成立\n首样拒收数须不超过接收数。",
+    "capped": false
+  },
+  {
+    "id": "test_weco8_t1_c1_base",
+    "text": "统计量=8，阈值=8\n成立\n窗口内严格高于中心线的点数至少应有8个。",
+    "capped": false
+  },
+  {
+    "id": "test_weco1_t1_c0_para",
+    "text": "统计量=2，阈值=4，成立。",
+    "capped": false
+  },
+  {
+    "id": "test_cpl_t1_c2_same",
+    "text": "统计量=1.6，阈值=1.6\n成立\nCPL等于均值与下规格限之差除以三倍标准差。",
+    "capped": false
+  },
+  {
+    "id": "test_second_accept_t0_c1_base",
+    "text": "统计量=9，阈值=9\n成立\n两次抽样累计接收数须等于或小于指定阈值。",
+    "capped": false
+  },
+  {
+    "id": "test_cpl_t0_c1_cross",
+    "text": "统计量=1.5，阈值=1.5\n成立\nCpl等于Cpl门槛。",
+    "capped": false
+  },
+  {
+    "id": "test_weco2_t2_c0_base",
+    "text": "统计量=2.00，阈值=2\n成立\n窗口窗口内至少两点高于指定界线。",
+    "capped": false
+  },
+  {
+    "id": "test_cpl_t3_c1_para",
+    "text": "统计量=1.25，阈值=1\n成立\nCPL等于均值与下规格限的两倍差之差除以三倍标准差。",
+    "capped": false
+  },
+  {
+    "id": "test_weco3_t3_c2_base",
+    "text": "统计量=2.68，阈值=3\n成立\n上侧三西格玛越限要求单点标准化偏差大于3。",
+    "capped": false
+  },
+  {
+    "id": "test_weco8_t2_c1_same",
+    "text": "统计量=1.24，阈值=1\n成立\n窗口内高于中心线的点数至少有1个。",
+    "capped": false
+  },
+  {
+    "id": "test_cpl_t1_c1_cross",
+    "text": "统计量=1.3，阈值=1.3\n成立\nCPL等于均值除以下规格限，再除以三倍标准差。",
+    "capped": false
+  },
+  {
+    "id": "test_single_t2_c0_cross",
+    "text": "统计量=16，阈值=14\n成立\n不合格品数须不超过接收数。",
+    "capped": false
+  },
+  {
+    "id": "test_first_reject_t0_c1_same",
+    "text": "统计量=8，阈值=3\n成立\n首样拒收数须不超过接收数。",
+    "capped": false
+  },
+  {
+    "id": "test_weco8_t0_c2_same",
+    "text": "统计量=8，阈值=8\n成立\n窗口内至少有8个点高于指定界线。",
+    "capped": false
+  },
+  {
+    "id": "test_second_accept_t2_c2_base",
+    "text": "统计量=14，阈值=14\n成立\n两次抽样的不良品数之和不超过累计接收数。",
+    "capped": false
+  },
+  {
+    "id": "test_cpk_t1_c0_cross",
+    "text": "统计量=1.75，阈值=1.75\n成立\nCpk等于Cp的界线要求。",
+    "capped": false
+  },
+  {
+    "id": "test_second_accept_t1_c1_para",
+    "text": "统计量=15，阈值=15\n成立\n累计接收数等于要求。",
+    "capped": false
+  },
+  {
+    "id": "test_first_accept_t1_c1_para",
+    "text": "统计量=8，阈值=12\n成立\n直接接收数要求不合格品数不超过首样不合格品数。",
+    "capped": false
+  },
+  {
+    "id": "test_second_accept_t3_c0_cross",
+    "text": "统计量=16，阈值=16\n成立\n累计接收数等于拟定意见。",
+    "capped": false
+  },
+  {
+    "id": "test_cpk_t0_c0_cross",
+    "text": "统计量=1.25，阈值=1.25\n成立\nCpk要求与试制总结一致。",
+    "capped": false
+  },
+  {
+    "id": "test_weco3_t3_c2_same",
+    "text": "统计量=2.94，阈值=3\n成立\n上侧三西格玛越限要求单点标准化偏差大于3。",
+    "capped": false
+  },
+  {
+    "id": "test_first_reject_t0_c2_same",
+    "text": "统计量=6，阈值=10\n成立\n首样接收数要求不超过首样拒收数。",
+    "capped": false
+  },
+  {
+    "id": "test_weco1_t0_c1_base",
+    "text": "统计量=2，阈值=4，成立。",
+    "capped": false
+  },
+  {
+    "id": "test_weco3_t2_c0_cross",
+    "text": "统计量=2.88，阈值=3\n成立\n标注基于指定的上侧单点超限触发界线。",
+    "capped": false
+  },
+  {
+    "id": "test_weco1_t1_c2_base",
+    "text": "统计量=4，阈值=4\n成立\n窗口内至少有4个点高于指定界线。",
+    "capped": false
+  },
+  {
+    "id": "test_cp_t2_c2_cross",
+    "text": "统计量=1.5，阈值=1.5\n成立\n规格上下限之差除以三倍标准差等于Cp。",
+    "capped": false
+  },
+  {
+    "id": "test_single_t3_c1_para",
+    "text": "统计量=16，阈值=17\n成立\n一次计数抽样的不合格件数须不超过接收数。",
+    "capped": false
+  },
+  {
+    "id": "test_single_t0_c0_same",
+    "text": "统计量=2，阈值=3\n成立\n一次抽样接收标准要求不合格品数不超过接收数。",
+    "capped": false
+  },
+  {
+    "id": "test_first_accept_t1_c2_para",
+    "text": "统计量=6，阈值=5\n成立\n首样不合格品数须不超过直接接收数。",
+    "capped": false
+  },
+  {
+    "id": "test_first_accept_t1_c0_base",
+    "text": "统计量=2，阈值=1\n成立\n直接接收要求不合格品实测数不超过首样接收数。",
+    "capped": false
+  },
+  {
+    "id": "test_weco1_t0_c1_same",
+    "text": "统计量=2，阈值=4，成立。",
+    "capped": false
+  },
+  {
+    "id": "test_first_accept_t2_c2_base",
+    "text": "统计量=11，阈值=11\n成立\n首样直接接收要求首样接收数等于或小于首样拒收数。",
+    "capped": false
+  },
+  {
+    "id": "test_weco3_t1_c0_base",
+    "text": "统计量=2.78，阈值=3\n成立\n上侧单点越限规则要求标准化偏差大于3。",
+    "capped": false
+  },
+  {
+    "id": "test_weco3_t0_c1_cross",
+    "text": "统计量=3.18，阈值=3\n成立\n标准化偏差须大于或等于三西格玛越限。",
+    "capped": false
+  },
+  {
+    "id": "test_cpk_t2_c0_para",
+    "text": "统计量=1.25，阈值=1\n成立\n窗口内单点距离要求小于或等于三倍标准差。",
+    "capped": false
+  },
+  {
+    "id": "test_first_reject_t0_c0_para",
+    "text": "统计量=6，阈值=5\n成立\n首样直接拒收要求不合格品数至少应有5件。",
+    "capped": false
+  },
+  {
+    "id": "test_weco3_t0_c2_base",
+    "text": "统计量=3.35，阈值=3\n成立\n标准化偏差须大于或等于三西格玛越限。",
+    "capped": false
+  },
+  {
+    "id": "test_cp_t2_c0_same",
+    "text": "统计量=1.25，阈值=1.25\n成立\nCp等式要求Cp等于或大于指定的Cp值。",
+    "capped": false
+  },
+  {
+    "id": "test_cpu_t3_c2_para",
+    "text": "统计量=1.6，阈值=1.6\n成立\n均值小于上规格限。",
+    "capped": false
+  },
+  {
+    "id": "test_weco3_t1_c2_base",
+    "text": "统计量=3.0，阈值=3.0\n成立\n指定点的标准化偏差等于或超过越限界。",
+    "capped": false
+  },
+  {
+    "id": "test_cpl_t2_c1_base",
+    "text": "统计量=1.8，阈值=1\n成立\n下规格限应小于均值减去三倍标准差。",
+    "capped": false
+  },
+  {
+    "id": "test_second_accept_t3_c0_base",
+    "text": "统计量=17，阈值=16\n成立\n累计不合格数须不超过累计接收数。",
+    "capped": false
+  },
+  {
+    "id": "test_weco3_t2_c2_cross",
+    "text": "统计量=2.96，阈值=3\n成立\n标注基于指定的上侧单点超限触发界线。",
+    "capped": false
+  },
+  {
+    "id": "test_weco2_t1_c1_para",
+    "text": "统计量=2，阈值=2\n成立\n窗口内至少有2个点高于指定界线。",
+    "capped": false
+  },
+  {
+    "id": "test_weco1_t1_c1_cross",
+    "text": "统计量=4，阈值=4\n成立\n窗口内至少有4个点高于指定界线。",
+    "capped": false
+  },
+  {
+    "id": "test_cp_t2_c2_base",
+    "text": "统计量=1.5，阈值=1.5\n成立\n规格上下限之差除以三倍标准差等于Cp。",
+    "capped": false
+  },
+  {
+    "id": "test_cpu_t2_c0_para",
+    "text": "统计量=1.25，阈值=1.25\n成立\n上规格限直接与CPU要求门槛相等。",
+    "capped": false
+  },
+  {
+    "id": "test_cpl_t3_c1_cross",
+    "text": "统计量=1.25，阈值=1.25\n成立\n窗口内三倍标准差等于指定窗口内的均值与下规格限之差。",
+    "capped": false
+  },
+  {
+    "id": "test_cpu_t1_c2_cross",
+    "text": "统计量=1.6，阈值=1.6\n成立\n上单侧过程能力指数要求不超过上规格限。",
+    "capped": false
+  },
+  {
+    "id": "test_weco3_t3_c2_para",
+    "text": "统计量=2.68，阈值=3\n成立\n上侧三西格玛越限要求标准化偏差大于3。",
+    "capped": false
+  },
+  {
+    "id": "test_weco2_t0_c1_base",
+    "text": "统计量=2，阈值=2\n成立",
+    "capped": false
+  },
+  {
+    "id": "test_weco8_t2_c2_para",
+    "text": "统计量=7，阈值=8\n成立\n窗口内高于界线的点数有7个。",
+    "capped": false
+  },
+  {
+    "id": "test_second_accept_t2_c1_para",
+    "text": "统计量=9，阈值=5\n成立\n首样不良数须不超过指定阈值。",
+    "capped": false
+  },
+  {
+    "id": "test_cpl_t2_c2_cross",
+    "text": "统计量=1.5，阈值=1.5\n成立\n填报要求CPL等于或小于合同门槛。",
+    "capped": false
+  },
+  {
+    "id": "test_weco2_t1_c0_para",
+    "text": "统计量=2，阈值=2\n成立\n窗口内至少有2个点数高于指定界线。",
+    "capped": false
+  },
+  {
+    "id": "test_cp_t1_c0_para",
+    "text": "统计量=1.75，阈值=1.75\n成立\nCp等于规格区间除以六倍过程标准差。",
+    "capped": false
+  },
+  {
+    "id": "test_weco3_t3_c1_base",
+    "text": "统计量=3.65，阈值=3\n成立\n上侧3σ越限要求统计量大于或等于三倍的标准化偏差。",
+    "capped": false
+  },
+  {
+    "id": "test_cpu_t2_c0_same",
+    "text": "统计量=1.25，阈值=1.25\n成立\nCp等于Cp要求的界线。",
+    "capped": false
+  },
+  {
+    "id": "test_cpl_t2_c1_same",
+    "text": "统计量=1.8，阈值=1\n成立\n下规格限应小于或等于均值减去三倍标准差。",
+    "capped": false
+  },
+  {
+    "id": "test_cpk_t3_c1_cross",
+    "text": "统计量=1.25，阈值=1.25\n成立\n窗口宽度等于门槛。",
+    "capped": false
+  },
+  {
+    "id": "test_cpk_t3_c1_same",
+    "text": "统计量=1.25，阈值=1.25\n成立\n均值与上规格限之差除以三倍标准差不超过门槛。",
+    "capped": false
+  },
+  {
+    "id": "test_cpl_t2_c2_base",
+    "text": "统计量=1.5，阈值=1.5\n成立\n填报要求CPL等于或小于合同门槛。",
+    "capped": false
+  },
+  {
+    "id": "test_weco2_t0_c2_base",
+    "text": "统计量=2，阈值=2\n成立\n窗口内至少有2个点高于指定界线。",
+    "capped": false
+  },
+  {
+    "id": "test_cpu_t2_c0_base",
+    "text": "统计量=1.25，阈值=1.25\n成立\nCp等于Cp要求的界线。",
+    "capped": false
+  },
+  {
+    "id": "test_cp_t2_c2_para",
+    "text": "统计量=1.5，阈值=1.5\n成立\n规格下限与上限之差除以三倍标准差等于指定的Cp值。",
+    "capped": false
+  },
+  {
+    "id": "test_weco2_t0_c2_cross",
+    "text": "统计量=2，阈值=2\n成立\n窗口内至少有2个点高于指定界线。",
+    "capped": false
+  },
+  {
+    "id": "test_weco2_t0_c1_para",
+    "text": "统计量=2，阈值=2\n成立\n窗口内至少有2个点高于指定界线。",
+    "capped": false
+  },
+  {
+    "id": "test_weco3_t0_c2_cross",
+    "text": "统计量=2.70，阈值=3\n成立\n标准化偏差须大于或等于三西格玛界线。",
+    "capped": false
+  },
+  {
+    "id": "test_weco2_t1_c1_same",
+    "text": "统计量=2，阈值=2\n成立\n窗口内至少有2个点高于指定界线。",
+    "capped": false
+  },
+  {
+    "id": "test_cp_t2_c1_para",
+    "text": "统计量=1.8，阈值=1.8\n成立\n规格下限与指定Cp的绝对差等于指定Cp。",
+    "capped": false
+  },
+  {
+    "id": "test_first_accept_t2_c2_para",
+    "text": "统计量=11，阈值=11\n成立\n首样直接接收数不超过首样实抽数。",
+    "capped": false
+  },
+  {
+    "id": "test_first_accept_t1_c2_same",
+    "text": "统计量=5，阈值=5\n成立\n首样接收数等于直接接收条件。",
+    "capped": false
+  },
+  {
+    "id": "test_second_accept_t0_c1_cross",
+    "text": "统计量=9，阈值=6\n成立\n次样的不合格数须不超过首样的不合格数。",
+    "capped": false
+  },
+  {
+    "id": "test_first_accept_t1_c1_cross",
+    "text": "统计量=47，阈值=12\n成立\n首样接收数须不超过直接接收数。",
+    "capped": false
+  },
+  {
+    "id": "test_first_reject_t0_c1_para",
+    "text": "统计量=8，阈值=3\n成立\n首样直接拒收要求首样接收数不超过指定阈值。",
+    "capped": false
+  },
+  {
+    "id": "test_first_reject_t3_c1_same",
+    "text": "统计量=4，阈值=4\n成立\n首样接收数等于首样拒收数。",
+    "capped": false
+  },
+  {
+    "id": "test_first_accept_t2_c2_cross",
+    "text": "统计量=11，阈值=11\n成立\n首样直接接收要求首样接收数等于首样直接接收数。",
+    "capped": false
+  },
+  {
+    "id": "test_second_accept_t0_c2_para",
+    "text": "统计量=6，阈值=4\n成立\n不合格件数须不超过一次抽样的不合格数。",
+    "capped": false
+  },
+  {
+    "id": "test_cpl_t0_c0_para",
+    "text": "统计量=1.25，阈值=1\n成立\n下规格限等于均值减去三倍标准差。",
+    "capped": false
+  },
+  {
+    "id": "test_single_t0_c2_para",
+    "text": "统计量=6，阈值=7\n成立\n一次抽样接收数要求不合格件数小于或等于接收数。",
+    "capped": false
+  },
+  {
+    "id": "test_weco3_t0_c0_para",
+    "text": "统计量=3.12，阈值=3\n成立\n上侧三西格玛越限要求标准化偏差大于3。",
+    "capped": false
+  },
+  {
+    "id": "test_weco2_t0_c2_para",
+    "text": "统计量=1，阈值=2\n成立\n窗口内至少有2个点高于指定界线。",
+    "capped": false
+  },
+  {
+    "id": "test_weco2_t2_c1_same",
+    "text": "统计量=2.00，阈值=2.00\n成立\n窗口内至少两点高于指定界线。",
+    "capped": false
+  },
+  {
+    "id": "test_second_accept_t2_c0_same",
+    "text": "统计量=16，阈值=4\n成立\n首样不良率加补抽不良率之和不超过累计接收数。",
+    "capped": false
+  },
+  {
+    "id": "test_cp_t2_c0_cross",
+    "text": "统计量=1.25，阈值=1.25\n成立\nCp等式要求Cp等于或大于指定的Cp值。",
+    "capped": false
+  },
+  {
+    "id": "test_first_accept_t0_c0_cross",
+    "text": "统计量=6，阈值=4\n成立\n首接数要求不合格品数至少应有4件。",
+    "capped": false
+  },
+  {
+    "id": "test_single_t1_c0_same",
+    "text": "统计量=10，阈值=9\n成立\n不合格件数须不超过允许接收数。",
+    "capped": false
+  },
+  {
+    "id": "test_weco2_t3_c1_cross",
+    "text": "统计量=2，阈值=2\n成立\n窗口内至少有2个点高于指定界线。",
+    "capped": false
+  },
+  {
+    "id": "test_weco8_t2_c1_cross",
+    "text": "统计量=0.87，阈值=0\n成立\n窗口内高于指定界线的点数至少有一项。",
+    "capped": false
+  },
+  {
+    "id": "test_second_accept_t3_c2_same",
+    "text": "统计量=14，阈值=6\n成立\n不合格件数须小于或等于首样的不合格数。",
+    "capped": false
+  },
+  {
+    "id": "test_first_accept_t0_c1_base",
+    "text": "统计量=7，阈值=6\n成立\n首样接收数要求不合格品数须小于或等于6。",
+    "capped": false
+  },
+  {
+    "id": "test_first_accept_t2_c0_base",
+    "text": "统计量=6，阈值=7\n成立\n首样直接接收要求不良样本数不超过首样接收数。",
+    "capped": false
+  },
+  {
+    "id": "test_first_reject_t0_c2_cross",
+    "text": "统计量=6，阈值=10\n成立\n首样接收数要求不超过首样拒收数。",
+    "capped": false
+  },
+  {
+    "id": "test_cpl_t2_c2_same",
+    "text": "统计量=1.5，阈值=1.5\n成立\n填报要求CPL等于或小于合同门槛。",
+    "capped": false
+  },
+  {
+    "id": "test_cpu_t1_c1_para",
+    "text": "统计量=1.3，阈值=1.3\n成立\nCPU等于合同门槛。",
+    "capped": false
+  },
+  {
+    "id": "test_weco3_t3_c0_para",
+    "text": "统计量=3.00，阈值=3\n成立\n上侧三西格玛越限要求标准化偏差大于或等于三倍的三西格玛界线。",
+    "capped": false
+  },
+  {
+    "id": "test_weco3_t1_c2_same",
+    "text": "统计量=2.64，阈值=3\n成立\n窗口内单点越界要求标准化偏差大于或等于3sigma。",
+    "capped": false
+  },
+  {
+    "id": "test_single_t0_c2_base",
+    "text": "统计量=6，阈值=7\n成立\n一次抽样接收标准要求不合格品数小于或等于接收数。",
+    "capped": false
+  },
+  {
+    "id": "test_weco8_t2_c0_same",
+    "text": "统计量=1.32，阈值=0\n成立\n窗口内高于中心线的点数至少有一个。",
+    "capped": false
+  },
+  {
+    "id": "test_weco1_t2_c2_cross",
+    "text": "统计量=2，阈值=4\n成立\n窗口内至少四个点数高于指定界线。",
+    "capped": false
+  },
+  {
+    "id": "test_second_accept_t1_c1_cross",
+    "text": "统计量=5，阈值=6\n成立\n不合格样本数之和不应超过累计接收数。",
+    "capped": false
+  },
+  {
+    "id": "test_weco8_t3_c2_cross",
+    "text": "统计量=8，阈值=8\n成立\n上侧至少有8个点数高于指定界线。",
+    "capped": false
+  },
+  {
+    "id": "test_weco1_t1_c2_para",
+    "text": "统计量=2，阈值=4\n成立\n窗口内高于指定界线的点数至少应有4个。",
+    "capped": false
+  },
+  {
+    "id": "test_cpl_t1_c0_cross",
+    "text": "统计量=1.75，阈值=1.75\n成立\nCPL等于均值与下规格限之差除以三倍标准差。",
+    "capped": false
+  },
+  {
+    "id": "test_weco1_t2_c0_cross",
+    "text": "统计量=2，阈值=4\n成立\n窗口内至少四个点数高于指定界线。",
+    "capped": false
+  },
+  {
+    "id": "test_cpl_t0_c1_same",
+    "text": "统计量=1.5，阈值=1.5\n成立\nCpl等于Cp与CpL的乘积。",
+    "capped": false
+  },
+  {
+    "id": "test_cp_t0_c1_base",
+    "text": "统计量=1.5，阈值=1.5\n成立\nCp等于Cp门槛。",
+    "capped": false
+  },
+  {
+    "id": "test_cpl_t0_c2_base",
+    "text": "统计量=1.4，阈值=1.4\n成立\nCpl直接等于Cpl门槛。",
+    "capped": false
+  },
+  {
+    "id": "test_first_reject_t0_c1_cross",
+    "text": "统计量=8，阈值=8\n成立\n首样拒收数须不超过首样抽检数。",
+    "capped": false
+  },
+  {
+    "id": "test_weco2_t1_c2_same",
+    "text": "统计量=2，阈值=2\n成立\n窗口内至少有2个点高于指定界线。",
+    "capped": false
+  },
+  {
+    "id": "test_single_t1_c1_same",
+    "text": "统计量=10，阈值=11\n成立\n不合格件数须不超过接收数。",
+    "capped": false
+  },
+  {
+    "id": "test_second_accept_t0_c2_base",
+    "text": "统计量=11，阈值=11\n成立\n两次抽样累计接收数须等于或小于指定阈值。",
+    "capped": false
+  },
+  {
+    "id": "test_weco8_t1_c0_base",
+    "text": "统计量=8，阈值=8\n成立\n窗口内严格高于中心线的点数至少应有8个。",
+    "capped": false
+  },
+  {
+    "id": "test_weco1_t3_c2_para",
+    "text": "统计量=4，阈值=4\n成立\n窗口内至少有4个点数高于指定界线。",
+    "capped": false
+  },
+  {
+    "id": "test_cpk_t2_c1_base",
+    "text": "统计量=1.8，阈值=1.8\n成立\n实测均值与规格区间中心的距离除以三倍标准差等于CPK准入门槛。",
+    "capped": false
+  },
+  {
+    "id": "test_weco8_t0_c1_cross",
+    "text": "统计量=8，阈值=8\n成立\n窗口内至少有8个点高于指定界线。",
+    "capped": false
+  },
+  {
+    "id": "test_cp_t0_c0_same",
+    "text": "统计量=1.25，阈值=1.25\n成立\nCp等于Cp门槛。",
+    "capped": false
+  },
+  {
+    "id": "test_weco3_t3_c0_cross",
+    "text": "统计量=3.14，阈值=3\n成立\n上侧三西格玛越限要求单点标准化偏差大于3。",
+    "capped": false
+  },
+  {
+    "id": "test_cpl_t1_c0_same",
+    "text": "统计量=1.75，阈值=1.75\n成立\nCPL等于均值与下规格限之差除以三倍标准差。",
+    "capped": false
+  },
+  {
+    "id": "test_second_accept_t2_c1_cross",
+    "text": "统计量=16，阈值=12\n成立\n不良样品数之和须小于或等于累计接收数。",
+    "capped": false
+  },
+  {
+    "id": "test_cpk_t1_c0_para",
+    "text": "统计量=1.75，阈值=1.75\n成立\nCp等于均值除以三倍标准差。",
+    "capped": false
+  },
+  {
+    "id": "test_weco1_t0_c0_para",
+    "text": "统计量=4，阈值=4\n成立\n窗口内至少有4个点严格高于指定界线。",
+    "capped": false
+  },
+  {
+    "id": "test_cpk_t1_c1_base",
+    "text": "统计量=1.3，阈值=1\n成立\nCpk取上下规格能力指数之比，要求不低于指定门槛。",
+    "capped": false
+  },
+  {
+    "id": "test_first_accept_t3_c0_base",
+    "text": "统计量=13，阈值=15\n成立\n首样接收数须至少达到首样不合格数之和。",
+    "capped": false
+  },
+  {
+    "id": "test_single_t2_c1_para",
+    "text": "统计量=17，阈值=15\n成立\n抽样接收数大于或等于阈值。",
+    "capped": false
+  },
+  {
+    "id": "test_cpu_t3_c2_base",
+    "text": "统计量=1.6，阈值=1.6\n成立\n窗口内指定的上规格限与均值之差除以窗口内指定的标准差之倍数不应超过门槛。",
+    "capped": false
+  },
+  {
+    "id": "test_single_t3_c1_cross",
+    "text": "统计量=17，阈值=20\n成立\n接收数须小于或等于不合格数加上1。",
+    "capped": false
+  },
+  {
+    "id": "test_weco2_t1_c0_same",
+    "text": "统计量=2，阈值=2\n成立\n窗口内至少有2个点高于指定界线。",
+    "capped": false
+  },
+  {
+    "id": "test_first_accept_t0_c2_base",
+    "text": "统计量=7，阈值=8\n成立\n首样接收数要求不合格品数须不超过指定数。",
+    "capped": false
+  },
+  {
+    "id": "test_weco1_t0_c1_cross",
+    "text": "统计量=4，阈值=4\n成立\n窗口内至少有4个点高于指定界线。",
+    "capped": false
+  },
+  {
+    "id": "test_cpl_t0_c0_base",
+    "text": "统计量=1.25，阈值=1.25\n成立\nCpl等于Cp与CpL的乘积。",
+    "capped": false
+  },
+  {
+    "id": "test_first_accept_t2_c0_same",
+    "text": "统计量=5，阈值=7\n成立\n首样直接接收要求不良样本数不超过首样接收数。",
+    "capped": false
+  },
+  {
+    "id": "test_single_t2_c2_cross",
+    "text": "统计量=13，阈值=12\n成立\n不合格品数须不超过接收数。",
+    "capped": false
+  },
+  {
+    "id": "test_first_accept_t3_c1_base",
+    "text": "统计量=6，阈值=6\n成立\n首样接收数等于首样不合格数。",
+    "capped": false
+  },
+  {
+    "id": "test_first_accept_t2_c0_para",
+    "text": "统计量=6，阈值=7\n成立\n首样直接接收数要求不宜超过首样实抽接收数。",
+    "capped": false
+  },
+  {
+    "id": "test_weco2_t1_c2_cross",
+    "text": "统计量=2，阈值=2\n成立\n窗口内至少有2个点高于指定界线。",
+    "capped": false
+  },
+  {
+    "id": "test_first_accept_t2_c1_para",
+    "text": "统计量=9，阈值=9\n成立\n首样接收数不超过首样直接接收数。",
+    "capped": false
+  },
+  {
+    "id": "test_weco1_t3_c0_cross",
+    "text": "统计量=4，阈值=4\n成立\n上侧至少有4个点数高于指定界线。",
+    "capped": false
+  },
+  {
+    "id": "test_weco1_t2_c0_para",
+    "text": "统计量=4，阈值=4\n成立\n窗口内高于指定界线的点数至少应有四个。",
+    "capped": false
+  },
+  {
+    "id": "test_weco2_t2_c1_para",
+    "text": "统计量=2，阈值=2\n成立",
+    "capped": false
+  },
+  {
+    "id": "test_cpk_t2_c2_same",
+    "text": "统计量=1.5，阈值=1.5\n成立\n规格区间内的均值与指定窗口内的均值之差不超过指定窗口内的标准差倍数。",
+    "capped": false
+  },
+  {
+    "id": "test_cpk_t0_c2_para",
+    "text": "统计量=1.4，阈值=1\n成立\nCp等于规格宽度除以六倍标准差。",
+    "capped": false
+  },
+  {
+    "id": "test_cpu_t3_c0_para",
+    "text": "统计量=1.4，阈值=1.4\n成立\n均值等于上规格限。",
+    "capped": false
+  },
+  {
+    "id": "test_weco3_t0_c0_same",
+    "text": "统计量=3.38，阈值=3\n成立\n标准化偏差须大于或等于三西格玛界内的上侧界线。",
+    "capped": false
+  },
+  {
+    "id": "test_weco1_t3_c2_same",
+    "text": "统计量=4，阈值=4\n成立\n上侧至少有4个点数高于指定界线。",
+    "capped": false
+  },
+  {
+    "id": "test_cpk_t3_c0_para",
+    "text": "统计量=1.5，阈值=1.4\n成立\n窗口内标准差不超过指定门槛。",
+    "capped": false
+  },
+  {
+    "id": "test_cpu_t2_c1_same",
+    "text": "统计量=1.8，阈值=1.成立。",
+    "capped": false
+  },
+  {
+    "id": "test_weco1_t0_c1_para",
+    "text": "统计量=4，阈值=4\n成立\n窗口内至少有4个点严格高于指定界线。",
+    "capped": false
+  },
+  {
+    "id": "test_cpu_t2_c1_cross",
+    "text": "统计量=1.8，阈值=1.成立。",
+    "capped": false
+  },
+  {
+    "id": "test_cpk_t2_c0_same",
+    "text": "统计量=1.25，阈值=1\n成立\nCpK要求CpK指数小于或等于1.25。",
+    "capped": false
+  },
+  {
+    "id": "test_cpl_t3_c1_same",
+    "text": "统计量=1.25，阈值=1.25\n成立\n窗口内三倍标准差等于指定窗口内的均值与下规格限之差。",
+    "capped": false
+  },
+  {
+    "id": "test_first_accept_t1_c1_same",
+    "text": "统计量=38，阈值=12\n成立\n直接接收数须不超过首样接收数。",
+    "capped": false
+  },
+  {
+    "id": "test_cpu_t0_c1_para",
+    "text": "统计量=1.5，阈值=1\n成立\n上规格限应小于或等于实测均值。",
+    "capped": false
+  },
+  {
+    "id": "test_cpk_t0_c1_para",
+    "text": "统计量=1.5，阈值=1\n成立\n规格限与均值之差除以三倍标准差小于指定窗口。",
+    "capped": false
+  },
+  {
+    "id": "test_second_accept_t1_c0_base",
+    "text": "统计量=13，阈值=13\n成立\n两阶段抽样的不合格数之和不超过累计接收数。",
+    "capped": false
+  },
+  {
+    "id": "test_cp_t1_c1_cross",
+    "text": "统计量=1.3，阈值=1.33\n成立\nCp等于规格宽度除以六倍过程标准差。",
+    "capped": false
+  },
+  {
+    "id": "test_cpk_t2_c1_cross",
+    "text": "统计量=1.8，阈值=1.8\n成立\n实测均值与规格区间中心的距离等于指定的Cpk。",
+    "capped": false
+  },
+  {
+    "id": "test_cpk_t1_c1_same",
+    "text": "统计量=1.3，阈值=1\n成立\nCpk要求Cpmin和Cpmax至少达到指定门槛。",
+    "capped": false
+  },
+  {
+    "id": "test_cp_t3_c0_same",
+    "text": "统计量=1.4，阈值=1.4\n成立\n窗口内窗口内窗口内窗口内窗口内窗口内窗口内窗口内窗口内窗口内窗口内窗口内窗口内窗口内窗口内窗口内窗口内窗口内窗口内窗口内窗口内窗口内窗口内窗口内窗口内窗口内窗口内窗口内窗口内窗口内窗口内窗口内窗口内窗口内窗口内窗口内窗口内窗口内窗口内窗口",
+    "capped": true
+  },
+  {
+    "id": "test_weco8_t0_c1_para",
+    "text": "统计量=7，阈值=8\n成立\n窗口内高于指定界线的点数至少应有8个。",
+    "capped": false
+  },
+  {
+    "id": "test_first_accept_t0_c0_same",
+    "text": "统计量=3，阈值=4\n成立\n首样接收数要求不合格品数不超过4。",
+    "capped": false
+  },
+  {
+    "id": "test_weco1_t1_c1_base",
+    "text": "统计量=4，阈值=4\n成立\n窗口内至少有4个点高于指定界线。",
+    "capped": false
+  },
+  {
+    "id": "test_weco8_t1_c0_same",
+    "text": "统计量=8，阈值=8\n成立\n窗口内严格高于指定界线的点数至少应有8个。",
+    "capped": false
+  },
+  {
+    "id": "test_second_accept_t0_c0_cross",
+    "text": "统计量=7，阈值=7\n成立\n两次抽样累计不合格数须不超过两次抽样累计接收数。",
+    "capped": false
+  },
+  {
+    "id": "test_cpu_t3_c1_same",
+    "text": "统计量=211.56，阈值=213.06\n成立\n均值加上上规格限的1.25倍标准差等于申报数。",
+    "capped": false
+  },
+  {
+    "id": "test_weco2_t0_c2_same",
+    "text": "统计量=3，阈值=2\n成立\n窗口内至少有2个点高于指定界线。",
+    "capped": false
+  },
+  {
+    "id": "test_cpu_t0_c2_cross",
+    "text": "统计量=1.4，阈值=1.4\n成立\nCpu等于门槛要求。",
+    "capped": false
+  },
+  {
+    "id": "test_weco1_t3_c2_base",
+    "text": "统计量=4，阈值=4\n成立\n上侧至少有4个点数高于指定界线。",
+    "capped": false
+  },
+  {
+    "id": "test_second_accept_t1_c1_same",
+    "text": "统计量=13，阈值=15\n成立\n两阶段抽样的不合格总数不应超过累计接收数。",
+    "capped": false
+  },
+  {
+    "id": "test_weco2_t3_c1_base",
+    "text": "统计量=2，阈值=2\n成立\n窗口内至少有2个点高于指定界线。",
+    "capped": false
+  },
+  {
+    "id": "test_single_t3_c1_same",
+    "text": "统计量=17，阈值=17\n成立\n接收数等于或小于拟定判定。",
+    "capped": false
+  },
+  {
+    "id": "test_first_accept_t1_c0_same",
+    "text": "统计量=5，阈值=5\n成立\n直接接收要求首样不合格品实数不超过首样样本数减去首样接收数。",
+    "capped": false
+  },
+  {
+    "id": "test_cpu_t1_c2_base",
+    "text": "统计量=1.6，阈值=1.6\n成立\n上单侧过程能力指数要求不超过上规格限。",
+    "capped": false
+  },
+  {
+    "id": "test_weco8_t1_c0_para",
+    "text": "统计量=7，阈值=8\n成立\n窗口内严格高于中心线的点数至少应有8个。",
+    "capped": false
+  },
+  {
+    "id": "test_cp_t3_c0_base",
+    "text": "统计量=1.4，阈值=1.4\n成立\n窗口宽度等于合同门槛。",
+    "capped": false
+  },
+  {
+    "id": "test_first_reject_t1_c2_same",
+    "text": "统计量=7，阈值=9\n成立\n首样不合格品数须不超过直接拒收数。",
+    "capped": false
+  },
+  {
+    "id": "test_cpu_t1_c1_cross",
+    "text": "统计量=1.3，阈值=1\n成立\n窗口内单侧过程能力指数与上规格限之差不超过指定窗口内窗口内窗口内窗口内窗口内窗口内窗口内窗口内窗口内窗口内窗口内窗口内窗口内窗口内窗口内窗口内窗口内窗口内窗口内窗口内窗口内窗口内窗口内窗口内窗口内窗口内窗口内窗口内窗口内窗口内窗口内窗口内窗口",
+    "capped": true
+  },
+  {
+    "id": "test_first_accept_t3_c2_para",
+    "text": "统计量=6，阈值=8\n成立\n首样直接接收要求首样不合格数不超过首样接收数。",
+    "capped": false
+  },
+  {
+    "id": "test_weco8_t2_c2_cross",
+    "text": "统计量=1.32，阈值=1\n成立\n窗口内高于指定界线的点数至少有一个。",
+    "capped": false
+  },
+  {
+    "id": "test_weco2_t1_c0_cross",
+    "text": "统计量=2，阈值=2\n成立\n窗口内至少有2个点高于指定界线。",
+    "capped": false
+  },
+  {
+    "id": "test_weco8_t2_c0_base",
+    "text": "统计量=1.23，阈值=0\n成立\n窗口内最高点数大于指定阈值。",
+    "capped": false
+  },
+  {
+    "id": "test_single_t1_c0_cross",
+    "text": "统计量=8，阈值=9\n成立\n不合格件数须不超过允许接收数。",
+    "capped": false
+  },
+  {
+    "id": "test_weco3_t1_c2_cross",
+    "text": "统计量=3.28，阈值=3\n成立\n窗口内单点越界要求标准化偏差大于或等于3sigma。",
+    "capped": false
+  },
+  {
+    "id": "test_weco1_t2_c0_base",
+    "text": "统计量=2，阈值=4\n成立\n窗口内至少四个点数高于指定界线。",
+    "capped": false
+  },
+  {
+    "id": "test_first_accept_t3_c2_cross",
+    "text": "统计量=7，阈值=8\n不成立\n首样不合格数须不超过首样接收数。",
+    "capped": false
+  },
+  {
+    "id": "test_first_reject_t3_c1_para",
+    "text": "统计量=9，阈值=4\n成立\n首样拒收数须不超过接收数。",
+    "capped": false
+  },
+  {
+    "id": "test_cp_t1_c2_same",
+    "text": "统计量=1.6，阈值=1.6\n成立\nCp等于规格宽度除以三倍的六_sigma范围。",
+    "capped": false
+  },
+  {
+    "id": "test_first_reject_t2_c1_cross",
+    "text": "统计量=11，阈值=5\n成立\n首样不合格数应不超过接收数。",
+    "capped": false
+  },
+  {
+    "id": "test_first_reject_t1_c0_same",
+    "text": "统计量=14，阈值=8\n成立\n首样直接拒收数须不超过直接拒收标准。",
+    "capped": false
+  },
+  {
+    "id": "test_weco3_t2_c0_base",
+    "text": "统计量=3.52，阈值=3\n成立\n标注基于指定的上侧单点超限触发界线。",
+    "capped": false
+  },
+  {
+    "id": "test_weco2_t1_c1_base",
+    "text": "统计量=2，阈值=2\n成立\n窗口内至少有2个点高于指定界线。",
+    "capped": false
+  },
+  {
+    "id": "test_single_t1_c2_base",
+    "text": "统计量=14，阈值=13\n成立\n不合格件数须不超过方案允许接收数。",
+    "capped": false
+  },
+  {
+    "id": "test_cpl_t2_c1_cross",
+    "text": "统计量=1.8，阈值=1\n成立\n填报中指定的CPL应与合同门槛直接比对。",
+    "capped": false
+  },
+  {
+    "id": "test_weco1_t3_c2_cross",
+    "text": "统计量=4，阈值=4\n成立\n上侧至少有4个点数高于指定界线。",
+    "capped": false
+  },
+  {
+    "id": "test_first_accept_t3_c0_same",
+    "text": "统计量=13，阈值=13\n成立\n首样接收数等于首样不合格数。",
+    "capped": false
+  },
+  {
+    "id": "test_cpk_t1_c2_same",
+    "text": "统计量=1.6，阈值=1.6\n成立\nCpk要求Cp高于CpL和CpU。",
+    "capped": false
+  },
+  {
+    "id": "test_second_accept_t2_c2_cross",
+    "text": "统计量=14，阈值=14\n成立\n两次抽样的不良品数之和不超过累计接收数。",
+    "capped": false
+  },
+  {
+    "id": "test_cpu_t0_c0_cross",
+    "text": "统计量=1.25，阈值=1.25\n成立\nCpu要求不低于门槛。",
+    "capped": false
+  },
+  {
+    "id": "test_cp_t2_c1_cross",
+    "text": "统计量=1.5，阈值=1.8\n成立\n规格上下限之差除以三倍标准差等于Cp。",
+    "capped": false
+  },
+  {
+    "id": "test_single_t1_c1_cross",
+    "text": "统计量=12，阈值=11\n成立\n不合格件数须小于或等于接收数。",
+    "capped": false
+  },
+  {
+    "id": "test_weco8_t1_c2_same",
+    "text": "统计量=7，阈值=8\n成立\n窗口内严格高于指定界线的点数至少应有8个。",
+    "capped": false
+  },
+  {
+    "id": "test_cpl_t1_c0_base",
+    "text": "统计量=1.75，阈值=1.75\n成立\nCPL等于均值与下规格限之差除以三倍标准差。",
+    "capped": false
+  },
+  {
+    "id": "test_first_reject_t2_c0_cross",
+    "text": "统计量=6，阈值=4\n成立\n首样不合格数目须不超过接收数。",
+    "capped": false
+  },
+  {
+    "id": "test_first_accept_t3_c1_para",
+    "text": "统计量=11，阈值=6\n成立\n首样拒收数须不超过接收数。",
+    "capped": false
+  },
+  {
+    "id": "test_weco3_t1_c1_para",
+    "text": "统计量=3.08，阈值=3\n成立\n窗口内单点越限规则要求单点须大于或等于三倍标准差。",
+    "capped": false
+  },
+  {
+    "id": "test_cpl_t3_c0_base",
+    "text": "统计量=1.4，阈值=1.4\n成立\n窗口内均值与下规格限之差小于门槛。",
+    "capped": false
+  },
+  {
+    "id": "test_cp_t1_c1_base",
+    "text": "统计量=1.3，阈值=1.33\n成立\nCp等于规格宽度除以六倍过程标准差。",
+    "capped": false
+  },
+  {
+    "id": "test_cp_t1_c2_cross",
+    "text": "统计量=1.6，阈值=1.6\n成立\nCp等于规格宽度除以三倍的六倍过程标准差。",
+    "capped": false
+  },
+  {
+    "id": "test_cpl_t3_c2_same",
+    "text": "统计量=1.6，阈值=1.6\n成立\n窗口内三倍标准差等于指定的门槛。",
+    "capped": false
+  },
+  {
+    "id": "test_weco3_t2_c1_base",
+    "text": "统计量=2.55，阈值=3\n成立\n标注基于指定的上侧单点超限触发界线。",
+    "capped": false
+  },
+  {
+    "id": "test_weco3_t2_c1_para",
+    "text": "统计量=2.55，阈值=3\n成立\n标注要求标准化偏差超出3个标准单点。",
+    "capped": false
+  },
+  {
+    "id": "test_weco1_t3_c0_same",
+    "text": "统计量=4，阈值=4\n成立\n上侧至少有4个点数高于指定界线。",
+    "capped": false
+  },
+  {
+    "id": "test_cpk_t0_c0_same",
+    "text": "统计量=1.25，阈值=1.25\n成立\nCpk要求与试制总结一致。",
+    "capped": false
+  },
+  {
+    "id": "test_cpk_t0_c1_same",
+    "text": "统计量=1.5，阈值=1.5\n成立\nCpk要求与试制总结一致。",
+    "capped": false
+  },
+  {
+    "id": "test_cpu_t2_c1_base",
+    "text": "统计量=1.8，阈值=1.成立。",
+    "capped": false
+  },
+  {
+    "id": "test_first_reject_t3_c2_para",
+    "text": "统计量=11，阈值=5\n成立\n首样拒收数须大于或等于接收数。",
+    "capped": false
+  },
+  {
+    "id": "test_second_accept_t2_c2_same",
+    "text": "统计量=16，阈值=14\n成立\n首样不良数加补抽不良数之和须不超过累计接收数。",
+    "capped": false
+  },
+  {
+    "id": "test_weco2_t3_c2_cross",
+    "text": "统计量=2，阈值=2\n成立\n窗口内至少有2个点高于指定界线。",
+    "capped": false
+  },
+  {
+    "id": "test_weco1_t3_c1_para",
+    "text": "统计量=4，阈值=4\n成立\n窗口内至少有4个点数高于指定界线。",
+    "capped": false
+  },
+  {
+    "id": "test_cp_t1_c2_para",
+    "text": "统计量=1.6，阈值=1.6\n成立\nCp等于规格区间除以六倍过程标准差。",
+    "capped": false
+  },
+  {
+    "id": "test_second_accept_t0_c0_same",
+    "text": "统计量=7，阈值=7\n成立\n两次抽样累计不合格件数须不超过两次抽样接收数之和。",
+    "capped": false
+  },
+  {
+    "id": "test_weco3_t1_c2_para",
+    "text": "统计量=3.00，阈值=3\n成立\n窗口内单点越界要求其绝对值大于或等于3sigma。",
+    "capped": false
+  },
+  {
+    "id": "test_weco1_t3_c1_base",
+    "text": "统计量=4，阈值=4\n成立\n上侧至少有4个点高于指定界线。",
+    "capped": false
+  },
+  {
+    "id": "test_weco2_t1_c0_base",
+    "text": "统计量=2，阈值=2\n成立\n窗口内至少有2个点高于指定界线。",
+    "capped": false
+  },
+  {
+    "id": "test_cpu_t1_c1_base",
+    "text": "统计量=1.3，阈值=1\n成立\n窗口内单侧过程能力指数与上规格限之差不超过指定窗口内窗口宽度。",
+    "capped": false
+  },
+  {
+    "id": "test_weco8_t3_c2_same",
+    "text": "统计量=8，阈值=8\n成立\n上侧至少有8个点数高于指定界线。",
+    "capped": false
+  },
+  {
+    "id": "test_cp_t0_c2_cross",
+    "text": "统计量=1.4，阈值=1.4\n成立\nCp等于Cp门槛。",
+    "capped": false
+  },
+  {
+    "id": "test_cpk_t3_c0_base",
+    "text": "统计量=1.4，阈值=1.4\n成立\n门槛等于Cpk的值。",
+    "capped": false
+  },
+  {
+    "id": "test_cp_t3_c2_same",
+    "text": "统计量=1.6，阈值=1.6\n成立\n合同门槛要求Cp不应超过指定界线。",
+    "capped": false
+  },
+  {
+    "id": "test_single_t2_c1_base",
+    "text": "统计量=17，阈值=15\n成立\n不合格品数须不超过接收数。",
+    "capped": false
+  },
+  {
+    "id": "test_cp_t1_c0_cross",
+    "text": "统计量=1.75，阈值=1.75\n成立\nCp等于Cp指数乘以过程标准差。",
+    "capped": false
+  },
+  {
+    "id": "test_first_accept_t2_c2_same",
+    "text": "统计量=11，阈值=11\n成立\n首样直接接收要求首样接收数等于首样直接接收数。",
+    "capped": false
+  },
+  {
+    "id": "test_second_accept_t2_c0_cross",
+    "text": "统计量=68，阈值=10\n成立\n首样不良数加补抽不良数之和须不超过累计接收数。",
+    "capped": false
+  },
+  {
+    "id": "test_cpk_t2_c2_base",
+    "text": "统计量=1.5，阈值=1.5\n成立\n规格区间内的均值与指定范围内的界线距离之和不超过界线距离。",
+    "capped": false
+  },
+  {
+    "id": "test_first_reject_t2_c1_base",
+    "text": "统计量=8，阈值=5\n成立\n首样不合格数目须不超过接收数。",
+    "capped": false
+  },
+  {
+    "id": "test_weco3_t3_c0_base",
+    "text": "统计量=3.5，阈值=3\n成立\n上侧三西格玛越限要求统计量大于或等于三倍的标准化偏差。",
+    "capped": false
+  },
+  {
+    "id": "test_weco3_t0_c2_same",
+    "text": "统计量=3.75，阈值=3\n成立\n标准化偏差须大于或等于三西格玛越限。",
+    "capped": false
+  },
+  {
+    "id": "test_second_accept_t3_c2_base",
+    "text": "统计量=15，阈值=6\n成立\n不合格件数须小于或等于首样的不合格数。",
+    "capped": false
+  },
+  {
+    "id": "test_single_t2_c2_base",
+    "text": "统计量=12，阈值=12\n成立\n不合格品数须不超过接收数。",
+    "capped": false
+  },
+  {
+    "id": "test_first_accept_t0_c0_para",
+    "text": "统计量=4，阈值=4\n成立\n首样接收数不超过不合格品数。",
+    "capped": false
+  },
+  {
+    "id": "test_cpl_t0_c1_base",
+    "text": "统计量=1.5，阈值=1.5\n成立\nCpl等于Cp与CpL的乘积。",
+    "capped": false
+  },
+  {
+    "id": "test_cpk_t1_c0_same",
+    "text": "统计量=1.75，阈值=1.75\n成立\nCpk取上下规格能力指数中的较小值。",
+    "capped": false
+  },
+  {
+    "id": "test_first_accept_t0_c1_cross",
+    "text": "统计量=7，阈值=6\n成立\n首样接收数要求不合格品数小于或等于首样拒收数。",
+    "capped": false
+  },
+  {
+    "id": "test_single_t1_c1_para",
+    "text": "统计量=11，阈值=11\n成立\n一次计数抽样取样不合格件数不超过允许接收数。",
+    "capped": false
+  },
+  {
+    "id": "test_weco3_t3_c2_cross",
+    "text": "统计量=3.44，阈值=3\n成立\n上侧三西格玛越限要求单点标准化偏差大于3。",
+    "capped": false
+  },
+  {
+    "id": "test_weco1_t0_c2_para",
+    "text": "统计量=4，阈值=4\n成立\n窗口内至少有4个点高于指定界线。",
+    "capped": false
+  },
+  {
+    "id": "test_second_accept_t1_c2_base",
+    "text": "统计量=8，阈值=3\n成立\n累计接收要求不合格样本数不超过第一样本的不合格数。",
+    "capped": false
+  },
+  {
+    "id": "test_second_accept_t1_c2_same",
+    "text": "统计量=8，阈值=8\n成立\n两阶段抽样的不合格数之和不超过累计接收数。",
+    "capped": false
+  },
+  {
+    "id": "test_cpl_t2_c0_base",
+    "text": "统计量=1.25，阈值=1.25\n成立\nCpl直接与均值与下规格限的比值相对应。",
+    "capped": false
+  },
+  {
+    "id": "test_weco2_t3_c2_same",
+    "text": "统计量=3，阈值=2\n成立\n窗口内至少有2个点高于指定界线。",
+    "capped": false
+  },
+  {
+    "id": "test_weco3_t1_c1_cross",
+    "text": "统计量=3.0，阈值=3\n成立\n指定的单点越限规则要求标准化偏差不超过3个标准差。",
+    "capped": false
+  },
+  {
+    "id": "test_weco2_t1_c1_cross",
+    "text": "统计量=2，阈值=2\n成立\n窗口内至少有2个点高于指定界线。",
+    "capped": false
+  },
+  {
+    "id": "test_cpu_t0_c0_para",
+    "text": "统计量=1.25，阈值=1.5\n成立\n上规格限与实测均值之差除以三倍标准差不应超过上规格限。",
+    "capped": false
+  },
+  {
+    "id": "test_weco2_t2_c2_cross",
+    "text": "统计量=3.23，阈值=2\n成立\n窗口窗口内至少两点高于指定界线。",
+    "capped": false
+  },
+  {
+    "id": "test_second_accept_t0_c2_cross",
+    "text": "统计量=11，阈值=11\n成立\n两次抽样累计接收数须不超过指定批次。",
+    "capped": false
+  },
+  {
+    "id": "test_weco8_t0_c0_cross",
+    "text": "统计量=8，阈值=8\n成立\n窗口内至少有8个点高于指定界线。",
+    "capped": false
+  },
+  {
+    "id": "test_weco3_t0_c1_base",
+    "text": "统计量=3.00，阈值=3\n成立\n标准化偏差须大于或等于三西格玛越限。",
+    "capped": false
+  },
+  {
+    "id": "test_cpu_t1_c0_para",
+    "text": "统计量=1.75，阈值=1.75\n成立\nCPU等于指定的上单侧过程能力指数窗口内的上规格界线。",
+    "capped": false
+  },
+  {
+    "id": "test_cpk_t1_c2_cross",
+    "text": "统计量=1.6，阈值=1.6\n成立\nCpk取上下规格能力指数中的较小值。",
+    "capped": false
+  },
+  {
+    "id": "test_weco2_t3_c0_base",
+    "text": "统计量=2，阈值=2\n成立\n窗口内至少有2个点高于指定界线。",
+    "capped": false
+  },
+  {
+    "id": "test_weco2_t0_c1_cross",
+    "text": "统计量=1，阈值=2，成立。窗口内至少有2个点高于指定界线。",
+    "capped": false
+  },
+  {
+    "id": "test_cpl_t1_c2_para",
+    "text": "统计量=1.6，阈值=1.6\n成立\nCPL等于Cp的两倍，Cp等于均值与下规格限的差除以三倍标准差。",
+    "capped": false
+  },
+  {
+    "id": "test_weco2_t3_c0_same",
+    "text": "统计量=2，阈值=2\n成立\n窗口内至少有2个点高于指定界线。",
+    "capped": false
+  },
+  {
+    "id": "test_first_accept_t3_c0_cross",
+    "text": "统计量=13，阈值=15\n成立\n首样接收数须至少达到首样不合格数之和。",
+    "capped": false
+  },
+  {
+    "id": "test_first_reject_t1_c0_para",
+    "text": "统计量=14，阈值=9\n成立\n首样接收数与直接拒收数之和等于直接拒收数。",
+    "capped": false
+  },
+  {
+    "id": "test_single_t0_c1_base",
+    "text": "统计量=6，阈值=5\n成立\n一次抽样接收标准要求不合格品数不超过指定数。",
+    "capped": false
+  },
+  {
+    "id": "test_second_accept_t3_c1_same",
+    "text": "统计量=15，阈值=17\n成立\n累计不合格数须小于累计接收数。",
+    "capped": false
+  },
+  {
+    "id": "test_single_t1_c1_base",
+    "text": "统计量=11，阈值=11\n成立\n抽检样本不合格件数等于接收数c。",
+    "capped": false
+  },
+  {
+    "id": "test_cpu_t3_c1_para",
+    "text": "统计量=1.25，阈值=1.25\n成立\n均值与上规格限的距离小于指定的要求门槛。",
+    "capped": false
+  },
+  {
+    "id": "test_first_accept_t1_c0_cross",
+    "text": "统计量=9，阈值=10\n成立\n直接接收要求首样不合格品实数至少应有直接接收数。",
+    "capped": false
+  },
+  {
+    "id": "test_cpu_t2_c2_cross",
+    "text": "统计量=1.5，阈值=1.5\n成立\nCPU单侧能力的上规格限与要求门槛相等。",
+    "capped": false
+  },
+  {
+    "id": "test_first_accept_t1_c2_cross",
+    "text": "统计量=5，阈值=5\n成立\n首样接收数等于直接接收条件。",
+    "capped": false
+  },
+  {
+    "id": "test_single_t2_c0_same",
+    "text": "统计量=12，阈值=14\n成立\n不合格品数不能超过接收数。",
+    "capped": false
+  },
+  {
+    "id": "test_weco2_t3_c1_same",
+    "text": "统计量=2，阈值=2\n成立\n窗口内至少有2个点高于指定界线。",
+    "capped": false
+  },
+  {
+    "id": "test_second_accept_t3_c0_same",
+    "text": "统计量=16，阈值=11\n成立\n累计不合格数须不超过两次抽样合计的不合格数。",
+    "capped": false
+  },
+  {
+    "id": "test_single_t2_c0_para",
+    "text": "统计量=13，阈值=14\n成立\n抽样接收数不超过样本量。",
+    "capped": false
+  },
+  {
+    "id": "test_second_accept_t1_c0_para",
+    "text": "统计量=8，阈值=13\n成立\n首样不合格数加上次样不合格数等于累计接收要求。",
+    "capped": false
+  },
+  {
+    "id": "test_weco1_t2_c1_same",
+    "text": "统计量=2，阈值=4\n成立\n窗口内至少四个点数高于指定界线。",
+    "capped": false
+  },
+  {
+    "id": "test_cp_t3_c1_cross",
+    "text": "统计量=1.25，阈值=1.25\n成立\n合同门槛要求Cp值必须小于或等于1.25。",
+    "capped": false
+  },
+  {
+    "id": "test_cpk_t0_c0_base",
+    "text": "统计量=1.25，阈值=1.25\n成立\nCpk要求与试制总结一致。",
+    "capped": false
+  },
+  {
+    "id": "test_first_reject_t2_c0_para",
+    "text": "统计量=8，阈值=4\n成立\n首样拒收数须不超过接收数。",
+    "capped": false
+  },
+  {
+    "id": "test_weco3_t0_c0_base",
+    "text": "统计量=3.12，阈值=3\n成立\n标准化偏差须大于或等于三西格玛界内的上界。",
+    "capped": false
+  },
+  {
+    "id": "test_first_reject_t3_c2_base",
+    "text": "统计量=16，阈值=11\n成立\n首样接收数须小于或等于首样拒收数。",
+    "capped": false
+  },
+  {
+    "id": "test_cpu_t2_c2_same",
+    "text": "统计量=1.5，阈值=1.5\n成立\n主张要求CPU单侧能力不超过上规格限。",
+    "capped": false
+  },
+  {
+    "id": "test_single_t2_c1_same",
+    "text": "统计量=16，阈值=15\n成立\n不合格品数须不超过接收数。",
+    "capped": false
+  },
+  {
+    "id": "test_single_t3_c1_base",
+    "text": "统计量=17，阈值=16\n成立\n接收数等于或小于不合格数。",
+    "capped": false
+  },
+  {
+    "id": "test_cpu_t3_c1_base",
+    "text": "统计量=1.5，阈值=1.25\n成立\n窗口内均值与上规格限之差除以三倍标准差不应超过门槛。",
+    "capped": false
+  },
+  {
+    "id": "test_single_t0_c1_same",
+    "text": "统计量=7，阈值=5\n成立\n一次抽样接收标准要求不合格品数不超过接收数。",
+    "capped": false
+  },
+  {
+    "id": "test_weco8_t2_c2_same",
+    "text": "统计量=1.32，阈值=1\n成立\n窗口内最高点数大于指定界线。",
+    "capped": false
+  },
+  {
+    "id": "test_first_accept_t3_c1_cross",
+    "text": "统计量=6，阈值=6\n成立\n首样接收数等于首样不合格数。",
+    "capped": false
+  },
+  {
+    "id": "test_single_t3_c0_cross",
+    "text": "统计量=16，阈值=16\n成立\n接收数等于或大于不合格数。",
+    "capped": false
+  },
+  {
+    "id": "test_weco8_t1_c1_para",
+    "text": "统计量=7，阈值=8\n成立\n窗口内有7个点严格高于中心线。",
+    "capped": false
+  },
+  {
+    "id": "test_first_reject_t3_c2_cross",
+    "text": "统计量=6，阈值=5\n成立\n首样接收数须小于或等于首样拒收数。",
+    "capped": false
+  },
+  {
+    "id": "test_single_t0_c2_cross",
+    "text": "统计量=9，阈值=7\n成立\n一次抽样接收标准要求不合格品数不超过指定数。",
+    "capped": false
+  },
+  {
+    "id": "test_first_reject_t3_c0_base",
+    "text": "统计量=8，阈值=7\n成立\n首样接收数须小于或等于首样拒收数。",
+    "capped": false
+  },
+  {
+    "id": "test_cpl_t2_c1_para",
+    "text": "统计量=1.8，阈值=1.8\n成立\nCpl等于下规格限。",
+    "capped": false
+  },
+  {
+    "id": "test_single_t3_c2_para",
+    "text": "统计量=18，阈值=20\n成立\n一次计数抽样的不合格件数须小于或等于接收数。",
+    "capped": false
+  },
+  {
+    "id": "test_single_t2_c0_base",
+    "text": "统计量=13，阈值=14\n成立\n不合格品数须不超过接收数。",
+    "capped": false
+  },
+  {
+    "id": "test_first_reject_t3_c0_cross",
+    "text": "统计量=8，阈值=7\n成立\n首样接收数加上首样拒收数等于首样结束即判拒收的界线。",
+    "capped": false
+  },
+  {
+    "id": "test_cpu_t0_c1_same",
+    "text": "统计量=1.5，阈值=1.5\n成立\nCpu要求直接等于门槛。",
+    "capped": false
+  },
+  {
+    "id": "test_weco8_t0_c2_base",
+    "text": "统计量=8，阈值=8\n成立\n窗口内至少有8个点高于指定界线。",
+    "capped": false
+  },
+  {
+    "id": "test_weco1_t0_c0_cross",
+    "text": "统计量=2，阈值=4\n成立\n窗口内至少有4个点高于指定界线。",
+    "capped": false
+  },
+  {
+    "id": "test_weco8_t0_c0_base",
+    "text": "统计量=8，阈值=8\n成立\n窗口内至少有8个点高于指定界线。",
+    "capped": false
+  },
+  {
+    "id": "test_second_accept_t1_c0_same",
+    "text": "统计量=13，阈值=13\n成立\n两阶段抽样的不合格数之和不超过累计接收数。",
+    "capped": false
+  },
+  {
+    "id": "test_first_accept_t1_c1_base",
+    "text": "统计量=2，阈值=1\n成立\n直接接收条件要求首样接收数至少应有直接接收数之一。",
+    "capped": false
+  },
+  {
+    "id": "test_second_accept_t2_c1_same",
+    "text": "统计量=8，阈值=12\n成立\n首样不良数加补抽不良数之和不超过累计接收数。",
+    "capped": false
+  },
+  {
+    "id": "test_weco3_t1_c1_base",
+    "text": "统计量=3.08，阈值=3\n成立\n窗口内单点越限要求标准化偏差大于或等于3sigma。",
+    "capped": false
+  },
+  {
+    "id": "test_cpk_t3_c1_base",
+    "text": "统计量=1.25，阈值=1.25\n成立\n窗口内均值与窗口内上规格限之差除以窗口内上规格限之差不大于门槛。",
+    "capped": false
+  },
+  {
+    "id": "test_weco1_t2_c0_same",
+    "text": "统计量=2.32，阈值=4\n成立\n窗口内至少四个点数高于指定界线。",
+    "capped": false
+  },
+  {
+    "id": "test_single_t3_c0_para",
+    "text": "统计量=16，阈值=16\n成立\n一次计数抽样接收数须不超过一次抽样的界线。",
+    "capped": false
+  },
+  {
+    "id": "test_cpk_t0_c1_cross",
+    "text": "统计量=1.5，阈值=1.5\n成立\nCpk要求与试制总结一致。",
+    "capped": false
+  },
+  {
+    "id": "test_single_t0_c0_para",
+    "text": "统计量=3，阈值=3\n成立\n一次抽样不合格件数应不超过接收数。",
+    "capped": false
+  },
+  {
+    "id": "test_weco8_t3_c1_para",
+    "text": "统计量=8，阈值=8\n成立\n窗口内高于指定界线的点数至少有8个。",
+    "capped": false
+  },
+  {
+    "id": "test_cp_t2_c1_base",
+    "text": "统计量=1.4，阈值=1.8\n成立\n规格上下限之差除以三倍标准差等于指定Cp。",
+    "capped": false
+  },
+  {
+    "id": "test_weco2_t3_c0_para",
+    "text": "统计量=2，阈值=2\n成立\n窗口内至少2个点高于指定界线。",
+    "capped": false
+  },
+  {
+    "id": "test_cp_t0_c2_base",
+    "text": "统计量=1.4，阈值=1.4\n成立\nCp等于Cp门槛。",
+    "capped": false
+  },
+  {
+    "id": "test_cpl_t0_c2_same",
+    "text": "统计量=1.4，阈值=1.4\n成立\nCpl直接等于Cpl门槛。",
+    "capped": false
+  },
+  {
+    "id": "test_cpu_t3_c0_same",
+    "text": "统计量=1.4，阈值=1.4\n成立\n窗口内均值与上规格限之差小于门槛。",
+    "capped": false
+  },
+  {
+    "id": "test_cpl_t0_c2_para",
+    "text": "统计量=1.4，阈值=1.4\n成立\nCpl直接与下规格限相等。",
+    "capped": false
+  },
+  {
+    "id": "test_weco1_t2_c2_para",
+    "text": "统计量=2，阈值=1\n成立\n窗口内高于指定界线的点数至少有四个。",
+    "capped": false
+  },
+  {
+    "id": "test_cpk_t0_c1_base",
+    "text": "统计量=1.5，阈值=1.5\n成立\nCpk要求与试制总结一致。",
+    "capped": false
+  },
+  {
+    "id": "test_single_t3_c2_cross",
+    "text": "统计量=18，阈值=18\n成立\n接收数等于或大于拟定判定。",
+    "capped": false
+  },
+  {
+    "id": "test_cpk_t2_c2_cross",
+    "text": "统计量=1.5，阈值=1.5\n成立\n规格区间内均值之于指定界线之差不大。",
+    "capped": false
+  },
+  {
+    "id": "test_cp_t3_c2_para",
+    "text": "统计量=1.6，阈值=1\n成立\n窗口内指定规格内的窗口中心距离要求。",
+    "capped": false
+  },
+  {
+    "id": "test_first_accept_t0_c1_para",
+    "text": "统计量=6，阈值=7\n成立\n首样接收数须不超过不合格品数。",
+    "capped": false
+  },
+  {
+    "id": "test_cpl_t2_c0_para",
+    "text": "统计量=1.25，阈值=1.25\n成立\nCpl直接与下规格限相比较。",
+    "capped": false
+  },
+  {
+    "id": "test_cpu_t0_c2_para",
+    "text": "统计量=1.4，阈值=1\n成立\n上规格限应小于或等于三倍标准差。",
+    "capped": false
+  },
+  {
+    "id": "test_weco3_t3_c1_para",
+    "text": "统计量=3.65，阈值=3\n成立或不成立：\n不成立\n窗口内单点标准化偏差越界要求不应超过三西格玛界线。",
+    "capped": false
+  },
+  {
+    "id": "test_weco8_t2_c0_cross",
+    "text": "统计量=1.32，阈值=0\n成立\n窗口内高于中心线的点数至少有一个。",
+    "capped": false
+  },
+  {
+    "id": "test_weco2_t0_c1_same",
+    "text": "统计量=2，阈值=2\n成立",
+    "capped": false
+  },
+  {
+    "id": "test_single_t1_c0_para",
+    "text": "统计量=9，阈值=9\n成立\n一次计数抽样要求不合格件数不超过指定数。",
+    "capped": false
+  },
+  {
+    "id": "test_cpk_t1_c2_para",
+    "text": "统计量=1.6，阈值=1.6\n成立\nCp等于均值除以三倍标准差。",
+    "capped": false
+  },
+  {
+    "id": "test_weco8_t3_c0_para",
+    "text": "统计量=7，阈值=8\n成立\n窗口内高于指定界线的点数至少应有8个。",
+    "capped": false
+  },
+  {
+    "id": "test_cp_t0_c0_para",
+    "text": "统计量=1.25，阈值=1\n成立\nCp等于规格宽度除以六倍标准差。",
+    "capped": false
+  },
+  {
+    "id": "test_weco1_t2_c2_same",
+    "text": "统计量=2，阈值=4\n成立\n窗口内至少四个点数高于指定界线。",
+    "capped": false
+  },
+  {
+    "id": "test_weco8_t3_c1_cross",
+    "text": "统计量=8，阈值=8\n成立\n上侧至少有8个点数高于指定界线。",
+    "capped": false
+  },
+  {
+    "id": "test_cp_t2_c0_para",
+    "text": "统计量=1.25，阈值=1\n成立\n规格下限要求小于或等于1.25。",
+    "capped": false
+  },
+  {
+    "id": "test_weco8_t1_c1_same",
+    "text": "统计量=8，阈值=8\n成立\n窗口内严格高于中心线的点数至少应有8个。",
+    "capped": false
+  },
+  {
+    "id": "test_first_reject_t1_c2_para",
+    "text": "统计量=15，阈值=3\n成立\n首样接收数不小于直接拒收数。",
+    "capped": false
+  },
+  {
+    "id": "test_first_accept_t0_c1_same",
+    "text": "统计量=7，阈值=6\n成立\n首样接收数要求不合格品数至少应有6件。",
+    "capped": false
+  },
+  {
+    "id": "test_cpk_t2_c1_same",
+    "text": "统计量=1.8，阈值=1.8\n成立\n实测均值与规格区间中心的距离除以三倍标准差等于CPK准入门槛。",
+    "capped": false
+  },
+  {
+    "id": "test_first_accept_t3_c1_same",
+    "text": "统计量=6，阈值=6\n成立\n首样接收数等于首样拒收数。",
+    "capped": false
+  },
+  {
+    "id": "test_weco1_t1_c1_same",
+    "text": "统计量=4，阈值=4\n成立\n窗口内至少有4个点高于指定界线。",
+    "capped": false
+  },
+  {
+    "id": "test_second_accept_t1_c1_base",
+    "text": "统计量=15，阈值=15\n成立\n两阶段抽样的不合格数之和不超过累计接收数。",
+    "capped": false
+  },
+  {
+    "id": "test_weco8_t0_c0_same",
+    "text": "统计量=8，阈值=8\n成立\n窗口内至少有8个点高于指定界线。",
+    "capped": false
+  },
+  {
+    "id": "test_weco8_t3_c1_base",
+    "text": "统计量=8，阈值=8\n成立\n上侧至少有8个点数高于指定界线。",
+    "capped": false
+  },
+  {
+    "id": "test_cpu_t3_c2_same",
+    "text": "统计量=1.6，阈值=1.6\n成立\n窗口内均值与上规格限之差除以三倍标准差不应超过门槛。",
+    "capped": false
+  },
+  {
+    "id": "test_weco3_t2_c1_same",
+    "text": "统计量=2.85，阈值=3\n成立\n标注基于指定的上侧单点超限触发界线。",
+    "capped": false
+  },
+  {
+    "id": "test_weco1_t2_c1_base",
+    "text": "统计量=2，阈值=4\n成立\n窗口内至少四个点数高于指定界线。",
+    "capped": false
+  },
+  {
+    "id": "test_first_reject_t2_c2_cross",
+    "text": "统计量=11，阈值=6\n成立\n首样直接拒收要求不合格件数至少应达到接收数。",
+    "capped": false
+  },
+  {
+    "id": "test_first_reject_t3_c1_cross",
+    "text": "统计量=4，阈值=9\n成立\n首样接收数须小于或等于首样拒收数。",
+    "capped": false
+  },
+  {
+    "id": "test_cpu_t0_c0_same",
+    "text": "统计量=1.25，阈值=1.25\n成立\nCpu要求不低于门槛。",
+    "capped": false
+  },
+  {
+    "id": "test_first_reject_t1_c0_base",
+    "text": "统计量=14，阈值=9\n成立\n首样直接拒收数不应超过直接拒收数。",
+    "capped": false
+  },
+  {
+    "id": "test_cp_t3_c1_para",
+    "text": "统计量=1.25，阈值=1\n成立\nCp等于规格范围除以六倍标准差。",
+    "capped": false
+  },
+  {
+    "id": "test_first_reject_t3_c2_same",
+    "text": "统计量=6，阈值=5\n成立\n首样接收数须小于或等于首样拒收数。",
+    "capped": false
+  },
+  {
+    "id": "test_weco3_t2_c0_same",
+    "text": "统计量=3.90，阈值=3\n成立\n标注基于指定的上侧单点超限触发界线。",
+    "capped": false
+  },
+  {
+    "id": "test_weco1_t1_c0_base",
+    "text": "统计量=4，阈值=4\n成立\n窗口内至少有4个点高于指定界线。",
+    "capped": false
+  },
+  {
+    "id": "test_cp_t0_c2_para",
+    "text": "统计量=1.4，阈值=6.16\n成立\n窗口宽度等于两倍的规格范围之差除以六倍的三倍标准差。",
+    "capped": false
+  },
+  {
+    "id": "test_cpk_t0_c0_para",
+    "text": "统计量=1.25，阈值=1\n成立\nCp等于规格宽度除以六倍标准差。",
+    "capped": false
+  },
+  {
+    "id": "test_cpu_t1_c2_same",
+    "text": "统计量=1.6，阈值=1.6\n成立\n上单侧过程能力指数要求不超过上规格限。",
+    "capped": false
+  }
+]

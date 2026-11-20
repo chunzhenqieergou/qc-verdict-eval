@@ -1,0 +1,806 @@
+{
+  "base_VF": {
+    "single": {
+      "below": {
+        "ok": 5,
+        "pred_true": 5,
+        "n": 5
+      },
+      "at": {
+        "ok": 3,
+        "pred_true": 3,
+        "n": 3
+      },
+      "above": {
+        "ok": 0,
+        "pred_true": 8,
+        "n": 8
+      }
+    },
+    "first_accept": {
+      "below": {
+        "ok": 4,
+        "pred_true": 4,
+        "n": 5
+      },
+      "at": {
+        "ok": 0,
+        "pred_true": 0,
+        "n": 3
+      },
+      "above": {
+        "ok": 4,
+        "pred_true": 4,
+        "n": 8
+      }
+    },
+    "first_reject": {
+      "below": {
+        "ok": 4,
+        "pred_true": 4,
+        "n": 8
+      },
+      "at": {
+        "ok": 2,
+        "pred_true": 2,
+        "n": 3
+      },
+      "above": {
+        "ok": 2,
+        "pred_true": 2,
+        "n": 5
+      }
+    },
+    "second_accept": {
+      "below": {
+        "ok": 4,
+        "pred_true": 4,
+        "n": 5
+      },
+      "at": {
+        "ok": 1,
+        "pred_true": 1,
+        "n": 3
+      },
+      "above": {
+        "ok": 3,
+        "pred_true": 5,
+        "n": 8
+      }
+    },
+    "weco3": {
+      "below": {
+        "ok": 1,
+        "pred_true": 4,
+        "n": 5
+      },
+      "at": {
+        "ok": 0,
+        "pred_true": 3,
+        "n": 3
+      },
+      "above": {
+        "ok": 8,
+        "pred_true": 8,
+        "n": 8
+      }
+    },
+    "weco2": {
+      "below": {
+        "ok": 3,
+        "pred_true": 5,
+        "n": 8
+      },
+      "at": {
+        "ok": 4,
+        "pred_true": 4,
+        "n": 6
+      },
+      "above": {
+        "ok": 1,
+        "pred_true": 1,
+        "n": 2
+      }
+    },
+    "weco1": {
+      "below": {
+        "ok": 0,
+        "pred_true": 8,
+        "n": 8
+      },
+      "at": {
+        "ok": 6,
+        "pred_true": 6,
+        "n": 6
+      },
+      "above": {
+        "ok": 2,
+        "pred_true": 2,
+        "n": 2
+      }
+    },
+    "weco8": {
+      "below": {
+        "ok": 2,
+        "pred_true": 6,
+        "n": 8
+      },
+      "at": {
+        "ok": 5,
+        "pred_true": 5,
+        "n": 8
+      }
+    },
+    "cp": {
+      "below": {
+        "ok": 0,
+        "pred_true": 8,
+        "n": 8
+      },
+      "at": {
+        "ok": 3,
+        "pred_true": 3,
+        "n": 3
+      },
+      "above": {
+        "ok": 5,
+        "pred_true": 5,
+        "n": 5
+      }
+    },
+    "cpu": {
+      "below": {
+        "ok": 3,
+        "pred_true": 5,
+        "n": 8
+      },
+      "at": {
+        "ok": 1,
+        "pred_true": 1,
+        "n": 3
+      },
+      "above": {
+        "ok": 4,
+        "pred_true": 4,
+        "n": 5
+      }
+    },
+    "cpl": {
+      "below": {
+        "ok": 0,
+        "pred_true": 8,
+        "n": 8
+      },
+      "at": {
+        "ok": 3,
+        "pred_true": 3,
+        "n": 3
+      },
+      "above": {
+        "ok": 5,
+        "pred_true": 5,
+        "n": 5
+      }
+    },
+    "cpk": {
+      "below": {
+        "ok": 0,
+        "pred_true": 8,
+        "n": 8
+      },
+      "at": {
+        "ok": 3,
+        "pred_true": 3,
+        "n": 3
+      },
+      "above": {
+        "ok": 5,
+        "pred_true": 5,
+        "n": 5
+      }
+    }
+  },
+  "base_NF": {
+    "single": {
+      "below": {
+        "ok": 5,
+        "pred_true": 5,
+        "n": 5
+      },
+      "at": {
+        "ok": 3,
+        "pred_true": 3,
+        "n": 3
+      },
+      "above": {
+        "ok": 2,
+        "pred_true": 6,
+        "n": 8
+      }
+    },
+    "first_accept": {
+      "below": {
+        "ok": 5,
+        "pred_true": 5,
+        "n": 5
+      },
+      "at": {
+        "ok": 3,
+        "pred_true": 3,
+        "n": 3
+      },
+      "above": {
+        "ok": 1,
+        "pred_true": 7,
+        "n": 8
+      }
+    },
+    "first_reject": {
+      "below": {
+        "ok": 3,
+        "pred_true": 4,
+        "n": 8
+      },
+      "at": {
+        "ok": 3,
+        "pred_true": 3,
+        "n": 3
+      },
+      "above": {
+        "ok": 3,
+        "pred_true": 3,
+        "n": 5
+      }
+    },
+    "second_accept": {
+      "below": {
+        "ok": 5,
+        "pred_true": 5,
+        "n": 5
+      },
+      "at": {
+        "ok": 2,
+        "pred_true": 2,
+        "n": 3
+      },
+      "above": {
+        "ok": 1,
+        "pred_true": 7,
+        "n": 8
+      }
+    },
+    "weco3": {
+      "below": {
+        "ok": 0,
+        "pred_true": 3,
+        "n": 5
+      },
+      "at": {
+        "ok": 0,
+        "pred_true": 2,
+        "n": 3
+      },
+      "above": {
+        "ok": 6,
+        "pred_true": 6,
+        "n": 8
+      }
+    },
+    "weco2": {
+      "below": {
+        "ok": 2,
+        "pred_true": 3,
+        "n": 8
+      },
+      "at": {
+        "ok": 4,
+        "pred_true": 4,
+        "n": 6
+      },
+      "above": {
+        "ok": 1,
+        "pred_true": 1,
+        "n": 2
+      }
+    },
+    "weco1": {
+      "below": {
+        "ok": 0,
+        "pred_true": 8,
+        "n": 8
+      },
+      "at": {
+        "ok": 6,
+        "pred_true": 6,
+        "n": 6
+      },
+      "above": {
+        "ok": 1,
+        "pred_true": 1,
+        "n": 2
+      }
+    },
+    "weco8": {
+      "below": {
+        "ok": 3,
+        "pred_true": 5,
+        "n": 8
+      },
+      "at": {
+        "ok": 6,
+        "pred_true": 6,
+        "n": 8
+      }
+    },
+    "cp": {
+      "below": {
+        "ok": 0,
+        "pred_true": 8,
+        "n": 8
+      },
+      "at": {
+        "ok": 2,
+        "pred_true": 2,
+        "n": 3
+      },
+      "above": {
+        "ok": 5,
+        "pred_true": 5,
+        "n": 5
+      }
+    },
+    "cpu": {
+      "below": {
+        "ok": 2,
+        "pred_true": 5,
+        "n": 8
+      },
+      "at": {
+        "ok": 3,
+        "pred_true": 3,
+        "n": 3
+      },
+      "above": {
+        "ok": 4,
+        "pred_true": 4,
+        "n": 5
+      }
+    },
+    "cpl": {
+      "below": {
+        "ok": 0,
+        "pred_true": 8,
+        "n": 8
+      },
+      "at": {
+        "ok": 3,
+        "pred_true": 3,
+        "n": 3
+      },
+      "above": {
+        "ok": 5,
+        "pred_true": 5,
+        "n": 5
+      }
+    },
+    "cpk": {
+      "below": {
+        "ok": 4,
+        "pred_true": 4,
+        "n": 8
+      },
+      "at": {
+        "ok": 1,
+        "pred_true": 1,
+        "n": 3
+      },
+      "above": {
+        "ok": 3,
+        "pred_true": 3,
+        "n": 5
+      }
+    }
+  },
+  "VF_train_VF_infer": {
+    "single": {
+      "below": {
+        "ok": 14,
+        "pred_true": 14,
+        "n": 15
+      },
+      "at": {
+        "ok": 9,
+        "pred_true": 9,
+        "n": 9
+      },
+      "above": {
+        "ok": 1,
+        "pred_true": 23,
+        "n": 24
+      }
+    },
+    "first_accept": {
+      "below": {
+        "ok": 8,
+        "pred_true": 8,
+        "n": 15
+      },
+      "at": {
+        "ok": 1,
+        "pred_true": 1,
+        "n": 9
+      },
+      "above": {
+        "ok": 14,
+        "pred_true": 10,
+        "n": 24
+      }
+    },
+    "first_reject": {
+      "below": {
+        "ok": 19,
+        "pred_true": 5,
+        "n": 24
+      },
+      "at": {
+        "ok": 1,
+        "pred_true": 1,
+        "n": 9
+      },
+      "above": {
+        "ok": 3,
+        "pred_true": 3,
+        "n": 15
+      }
+    },
+    "second_accept": {
+      "below": {
+        "ok": 8,
+        "pred_true": 8,
+        "n": 15
+      },
+      "at": {
+        "ok": 4,
+        "pred_true": 4,
+        "n": 9
+      },
+      "above": {
+        "ok": 12,
+        "pred_true": 12,
+        "n": 24
+      }
+    },
+    "weco3": {
+      "below": {
+        "ok": 8,
+        "pred_true": 7,
+        "n": 15
+      },
+      "at": {
+        "ok": 2,
+        "pred_true": 7,
+        "n": 9
+      },
+      "above": {
+        "ok": 18,
+        "pred_true": 18,
+        "n": 24
+      }
+    },
+    "weco2": {
+      "below": {
+        "ok": 16,
+        "pred_true": 8,
+        "n": 24
+      },
+      "at": {
+        "ok": 7,
+        "pred_true": 7,
+        "n": 18
+      },
+      "above": {
+        "ok": 2,
+        "pred_true": 2,
+        "n": 6
+      }
+    },
+    "weco1": {
+      "below": {
+        "ok": 17,
+        "pred_true": 7,
+        "n": 24
+      },
+      "at": {
+        "ok": 6,
+        "pred_true": 6,
+        "n": 18
+      },
+      "above": {
+        "ok": 1,
+        "pred_true": 1,
+        "n": 6
+      }
+    },
+    "weco8": {
+      "below": {
+        "ok": 19,
+        "pred_true": 5,
+        "n": 24
+      },
+      "at": {
+        "ok": 5,
+        "pred_true": 5,
+        "n": 24
+      }
+    },
+    "cp": {
+      "below": {
+        "ok": 11,
+        "pred_true": 13,
+        "n": 24
+      },
+      "at": {
+        "ok": 5,
+        "pred_true": 5,
+        "n": 9
+      },
+      "above": {
+        "ok": 8,
+        "pred_true": 8,
+        "n": 15
+      }
+    },
+    "cpu": {
+      "below": {
+        "ok": 12,
+        "pred_true": 12,
+        "n": 24
+      },
+      "at": {
+        "ok": 2,
+        "pred_true": 2,
+        "n": 9
+      },
+      "above": {
+        "ok": 9,
+        "pred_true": 9,
+        "n": 15
+      }
+    },
+    "cpl": {
+      "below": {
+        "ok": 12,
+        "pred_true": 12,
+        "n": 24
+      },
+      "at": {
+        "ok": 3,
+        "pred_true": 3,
+        "n": 9
+      },
+      "above": {
+        "ok": 7,
+        "pred_true": 7,
+        "n": 15
+      }
+    },
+    "cpk": {
+      "below": {
+        "ok": 13,
+        "pred_true": 11,
+        "n": 24
+      },
+      "at": {
+        "ok": 4,
+        "pred_true": 4,
+        "n": 9
+      },
+      "above": {
+        "ok": 10,
+        "pred_true": 10,
+        "n": 15
+      }
+    }
+  },
+  "NF_train_NF_infer": {
+    "single": {
+      "below": {
+        "ok": 0,
+        "pred_true": 0,
+        "n": 15
+      },
+      "at": {
+        "ok": 9,
+        "pred_true": 9,
+        "n": 9
+      },
+      "above": {
+        "ok": 15,
+        "pred_true": 9,
+        "n": 24
+      }
+    },
+    "first_accept": {
+      "below": {
+        "ok": 0,
+        "pred_true": 0,
+        "n": 15
+      },
+      "at": {
+        "ok": 8,
+        "pred_true": 8,
+        "n": 9
+      },
+      "above": {
+        "ok": 22,
+        "pred_true": 2,
+        "n": 24
+      }
+    },
+    "first_reject": {
+      "below": {
+        "ok": 24,
+        "pred_true": 0,
+        "n": 24
+      },
+      "at": {
+        "ok": 7,
+        "pred_true": 7,
+        "n": 9
+      },
+      "above": {
+        "ok": 12,
+        "pred_true": 12,
+        "n": 15
+      }
+    },
+    "second_accept": {
+      "below": {
+        "ok": 7,
+        "pred_true": 7,
+        "n": 15
+      },
+      "at": {
+        "ok": 8,
+        "pred_true": 8,
+        "n": 9
+      },
+      "above": {
+        "ok": 9,
+        "pred_true": 15,
+        "n": 24
+      }
+    },
+    "weco3": {
+      "below": {
+        "ok": 13,
+        "pred_true": 2,
+        "n": 15
+      },
+      "at": {
+        "ok": 0,
+        "pred_true": 9,
+        "n": 9
+      },
+      "above": {
+        "ok": 24,
+        "pred_true": 24,
+        "n": 24
+      }
+    },
+    "weco2": {
+      "below": {
+        "ok": 1,
+        "pred_true": 23,
+        "n": 24
+      },
+      "at": {
+        "ok": 17,
+        "pred_true": 17,
+        "n": 18
+      },
+      "above": {
+        "ok": 6,
+        "pred_true": 6,
+        "n": 6
+      }
+    },
+    "weco1": {
+      "below": {
+        "ok": 4,
+        "pred_true": 20,
+        "n": 24
+      },
+      "at": {
+        "ok": 13,
+        "pred_true": 13,
+        "n": 18
+      },
+      "above": {
+        "ok": 6,
+        "pred_true": 6,
+        "n": 6
+      }
+    },
+    "weco8": {
+      "below": {
+        "ok": 15,
+        "pred_true": 9,
+        "n": 24
+      },
+      "at": {
+        "ok": 10,
+        "pred_true": 10,
+        "n": 24
+      }
+    },
+    "cp": {
+      "below": {
+        "ok": 14,
+        "pred_true": 10,
+        "n": 24
+      },
+      "at": {
+        "ok": 2,
+        "pred_true": 2,
+        "n": 9
+      },
+      "above": {
+        "ok": 6,
+        "pred_true": 6,
+        "n": 15
+      }
+    },
+    "cpu": {
+      "below": {
+        "ok": 2,
+        "pred_true": 22,
+        "n": 24
+      },
+      "at": {
+        "ok": 7,
+        "pred_true": 7,
+        "n": 9
+      },
+      "above": {
+        "ok": 12,
+        "pred_true": 12,
+        "n": 15
+      }
+    },
+    "cpl": {
+      "below": {
+        "ok": 14,
+        "pred_true": 10,
+        "n": 24
+      },
+      "at": {
+        "ok": 4,
+        "pred_true": 4,
+        "n": 9
+      },
+      "above": {
+        "ok": 4,
+        "pred_true": 4,
+        "n": 15
+      }
+    },
+    "cpk": {
+      "below": {
+        "ok": 4,
+        "pred_true": 20,
+        "n": 24
+      },
+      "at": {
+        "ok": 5,
+        "pred_true": 5,
+        "n": 9
+      },
+      "above": {
+        "ok": 12,
+        "pred_true": 12,
+        "n": 15
+      }
+    }
+  }
+}

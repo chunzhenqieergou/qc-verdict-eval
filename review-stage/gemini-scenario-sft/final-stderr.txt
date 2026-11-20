@@ -1,0 +1,1 @@
+error: invalid model selection (--model "gemini-4-hydrogen-xhigh" --effort "high"): --model gemini-4-hydrogen-xhigh conflicts with --effort=high

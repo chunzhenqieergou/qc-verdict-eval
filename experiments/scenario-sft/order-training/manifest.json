@@ -1,0 +1,44 @@
+{
+  "purpose": "paired_mechanistic_diagnosis",
+  "note": "在同一套已使用测试题（near + far）上所做的配对机理诊断（paired mechanistic diagnosis on the same previously used near+far test set）。",
+  "same_used_test_set": true,
+  "arm": "scenario",
+  "seeds": [
+    42,
+    43,
+    44
+  ],
+  "fresh_from_base": true,
+  "loads_historical_adapter": false,
+  "base_model": "D:\\Users\\Administrator\\Desktop\\finetune\\models\\Qwen2.5-3B-Instruct",
+  "paired_original_runs": [
+    "runs/scenario-42",
+    "runs/scenario-43",
+    "runs/scenario-44"
+  ],
+  "eval_splits": [
+    "near",
+    "far"
+  ],
+  "eval_counts": {
+    "near": 24,
+    "far": 120,
+    "total": 144
+  },
+  "eval_budget": 96,
+  "eval_batch_size": 12,
+  "conditions": [
+    "original",
+    "reordered"
+  ],
+  "frozen_train_file": "reordered_scenario.json",
+  "prompts_file": "prompts.json",
+  "sha256": {
+    "scenario": "b9c798ecd5b3e90b1179e9017bc1a6a8bbbe943ae2414f57017b8201d9b6fd55",
+    "reordered_scenario": "28fe322b836e7dfadcbad8e7bf863d2b67d6b48b474c8034af6045ec60c60f7e",
+    "near": "674d3cf291401fb99e7c2de131719c2a0df3745e5bfa2b98b09a52bbbe17f0f8",
+    "far": "b5b8ccdf0cc480ba5dbc449f12fbca958f921735991e62b1ad254e25df9ca176",
+    "original_system": "4d4814271745638154524471087f7526375261d7947320b80b43802e0529f04f",
+    "reordered_system": "1524d13c9dd071370ec18cf14d8ac8e8cfab7c3601d752a8e84bf4b6e994632a"
+  }
+}

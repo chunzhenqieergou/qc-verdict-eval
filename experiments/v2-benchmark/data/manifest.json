@@ -1,0 +1,67 @@
+{
+  "schema_version": "v2.0-candidate",
+  "status": {
+    "dev_v2": "ready_for_development",
+    "test_v2_candidate": "pending_domain_review_DO_NOT_EVALUATE_YET"
+  },
+  "rules": [
+    "single",
+    "first_accept",
+    "first_reject",
+    "second_accept",
+    "weco3",
+    "weco2",
+    "weco1",
+    "weco8",
+    "cp",
+    "cpu",
+    "cpl",
+    "cpk"
+  ],
+  "counts": {
+    "dev_v2": {
+      "base_groups": 48,
+      "items": 192,
+      "by_family": {
+        "sampling": 16,
+        "capability": 16,
+        "control_chart": 16
+      },
+      "boundary_relations": {
+        "above": 61,
+        "below": 84,
+        "at": 47
+      }
+    },
+    "test_v2_candidate": {
+      "base_groups": 144,
+      "items": 576,
+      "by_family": {
+        "capability": 48,
+        "control_chart": 48,
+        "sampling": 48
+      },
+      "boundary_relations": {
+        "at": 141,
+        "below": 252,
+        "above": 183
+      }
+    }
+  },
+  "sha256": {
+    "dev_v2.json": "64049e4708cc037cd21b179bf63c88cf6277c42a8f8e8e11f9ce6de95ed4ea15",
+    "test_v2_candidate.json": "c78cff3cf0a2645d792fc2db0f89b71a470c9bdde1ab2ab0675f8a586330b229",
+    "rules.py": "74c04a2b173e59397e2d70f237e67ac9ae0f6d111b302e2f1af21eeec68124b4",
+    "templates.py": "45e9a34d68fba2c8e568970c81a6a15f5577500147a6a54b82d9d73283101243"
+  },
+  "checks_passed": [
+    "exact_fraction_truth_and_float_comparator_100pct_agreement",
+    "capability_rounding_ambiguity_guard",
+    "strict_single_observation_edit_for_all_cross_and_same_pairs",
+    "strict_single_point_edit_for_all_weco_window_pairs",
+    "exact_input_identity_and_wording_change_for_all_paraphrase_pairs",
+    "balanced_50_50_same_side_positive_and_negative_per_rule",
+    "zero_question_overlap_across_dev_test_and_historical_sets",
+    "disjoint_workpiece_pools_across_dev_test_and_historical_sets"
+  ]
+}

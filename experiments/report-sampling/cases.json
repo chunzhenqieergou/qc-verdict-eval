@@ -1,0 +1,42 @@
+[
+  {
+    "id": "3268288",
+    "question": "对普拉提训练器检验了5件。轻微不合格项按件计，接收数为0，实际记录0件。待审核的结论是：该次检验的轻微不合格项符合接收条件。",
+    "n": 5,
+    "x": 0,
+    "ac": 0,
+    "positive": true,
+    "tier": "批量11，抽检5",
+    "source": "https://shopcdnpro.grainajz.com/category/345655/2633/01d539d97d40b33bdd67c5766d13d8d7/Inspection%20report.pdf"
+  },
+  {
+    "id": "3234769",
+    "question": "对数控雕刻机检验了1件。轻微不合格项按件计，接收数为0，实际记录1件。待审核的结论是：该次检验的轻微不合格项符合接收条件。",
+    "n": 1,
+    "x": 1,
+    "ac": 0,
+    "positive": false,
+    "tier": "批量1，全检",
+    "source": "https://www.scribd.com/document/946774180/StyleCNC-Inspection"
+  },
+  {
+    "id": "vicc-cleaner",
+    "question": "对高压清洗机检验了80件。轻微不合格项按件计，接收数为7，实际记录4件。待审核的结论是：该次检验的轻微不合格项符合接收条件。",
+    "n": 80,
+    "x": 4,
+    "ac": 7,
+    "positive": true,
+    "tier": "供应商示例",
+    "source": "https://www.vicc.com/wp-content/sample-report/Hardline-electric-product-inspection-sample-report.pdf"
+  },
+  {
+    "id": "vicc-motor",
+    "question": "对车窗升降电机检验了315件。轻微不合格项按件计，接收数为21，实际记录0件。待审核的结论是：该次检验的轻微不合格项符合接收条件。",
+    "n": 315,
+    "x": 0,
+    "ac": 21,
+    "positive": true,
+    "tier": "供应商示例",
+    "source": "https://www.vicc.com/wp-content/sample-report/Hardline-auto-part-inspection-sample-report.pdf"
+  }
+]

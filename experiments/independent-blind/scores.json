@@ -1,0 +1,242 @@
+{
+  "42-original": {
+    "strict": {
+      "right": 50,
+      "pairs": 3,
+      "missing": 0,
+      "by_rule": {
+        "cp": 0,
+        "cpk": 0,
+        "cpl": 0,
+        "cpu": 0,
+        "single": 3,
+        "zone": 0
+      },
+      "cap": 0
+    },
+    "loose": {
+      "right": 50,
+      "pairs": 3,
+      "missing": 0,
+      "by_rule": {
+        "cp": 0,
+        "cpk": 0,
+        "cpl": 0,
+        "cpu": 0,
+        "single": 3,
+        "zone": 0
+      },
+      "cap": 0
+    }
+  },
+  "42-reordered": {
+    "strict": {
+      "right": 52,
+      "pairs": 6,
+      "missing": 0,
+      "by_rule": {
+        "cp": 0,
+        "cpk": 0,
+        "cpl": 0,
+        "cpu": 2,
+        "single": 4,
+        "zone": 0
+      },
+      "cap": 0
+    },
+    "loose": {
+      "right": 52,
+      "pairs": 6,
+      "missing": 0,
+      "by_rule": {
+        "cp": 0,
+        "cpk": 0,
+        "cpl": 0,
+        "cpu": 2,
+        "single": 4,
+        "zone": 0
+      },
+      "cap": 0
+    }
+  },
+  "43-original": {
+    "strict": {
+      "right": 49,
+      "pairs": 1,
+      "missing": 0,
+      "by_rule": {
+        "cp": 0,
+        "cpk": 0,
+        "cpl": 0,
+        "cpu": 0,
+        "single": 1,
+        "zone": 0
+      },
+      "cap": 0
+    },
+    "loose": {
+      "right": 49,
+      "pairs": 1,
+      "missing": 0,
+      "by_rule": {
+        "cp": 0,
+        "cpk": 0,
+        "cpl": 0,
+        "cpu": 0,
+        "single": 1,
+        "zone": 0
+      },
+      "cap": 0
+    }
+  },
+  "43-reordered": {
+    "strict": {
+      "right": 52,
+      "pairs": 5,
+      "missing": 0,
+      "by_rule": {
+        "cp": 0,
+        "cpk": 0,
+        "cpl": 0,
+        "cpu": 0,
+        "single": 5,
+        "zone": 0
+      },
+      "cap": 0
+    },
+    "loose": {
+      "right": 52,
+      "pairs": 5,
+      "missing": 0,
+      "by_rule": {
+        "cp": 0,
+        "cpk": 0,
+        "cpl": 0,
+        "cpu": 0,
+        "single": 5,
+        "zone": 0
+      },
+      "cap": 0
+    }
+  },
+  "44-original": {
+    "strict": {
+      "right": 54,
+      "pairs": 6,
+      "missing": 0,
+      "by_rule": {
+        "cp": 2,
+        "cpk": 0,
+        "cpl": 3,
+        "cpu": 0,
+        "single": 1,
+        "zone": 0
+      },
+      "cap": 0
+    },
+    "loose": {
+      "right": 54,
+      "pairs": 6,
+      "missing": 0,
+      "by_rule": {
+        "cp": 2,
+        "cpk": 0,
+        "cpl": 3,
+        "cpu": 0,
+        "single": 1,
+        "zone": 0
+      },
+      "cap": 0
+    }
+  },
+  "44-reordered": {
+    "strict": {
+      "right": 51,
+      "pairs": 5,
+      "missing": 0,
+      "by_rule": {
+        "cp": 1,
+        "cpk": 0,
+        "cpl": 0,
+        "cpu": 0,
+        "single": 4,
+        "zone": 0
+      },
+      "cap": 0
+    },
+    "loose": {
+      "right": 51,
+      "pairs": 5,
+      "missing": 0,
+      "by_rule": {
+        "cp": 1,
+        "cpk": 0,
+        "cpl": 0,
+        "cpu": 0,
+        "single": 4,
+        "zone": 0
+      },
+      "cap": 0
+    }
+  },
+  "base-original": {
+    "strict": {
+      "right": 50,
+      "pairs": 2,
+      "missing": 0,
+      "by_rule": {
+        "cp": 0,
+        "cpk": 0,
+        "cpl": 0,
+        "cpu": 0,
+        "single": 0,
+        "zone": 2
+      },
+      "cap": 10
+    },
+    "loose": {
+      "right": 50,
+      "pairs": 2,
+      "missing": 0,
+      "by_rule": {
+        "cp": 0,
+        "cpk": 0,
+        "cpl": 0,
+        "cpu": 0,
+        "single": 0,
+        "zone": 2
+      },
+      "cap": 10
+    }
+  },
+  "base-reordered": {
+    "strict": {
+      "right": 42,
+      "pairs": 6,
+      "missing": 25,
+      "by_rule": {
+        "cp": 0,
+        "cpk": 0,
+        "cpl": 1,
+        "cpu": 2,
+        "single": 3,
+        "zone": 0
+      },
+      "cap": 16
+    },
+    "loose": {
+      "right": 54,
+      "pairs": 6,
+      "missing": 2,
+      "by_rule": {
+        "cp": 0,
+        "cpk": 0,
+        "cpl": 1,
+        "cpu": 2,
+        "single": 3,
+        "zone": 0
+      },
+      "cap": 16
+    }
+  }
+}

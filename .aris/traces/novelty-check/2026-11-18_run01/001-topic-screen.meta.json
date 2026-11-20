@@ -1,0 +1,25 @@
+{
+  "call_number": 1,
+  "purpose": "topic-screen",
+  "tool": "collaboration.spawn_agent",
+  "backend": "codex",
+  "model": "gpt-6-astra",
+  "effort": "xhigh",
+  "requested_reviewer_model": "gpt-6-astra",
+  "reported_reviewer_model": null,
+  "reviewer_model": "gpt-6-astra",
+  "reviewer_model_source": "requested",
+  "review_independence": "same-family",
+  "acceptance_status": "provisional",
+  "review_completed": true,
+  "review_scope_complete": true,
+  "review_positive": true,
+  "verdict": {
+    "A": "PROCEED",
+    "B": "PROCEED WITH CAUTION",
+    "C": "PROCEED WITH CAUTION"
+  },
+  "agent_id": "/root/aris_review",
+  "model_family": "openai",
+  "status": "ok"
+}

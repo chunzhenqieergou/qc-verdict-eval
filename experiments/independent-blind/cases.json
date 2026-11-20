@@ -1,0 +1,1490 @@
+[
+  {
+    "id": "B088",
+    "rule": "zone",
+    "pair": "22-0",
+    "question": "精密机械铸造车间在班组交接质量例会上会审工业缝纫机铝合金机壳压铸模温差控制图，记录表上最新连续三个采样点对应的标准化偏差分别为 +0.20、+2.15、+2.70。依据车间制定的单侧分区判异细则，需裁定如下陈述是否成立：这组标准化偏差触发了上侧3点至少2点严格超过+2的单项报警规则。",
+    "positive": true,
+    "value": 2,
+    "limit": 2,
+    "inputs": {
+      "seq": "+0.20、+2.15、+2.70"
+    },
+    "source": "https://www.jmp.com/content/dam/jmp/documents/en/support/jmp19/quality-and-process-methods.pdf"
+  },
+  {
+    "id": "B003",
+    "rule": "single",
+    "pair": "00-1",
+    "question": "家电整机厂进货检验员（IQC）对新入库的一批家用空调压缩机铜管接头执行计数一次抽样检验。检验方案约定本次随机抽样数为66件，规定接收数（Ac）为2件；检验员核查外观及密封面后，登记不合格件数为4件。现需判定以下陈述是否成立：该批铜管接头可以接收。",
+    "positive": false,
+    "value": 4,
+    "limit": 2,
+    "inputs": {
+      "n": 66,
+      "c": 2,
+      "x": 4
+    },
+    "source": "https://support.minitab.com/en-us/minitab/help-and-how-to/quality-and-process-improvement/acceptance-sampling/how-to/attributes-acceptance-sampling/interpret-the-results/all-statistics-and-graphs/"
+  },
+  {
+    "id": "B069",
+    "rule": "cpk",
+    "pair": "17-0",
+    "question": "乳制品企业计量监督小组对无菌砖盒装纯牛奶高速灌装线的单盒灌装容量进行过程能力核查。经核实该灌装过程处于统计受控稳定状态，单盒容量近似正态分布，所采用的统计数值均为总体参数：内控容量下限为119.4mL、上限为138.3mL，灌装均值为132mL，组内标准差为1.2mL。需判定如下陈述是否属实：该灌装工序的Cpk达到门槛2。",
+    "positive": false,
+    "value": 1.75,
+    "limit": 2,
+    "inputs": {
+      "mean": 132,
+      "sd": 1.2,
+      "lo": 119.4,
+      "hi": 138.3,
+      "target": 2
+    },
+    "source": "https://support.minitab.com/en-us/minitab/help-and-how-to/quality-and-process-improvement/capability-analysis/how-to/capability-analysis/normal-capability-analysis/interpret-the-results/all-statistics-and-graphs/potential-within-capability/"
+  },
+  {
+    "id": "B078",
+    "rule": "cpk",
+    "pair": "19-1",
+    "question": "民用涂料制造厂质检中心对环保水性木器清漆调漆工序的旋转粘度开展月度能力审查。确认该批次连续调配过程保持稳定，清漆旋转粘度近似正态分布，本次录入的均为总体参数：产品技术指标设定粘度下限为139.8mPa·s、上限为161.4mPa·s，工序总体均值为147mPa·s，组内标准差为1.6mPa·s。请核实以下陈述是否正确：该调漆工序的Cpk达到门槛1.5。",
+    "positive": true,
+    "value": 1.5,
+    "limit": 1.5,
+    "inputs": {
+      "mean": 147,
+      "sd": 1.6,
+      "lo": 139.8,
+      "hi": 161.4,
+      "target": 1.5
+    },
+    "source": "https://support.minitab.com/en-us/minitab/help-and-how-to/quality-and-process-improvement/capability-analysis/how-to/capability-analysis/normal-capability-analysis/interpret-the-results/all-statistics-and-graphs/potential-within-capability/"
+  },
+  {
+    "id": "B081",
+    "rule": "zone",
+    "pair": "20-0",
+    "question": "玻璃容器厂质控巡检员在查看啤酒瓶退火窑出口的瓶壁残余应力控制图时，截取了最近连续3个检测点相对于中心线的标准化偏差（Z值）读数，依次为 +0.20、+1.12、+2.30。现按控制图分区判异标准进行单项复核，请判断如下陈述是否成立：上述数据触发了上侧3点至少2点严格超过+2的单项报警规则。",
+    "positive": false,
+    "value": 1,
+    "limit": 2,
+    "inputs": {
+      "seq": "+0.20、+1.12、+2.30"
+    },
+    "source": "https://www.jmp.com/content/dam/jmp/documents/en/support/jmp19/quality-and-process-methods.pdf"
+  },
+  {
+    "id": "B071",
+    "rule": "cpk",
+    "pair": "17-1",
+    "question": "乳制品企业计量监督小组对无菌砖盒装纯牛奶高速灌装线的单盒灌装容量进行过程能力核查。经核实该灌装过程处于统计受控稳定状态，单盒容量近似正态分布，所采用的统计数值均为总体参数：内控容量下限为130.2mL、上限为149.4mL，灌装均值为135mL，组内标准差为1.6mL。需判定如下陈述是否属实：该灌装工序的Cpk达到门槛1.5。",
+    "positive": false,
+    "value": 1.0,
+    "limit": 1.5,
+    "inputs": {
+      "mean": 135,
+      "sd": 1.6,
+      "lo": 130.2,
+      "hi": 149.4,
+      "target": 1.5
+    },
+    "source": "https://support.minitab.com/en-us/minitab/help-and-how-to/quality-and-process-improvement/capability-analysis/how-to/capability-analysis/normal-capability-analysis/interpret-the-results/all-statistics-and-graphs/potential-within-capability/"
+  },
+  {
+    "id": "B074",
+    "rule": "cpk",
+    "pair": "18-1",
+    "question": "智能家居五金研发与质量团队在新品量产准入（PPAP）审核中核查锌合金压铸锁舌导向宽度的居中及波动能力。前期运行证实压铸工序稳定，导向宽度近似服从正态分布，且记录数据均为总体参数：图纸规定宽度下限为136.2mm、上限为148.8mm，实际均值为141mm，组内标准差为0.8mm。请复核判定如下陈述是否属实：该压铸工序的Cpk达到门槛1.75。",
+    "positive": true,
+    "value": 2.0,
+    "limit": 1.75,
+    "inputs": {
+      "mean": 141,
+      "sd": 0.8,
+      "lo": 136.2,
+      "hi": 148.8,
+      "target": 1.75
+    },
+    "source": "https://support.minitab.com/en-us/minitab/help-and-how-to/quality-and-process-improvement/capability-analysis/how-to/capability-analysis/normal-capability-analysis/interpret-the-results/all-statistics-and-graphs/potential-within-capability/"
+  },
+  {
+    "id": "B021",
+    "rule": "cp",
+    "pair": "05-0",
+    "question": "铝型材生产基地在季度工艺评审中评估建筑断桥铝门窗型材静电粉末喷涂线的膜厚均匀性能力。前期监控表明喷涂过程运行稳定、涂层厚度近似正态分布，以下各项数值均为总体参数：行业标准要求的膜厚下限为47.4μm、上限为60.0μm，当前工序的组内标准差为1.2μm。需判定如下陈述是否属实：该喷涂工序的Cp达到门槛2。",
+    "positive": false,
+    "value": 1.75,
+    "limit": 2,
+    "inputs": {
+      "sd": 1.2,
+      "lo": 47.4,
+      "hi": 60.0,
+      "target": 2
+    },
+    "source": "https://support.minitab.com/en-us/minitab/help-and-how-to/quality-and-process-improvement/capability-analysis/how-to/capability-analysis/normal-capability-analysis/interpret-the-results/all-statistics-and-graphs/potential-within-capability/"
+  },
+  {
+    "id": "B004",
+    "rule": "single",
+    "pair": "01-0",
+    "question": "汽车零部件厂终检主管在审核待发货的一批乘用车轮毂轴承橡胶密封圈时，调取了出厂一次抽样检验记录：该批次按方案抽取的样本量为67件，客户质量协议规定的接收数Ac为3件，外观与唇口尺寸核验后共检出不合格品3件。请判断如下陈述是否属实：该批密封圈可予接收。",
+    "positive": true,
+    "value": 3,
+    "limit": 3,
+    "inputs": {
+      "n": 67,
+      "c": 3,
+      "x": 3
+    },
+    "source": "https://support.minitab.com/en-us/minitab/help-and-how-to/quality-and-process-improvement/acceptance-sampling/how-to/attributes-acceptance-sampling/interpret-the-results/all-statistics-and-graphs/"
+  },
+  {
+    "id": "B025",
+    "rule": "cp",
+    "pair": "06-0",
+    "question": "日化用品工厂质量部对高速包装线生产的家用洗衣凝珠单颗灌装净重进行工艺能力核查。连续追踪确认该灌装过程保持统计受控与稳定，单颗净重近似服从正态分布，本次评估采用的数据均为总体参数：净重规格下限设定为62.7g、上限设定为65.1g，测算得到的组内标准差为0.4g。需确认以下陈述是否成立：该灌装工序的Cp达到门槛1.25。",
+    "positive": false,
+    "value": 1.0,
+    "limit": 1.25,
+    "inputs": {
+      "sd": 0.4,
+      "lo": 62.7,
+      "hi": 65.1,
+      "target": 1.25
+    },
+    "source": "https://support.minitab.com/en-us/minitab/help-and-how-to/quality-and-process-improvement/capability-analysis/how-to/capability-analysis/normal-capability-analysis/interpret-the-results/all-statistics-and-graphs/potential-within-capability/"
+  },
+  {
+    "id": "B054",
+    "rule": "cpl",
+    "pair": "13-1",
+    "question": "纸制品包装厂在质量管理体系例行审核中评估电商物流五层瓦楞纸箱成型工序的空箱抗压强度。工艺验证显示该模切粘箱过程稳定，抗压强度近似正态分布，且所有数值均为总体参数：客户验收协议仅设定单侧抗压强度下限为103.8N，过程均值为111N，组内标准差为1.6N。需核实如下陈述是否属实：该工序的Cpl达到门槛1.5。",
+    "positive": true,
+    "value": 1.5,
+    "limit": 1.5,
+    "inputs": {
+      "mean": 111,
+      "sd": 1.6,
+      "lo": 103.8,
+      "target": 1.5
+    },
+    "source": "https://support.minitab.com/en-us/minitab/help-and-how-to/quality-and-process-improvement/capability-analysis/how-to/capability-analysis/normal-capability-analysis/interpret-the-results/all-statistics-and-graphs/potential-within-capability/"
+  },
+  {
+    "id": "B095",
+    "rule": "zone",
+    "pair": "23-1",
+    "question": "商用厨电采购方驻厂监造工程师抽查不锈钢锅炉自动焊工序的焊道熔深SPC监控档案，提取到当前连续3个取样点位的标准化偏差依次为 +0.80、+1.42、+2.50。按照过程报警条款进行逐项核验，请确认以下陈述是否正确：该连续3点数据触发了上侧3点至少2点严格超过+2的单项报警规则。",
+    "positive": false,
+    "value": 1,
+    "limit": 2,
+    "inputs": {
+      "seq": "+0.80、+1.42、+2.50"
+    },
+    "source": "https://www.jmp.com/content/dam/jmp/documents/en/support/jmp19/quality-and-process-methods.pdf"
+  },
+  {
+    "id": "B001",
+    "rule": "single",
+    "pair": "00-0",
+    "question": "家电整机厂进货检验员（IQC）对新入库的一批家用空调压缩机铜管接头执行计数一次抽样检验。检验方案约定本次随机抽样数为65件，规定接收数（Ac）为1件；检验员核查外观及密封面后，登记不合格件数为2件。现需判定以下陈述是否成立：该批铜管接头可以接收。",
+    "positive": false,
+    "value": 2,
+    "limit": 1,
+    "inputs": {
+      "n": 65,
+      "c": 1,
+      "x": 2
+    },
+    "source": "https://support.minitab.com/en-us/minitab/help-and-how-to/quality-and-process-improvement/acceptance-sampling/how-to/attributes-acceptance-sampling/interpret-the-results/all-statistics-and-graphs/"
+  },
+  {
+    "id": "B073",
+    "rule": "cpk",
+    "pair": "18-0",
+    "question": "智能家居五金研发与质量团队在新品量产准入（PPAP）审核中核查锌合金压铸锁舌导向宽度的居中及波动能力。前期运行证实压铸工序稳定，导向宽度近似服从正态分布，且记录数据均为总体参数：图纸规定宽度下限为134.7mm、上限为139.2mm，实际均值为138mm，组内标准差为0.4mm。请复核判定如下陈述是否属实：该压铸工序的Cpk达到门槛1.25。",
+    "positive": false,
+    "value": 1.0,
+    "limit": 1.25,
+    "inputs": {
+      "mean": 138,
+      "sd": 0.4,
+      "lo": 134.7,
+      "hi": 139.2,
+      "target": 1.25
+    },
+    "source": "https://support.minitab.com/en-us/minitab/help-and-how-to/quality-and-process-improvement/capability-analysis/how-to/capability-analysis/normal-capability-analysis/interpret-the-results/all-statistics-and-graphs/potential-within-capability/"
+  },
+  {
+    "id": "B059",
+    "rule": "cpl",
+    "pair": "14-1",
+    "question": "现代板式家具工厂对定制衣柜板件热熔封边工序开展工艺认证，考察按标准试样宽度测定的封边条剥离力。过程诊断确认封边机作业稳定，剥离力特性近似服从正态分布，给定数据均为总体参数：企业工艺标准仅设置单侧剥离力下限为114.0N，当前过程均值为117N，组内标准差为0.8N。待裁定以下陈述是否成立：该封边工序的Cpl达到门槛1.75。",
+    "positive": false,
+    "value": 1.25,
+    "limit": 1.75,
+    "inputs": {
+      "mean": 117,
+      "sd": 0.8,
+      "lo": 114.0,
+      "target": 1.75
+    },
+    "source": "https://support.minitab.com/en-us/minitab/help-and-how-to/quality-and-process-improvement/capability-analysis/how-to/capability-analysis/normal-capability-analysis/interpret-the-results/all-statistics-and-graphs/potential-within-capability/"
+  },
+  {
+    "id": "B027",
+    "rule": "cp",
+    "pair": "06-1",
+    "question": "日化用品工厂质量部对高速包装线生产的家用洗衣凝珠单颗灌装净重进行工艺能力核查。连续追踪确认该灌装过程保持统计受控与稳定，单颗净重近似服从正态分布，本次评估采用的数据均为总体参数：净重规格下限设定为61.2g、上限设定为67.2g，测算得到的组内标准差为0.8g。需确认以下陈述是否成立：该灌装工序的Cp达到门槛1.75。",
+    "positive": false,
+    "value": 1.25,
+    "limit": 1.75,
+    "inputs": {
+      "sd": 0.8,
+      "lo": 61.2,
+      "hi": 67.2,
+      "target": 1.75
+    },
+    "source": "https://support.minitab.com/en-us/minitab/help-and-how-to/quality-and-process-improvement/capability-analysis/how-to/capability-analysis/normal-capability-analysis/interpret-the-results/all-statistics-and-graphs/potential-within-capability/"
+  },
+  {
+    "id": "B024",
+    "rule": "cp",
+    "pair": "06-0",
+    "question": "日化用品工厂质量部对高速包装线生产的家用洗衣凝珠单颗灌装净重进行工艺能力核查。连续追踪确认该灌装过程保持统计受控与稳定，单颗净重近似服从正态分布，本次评估采用的数据均为总体参数：净重规格下限设定为62.7g、上限设定为65.7g，测算得到的组内标准差为0.4g。需确认以下陈述是否成立：该灌装工序的Cp达到门槛1.25。",
+    "positive": true,
+    "value": 1.25,
+    "limit": 1.25,
+    "inputs": {
+      "sd": 0.4,
+      "lo": 62.7,
+      "hi": 65.7,
+      "target": 1.25
+    },
+    "source": "https://support.minitab.com/en-us/minitab/help-and-how-to/quality-and-process-improvement/capability-analysis/how-to/capability-analysis/normal-capability-analysis/interpret-the-results/all-statistics-and-graphs/potential-within-capability/"
+  },
+  {
+    "id": "B011",
+    "rule": "single",
+    "pair": "02-1",
+    "question": "饮料包装容器车间巡检员对注塑成型的当班批次食品级PET矿泉水瓶坯开展转序前抽样验收，从整批托盘中随机抽检70件，工艺文件设定的接收数为6件，经瓶口螺纹与克重检测后确认不合格件数为9件。请核验如下陈述是否成立：该批瓶坯可予接收。",
+    "positive": false,
+    "value": 9,
+    "limit": 6,
+    "inputs": {
+      "n": 70,
+      "c": 6,
+      "x": 9
+    },
+    "source": "https://support.minitab.com/en-us/minitab/help-and-how-to/quality-and-process-improvement/acceptance-sampling/how-to/attributes-acceptance-sampling/interpret-the-results/all-statistics-and-graphs/"
+  },
+  {
+    "id": "B044",
+    "rule": "cpu",
+    "pair": "11-0",
+    "question": "汽车线束厂质量主管在季度报告复核中检查镀锡端子自动压接工序的接触电阻水平。统计检验确认压接过程保持统计稳定，接触电阻值近似正态分布，所提供数据均为总体参数：电气性能规范仅规定单侧电阻上限为104.1mΩ，实测总体均值为96mΩ，组内标准差为1.2mΩ。请判定以下陈述是否正确：该压接工序的Cpu达到门槛2。",
+    "positive": true,
+    "value": 2.25,
+    "limit": 2,
+    "inputs": {
+      "mean": 96,
+      "sd": 1.2,
+      "hi": 104.1,
+      "target": 2
+    },
+    "source": "https://support.minitab.com/en-us/minitab/help-and-how-to/quality-and-process-improvement/capability-analysis/how-to/capability-analysis/normal-capability-analysis/interpret-the-results/all-statistics-and-graphs/potential-within-capability/"
+  },
+  {
+    "id": "B070",
+    "rule": "cpk",
+    "pair": "17-1",
+    "question": "乳制品企业计量监督小组对无菌砖盒装纯牛奶高速灌装线的单盒灌装容量进行过程能力核查。经核实该灌装过程处于统计受控稳定状态，单盒容量近似正态分布，所采用的统计数值均为总体参数：内控容量下限为125.4mL、上限为149.4mL，灌装均值为135mL，组内标准差为1.6mL。需判定如下陈述是否属实：该灌装工序的Cpk达到门槛1.5。",
+    "positive": true,
+    "value": 2.0,
+    "limit": 1.5,
+    "inputs": {
+      "mean": 135,
+      "sd": 1.6,
+      "lo": 125.4,
+      "hi": 149.4,
+      "target": 1.5
+    },
+    "source": "https://support.minitab.com/en-us/minitab/help-and-how-to/quality-and-process-improvement/capability-analysis/how-to/capability-analysis/normal-capability-analysis/interpret-the-results/all-statistics-and-graphs/potential-within-capability/"
+  },
+  {
+    "id": "B058",
+    "rule": "cpl",
+    "pair": "14-1",
+    "question": "现代板式家具工厂对定制衣柜板件热熔封边工序开展工艺认证，考察按标准试样宽度测定的封边条剥离力。过程诊断确认封边机作业稳定，剥离力特性近似服从正态分布，给定数据均为总体参数：企业工艺标准仅设置单侧剥离力下限为111.6N，当前过程均值为117N，组内标准差为0.8N。待裁定以下陈述是否成立：该封边工序的Cpl达到门槛1.75。",
+    "positive": true,
+    "value": 2.25,
+    "limit": 1.75,
+    "inputs": {
+      "mean": 117,
+      "sd": 0.8,
+      "lo": 111.6,
+      "target": 1.75
+    },
+    "source": "https://support.minitab.com/en-us/minitab/help-and-how-to/quality-and-process-improvement/capability-analysis/how-to/capability-analysis/normal-capability-analysis/interpret-the-results/all-statistics-and-graphs/potential-within-capability/"
+  },
+  {
+    "id": "B038",
+    "rule": "cpu",
+    "pair": "09-1",
+    "question": "汽车制动系统制造厂质量工程师对乘用车灰铸铁制动盘精车工序的端面跳动量开展能力评审。长期控制图验证该精车过程稳定，跳动量指标近似正态分布，且此处提供的均为总体参数：产品技术条件仅设定单侧跳动量上限为95.4mm，该工序当前均值为87mm，组内标准差为1.6mm。需裁定如下表述是否属实：该精车工序的Cpu达到门槛1.5。",
+    "positive": true,
+    "value": 1.75,
+    "limit": 1.5,
+    "inputs": {
+      "mean": 87,
+      "sd": 1.6,
+      "hi": 95.4,
+      "target": 1.5
+    },
+    "source": "https://support.minitab.com/en-us/minitab/help-and-how-to/quality-and-process-improvement/capability-analysis/how-to/capability-analysis/normal-capability-analysis/interpret-the-results/all-statistics-and-graphs/potential-within-capability/"
+  },
+  {
+    "id": "B091",
+    "rule": "zone",
+    "pair": "22-1",
+    "question": "精密机械铸造车间在班组交接质量例会上会审工业缝纫机铝合金机壳压铸模温差控制图，记录表上最新连续三个采样点对应的标准化偏差分别为 +0.40、+1.22、+2.30。依据车间制定的单侧分区判异细则，需裁定如下陈述是否成立：这组标准化偏差触发了上侧3点至少2点严格超过+2的单项报警规则。",
+    "positive": false,
+    "value": 1,
+    "limit": 2,
+    "inputs": {
+      "seq": "+0.40、+1.22、+2.30"
+    },
+    "source": "https://www.jmp.com/content/dam/jmp/documents/en/support/jmp19/quality-and-process-methods.pdf"
+  },
+  {
+    "id": "B052",
+    "rule": "cpl",
+    "pair": "13-0",
+    "question": "纸制品包装厂在质量管理体系例行审核中评估电商物流五层瓦楞纸箱成型工序的空箱抗压强度。工艺验证显示该模切粘箱过程稳定，抗压强度近似正态分布，且所有数值均为总体参数：客户验收协议仅设定单侧抗压强度下限为99.0N，过程均值为108N，组内标准差为1.2N。需核实如下陈述是否属实：该工序的Cpl达到门槛2。",
+    "positive": true,
+    "value": 2.5,
+    "limit": 2,
+    "inputs": {
+      "mean": 108,
+      "sd": 1.2,
+      "lo": 99.0,
+      "target": 2
+    },
+    "source": "https://support.minitab.com/en-us/minitab/help-and-how-to/quality-and-process-improvement/capability-analysis/how-to/capability-analysis/normal-capability-analysis/interpret-the-results/all-statistics-and-graphs/potential-within-capability/"
+  },
+  {
+    "id": "B033",
+    "rule": "cpu",
+    "pair": "08-0",
+    "question": "消费电子结构件工厂接受整机客户对笔记本电脑铝合金外壳CNC精铣面粗糙度Ra的过程能力审核。经确认该CNC加工过程处于稳定状态，表面粗糙度Ra近似服从正态分布，所引用的指标均为总体参数：客户规范仅要求单侧规格上限为79.2μm，工序实际均值为78μm，组内标准差为0.4μm。请判断如下陈述是否成立：该精铣工序的Cpu达到门槛1.25。",
+    "positive": false,
+    "value": 1.0,
+    "limit": 1.25,
+    "inputs": {
+      "mean": 78,
+      "sd": 0.4,
+      "hi": 79.2,
+      "target": 1.25
+    },
+    "source": "https://support.minitab.com/en-us/minitab/help-and-how-to/quality-and-process-improvement/capability-analysis/how-to/capability-analysis/normal-capability-analysis/interpret-the-results/all-statistics-and-graphs/potential-within-capability/"
+  },
+  {
+    "id": "B056",
+    "rule": "cpl",
+    "pair": "14-0",
+    "question": "现代板式家具工厂对定制衣柜板件热熔封边工序开展工艺认证，考察按标准试样宽度测定的封边条剥离力。过程诊断确认封边机作业稳定，剥离力特性近似服从正态分布，给定数据均为总体参数：企业工艺标准仅设置单侧剥离力下限为112.2N，当前过程均值为114N，组内标准差为0.4N。待裁定以下陈述是否成立：该封边工序的Cpl达到门槛1.25。",
+    "positive": true,
+    "value": 1.5,
+    "limit": 1.25,
+    "inputs": {
+      "mean": 114,
+      "sd": 0.4,
+      "lo": 112.2,
+      "target": 1.25
+    },
+    "source": "https://support.minitab.com/en-us/minitab/help-and-how-to/quality-and-process-improvement/capability-analysis/how-to/capability-analysis/normal-capability-analysis/interpret-the-results/all-statistics-and-graphs/potential-within-capability/"
+  },
+  {
+    "id": "B051",
+    "rule": "cpl",
+    "pair": "12-1",
+    "question": "塑料管材生产企业开展建筑给水用PPR管材型式检验能力评估，重点考核管材耐静液压爆破压力指标。确认该挤出成型过程处于统计稳定状态，爆破压力近似服从正态分布，下列数值均为总体参数：产品标准仅规定单侧压力下限为102.0MPa，过程均值为105MPa，组内标准差为0.8MPa。请判断以下陈述是否成立：该挤出工序的Cpl达到门槛1.75。",
+    "positive": false,
+    "value": 1.25,
+    "limit": 1.75,
+    "inputs": {
+      "mean": 105,
+      "sd": 0.8,
+      "lo": 102.0,
+      "target": 1.75
+    },
+    "source": "https://support.minitab.com/en-us/minitab/help-and-how-to/quality-and-process-improvement/capability-analysis/how-to/capability-analysis/normal-capability-analysis/interpret-the-results/all-statistics-and-graphs/potential-within-capability/"
+  },
+  {
+    "id": "B028",
+    "rule": "cp",
+    "pair": "07-0",
+    "question": "商用制冷设备厂内审员对冷柜聚氨酯发泡门体的发泡密度项目执行过程能力专项审核。数据复核表明发泡注入过程处于稳定状态，门体发泡密度近似正态分布，且所提供数值均为总体参数：企业技术规范给定密度下限为59.4kg/m³、上限为77.4kg/m³，工序组内标准差为1.2kg/m³。请核验这一陈述是否为真：该发泡工序的Cp达到门槛2。",
+    "positive": true,
+    "value": 2.5,
+    "limit": 2,
+    "inputs": {
+      "sd": 1.2,
+      "lo": 59.4,
+      "hi": 77.4,
+      "target": 2
+    },
+    "source": "https://support.minitab.com/en-us/minitab/help-and-how-to/quality-and-process-improvement/capability-analysis/how-to/capability-analysis/normal-capability-analysis/interpret-the-results/all-statistics-and-graphs/potential-within-capability/"
+  },
+  {
+    "id": "B017",
+    "rule": "cp",
+    "pair": "04-0",
+    "question": "卫浴五金制造企业开展供应商年度二方审核，审查精密陶瓷水龙头阀芯外圆磨削工序的过程潜力。工程记录证实该磨削过程处于统计稳定状态，阀芯外径尺寸近似服从正态分布，且所列数据均为总体参数：产品图纸规定的规格下限为50.7mm、规格上限为53.1mm，过程组内标准差为0.4mm。请判断以下陈述是否成立：该磨削工序的Cp达到门槛1.25。",
+    "positive": false,
+    "value": 1.0,
+    "limit": 1.25,
+    "inputs": {
+      "sd": 0.4,
+      "lo": 50.7,
+      "hi": 53.1,
+      "target": 1.25
+    },
+    "source": "https://support.minitab.com/en-us/minitab/help-and-how-to/quality-and-process-improvement/capability-analysis/how-to/capability-analysis/normal-capability-analysis/interpret-the-results/all-statistics-and-graphs/potential-within-capability/"
+  },
+  {
+    "id": "B064",
+    "rule": "cpk",
+    "pair": "16-0",
+    "question": "第三方认证机构审核员在新能源汽车驱动电机漆包铜线车间评估漆膜厚度控制水平。审核确认该涂漆烘焙过程稳定且漆膜厚度近似服从正态分布，所用数值均为总体参数：规范给出厚度下限为122.7μm、上限为128.1μm，过程均值为126μm，组内标准差为0.4μm。请判断如下陈述是否成立：该涂漆工序的Cpk达到门槛1.25。",
+    "positive": true,
+    "value": 1.75,
+    "limit": 1.25,
+    "inputs": {
+      "mean": 126,
+      "sd": 0.4,
+      "lo": 122.7,
+      "hi": 128.1,
+      "target": 1.25
+    },
+    "source": "https://support.minitab.com/en-us/minitab/help-and-how-to/quality-and-process-improvement/capability-analysis/how-to/capability-analysis/normal-capability-analysis/interpret-the-results/all-statistics-and-graphs/potential-within-capability/"
+  },
+  {
+    "id": "B042",
+    "rule": "cpu",
+    "pair": "10-1",
+    "question": "食品软包装印刷厂品控部门在合规审查中核算复合膜溶剂残留总量项目的上侧过程能力。监测证明该烘干复合工序运行稳定，残留溶剂总量近似服从正态分布，以下参数均为总体参数：食品安全内控标准规定单侧规格上限为97.2mg/m²，该工序的均值为93mg/m²，组内标准差为0.8mg/m²。请审核判定如下陈述是否属实：该复合工序的Cpu达到门槛1.75。",
+    "positive": true,
+    "value": 1.75,
+    "limit": 1.75,
+    "inputs": {
+      "mean": 93,
+      "sd": 0.8,
+      "hi": 97.2,
+      "target": 1.75
+    },
+    "source": "https://support.minitab.com/en-us/minitab/help-and-how-to/quality-and-process-improvement/capability-analysis/how-to/capability-analysis/normal-capability-analysis/interpret-the-results/all-statistics-and-graphs/potential-within-capability/"
+  },
+  {
+    "id": "B035",
+    "rule": "cpu",
+    "pair": "08-1",
+    "question": "消费电子结构件工厂接受整机客户对笔记本电脑铝合金外壳CNC精铣面粗糙度Ra的过程能力审核。经确认该CNC加工过程处于稳定状态，表面粗糙度Ra近似服从正态分布，所引用的指标均为总体参数：客户规范仅要求单侧规格上限为84.0μm，工序实际均值为81μm，组内标准差为0.8μm。请判断如下陈述是否成立：该精铣工序的Cpu达到门槛1.75。",
+    "positive": false,
+    "value": 1.25,
+    "limit": 1.75,
+    "inputs": {
+      "mean": 81,
+      "sd": 0.8,
+      "hi": 84.0,
+      "target": 1.75
+    },
+    "source": "https://support.minitab.com/en-us/minitab/help-and-how-to/quality-and-process-improvement/capability-analysis/how-to/capability-analysis/normal-capability-analysis/interpret-the-results/all-statistics-and-graphs/potential-within-capability/"
+  },
+  {
+    "id": "B093",
+    "rule": "zone",
+    "pair": "23-0",
+    "question": "商用厨电采购方驻厂监造工程师抽查不锈钢锅炉自动焊工序的焊道熔深SPC监控档案，提取到当前连续3个取样点位的标准化偏差依次为 +0.60、+1.32、+2.40。按照过程报警条款进行逐项核验，请确认以下陈述是否正确：该连续3点数据触发了上侧3点至少2点严格超过+2的单项报警规则。",
+    "positive": false,
+    "value": 1,
+    "limit": 2,
+    "inputs": {
+      "seq": "+0.60、+1.32、+2.40"
+    },
+    "source": "https://www.jmp.com/content/dam/jmp/documents/en/support/jmp19/quality-and-process-methods.pdf"
+  },
+  {
+    "id": "B041",
+    "rule": "cpu",
+    "pair": "10-0",
+    "question": "食品软包装印刷厂品控部门在合规审查中核算复合膜溶剂残留总量项目的上侧过程能力。监测证明该烘干复合工序运行稳定，残留溶剂总量近似服从正态分布，以下参数均为总体参数：食品安全内控标准规定单侧规格上限为91.2mg/m²，该工序的均值为90mg/m²，组内标准差为0.4mg/m²。请审核判定如下陈述是否属实：该复合工序的Cpu达到门槛1.25。",
+    "positive": false,
+    "value": 1.0,
+    "limit": 1.25,
+    "inputs": {
+      "mean": 90,
+      "sd": 0.4,
+      "hi": 91.2,
+      "target": 1.25
+    },
+    "source": "https://support.minitab.com/en-us/minitab/help-and-how-to/quality-and-process-improvement/capability-analysis/how-to/capability-analysis/normal-capability-analysis/interpret-the-results/all-statistics-and-graphs/potential-within-capability/"
+  },
+  {
+    "id": "B009",
+    "rule": "single",
+    "pair": "02-0",
+    "question": "饮料包装容器车间巡检员对注塑成型的当班批次食品级PET矿泉水瓶坯开展转序前抽样验收，从整批托盘中随机抽检69件，工艺文件设定的接收数为5件，经瓶口螺纹与克重检测后确认不合格件数为7件。请核验如下陈述是否成立：该批瓶坯可予接收。",
+    "positive": false,
+    "value": 7,
+    "limit": 5,
+    "inputs": {
+      "n": 69,
+      "c": 5,
+      "x": 7
+    },
+    "source": "https://support.minitab.com/en-us/minitab/help-and-how-to/quality-and-process-improvement/acceptance-sampling/how-to/attributes-acceptance-sampling/interpret-the-results/all-statistics-and-graphs/"
+  },
+  {
+    "id": "B039",
+    "rule": "cpu",
+    "pair": "09-1",
+    "question": "汽车制动系统制造厂质量工程师对乘用车灰铸铁制动盘精车工序的端面跳动量开展能力评审。长期控制图验证该精车过程稳定，跳动量指标近似正态分布，且此处提供的均为总体参数：产品技术条件仅设定单侧跳动量上限为91.8mm，该工序当前均值为87mm，组内标准差为1.6mm。需裁定如下表述是否属实：该精车工序的Cpu达到门槛1.5。",
+    "positive": false,
+    "value": 1.0,
+    "limit": 1.5,
+    "inputs": {
+      "mean": 87,
+      "sd": 1.6,
+      "hi": 91.8,
+      "target": 1.5
+    },
+    "source": "https://support.minitab.com/en-us/minitab/help-and-how-to/quality-and-process-improvement/capability-analysis/how-to/capability-analysis/normal-capability-analysis/interpret-the-results/all-statistics-and-graphs/potential-within-capability/"
+  },
+  {
+    "id": "B053",
+    "rule": "cpl",
+    "pair": "13-0",
+    "question": "纸制品包装厂在质量管理体系例行审核中评估电商物流五层瓦楞纸箱成型工序的空箱抗压强度。工艺验证显示该模切粘箱过程稳定，抗压强度近似正态分布，且所有数值均为总体参数：客户验收协议仅设定单侧抗压强度下限为101.7N，过程均值为108N，组内标准差为1.2N。需核实如下陈述是否属实：该工序的Cpl达到门槛2。",
+    "positive": false,
+    "value": 1.75,
+    "limit": 2,
+    "inputs": {
+      "mean": 108,
+      "sd": 1.2,
+      "lo": 101.7,
+      "target": 2
+    },
+    "source": "https://support.minitab.com/en-us/minitab/help-and-how-to/quality-and-process-improvement/capability-analysis/how-to/capability-analysis/normal-capability-analysis/interpret-the-results/all-statistics-and-graphs/potential-within-capability/"
+  },
+  {
+    "id": "B079",
+    "rule": "cpk",
+    "pair": "19-1",
+    "question": "民用涂料制造厂质检中心对环保水性木器清漆调漆工序的旋转粘度开展月度能力审查。确认该批次连续调配过程保持稳定，清漆旋转粘度近似正态分布，本次录入的均为总体参数：产品技术指标设定粘度下限为142.2mPa·s、上限为161.4mPa·s，工序总体均值为147mPa·s，组内标准差为1.6mPa·s。请核实以下陈述是否正确：该调漆工序的Cpk达到门槛1.5。",
+    "positive": false,
+    "value": 1.0,
+    "limit": 1.5,
+    "inputs": {
+      "mean": 147,
+      "sd": 1.6,
+      "lo": 142.2,
+      "hi": 161.4,
+      "target": 1.5
+    },
+    "source": "https://support.minitab.com/en-us/minitab/help-and-how-to/quality-and-process-improvement/capability-analysis/how-to/capability-analysis/normal-capability-analysis/interpret-the-results/all-statistics-and-graphs/potential-within-capability/"
+  },
+  {
+    "id": "B048",
+    "rule": "cpl",
+    "pair": "12-0",
+    "question": "塑料管材生产企业开展建筑给水用PPR管材型式检验能力评估，重点考核管材耐静液压爆破压力指标。确认该挤出成型过程处于统计稳定状态，爆破压力近似服从正态分布，下列数值均为总体参数：产品标准仅规定单侧压力下限为100.5MPa，过程均值为102MPa，组内标准差为0.4MPa。请判断以下陈述是否成立：该挤出工序的Cpl达到门槛1.25。",
+    "positive": true,
+    "value": 1.25,
+    "limit": 1.25,
+    "inputs": {
+      "mean": 102,
+      "sd": 0.4,
+      "lo": 100.5,
+      "target": 1.25
+    },
+    "source": "https://support.minitab.com/en-us/minitab/help-and-how-to/quality-and-process-improvement/capability-analysis/how-to/capability-analysis/normal-capability-analysis/interpret-the-results/all-statistics-and-graphs/potential-within-capability/"
+  },
+  {
+    "id": "B010",
+    "rule": "single",
+    "pair": "02-1",
+    "question": "饮料包装容器车间巡检员对注塑成型的当班批次食品级PET矿泉水瓶坯开展转序前抽样验收，从整批托盘中随机抽检70件，工艺文件设定的接收数为6件，经瓶口螺纹与克重检测后确认不合格件数为5件。请核验如下陈述是否成立：该批瓶坯可予接收。",
+    "positive": true,
+    "value": 5,
+    "limit": 6,
+    "inputs": {
+      "n": 70,
+      "c": 6,
+      "x": 5
+    },
+    "source": "https://support.minitab.com/en-us/minitab/help-and-how-to/quality-and-process-improvement/acceptance-sampling/how-to/attributes-acceptance-sampling/interpret-the-results/all-statistics-and-graphs/"
+  },
+  {
+    "id": "B029",
+    "rule": "cp",
+    "pair": "07-0",
+    "question": "商用制冷设备厂内审员对冷柜聚氨酯发泡门体的发泡密度项目执行过程能力专项审核。数据复核表明发泡注入过程处于稳定状态，门体发泡密度近似正态分布，且所提供数值均为总体参数：企业技术规范给定密度下限为59.4kg/m³、上限为72.0kg/m³，工序组内标准差为1.2kg/m³。请核验这一陈述是否为真：该发泡工序的Cp达到门槛2。",
+    "positive": false,
+    "value": 1.75,
+    "limit": 2,
+    "inputs": {
+      "sd": 1.2,
+      "lo": 59.4,
+      "hi": 72.0,
+      "target": 2
+    },
+    "source": "https://support.minitab.com/en-us/minitab/help-and-how-to/quality-and-process-improvement/capability-analysis/how-to/capability-analysis/normal-capability-analysis/interpret-the-results/all-statistics-and-graphs/potential-within-capability/"
+  },
+  {
+    "id": "B072",
+    "rule": "cpk",
+    "pair": "18-0",
+    "question": "智能家居五金研发与质量团队在新品量产准入（PPAP）审核中核查锌合金压铸锁舌导向宽度的居中及波动能力。前期运行证实压铸工序稳定，导向宽度近似服从正态分布，且记录数据均为总体参数：图纸规定宽度下限为134.7mm、上限为139.5mm，实际均值为138mm，组内标准差为0.4mm。请复核判定如下陈述是否属实：该压铸工序的Cpk达到门槛1.25。",
+    "positive": true,
+    "value": 1.25,
+    "limit": 1.25,
+    "inputs": {
+      "mean": 138,
+      "sd": 0.4,
+      "lo": 134.7,
+      "hi": 139.5,
+      "target": 1.25
+    },
+    "source": "https://support.minitab.com/en-us/minitab/help-and-how-to/quality-and-process-improvement/capability-analysis/how-to/capability-analysis/normal-capability-analysis/interpret-the-results/all-statistics-and-graphs/potential-within-capability/"
+  },
+  {
+    "id": "B094",
+    "rule": "zone",
+    "pair": "23-1",
+    "question": "商用厨电采购方驻厂监造工程师抽查不锈钢锅炉自动焊工序的焊道熔深SPC监控档案，提取到当前连续3个取样点位的标准化偏差依次为 +0.80、+2.51、+2.50。按照过程报警条款进行逐项核验，请确认以下陈述是否正确：该连续3点数据触发了上侧3点至少2点严格超过+2的单项报警规则。",
+    "positive": true,
+    "value": 2,
+    "limit": 2,
+    "inputs": {
+      "seq": "+0.80、+2.51、+2.50"
+    },
+    "source": "https://www.jmp.com/content/dam/jmp/documents/en/support/jmp19/quality-and-process-methods.pdf"
+  },
+  {
+    "id": "B065",
+    "rule": "cpk",
+    "pair": "16-0",
+    "question": "第三方认证机构审核员在新能源汽车驱动电机漆包铜线车间评估漆膜厚度控制水平。审核确认该涂漆烘焙过程稳定且漆膜厚度近似服从正态分布，所用数值均为总体参数：规范给出厚度下限为122.7μm、上限为127.2μm，过程均值为126μm，组内标准差为0.4μm。请判断如下陈述是否成立：该涂漆工序的Cpk达到门槛1.25。",
+    "positive": false,
+    "value": 1.0,
+    "limit": 1.25,
+    "inputs": {
+      "mean": 126,
+      "sd": 0.4,
+      "lo": 122.7,
+      "hi": 127.2,
+      "target": 1.25
+    },
+    "source": "https://support.minitab.com/en-us/minitab/help-and-how-to/quality-and-process-improvement/capability-analysis/how-to/capability-analysis/normal-capability-analysis/interpret-the-results/all-statistics-and-graphs/potential-within-capability/"
+  },
+  {
+    "id": "B047",
+    "rule": "cpu",
+    "pair": "11-1",
+    "question": "汽车线束厂质量主管在季度报告复核中检查镀锡端子自动压接工序的接触电阻水平。统计检验确认压接过程保持统计稳定，接触电阻值近似正态分布，所提供数据均为总体参数：电气性能规范仅规定单侧电阻上限为103.8mΩ，实测总体均值为99mΩ，组内标准差为1.6mΩ。请判定以下陈述是否正确：该压接工序的Cpu达到门槛1.5。",
+    "positive": false,
+    "value": 1.0,
+    "limit": 1.5,
+    "inputs": {
+      "mean": 99,
+      "sd": 1.6,
+      "hi": 103.8,
+      "target": 1.5
+    },
+    "source": "https://support.minitab.com/en-us/minitab/help-and-how-to/quality-and-process-improvement/capability-analysis/how-to/capability-analysis/normal-capability-analysis/interpret-the-results/all-statistics-and-graphs/potential-within-capability/"
+  },
+  {
+    "id": "B084",
+    "rule": "zone",
+    "pair": "21-0",
+    "question": "制冷压缩机机加工车间班组长在数字化SPC看板上核对变频冰箱压缩机曲轴外圆精磨工序的趋势监控记录，系统显示最近连续3个子组的标准化偏差序列为 +0.60、+2.39、+2.50。针对看板配置的分区报警逻辑，需判定以下陈述是否属实：该序列触发了上侧3点至少2点严格超过+2的单项报警规则。",
+    "positive": true,
+    "value": 2,
+    "limit": 2,
+    "inputs": {
+      "seq": "+0.60、+2.39、+2.50"
+    },
+    "source": "https://www.jmp.com/content/dam/jmp/documents/en/support/jmp19/quality-and-process-methods.pdf"
+  },
+  {
+    "id": "B013",
+    "rule": "single",
+    "pair": "03-0",
+    "question": "电力仪表采购方驻厂质量代表对供应商提交的一批智能电表液晶显示模组进行交货前抽样复检。双方确认采用一次抽样方案，抽样数量为71件，接收数设定为7件；经通电点亮测试，统计得不合格件数为8件。请裁定这一陈述是否正确：该批显示模组可以接收。",
+    "positive": false,
+    "value": 8,
+    "limit": 7,
+    "inputs": {
+      "n": 71,
+      "c": 7,
+      "x": 8
+    },
+    "source": "https://support.minitab.com/en-us/minitab/help-and-how-to/quality-and-process-improvement/acceptance-sampling/how-to/attributes-acceptance-sampling/interpret-the-results/all-statistics-and-graphs/"
+  },
+  {
+    "id": "B060",
+    "rule": "cpl",
+    "pair": "15-0",
+    "question": "两轮电动车整车厂焊接质量专员审查铝合金车架主焊缝的破坏性抗拉断裂载荷数据。长期过程监控表明自动焊过程处于稳定状态，焊缝断裂载荷近似正态分布，以下各项均为总体参数：安全设计规范仅明确单侧载荷下限为112.8kN，工序均值为120kN，组内标准差为1.2kN。请裁定以下陈述是否正确：该焊接工序的Cpl达到门槛2。",
+    "positive": true,
+    "value": 2.0,
+    "limit": 2,
+    "inputs": {
+      "mean": 120,
+      "sd": 1.2,
+      "lo": 112.8,
+      "target": 2
+    },
+    "source": "https://support.minitab.com/en-us/minitab/help-and-how-to/quality-and-process-improvement/capability-analysis/how-to/capability-analysis/normal-capability-analysis/interpret-the-results/all-statistics-and-graphs/potential-within-capability/"
+  },
+  {
+    "id": "B006",
+    "rule": "single",
+    "pair": "01-1",
+    "question": "汽车零部件厂终检主管在审核待发货的一批乘用车轮毂轴承橡胶密封圈时，调取了出厂一次抽样检验记录：该批次按方案抽取的样本量为68件，客户质量协议规定的接收数Ac为4件，外观与唇口尺寸核验后共检出不合格品3件。请判断如下陈述是否属实：该批密封圈可予接收。",
+    "positive": true,
+    "value": 3,
+    "limit": 4,
+    "inputs": {
+      "n": 68,
+      "c": 4,
+      "x": 3
+    },
+    "source": "https://support.minitab.com/en-us/minitab/help-and-how-to/quality-and-process-improvement/acceptance-sampling/how-to/attributes-acceptance-sampling/interpret-the-results/all-statistics-and-graphs/"
+  },
+  {
+    "id": "B090",
+    "rule": "zone",
+    "pair": "22-1",
+    "question": "精密机械铸造车间在班组交接质量例会上会审工业缝纫机铝合金机壳压铸模温差控制图，记录表上最新连续三个采样点对应的标准化偏差分别为 +0.40、+2.27、+2.30。依据车间制定的单侧分区判异细则，需裁定如下陈述是否成立：这组标准化偏差触发了上侧3点至少2点严格超过+2的单项报警规则。",
+    "positive": true,
+    "value": 2,
+    "limit": 2,
+    "inputs": {
+      "seq": "+0.40、+2.27、+2.30"
+    },
+    "source": "https://www.jmp.com/content/dam/jmp/documents/en/support/jmp19/quality-and-process-methods.pdf"
+  },
+  {
+    "id": "B055",
+    "rule": "cpl",
+    "pair": "13-1",
+    "question": "纸制品包装厂在质量管理体系例行审核中评估电商物流五层瓦楞纸箱成型工序的空箱抗压强度。工艺验证显示该模切粘箱过程稳定，抗压强度近似正态分布，且所有数值均为总体参数：客户验收协议仅设定单侧抗压强度下限为106.2N，过程均值为111N，组内标准差为1.6N。需核实如下陈述是否属实：该工序的Cpl达到门槛1.5。",
+    "positive": false,
+    "value": 1.0,
+    "limit": 1.5,
+    "inputs": {
+      "mean": 111,
+      "sd": 1.6,
+      "lo": 106.2,
+      "target": 1.5
+    },
+    "source": "https://support.minitab.com/en-us/minitab/help-and-how-to/quality-and-process-improvement/capability-analysis/how-to/capability-analysis/normal-capability-analysis/interpret-the-results/all-statistics-and-graphs/potential-within-capability/"
+  },
+  {
+    "id": "B031",
+    "rule": "cp",
+    "pair": "07-1",
+    "question": "商用制冷设备厂内审员对冷柜聚氨酯发泡门体的发泡密度项目执行过程能力专项审核。数据复核表明发泡注入过程处于稳定状态，门体发泡密度近似正态分布，且所提供数值均为总体参数：企业技术规范给定密度下限为60.6kg/m³、上限为70.2kg/m³，工序组内标准差为1.6kg/m³。请核验这一陈述是否为真：该发泡工序的Cp达到门槛1.5。",
+    "positive": false,
+    "value": 1.0,
+    "limit": 1.5,
+    "inputs": {
+      "sd": 1.6,
+      "lo": 60.6,
+      "hi": 70.2,
+      "target": 1.5
+    },
+    "source": "https://support.minitab.com/en-us/minitab/help-and-how-to/quality-and-process-improvement/capability-analysis/how-to/capability-analysis/normal-capability-analysis/interpret-the-results/all-statistics-and-graphs/potential-within-capability/"
+  },
+  {
+    "id": "B018",
+    "rule": "cp",
+    "pair": "04-1",
+    "question": "卫浴五金制造企业开展供应商年度二方审核，审查精密陶瓷水龙头阀芯外圆磨削工序的过程潜力。工程记录证实该磨削过程处于统计稳定状态，阀芯外径尺寸近似服从正态分布，且所列数据均为总体参数：产品图纸规定的规格下限为49.2mm、规格上限为57.6mm，过程组内标准差为0.8mm。请判断以下陈述是否成立：该磨削工序的Cp达到门槛1.75。",
+    "positive": true,
+    "value": 1.75,
+    "limit": 1.75,
+    "inputs": {
+      "sd": 0.8,
+      "lo": 49.2,
+      "hi": 57.6,
+      "target": 1.75
+    },
+    "source": "https://support.minitab.com/en-us/minitab/help-and-how-to/quality-and-process-improvement/capability-analysis/how-to/capability-analysis/normal-capability-analysis/interpret-the-results/all-statistics-and-graphs/potential-within-capability/"
+  },
+  {
+    "id": "B043",
+    "rule": "cpu",
+    "pair": "10-1",
+    "question": "食品软包装印刷厂品控部门在合规审查中核算复合膜溶剂残留总量项目的上侧过程能力。监测证明该烘干复合工序运行稳定，残留溶剂总量近似服从正态分布，以下参数均为总体参数：食品安全内控标准规定单侧规格上限为96.0mg/m²，该工序的均值为93mg/m²，组内标准差为0.8mg/m²。请审核判定如下陈述是否属实：该复合工序的Cpu达到门槛1.75。",
+    "positive": false,
+    "value": 1.25,
+    "limit": 1.75,
+    "inputs": {
+      "mean": 93,
+      "sd": 0.8,
+      "hi": 96.0,
+      "target": 1.75
+    },
+    "source": "https://support.minitab.com/en-us/minitab/help-and-how-to/quality-and-process-improvement/capability-analysis/how-to/capability-analysis/normal-capability-analysis/interpret-the-results/all-statistics-and-graphs/potential-within-capability/"
+  },
+  {
+    "id": "B037",
+    "rule": "cpu",
+    "pair": "09-0",
+    "question": "汽车制动系统制造厂质量工程师对乘用车灰铸铁制动盘精车工序的端面跳动量开展能力评审。长期控制图验证该精车过程稳定，跳动量指标近似正态分布，且此处提供的均为总体参数：产品技术条件仅设定单侧跳动量上限为90.3mm，该工序当前均值为84mm，组内标准差为1.2mm。需裁定如下表述是否属实：该精车工序的Cpu达到门槛2。",
+    "positive": false,
+    "value": 1.75,
+    "limit": 2,
+    "inputs": {
+      "mean": 84,
+      "sd": 1.2,
+      "hi": 90.3,
+      "target": 2
+    },
+    "source": "https://support.minitab.com/en-us/minitab/help-and-how-to/quality-and-process-improvement/capability-analysis/how-to/capability-analysis/normal-capability-analysis/interpret-the-results/all-statistics-and-graphs/potential-within-capability/"
+  },
+  {
+    "id": "B068",
+    "rule": "cpk",
+    "pair": "17-0",
+    "question": "乳制品企业计量监督小组对无菌砖盒装纯牛奶高速灌装线的单盒灌装容量进行过程能力核查。经核实该灌装过程处于统计受控稳定状态，单盒容量近似正态分布，所采用的统计数值均为总体参数：内控容量下限为119.4mL、上限为140.1mL，灌装均值为132mL，组内标准差为1.2mL。需判定如下陈述是否属实：该灌装工序的Cpk达到门槛2。",
+    "positive": true,
+    "value": 2.25,
+    "limit": 2,
+    "inputs": {
+      "mean": 132,
+      "sd": 1.2,
+      "lo": 119.4,
+      "hi": 140.1,
+      "target": 2
+    },
+    "source": "https://support.minitab.com/en-us/minitab/help-and-how-to/quality-and-process-improvement/capability-analysis/how-to/capability-analysis/normal-capability-analysis/interpret-the-results/all-statistics-and-graphs/potential-within-capability/"
+  },
+  {
+    "id": "B015",
+    "rule": "single",
+    "pair": "03-1",
+    "question": "电力仪表采购方驻厂质量代表对供应商提交的一批智能电表液晶显示模组进行交货前抽样复检。双方确认采用一次抽样方案，抽样数量为72件，接收数设定为1件；经通电点亮测试，统计得不合格件数为3件。请裁定这一陈述是否正确：该批显示模组可以接收。",
+    "positive": false,
+    "value": 3,
+    "limit": 1,
+    "inputs": {
+      "n": 72,
+      "c": 1,
+      "x": 3
+    },
+    "source": "https://support.minitab.com/en-us/minitab/help-and-how-to/quality-and-process-improvement/acceptance-sampling/how-to/attributes-acceptance-sampling/interpret-the-results/all-statistics-and-graphs/"
+  },
+  {
+    "id": "B034",
+    "rule": "cpu",
+    "pair": "08-1",
+    "question": "消费电子结构件工厂接受整机客户对笔记本电脑铝合金外壳CNC精铣面粗糙度Ra的过程能力审核。经确认该CNC加工过程处于稳定状态，表面粗糙度Ra近似服从正态分布，所引用的指标均为总体参数：客户规范仅要求单侧规格上限为86.4μm，工序实际均值为81μm，组内标准差为0.8μm。请判断如下陈述是否成立：该精铣工序的Cpu达到门槛1.75。",
+    "positive": true,
+    "value": 2.25,
+    "limit": 1.75,
+    "inputs": {
+      "mean": 81,
+      "sd": 0.8,
+      "hi": 86.4,
+      "target": 1.75
+    },
+    "source": "https://support.minitab.com/en-us/minitab/help-and-how-to/quality-and-process-improvement/capability-analysis/how-to/capability-analysis/normal-capability-analysis/interpret-the-results/all-statistics-and-graphs/potential-within-capability/"
+  },
+  {
+    "id": "B020",
+    "rule": "cp",
+    "pair": "05-0",
+    "question": "铝型材生产基地在季度工艺评审中评估建筑断桥铝门窗型材静电粉末喷涂线的膜厚均匀性能力。前期监控表明喷涂过程运行稳定、涂层厚度近似正态分布，以下各项数值均为总体参数：行业标准要求的膜厚下限为47.4μm、上限为63.6μm，当前工序的组内标准差为1.2μm。需判定如下陈述是否属实：该喷涂工序的Cp达到门槛2。",
+    "positive": true,
+    "value": 2.25,
+    "limit": 2,
+    "inputs": {
+      "sd": 1.2,
+      "lo": 47.4,
+      "hi": 63.6,
+      "target": 2
+    },
+    "source": "https://support.minitab.com/en-us/minitab/help-and-how-to/quality-and-process-improvement/capability-analysis/how-to/capability-analysis/normal-capability-analysis/interpret-the-results/all-statistics-and-graphs/potential-within-capability/"
+  },
+  {
+    "id": "B005",
+    "rule": "single",
+    "pair": "01-0",
+    "question": "汽车零部件厂终检主管在审核待发货的一批乘用车轮毂轴承橡胶密封圈时，调取了出厂一次抽样检验记录：该批次按方案抽取的样本量为67件，客户质量协议规定的接收数Ac为3件，外观与唇口尺寸核验后共检出不合格品6件。请判断如下陈述是否属实：该批密封圈可予接收。",
+    "positive": false,
+    "value": 6,
+    "limit": 3,
+    "inputs": {
+      "n": 67,
+      "c": 3,
+      "x": 6
+    },
+    "source": "https://support.minitab.com/en-us/minitab/help-and-how-to/quality-and-process-improvement/acceptance-sampling/how-to/attributes-acceptance-sampling/interpret-the-results/all-statistics-and-graphs/"
+  },
+  {
+    "id": "B023",
+    "rule": "cp",
+    "pair": "05-1",
+    "question": "铝型材生产基地在季度工艺评审中评估建筑断桥铝门窗型材静电粉末喷涂线的膜厚均匀性能力。前期监控表明喷涂过程运行稳定、涂层厚度近似正态分布，以下各项数值均为总体参数：行业标准要求的膜厚下限为48.6μm、上限为58.2μm，当前工序的组内标准差为1.6μm。需判定如下陈述是否属实：该喷涂工序的Cp达到门槛1.5。",
+    "positive": false,
+    "value": 1.0,
+    "limit": 1.5,
+    "inputs": {
+      "sd": 1.6,
+      "lo": 48.6,
+      "hi": 58.2,
+      "target": 1.5
+    },
+    "source": "https://support.minitab.com/en-us/minitab/help-and-how-to/quality-and-process-improvement/capability-analysis/how-to/capability-analysis/normal-capability-analysis/interpret-the-results/all-statistics-and-graphs/potential-within-capability/"
+  },
+  {
+    "id": "B067",
+    "rule": "cpk",
+    "pair": "16-1",
+    "question": "第三方认证机构审核员在新能源汽车驱动电机漆包铜线车间评估漆膜厚度控制水平。审核确认该涂漆烘焙过程稳定且漆膜厚度近似服从正态分布，所用数值均为总体参数：规范给出厚度下限为126.0μm、上限为136.8μm，过程均值为129μm，组内标准差为0.8μm。请判断如下陈述是否成立：该涂漆工序的Cpk达到门槛1.75。",
+    "positive": false,
+    "value": 1.25,
+    "limit": 1.75,
+    "inputs": {
+      "mean": 129,
+      "sd": 0.8,
+      "lo": 126.0,
+      "hi": 136.8,
+      "target": 1.75
+    },
+    "source": "https://support.minitab.com/en-us/minitab/help-and-how-to/quality-and-process-improvement/capability-analysis/how-to/capability-analysis/normal-capability-analysis/interpret-the-results/all-statistics-and-graphs/potential-within-capability/"
+  },
+  {
+    "id": "B062",
+    "rule": "cpl",
+    "pair": "15-1",
+    "question": "两轮电动车整车厂焊接质量专员审查铝合金车架主焊缝的破坏性抗拉断裂载荷数据。长期过程监控表明自动焊过程处于稳定状态，焊缝断裂载荷近似正态分布，以下各项均为总体参数：安全设计规范仅明确单侧载荷下限为114.6kN，工序均值为123kN，组内标准差为1.6kN。请裁定以下陈述是否正确：该焊接工序的Cpl达到门槛1.5。",
+    "positive": true,
+    "value": 1.75,
+    "limit": 1.5,
+    "inputs": {
+      "mean": 123,
+      "sd": 1.6,
+      "lo": 114.6,
+      "target": 1.5
+    },
+    "source": "https://support.minitab.com/en-us/minitab/help-and-how-to/quality-and-process-improvement/capability-analysis/how-to/capability-analysis/normal-capability-analysis/interpret-the-results/all-statistics-and-graphs/potential-within-capability/"
+  },
+  {
+    "id": "B080",
+    "rule": "zone",
+    "pair": "20-0",
+    "question": "玻璃容器厂质控巡检员在查看啤酒瓶退火窑出口的瓶壁残余应力控制图时，截取了最近连续3个检测点相对于中心线的标准化偏差（Z值）读数，依次为 +0.20、+2.15、+2.30。现按控制图分区判异标准进行单项复核，请判断如下陈述是否成立：上述数据触发了上侧3点至少2点严格超过+2的单项报警规则。",
+    "positive": true,
+    "value": 2,
+    "limit": 2,
+    "inputs": {
+      "seq": "+0.20、+2.15、+2.30"
+    },
+    "source": "https://www.jmp.com/content/dam/jmp/documents/en/support/jmp19/quality-and-process-methods.pdf"
+  },
+  {
+    "id": "B014",
+    "rule": "single",
+    "pair": "03-1",
+    "question": "电力仪表采购方驻厂质量代表对供应商提交的一批智能电表液晶显示模组进行交货前抽样复检。双方确认采用一次抽样方案，抽样数量为72件，接收数设定为1件；经通电点亮测试，统计得不合格件数为0件。请裁定这一陈述是否正确：该批显示模组可以接收。",
+    "positive": true,
+    "value": 0,
+    "limit": 1,
+    "inputs": {
+      "n": 72,
+      "c": 1,
+      "x": 0
+    },
+    "source": "https://support.minitab.com/en-us/minitab/help-and-how-to/quality-and-process-improvement/acceptance-sampling/how-to/attributes-acceptance-sampling/interpret-the-results/all-statistics-and-graphs/"
+  },
+  {
+    "id": "B057",
+    "rule": "cpl",
+    "pair": "14-0",
+    "question": "现代板式家具工厂对定制衣柜板件热熔封边工序开展工艺认证，考察按标准试样宽度测定的封边条剥离力。过程诊断确认封边机作业稳定，剥离力特性近似服从正态分布，给定数据均为总体参数：企业工艺标准仅设置单侧剥离力下限为112.8N，当前过程均值为114N，组内标准差为0.4N。待裁定以下陈述是否成立：该封边工序的Cpl达到门槛1.25。",
+    "positive": false,
+    "value": 1.0,
+    "limit": 1.25,
+    "inputs": {
+      "mean": 114,
+      "sd": 0.4,
+      "lo": 112.8,
+      "target": 1.25
+    },
+    "source": "https://support.minitab.com/en-us/minitab/help-and-how-to/quality-and-process-improvement/capability-analysis/how-to/capability-analysis/normal-capability-analysis/interpret-the-results/all-statistics-and-graphs/potential-within-capability/"
+  },
+  {
+    "id": "B000",
+    "rule": "single",
+    "pair": "00-0",
+    "question": "家电整机厂进货检验员（IQC）对新入库的一批家用空调压缩机铜管接头执行计数一次抽样检验。检验方案约定本次随机抽样数为65件，规定接收数（Ac）为1件；检验员核查外观及密封面后，登记不合格件数为1件。现需判定以下陈述是否成立：该批铜管接头可以接收。",
+    "positive": true,
+    "value": 1,
+    "limit": 1,
+    "inputs": {
+      "n": 65,
+      "c": 1,
+      "x": 1
+    },
+    "source": "https://support.minitab.com/en-us/minitab/help-and-how-to/quality-and-process-improvement/acceptance-sampling/how-to/attributes-acceptance-sampling/interpret-the-results/all-statistics-and-graphs/"
+  },
+  {
+    "id": "B082",
+    "rule": "zone",
+    "pair": "20-1",
+    "question": "玻璃容器厂质控巡检员在查看啤酒瓶退火窑出口的瓶壁残余应力控制图时，截取了最近连续3个检测点相对于中心线的标准化偏差（Z值）读数，依次为 +0.40、+2.27、+2.40。现按控制图分区判异标准进行单项复核，请判断如下陈述是否成立：上述数据触发了上侧3点至少2点严格超过+2的单项报警规则。",
+    "positive": true,
+    "value": 2,
+    "limit": 2,
+    "inputs": {
+      "seq": "+0.40、+2.27、+2.40"
+    },
+    "source": "https://www.jmp.com/content/dam/jmp/documents/en/support/jmp19/quality-and-process-methods.pdf"
+  },
+  {
+    "id": "B030",
+    "rule": "cp",
+    "pair": "07-1",
+    "question": "商用制冷设备厂内审员对冷柜聚氨酯发泡门体的发泡密度项目执行过程能力专项审核。数据复核表明发泡注入过程处于稳定状态，门体发泡密度近似正态分布，且所提供数值均为总体参数：企业技术规范给定密度下限为60.6kg/m³、上限为75.0kg/m³，工序组内标准差为1.6kg/m³。请核验这一陈述是否为真：该发泡工序的Cp达到门槛1.5。",
+    "positive": true,
+    "value": 1.5,
+    "limit": 1.5,
+    "inputs": {
+      "sd": 1.6,
+      "lo": 60.6,
+      "hi": 75.0,
+      "target": 1.5
+    },
+    "source": "https://support.minitab.com/en-us/minitab/help-and-how-to/quality-and-process-improvement/capability-analysis/how-to/capability-analysis/normal-capability-analysis/interpret-the-results/all-statistics-and-graphs/potential-within-capability/"
+  },
+  {
+    "id": "B066",
+    "rule": "cpk",
+    "pair": "16-1",
+    "question": "第三方认证机构审核员在新能源汽车驱动电机漆包铜线车间评估漆膜厚度控制水平。审核确认该涂漆烘焙过程稳定且漆膜厚度近似服从正态分布，所用数值均为总体参数：规范给出厚度下限为124.8μm、上限为136.8μm，过程均值为129μm，组内标准差为0.8μm。请判断如下陈述是否成立：该涂漆工序的Cpk达到门槛1.75。",
+    "positive": true,
+    "value": 1.75,
+    "limit": 1.75,
+    "inputs": {
+      "mean": 129,
+      "sd": 0.8,
+      "lo": 124.8,
+      "hi": 136.8,
+      "target": 1.75
+    },
+    "source": "https://support.minitab.com/en-us/minitab/help-and-how-to/quality-and-process-improvement/capability-analysis/how-to/capability-analysis/normal-capability-analysis/interpret-the-results/all-statistics-and-graphs/potential-within-capability/"
+  },
+  {
+    "id": "B036",
+    "rule": "cpu",
+    "pair": "09-0",
+    "question": "汽车制动系统制造厂质量工程师对乘用车灰铸铁制动盘精车工序的端面跳动量开展能力评审。长期控制图验证该精车过程稳定，跳动量指标近似正态分布，且此处提供的均为总体参数：产品技术条件仅设定单侧跳动量上限为91.2mm，该工序当前均值为84mm，组内标准差为1.2mm。需裁定如下表述是否属实：该精车工序的Cpu达到门槛2。",
+    "positive": true,
+    "value": 2.0,
+    "limit": 2,
+    "inputs": {
+      "mean": 84,
+      "sd": 1.2,
+      "hi": 91.2,
+      "target": 2
+    },
+    "source": "https://support.minitab.com/en-us/minitab/help-and-how-to/quality-and-process-improvement/capability-analysis/how-to/capability-analysis/normal-capability-analysis/interpret-the-results/all-statistics-and-graphs/potential-within-capability/"
+  },
+  {
+    "id": "B089",
+    "rule": "zone",
+    "pair": "22-0",
+    "question": "精密机械铸造车间在班组交接质量例会上会审工业缝纫机铝合金机壳压铸模温差控制图，记录表上最新连续三个采样点对应的标准化偏差分别为 +0.20、+1.12、+2.70。依据车间制定的单侧分区判异细则，需裁定如下陈述是否成立：这组标准化偏差触发了上侧3点至少2点严格超过+2的单项报警规则。",
+    "positive": false,
+    "value": 1,
+    "limit": 2,
+    "inputs": {
+      "seq": "+0.20、+1.12、+2.70"
+    },
+    "source": "https://www.jmp.com/content/dam/jmp/documents/en/support/jmp19/quality-and-process-methods.pdf"
+  },
+  {
+    "id": "B045",
+    "rule": "cpu",
+    "pair": "11-0",
+    "question": "汽车线束厂质量主管在季度报告复核中检查镀锡端子自动压接工序的接触电阻水平。统计检验确认压接过程保持统计稳定，接触电阻值近似正态分布，所提供数据均为总体参数：电气性能规范仅规定单侧电阻上限为102.3mΩ，实测总体均值为96mΩ，组内标准差为1.2mΩ。请判定以下陈述是否正确：该压接工序的Cpu达到门槛2。",
+    "positive": false,
+    "value": 1.75,
+    "limit": 2,
+    "inputs": {
+      "mean": 96,
+      "sd": 1.2,
+      "hi": 102.3,
+      "target": 2
+    },
+    "source": "https://support.minitab.com/en-us/minitab/help-and-how-to/quality-and-process-improvement/capability-analysis/how-to/capability-analysis/normal-capability-analysis/interpret-the-results/all-statistics-and-graphs/potential-within-capability/"
+  },
+  {
+    "id": "B086",
+    "rule": "zone",
+    "pair": "21-1",
+    "question": "制冷压缩机机加工车间班组长在数字化SPC看板上核对变频冰箱压缩机曲轴外圆精磨工序的趋势监控记录，系统显示最近连续3个子组的标准化偏差序列为 +0.80、+2.51、+2.60。针对看板配置的分区报警逻辑，需判定以下陈述是否属实：该序列触发了上侧3点至少2点严格超过+2的单项报警规则。",
+    "positive": true,
+    "value": 2,
+    "limit": 2,
+    "inputs": {
+      "seq": "+0.80、+2.51、+2.60"
+    },
+    "source": "https://www.jmp.com/content/dam/jmp/documents/en/support/jmp19/quality-and-process-methods.pdf"
+  },
+  {
+    "id": "B046",
+    "rule": "cpu",
+    "pair": "11-1",
+    "question": "汽车线束厂质量主管在季度报告复核中检查镀锡端子自动压接工序的接触电阻水平。统计检验确认压接过程保持统计稳定，接触电阻值近似正态分布，所提供数据均为总体参数：电气性能规范仅规定单侧电阻上限为108.6mΩ，实测总体均值为99mΩ，组内标准差为1.6mΩ。请判定以下陈述是否正确：该压接工序的Cpu达到门槛1.5。",
+    "positive": true,
+    "value": 2.0,
+    "limit": 1.5,
+    "inputs": {
+      "mean": 99,
+      "sd": 1.6,
+      "hi": 108.6,
+      "target": 1.5
+    },
+    "source": "https://support.minitab.com/en-us/minitab/help-and-how-to/quality-and-process-improvement/capability-analysis/how-to/capability-analysis/normal-capability-analysis/interpret-the-results/all-statistics-and-graphs/potential-within-capability/"
+  },
+  {
+    "id": "B092",
+    "rule": "zone",
+    "pair": "23-0",
+    "question": "商用厨电采购方驻厂监造工程师抽查不锈钢锅炉自动焊工序的焊道熔深SPC监控档案，提取到当前连续3个取样点位的标准化偏差依次为 +0.60、+2.39、+2.40。按照过程报警条款进行逐项核验，请确认以下陈述是否正确：该连续3点数据触发了上侧3点至少2点严格超过+2的单项报警规则。",
+    "positive": true,
+    "value": 2,
+    "limit": 2,
+    "inputs": {
+      "seq": "+0.60、+2.39、+2.40"
+    },
+    "source": "https://www.jmp.com/content/dam/jmp/documents/en/support/jmp19/quality-and-process-methods.pdf"
+  },
+  {
+    "id": "B026",
+    "rule": "cp",
+    "pair": "06-1",
+    "question": "日化用品工厂质量部对高速包装线生产的家用洗衣凝珠单颗灌装净重进行工艺能力核查。连续追踪确认该灌装过程保持统计受控与稳定，单颗净重近似服从正态分布，本次评估采用的数据均为总体参数：净重规格下限设定为61.2g、上限设定为70.8g，测算得到的组内标准差为0.8g。需确认以下陈述是否成立：该灌装工序的Cp达到门槛1.75。",
+    "positive": true,
+    "value": 2.0,
+    "limit": 1.75,
+    "inputs": {
+      "sd": 0.8,
+      "lo": 61.2,
+      "hi": 70.8,
+      "target": 1.75
+    },
+    "source": "https://support.minitab.com/en-us/minitab/help-and-how-to/quality-and-process-improvement/capability-analysis/how-to/capability-analysis/normal-capability-analysis/interpret-the-results/all-statistics-and-graphs/potential-within-capability/"
+  },
+  {
+    "id": "B049",
+    "rule": "cpl",
+    "pair": "12-0",
+    "question": "塑料管材生产企业开展建筑给水用PPR管材型式检验能力评估，重点考核管材耐静液压爆破压力指标。确认该挤出成型过程处于统计稳定状态，爆破压力近似服从正态分布，下列数值均为总体参数：产品标准仅规定单侧压力下限为100.8MPa，过程均值为102MPa，组内标准差为0.4MPa。请判断以下陈述是否成立：该挤出工序的Cpl达到门槛1.25。",
+    "positive": false,
+    "value": 1.0,
+    "limit": 1.25,
+    "inputs": {
+      "mean": 102,
+      "sd": 0.4,
+      "lo": 100.8,
+      "target": 1.25
+    },
+    "source": "https://support.minitab.com/en-us/minitab/help-and-how-to/quality-and-process-improvement/capability-analysis/how-to/capability-analysis/normal-capability-analysis/interpret-the-results/all-statistics-and-graphs/potential-within-capability/"
+  },
+  {
+    "id": "B040",
+    "rule": "cpu",
+    "pair": "10-0",
+    "question": "食品软包装印刷厂品控部门在合规审查中核算复合膜溶剂残留总量项目的上侧过程能力。监测证明该烘干复合工序运行稳定，残留溶剂总量近似服从正态分布，以下参数均为总体参数：食品安全内控标准规定单侧规格上限为92.1mg/m²，该工序的均值为90mg/m²，组内标准差为0.4mg/m²。请审核判定如下陈述是否属实：该复合工序的Cpu达到门槛1.25。",
+    "positive": true,
+    "value": 1.75,
+    "limit": 1.25,
+    "inputs": {
+      "mean": 90,
+      "sd": 0.4,
+      "hi": 92.1,
+      "target": 1.25
+    },
+    "source": "https://support.minitab.com/en-us/minitab/help-and-how-to/quality-and-process-improvement/capability-analysis/how-to/capability-analysis/normal-capability-analysis/interpret-the-results/all-statistics-and-graphs/potential-within-capability/"
+  },
+  {
+    "id": "B085",
+    "rule": "zone",
+    "pair": "21-0",
+    "question": "制冷压缩机机加工车间班组长在数字化SPC看板上核对变频冰箱压缩机曲轴外圆精磨工序的趋势监控记录，系统显示最近连续3个子组的标准化偏差序列为 +0.60、+1.32、+2.50。针对看板配置的分区报警逻辑，需判定以下陈述是否属实：该序列触发了上侧3点至少2点严格超过+2的单项报警规则。",
+    "positive": false,
+    "value": 1,
+    "limit": 2,
+    "inputs": {
+      "seq": "+0.60、+1.32、+2.50"
+    },
+    "source": "https://www.jmp.com/content/dam/jmp/documents/en/support/jmp19/quality-and-process-methods.pdf"
+  },
+  {
+    "id": "B016",
+    "rule": "cp",
+    "pair": "04-0",
+    "question": "卫浴五金制造企业开展供应商年度二方审核，审查精密陶瓷水龙头阀芯外圆磨削工序的过程潜力。工程记录证实该磨削过程处于统计稳定状态，阀芯外径尺寸近似服从正态分布，且所列数据均为总体参数：产品图纸规定的规格下限为50.7mm、规格上限为54.9mm，过程组内标准差为0.4mm。请判断以下陈述是否成立：该磨削工序的Cp达到门槛1.25。",
+    "positive": true,
+    "value": 1.75,
+    "limit": 1.25,
+    "inputs": {
+      "sd": 0.4,
+      "lo": 50.7,
+      "hi": 54.9,
+      "target": 1.25
+    },
+    "source": "https://support.minitab.com/en-us/minitab/help-and-how-to/quality-and-process-improvement/capability-analysis/how-to/capability-analysis/normal-capability-analysis/interpret-the-results/all-statistics-and-graphs/potential-within-capability/"
+  },
+  {
+    "id": "B087",
+    "rule": "zone",
+    "pair": "21-1",
+    "question": "制冷压缩机机加工车间班组长在数字化SPC看板上核对变频冰箱压缩机曲轴外圆精磨工序的趋势监控记录，系统显示最近连续3个子组的标准化偏差序列为 +0.80、+1.42、+2.60。针对看板配置的分区报警逻辑，需判定以下陈述是否属实：该序列触发了上侧3点至少2点严格超过+2的单项报警规则。",
+    "positive": false,
+    "value": 1,
+    "limit": 2,
+    "inputs": {
+      "seq": "+0.80、+1.42、+2.60"
+    },
+    "source": "https://www.jmp.com/content/dam/jmp/documents/en/support/jmp19/quality-and-process-methods.pdf"
+  },
+  {
+    "id": "B012",
+    "rule": "single",
+    "pair": "03-0",
+    "question": "电力仪表采购方驻厂质量代表对供应商提交的一批智能电表液晶显示模组进行交货前抽样复检。双方确认采用一次抽样方案，抽样数量为71件，接收数设定为7件；经通电点亮测试，统计得不合格件数为7件。请裁定这一陈述是否正确：该批显示模组可以接收。",
+    "positive": true,
+    "value": 7,
+    "limit": 7,
+    "inputs": {
+      "n": 71,
+      "c": 7,
+      "x": 7
+    },
+    "source": "https://support.minitab.com/en-us/minitab/help-and-how-to/quality-and-process-improvement/acceptance-sampling/how-to/attributes-acceptance-sampling/interpret-the-results/all-statistics-and-graphs/"
+  },
+  {
+    "id": "B050",
+    "rule": "cpl",
+    "pair": "12-1",
+    "question": "塑料管材生产企业开展建筑给水用PPR管材型式检验能力评估，重点考核管材耐静液压爆破压力指标。确认该挤出成型过程处于统计稳定状态，爆破压力近似服从正态分布，下列数值均为总体参数：产品标准仅规定单侧压力下限为100.2MPa，过程均值为105MPa，组内标准差为0.8MPa。请判断以下陈述是否成立：该挤出工序的Cpl达到门槛1.75。",
+    "positive": true,
+    "value": 2.0,
+    "limit": 1.75,
+    "inputs": {
+      "mean": 105,
+      "sd": 0.8,
+      "lo": 100.2,
+      "target": 1.75
+    },
+    "source": "https://support.minitab.com/en-us/minitab/help-and-how-to/quality-and-process-improvement/capability-analysis/how-to/capability-analysis/normal-capability-analysis/interpret-the-results/all-statistics-and-graphs/potential-within-capability/"
+  },
+  {
+    "id": "B083",
+    "rule": "zone",
+    "pair": "20-1",
+    "question": "玻璃容器厂质控巡检员在查看啤酒瓶退火窑出口的瓶壁残余应力控制图时，截取了最近连续3个检测点相对于中心线的标准化偏差（Z值）读数，依次为 +0.40、+1.22、+2.40。现按控制图分区判异标准进行单项复核，请判断如下陈述是否成立：上述数据触发了上侧3点至少2点严格超过+2的单项报警规则。",
+    "positive": false,
+    "value": 1,
+    "limit": 2,
+    "inputs": {
+      "seq": "+0.40、+1.22、+2.40"
+    },
+    "source": "https://www.jmp.com/content/dam/jmp/documents/en/support/jmp19/quality-and-process-methods.pdf"
+  },
+  {
+    "id": "B076",
+    "rule": "cpk",
+    "pair": "19-0",
+    "question": "民用涂料制造厂质检中心对环保水性木器清漆调漆工序的旋转粘度开展月度能力审查。确认该批次连续调配过程保持稳定，清漆旋转粘度近似正态分布，本次录入的均为总体参数：产品技术指标设定粘度下限为131.4mPa·s、上限为153.0mPa·s，工序总体均值为144mPa·s，组内标准差为1.2mPa·s。请核实以下陈述是否正确：该调漆工序的Cpk达到门槛2。",
+    "positive": true,
+    "value": 2.5,
+    "limit": 2,
+    "inputs": {
+      "mean": 144,
+      "sd": 1.2,
+      "lo": 131.4,
+      "hi": 153.0,
+      "target": 2
+    },
+    "source": "https://support.minitab.com/en-us/minitab/help-and-how-to/quality-and-process-improvement/capability-analysis/how-to/capability-analysis/normal-capability-analysis/interpret-the-results/all-statistics-and-graphs/potential-within-capability/"
+  },
+  {
+    "id": "B075",
+    "rule": "cpk",
+    "pair": "18-1",
+    "question": "智能家居五金研发与质量团队在新品量产准入（PPAP）审核中核查锌合金压铸锁舌导向宽度的居中及波动能力。前期运行证实压铸工序稳定，导向宽度近似服从正态分布，且记录数据均为总体参数：图纸规定宽度下限为138.0mm、上限为148.8mm，实际均值为141mm，组内标准差为0.8mm。请复核判定如下陈述是否属实：该压铸工序的Cpk达到门槛1.75。",
+    "positive": false,
+    "value": 1.25,
+    "limit": 1.75,
+    "inputs": {
+      "mean": 141,
+      "sd": 0.8,
+      "lo": 138.0,
+      "hi": 148.8,
+      "target": 1.75
+    },
+    "source": "https://support.minitab.com/en-us/minitab/help-and-how-to/quality-and-process-improvement/capability-analysis/how-to/capability-analysis/normal-capability-analysis/interpret-the-results/all-statistics-and-graphs/potential-within-capability/"
+  },
+  {
+    "id": "B007",
+    "rule": "single",
+    "pair": "01-1",
+    "question": "汽车零部件厂终检主管在审核待发货的一批乘用车轮毂轴承橡胶密封圈时，调取了出厂一次抽样检验记录：该批次按方案抽取的样本量为68件，客户质量协议规定的接收数Ac为4件，外观与唇口尺寸核验后共检出不合格品5件。请判断如下陈述是否属实：该批密封圈可予接收。",
+    "positive": false,
+    "value": 5,
+    "limit": 4,
+    "inputs": {
+      "n": 68,
+      "c": 4,
+      "x": 5
+    },
+    "source": "https://support.minitab.com/en-us/minitab/help-and-how-to/quality-and-process-improvement/acceptance-sampling/how-to/attributes-acceptance-sampling/interpret-the-results/all-statistics-and-graphs/"
+  },
+  {
+    "id": "B008",
+    "rule": "single",
+    "pair": "02-0",
+    "question": "饮料包装容器车间巡检员对注塑成型的当班批次食品级PET矿泉水瓶坯开展转序前抽样验收，从整批托盘中随机抽检69件，工艺文件设定的接收数为5件，经瓶口螺纹与克重检测后确认不合格件数为5件。请核验如下陈述是否成立：该批瓶坯可予接收。",
+    "positive": true,
+    "value": 5,
+    "limit": 5,
+    "inputs": {
+      "n": 69,
+      "c": 5,
+      "x": 5
+    },
+    "source": "https://support.minitab.com/en-us/minitab/help-and-how-to/quality-and-process-improvement/acceptance-sampling/how-to/attributes-acceptance-sampling/interpret-the-results/all-statistics-and-graphs/"
+  },
+  {
+    "id": "B032",
+    "rule": "cpu",
+    "pair": "08-0",
+    "question": "消费电子结构件工厂接受整机客户对笔记本电脑铝合金外壳CNC精铣面粗糙度Ra的过程能力审核。经确认该CNC加工过程处于稳定状态，表面粗糙度Ra近似服从正态分布，所引用的指标均为总体参数：客户规范仅要求单侧规格上限为79.8μm，工序实际均值为78μm，组内标准差为0.4μm。请判断如下陈述是否成立：该精铣工序的Cpu达到门槛1.25。",
+    "positive": true,
+    "value": 1.5,
+    "limit": 1.25,
+    "inputs": {
+      "mean": 78,
+      "sd": 0.4,
+      "hi": 79.8,
+      "target": 1.25
+    },
+    "source": "https://support.minitab.com/en-us/minitab/help-and-how-to/quality-and-process-improvement/capability-analysis/how-to/capability-analysis/normal-capability-analysis/interpret-the-results/all-statistics-and-graphs/potential-within-capability/"
+  },
+  {
+    "id": "B002",
+    "rule": "single",
+    "pair": "00-1",
+    "question": "家电整机厂进货检验员（IQC）对新入库的一批家用空调压缩机铜管接头执行计数一次抽样检验。检验方案约定本次随机抽样数为66件，规定接收数（Ac）为2件；检验员核查外观及密封面后，登记不合格件数为1件。现需判定以下陈述是否成立：该批铜管接头可以接收。",
+    "positive": true,
+    "value": 1,
+    "limit": 2,
+    "inputs": {
+      "n": 66,
+      "c": 2,
+      "x": 1
+    },
+    "source": "https://support.minitab.com/en-us/minitab/help-and-how-to/quality-and-process-improvement/acceptance-sampling/how-to/attributes-acceptance-sampling/interpret-the-results/all-statistics-and-graphs/"
+  },
+  {
+    "id": "B022",
+    "rule": "cp",
+    "pair": "05-1",
+    "question": "铝型材生产基地在季度工艺评审中评估建筑断桥铝门窗型材静电粉末喷涂线的膜厚均匀性能力。前期监控表明喷涂过程运行稳定、涂层厚度近似正态分布，以下各项数值均为总体参数：行业标准要求的膜厚下限为48.6μm、上限为67.8μm，当前工序的组内标准差为1.6μm。需判定如下陈述是否属实：该喷涂工序的Cp达到门槛1.5。",
+    "positive": true,
+    "value": 2.0,
+    "limit": 1.5,
+    "inputs": {
+      "sd": 1.6,
+      "lo": 48.6,
+      "hi": 67.8,
+      "target": 1.5
+    },
+    "source": "https://support.minitab.com/en-us/minitab/help-and-how-to/quality-and-process-improvement/capability-analysis/how-to/capability-analysis/normal-capability-analysis/interpret-the-results/all-statistics-and-graphs/potential-within-capability/"
+  },
+  {
+    "id": "B019",
+    "rule": "cp",
+    "pair": "04-1",
+    "question": "卫浴五金制造企业开展供应商年度二方审核，审查精密陶瓷水龙头阀芯外圆磨削工序的过程潜力。工程记录证实该磨削过程处于统计稳定状态，阀芯外径尺寸近似服从正态分布，且所列数据均为总体参数：产品图纸规定的规格下限为49.2mm、规格上限为55.2mm，过程组内标准差为0.8mm。请判断以下陈述是否成立：该磨削工序的Cp达到门槛1.75。",
+    "positive": false,
+    "value": 1.25,
+    "limit": 1.75,
+    "inputs": {
+      "sd": 0.8,
+      "lo": 49.2,
+      "hi": 55.2,
+      "target": 1.75
+    },
+    "source": "https://support.minitab.com/en-us/minitab/help-and-how-to/quality-and-process-improvement/capability-analysis/how-to/capability-analysis/normal-capability-analysis/interpret-the-results/all-statistics-and-graphs/potential-within-capability/"
+  },
+  {
+    "id": "B061",
+    "rule": "cpl",
+    "pair": "15-0",
+    "question": "两轮电动车整车厂焊接质量专员审查铝合金车架主焊缝的破坏性抗拉断裂载荷数据。长期过程监控表明自动焊过程处于稳定状态，焊缝断裂载荷近似正态分布，以下各项均为总体参数：安全设计规范仅明确单侧载荷下限为113.7kN，工序均值为120kN，组内标准差为1.2kN。请裁定以下陈述是否正确：该焊接工序的Cpl达到门槛2。",
+    "positive": false,
+    "value": 1.75,
+    "limit": 2,
+    "inputs": {
+      "mean": 120,
+      "sd": 1.2,
+      "lo": 113.7,
+      "target": 2
+    },
+    "source": "https://support.minitab.com/en-us/minitab/help-and-how-to/quality-and-process-improvement/capability-analysis/how-to/capability-analysis/normal-capability-analysis/interpret-the-results/all-statistics-and-graphs/potential-within-capability/"
+  },
+  {
+    "id": "B077",
+    "rule": "cpk",
+    "pair": "19-0",
+    "question": "民用涂料制造厂质检中心对环保水性木器清漆调漆工序的旋转粘度开展月度能力审查。确认该批次连续调配过程保持稳定，清漆旋转粘度近似正态分布，本次录入的均为总体参数：产品技术指标设定粘度下限为131.4mPa·s、上限为150.3mPa·s，工序总体均值为144mPa·s，组内标准差为1.2mPa·s。请核实以下陈述是否正确：该调漆工序的Cpk达到门槛2。",
+    "positive": false,
+    "value": 1.75,
+    "limit": 2,
+    "inputs": {
+      "mean": 144,
+      "sd": 1.2,
+      "lo": 131.4,
+      "hi": 150.3,
+      "target": 2
+    },
+    "source": "https://support.minitab.com/en-us/minitab/help-and-how-to/quality-and-process-improvement/capability-analysis/how-to/capability-analysis/normal-capability-analysis/interpret-the-results/all-statistics-and-graphs/potential-within-capability/"
+  },
+  {
+    "id": "B063",
+    "rule": "cpl",
+    "pair": "15-1",
+    "question": "两轮电动车整车厂焊接质量专员审查铝合金车架主焊缝的破坏性抗拉断裂载荷数据。长期过程监控表明自动焊过程处于稳定状态，焊缝断裂载荷近似正态分布，以下各项均为总体参数：安全设计规范仅明确单侧载荷下限为118.2kN，工序均值为123kN，组内标准差为1.6kN。请裁定以下陈述是否正确：该焊接工序的Cpl达到门槛1.5。",
+    "positive": false,
+    "value": 1.0,
+    "limit": 1.5,
+    "inputs": {
+      "mean": 123,
+      "sd": 1.6,
+      "lo": 118.2,
+      "target": 1.5
+    },
+    "source": "https://support.minitab.com/en-us/minitab/help-and-how-to/quality-and-process-improvement/capability-analysis/how-to/capability-analysis/normal-capability-analysis/interpret-the-results/all-statistics-and-graphs/potential-within-capability/"
+  }
+]

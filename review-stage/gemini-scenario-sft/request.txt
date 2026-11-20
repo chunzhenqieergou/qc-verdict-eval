@@ -1,0 +1,226 @@
+你是此次实验的独立论文方法审稿人。只依据随附的实验报告、生成器和评分器进行案头审查，不调用工具，不修改文件。请用中文，400至650字。回答哪些结论站得住、最严重的两处混淆、第一优先的低成本可证伪实验（具体组别、数据、配对指标和何时停止），是否具备应用期刊投稿证据。特别核查预测极性、答案序列、数据多样性和数值覆盖的混淆。区分数据观察和机制猜想。给出值得立即做的一项事后分析。
+--- RESULTS.md ---
+# 同义改写与多场景微调对照实验
+
+在 120 道新场景质量判断题上，多场景组比同义改写组多答对了一部分统计量和阈值。两组的成对判断正确率均为 1.7%。现有结果支持结构化数值作答改善，关于新场景下作出正确判断的收益，估计区间跨零。
+
+## 设计与实际执行
+
+从公开底座 Qwen2.5-3B-Instruct 分别新建六个 4-bit NF4 QLoRA 适配器。两组各 96 题，正反各半，三个配对种子，每次 48 个优化步，保留第二轮末权重。改写组每轮 14,608 个总输入 token，多场景组 14,610 个，参与损失的答案 token 分别为 2,848 与 2,860。全部训练与推理在本地 RTX 5060 Ti 完成。
+
+语料由规则程序生成，覆盖民用工件抽样验收、过程控制图和过程能力指数。两组对同一组规则使用相同的四种问法。多场景组同时改变工件和观测值。控制图与能力指数题的部分阈值或答案在新场景仍会重复。新场景与训练共享 12 项规则和出题模板，部分数值超出训练范围。24 道近场景题测已有基础案例换问法，120 道新场景题构成 60 对。每对只改变决定结论的观测量。训练前写入题目、参考答案及哈希。该轮按固定方案用末轮权重，无验证集调参。6 个适配器和 1 个底座各回答 144 题，主评测共 1,008 份回答。
+
+## 分模型结果
+
+三项指第一行判断、统计量和阈值。评分器逐项解析，缺失或无法解析记零。判断正确率只看结论。成对正确要求一正一反两题均答对。三项全对另需两个数值正确，自由文本理由另行抽核。
+
+| 模型或适配器 | 近场景单题 | 新场景单题 | 新场景成对 | 新场景三项覆盖 | 新场景三项全对 | 新场景触顶数 |
+|---|---:|---:|---:|---:|---:|---:|
+| base-0 | 62.5% | 53.3% | 6.7% | 41.9% | 9.2% | 42 |
+| paraphrase-42 | 54.2% | 50.0% | 0.0% | 64.2% | 20.0% | 0 |
+| paraphrase-43 | 54.2% | 50.0% | 3.3% | 64.4% | 30.0% | 0 |
+| paraphrase-44 | 58.3% | 50.0% | 1.7% | 66.1% | 20.0% | 0 |
+| scenario-42 | 50.0% | 50.0% | 0.0% | 69.7% | 37.5% | 0 |
+| scenario-43 | 50.0% | 51.7% | 3.3% | 73.6% | 42.5% | 0 |
+| scenario-44 | 58.3% | 50.8% | 1.7% | 72.8% | 33.3% | 0 |
+
+## 多场景组减改写组
+
+先在同规则、同种子内配对，再平均三个种子，对 12 条规则作 10,000 次簇 bootstrap。单位均为百分点。规则来自三个相关的知识类别，这些区间只描述本题库内的变动。多指标区间未经多重比较校正，种子数也限制了对训练随机性的估计。
+
+| 新场景指标 | 平均差值 | 95% 规则簇区间 |
+|---|---:|---:|
+| 单题判断 | +0.83 | [-0.56, +2.50] |
+| 成对判断 | +0.00 | [-2.22, +2.78] |
+| 三项覆盖 | +7.13 | [+3.15, +11.48] |
+| 三项全对 | +14.44 | [+8.33, +20.56] |
+
+## 错误复核
+
+- 120 道新场景题中有 60 道结论为“成立”。改写组三个种子分别预测“成立” 0、84、12 次，多场景组分别预测 0、118、1 次。固定回答一种结论即可达到 50% 单题正确率，成对得分为零。生成顺序要求模型先给结论，顺序的影响尚未单独检验。
+- 一条首样接收案例中，不合格品数与接收数均为 8。两个种子 42 的适配器都给出了 8 和 8，并正确复述“不超过接收数”，第一行却写成“不成立”。同一道题同时暴露出字段覆盖与实际判断的差别。
+- 事后抽取每条规则一题，对底座和两个种子 42 适配器的 36 份回答打乱并隐藏身份，由本次助手按结论、数值和理由均正确的标准复核。底座 2/12，改写 3/12，多场景 4/12。每条规则只抽一题，评阅者可见参考答案，缺少领域人员独立双评。
+- 96-token 主评测中，底座在新场景的 42/120 题触顶，适配器均为零。以相同顺序和批次将底座重跑至 256 token，新场景判断为 53.3%、成对为 6.7%、覆盖为 41.9%，仍触顶 3/120。原来正常结束的 98 份回答中，扩预算后有 98 份文本完全一致。首行结论可从全部主评测回答中解析，严格数值字段更受表达格式影响。
+- 本次正式对照的范围是合成的民用工业质量判断。尚缺独立来源的维修工单、开放式现场问答、第二款底座和外部专家复核。多场景组的数值与工件共同变化，观察到的差异不能进一步归因到某一种变化。
+
+## 复现与文件
+
+本目录保存 [原始数据及哈希](data/manifest.json)、[实验协议](protocol.md)、[生成规则](data.py)、[训练和推理](run.py)、[主结果](scores.json)、[逐题评分](item-scores.json)、[全部适配器与输出](runs/)、[匿名抽查材料](audit-packet.json) 和 [运行环境](environment.json)。用项目既有 Python GPU 环境依次运行 run.py、score.py。附加预算检查使用 base_budget.py。
+
+规则来源为 NIST/SEMATECH 工程统计手册。场景、合同门槛和观测值由本实验设定。[一次抽样](https://www.itl.nist.gov/div898/handbook/pmc/section2/pmc23.htm) · [二次抽样](https://www.itl.nist.gov/div898/handbook/pmc/section2/pmc251.htm) · [控制图](https://www.itl.nist.gov/div898/handbook/pmc/section3/pmc32.htm) · [过程能力](https://www.itl.nist.gov/div898/handbook/pmc/section1/pmc16.htm)
+
+--- data.py ---
+"""Deterministic matched examples derived from public NIST quality-control rules."""
+from pathlib import Path
+import hashlib
+import json
+import random
+
+ROOT = Path(__file__).resolve().parent
+DATA = ROOT / "data"
+SYSTEM = "你是民用工业质量审核员。判断题中所述结论，并用简短文字说明依据。第一行只写成立或不成立，第二行写统计量=数值，阈值=数值，第三行写理由。"
+RULES = ["single", "first_accept", "first_reject", "second_accept", "weco3", "weco2", "weco1", "weco8", "cp", "cpu", "cpl", "cpk"]
+SOURCES = ["https://www.itl.nist.gov/div898/handbook/pmc/section2/pmc23.htm",
+           "https://www.itl.nist.gov/div898/handbook/pmc/section2/pmc251.htm",
+           "https://www.itl.nist.gov/div898/handbook/pmc/section3/pmc32.htm",
+           "https://www.itl.nist.gov/div898/handbook/pmc/section1/pmc16.htm"]
+SETTINGS = ["输送机托辊", "泵站垫圈", "冷库门铰链", "分拣机导轮", "包装机滚筒", "纺织机衬套", "水表壳体", "家具滑轨", "纸机轴套", "印刷机隔圈", "饮料线导轨"]
+ASK = ["审核记录如下。", "请复核这份检验单。", "班组提交一项判断。", "交班时需要核实一条结论。", "请根据记录给审核意见。", "下面是抽查人员抄录的数据。"]
+
+def save(path, value):
+    path.parent.mkdir(parents=True, exist_ok=True)
+    temp = path.with_suffix(".tmp")
+    temp.write_text(json.dumps(value, ensure_ascii=False, indent=2), encoding="utf8")
+    temp.replace(path)
+
+def case(rule, j, positive):
+    # j identifies an underlying case. Each matched pair differs in one observation only.
+    offset = int(not positive)
+    c = 2 + j
+    if rule in RULES[:4]:
+        if rule == "single":
+            value = c + offset
+            desc = f"一次计数抽样的接收数为{c}，抽取80件，发现不合格品{value}件。"
+            claim, why = "该批可按方案接收", "一次抽样的不合格品数须小于或等于接收数"
+        elif rule == "first_accept":
+            value = c + offset
+            desc = f"二次抽样方案首样接收数为{c}、拒收数为{c+3}。首样80件中不合格品有{value}件。"
+            claim, why = "首样结束即可接收", "首样直接接收要求不合格品数不超过首样接收数"
+        elif rule == "first_reject":
+            value = c - offset
+            desc = f"二次抽样首样接收数为{c-2}、拒收数为{c}。首样80件中有{value}件不合格品。"
+            claim, why = "首样结束即可拒收", "首样直接拒收要求不合格品数达到或超过拒收数"
+        else:
+            value = c + offset
+            desc = f"已按方案进入第二次抽样。首样有1件不合格品，次样有{value-1}件不合格品，累计接收数为{c}。"
+            claim, why = "完成两次抽样后可接收该批", "两次抽样的不合格品数之和须不超过累计接收数"
+        return desc, claim, value, c, why
+    if rule == "weco3":
+        value = 4 + j / 10 if positive else 2 - j / 10
+        return f"本期监测点相对中心线的标准化偏差为+{value:g}。", "该点触发上侧三西格玛越限", value, 3, "上侧单点越限要求标准化偏差大于3"
+    if rule in ["weco2", "weco1", "weco8"]:
+        window, threshold, level = {"weco2":(3,2,2), "weco1":(5,4,1), "weco8":(8,8,0)}[rule]
+        value = threshold - offset
+        seq = [level + 0.2 + (j+i)%7/10 for i in range(window)]
+        for i in range(value, window):
+            seq[i] = level - 0.2 - (j+i)%3/10
+        seq = seq[j%window:] + seq[:j%window]
+        numbers = "、".join(f"{x:+.1f}" for x in seq)
+        desc = f"最近{window}点相对中心线的标准化偏差依次为{numbers}。统计量取高于+{level}的点数。"
+        return desc, f"触发上侧WECO的{window}点中至少{threshold}点高于+{level}规则", value, threshold, f"窗口内高于指定界线的点数至少应有{threshold}个"
+    sigma = 1 + j
+    mean = 100
+    value = 1.5 if positive else 0.5
+    if rule == "cp":
+        lo, hi = mean - 3*sigma, mean - 3*sigma + 6*sigma*value
+        facts, why = f"规格限为{lo:g}至{hi:g}", "Cp等于规格宽度除以六倍标准差"
+    elif rule == "cpu":
+        facts, why = f"均值为100，上规格限为{100+3*sigma*value:g}", "Cpu等于上规格限与均值之差除以三倍标准差"
+    elif rule == "cpl":
+        facts, why = f"均值为100，下规格限为{100-3*sigma*value:g}", "Cpl等于均值与下规格限之差除以三倍标准差"
+    else:
+        facts, why = f"均值为100，规格限为{100-6*sigma:g}至{100+3*sigma*value:g}", "Cpk取上下单侧能力指数中的较小值"
+    return f"过程稳定且近似正态，已知标准差为{sigma}，{facts}。", f"{rule.upper()}达到合同门槛1", value, 1, why
+
+def rows(split):
+    result = []
+    for ri, rule in enumerate(RULES):
+        settings = range(4) if split in ("paraphrase","scenario") else ([0] if split=="near" else range(5,10))
+        for k, scene in enumerate(settings):
+            j = 0 if split=="paraphrase" else scene
+            setting = SETTINGS[(j+ri)%len(SETTINGS)]
+            prefix = ASK[k if split in ("paraphrase","scenario") else 4 + int(split=="far")]
+            for positive in (False, True):
+                desc, claim, val, limit, why = case(rule,j,positive)
+                # Lexical variants paired across both training arms.
+                variants = [f"{desc}有人认为：{claim}。请判断。",f"待核实结论为“{claim}”。记录写明：{desc}",f"{desc}由这些记录能否得出“{claim}”？",f"审核意见写着“{claim}”。证据如下：{desc}"]
+                tail = variants[k%4] if split in ("paraphrase","scenario") else f"现有数据：{desc}审核员据此写下“{claim}”。这句话成立吗？"
+                q = prefix+setting+"质量记录。"+tail
+                answer = ("成立" if positive else "不成立")+f"\n统计量={val:g}，阈值={limit:g}\n"+why+"。"
+                result.append(dict(id=f"{split}-{rule}-{k}-{int(positive)}", rule=rule, pair=f"{rule}-{k}",split=split,question=q,answer=answer,positive=positive,value=val,limit=limit,source=SOURCES[0 if ri==0 else 1 if ri<4 else 2 if ri<8 else 3]))
+    return result
+
+def freeze():
+    parts = {s:rows(s) for s in ["paraphrase","scenario","near","far"]}
+    trainq = {r["question"] for s in ("paraphrase","scenario") for r in parts[s]}
+    assert all(r["question"] not in trainq for s in ("near","far") for r in parts[s])
+    manifest = {}
+    for s, records in parts.items():
+        assert len(set(r["question"] for r in records)) == len(records)
+        path = DATA / (s+".json")
+        if path.exists():
+            assert json.loads(path.read_text(encoding="utf8")) == records
+        else:
+            save(path,records)
+        manifest[s] = {"n":len(records),"sha256":hashlib.sha256(path.read_bytes()).hexdigest()}
+    save(DATA/"manifest.json",manifest)
+
+if __name__=="__main__":
+    freeze()
+
+
+--- score.py ---
+"""Score predeclared fields and paired decisions; keep raw generations for semantic review."""
+import hashlib
+import json
+import re
+import unicodedata
+from collections import defaultdict
+import numpy as np
+from data import DATA, ROOT, RULES, save
+
+def load(path):
+    return json.loads(path.read_text(encoding="utf8"))
+
+def field(text,label):
+    pattern = label + r"\s*=\s*([+-]?\d+(?:\.\d+)?)(?=\s*(?:[,;。\n]|$))"
+    match = re.search(pattern,text)
+    return float(match[1]) if match else None
+
+def grade(case,pred):
+    t=unicodedata.normalize("NFKC",pred["text"]).strip()
+    line=t.splitlines()[0].strip().rstrip("。.!！") if t else ""
+    decision={"成立":True,"不成立":False}.get(line)
+    v=field(t,"统计量")
+    limit=field(t,"阈值")
+    hit=decision==case["positive"]
+    vh=v is not None and np.isclose(v,case["value"])
+    th=limit is not None and np.isclose(limit,case["limit"])
+    return dict(id=case["id"],rule=case["rule"],pair=case["pair"],split=case["split"],decision=int(hit),value=int(vh),threshold=int(th),points=int(hit)+int(vh)+int(th),all_three=int(hit and vh and th),explicit_wrong=int(decision is not None and not hit),unparsed_decision=int(decision is None),unparsed_value=int(v is None),unparsed_threshold=int(limit is None),cap=int(pred["capped"]))
+
+def summarize(rows):
+    pairs=defaultdict(list)
+    for r in rows: pairs[r["pair"]].append(r["decision"])
+    assert all(len(v)==2 for v in pairs.values())
+    n=len(rows)
+    return dict(n=n,decision=sum(r["decision"] for r in rows)/n,pair=sum(all(v) for v in pairs.values())/len(pairs),coverage=sum(r["points"] for r in rows)/(3*n),all_three=sum(r["all_three"] for r in rows)/n,**{k:sum(r[k] for r in rows) for k in ("explicit_wrong","unparsed_decision","unparsed_value","unparsed_threshold","cap")})
+
+def score():
+    cases=load(DATA/"near.json")+load(DATA/"far.json")
+    scores={}
+    details={}
+    for name in ["base-0"]+[f"{arm}-{s}" for arm in ["paraphrase","scenario"] for s in [42,43,44]]:
+        preds=load(ROOT/"runs"/name/"predictions.json")
+        assert [r["id"] for r in cases]==[r["id"] for r in preds]
+        rows=[grade(c,p) for c,p in zip(cases,preds)]
+        scores[name]={s:summarize([r for r in rows if r["split"]==s]) for s in ["near","far"]}
+        details[name]=rows
+    rng=np.random.default_rng(20261118)
+    ix=rng.integers(0,len(RULES),(10000,len(RULES)))
+    contrasts={}
+    for metric in ["decision","pair","coverage","all_three"]:
+        d=[]
+        for rule in RULES:
+            vals=[]
+            for seed in [42,43,44]:
+                per_arm=[summarize([r for r in details[f"{a}-{seed}"] if r["rule"]==rule and r["split"]=="far"])[metric] for a in ["scenario","paraphrase"]]
+                vals.append(per_arm[0]-per_arm[1])
+            d.append(np.mean(vals))
+        contrasts[metric]={"difference":float(np.mean(d)),"rule_cluster_ci":np.quantile(np.array(d)[ix].mean(axis=1),[.025,.975]).tolist(),"rule_delta":dict(zip(RULES,d))}
+    save(ROOT/"scores.json",dict(runs=scores,far_contrasts=contrasts))
+    save(ROOT/"item-scores.json",details)
+    print(json.dumps(scores,indent=1))
+    print(json.dumps({k:[v["difference"],v["rule_cluster_ci"]] for k,v in contrasts.items()}))
+if __name__=="__main__":
+    score()
+

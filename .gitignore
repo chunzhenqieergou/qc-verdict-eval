@@ -1,0 +1,22 @@
+# Caches & temporary files
+.cache/
+__pycache__/
+*.py[cod]
+*$py.class
+.ipynb_checkpoints/
+*.gclock
+*.metadata
+
+# Large model weights & checkpoints (keep on local disk only; compatible with GitHub limits)
+*.safetensors
+*.bin
+*.pt
+*.pth
+*.ckpt
+*.onnx
+
+# OS / Office temp files
+~$*.docx
+~$*.xlsx
+.DS_Store
+Thumbs.db

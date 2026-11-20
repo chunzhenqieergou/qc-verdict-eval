@@ -1,0 +1,246 @@
+{
+  "groups": {
+    "constant_given_polarity": [
+      "cp",
+      "cpk",
+      "cpl",
+      "cpu",
+      "weco1",
+      "weco2",
+      "weco8"
+    ],
+    "varied": [
+      "first_accept",
+      "first_reject",
+      "second_accept",
+      "single",
+      "weco3"
+    ]
+  },
+  "rows": [
+    {
+      "run": "base-0",
+      "rule_group": "constant_given_polarity",
+      "positive": false,
+      "total": 35,
+      "both_correct": 4,
+      "decision_correct_given_both": 0
+    },
+    {
+      "run": "base-0",
+      "rule_group": "constant_given_polarity",
+      "positive": true,
+      "total": 35,
+      "both_correct": 2,
+      "decision_correct_given_both": 2
+    },
+    {
+      "run": "base-0",
+      "rule_group": "varied",
+      "positive": false,
+      "total": 25,
+      "both_correct": 6,
+      "decision_correct_given_both": 6
+    },
+    {
+      "run": "base-0",
+      "rule_group": "varied",
+      "positive": true,
+      "total": 25,
+      "both_correct": 5,
+      "decision_correct_given_both": 3
+    },
+    {
+      "run": "paraphrase-42",
+      "rule_group": "constant_given_polarity",
+      "positive": false,
+      "total": 35,
+      "both_correct": 7,
+      "decision_correct_given_both": 7
+    },
+    {
+      "run": "paraphrase-42",
+      "rule_group": "constant_given_polarity",
+      "positive": true,
+      "total": 35,
+      "both_correct": 17,
+      "decision_correct_given_both": 0
+    },
+    {
+      "run": "paraphrase-42",
+      "rule_group": "varied",
+      "positive": false,
+      "total": 25,
+      "both_correct": 17,
+      "decision_correct_given_both": 17
+    },
+    {
+      "run": "paraphrase-42",
+      "rule_group": "varied",
+      "positive": true,
+      "total": 25,
+      "both_correct": 16,
+      "decision_correct_given_both": 0
+    },
+    {
+      "run": "paraphrase-43",
+      "rule_group": "constant_given_polarity",
+      "positive": false,
+      "total": 35,
+      "both_correct": 0,
+      "decision_correct_given_both": 0
+    },
+    {
+      "run": "paraphrase-43",
+      "rule_group": "constant_given_polarity",
+      "positive": true,
+      "total": 35,
+      "both_correct": 20,
+      "decision_correct_given_both": 19
+    },
+    {
+      "run": "paraphrase-43",
+      "rule_group": "varied",
+      "positive": false,
+      "total": 25,
+      "both_correct": 16,
+      "decision_correct_given_both": 11
+    },
+    {
+      "run": "paraphrase-43",
+      "rule_group": "varied",
+      "positive": true,
+      "total": 25,
+      "both_correct": 16,
+      "decision_correct_given_both": 6
+    },
+    {
+      "run": "paraphrase-44",
+      "rule_group": "constant_given_polarity",
+      "positive": false,
+      "total": 35,
+      "both_correct": 3,
+      "decision_correct_given_both": 3
+    },
+    {
+      "run": "paraphrase-44",
+      "rule_group": "constant_given_polarity",
+      "positive": true,
+      "total": 35,
+      "both_correct": 19,
+      "decision_correct_given_both": 0
+    },
+    {
+      "run": "paraphrase-44",
+      "rule_group": "varied",
+      "positive": false,
+      "total": 25,
+      "both_correct": 20,
+      "decision_correct_given_both": 16
+    },
+    {
+      "run": "paraphrase-44",
+      "rule_group": "varied",
+      "positive": true,
+      "total": 25,
+      "both_correct": 18,
+      "decision_correct_given_both": 5
+    },
+    {
+      "run": "scenario-42",
+      "rule_group": "constant_given_polarity",
+      "positive": false,
+      "total": 35,
+      "both_correct": 25,
+      "decision_correct_given_both": 25
+    },
+    {
+      "run": "scenario-42",
+      "rule_group": "constant_given_polarity",
+      "positive": true,
+      "total": 35,
+      "both_correct": 7,
+      "decision_correct_given_both": 0
+    },
+    {
+      "run": "scenario-42",
+      "rule_group": "varied",
+      "positive": false,
+      "total": 25,
+      "both_correct": 20,
+      "decision_correct_given_both": 20
+    },
+    {
+      "run": "scenario-42",
+      "rule_group": "varied",
+      "positive": true,
+      "total": 25,
+      "both_correct": 19,
+      "decision_correct_given_both": 0
+    },
+    {
+      "run": "scenario-43",
+      "rule_group": "constant_given_polarity",
+      "positive": false,
+      "total": 35,
+      "both_correct": 9,
+      "decision_correct_given_both": 0
+    },
+    {
+      "run": "scenario-43",
+      "rule_group": "constant_given_polarity",
+      "positive": true,
+      "total": 35,
+      "both_correct": 29,
+      "decision_correct_given_both": 29
+    },
+    {
+      "run": "scenario-43",
+      "rule_group": "varied",
+      "positive": false,
+      "total": 25,
+      "both_correct": 24,
+      "decision_correct_given_both": 1
+    },
+    {
+      "run": "scenario-43",
+      "rule_group": "varied",
+      "positive": true,
+      "total": 25,
+      "both_correct": 21,
+      "decision_correct_given_both": 21
+    },
+    {
+      "run": "scenario-44",
+      "rule_group": "constant_given_polarity",
+      "positive": false,
+      "total": 35,
+      "both_correct": 14,
+      "decision_correct_given_both": 14
+    },
+    {
+      "run": "scenario-44",
+      "rule_group": "constant_given_polarity",
+      "positive": true,
+      "total": 35,
+      "both_correct": 22,
+      "decision_correct_given_both": 0
+    },
+    {
+      "run": "scenario-44",
+      "rule_group": "varied",
+      "positive": false,
+      "total": 25,
+      "both_correct": 25,
+      "decision_correct_given_both": 25
+    },
+    {
+      "run": "scenario-44",
+      "rule_group": "varied",
+      "positive": true,
+      "total": 25,
+      "both_correct": 20,
+      "decision_correct_given_both": 1
+    }
+  ]
+}

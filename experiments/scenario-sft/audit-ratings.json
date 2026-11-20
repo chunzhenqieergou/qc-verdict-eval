@@ -1,0 +1,182 @@
+[
+  {
+    "code": 1,
+    "correct_decision_numbers_and_reason": true,
+    "incorrect_decision_despite_correct_numbers": false
+  },
+  {
+    "code": 2,
+    "correct_decision_numbers_and_reason": false,
+    "incorrect_decision_despite_correct_numbers": false
+  },
+  {
+    "code": 3,
+    "correct_decision_numbers_and_reason": false,
+    "incorrect_decision_despite_correct_numbers": false
+  },
+  {
+    "code": 4,
+    "correct_decision_numbers_and_reason": false,
+    "incorrect_decision_despite_correct_numbers": false
+  },
+  {
+    "code": 5,
+    "correct_decision_numbers_and_reason": false,
+    "incorrect_decision_despite_correct_numbers": false
+  },
+  {
+    "code": 6,
+    "correct_decision_numbers_and_reason": false,
+    "incorrect_decision_despite_correct_numbers": false
+  },
+  {
+    "code": 7,
+    "correct_decision_numbers_and_reason": false,
+    "incorrect_decision_despite_correct_numbers": false
+  },
+  {
+    "code": 8,
+    "correct_decision_numbers_and_reason": false,
+    "incorrect_decision_despite_correct_numbers": false
+  },
+  {
+    "code": 9,
+    "correct_decision_numbers_and_reason": false,
+    "incorrect_decision_despite_correct_numbers": true
+  },
+  {
+    "code": 10,
+    "correct_decision_numbers_and_reason": true,
+    "incorrect_decision_despite_correct_numbers": false
+  },
+  {
+    "code": 11,
+    "correct_decision_numbers_and_reason": false,
+    "incorrect_decision_despite_correct_numbers": false
+  },
+  {
+    "code": 12,
+    "correct_decision_numbers_and_reason": false,
+    "incorrect_decision_despite_correct_numbers": true
+  },
+  {
+    "code": 13,
+    "correct_decision_numbers_and_reason": false,
+    "incorrect_decision_despite_correct_numbers": false
+  },
+  {
+    "code": 14,
+    "correct_decision_numbers_and_reason": false,
+    "incorrect_decision_despite_correct_numbers": false
+  },
+  {
+    "code": 15,
+    "correct_decision_numbers_and_reason": false,
+    "incorrect_decision_despite_correct_numbers": true
+  },
+  {
+    "code": 16,
+    "correct_decision_numbers_and_reason": true,
+    "incorrect_decision_despite_correct_numbers": false
+  },
+  {
+    "code": 17,
+    "correct_decision_numbers_and_reason": false,
+    "incorrect_decision_despite_correct_numbers": false
+  },
+  {
+    "code": 18,
+    "correct_decision_numbers_and_reason": false,
+    "incorrect_decision_despite_correct_numbers": true
+  },
+  {
+    "code": 19,
+    "correct_decision_numbers_and_reason": false,
+    "incorrect_decision_despite_correct_numbers": false
+  },
+  {
+    "code": 20,
+    "correct_decision_numbers_and_reason": false,
+    "incorrect_decision_despite_correct_numbers": false
+  },
+  {
+    "code": 21,
+    "correct_decision_numbers_and_reason": false,
+    "incorrect_decision_despite_correct_numbers": true
+  },
+  {
+    "code": 22,
+    "correct_decision_numbers_and_reason": false,
+    "incorrect_decision_despite_correct_numbers": true
+  },
+  {
+    "code": 23,
+    "correct_decision_numbers_and_reason": false,
+    "incorrect_decision_despite_correct_numbers": false
+  },
+  {
+    "code": 24,
+    "correct_decision_numbers_and_reason": false,
+    "incorrect_decision_despite_correct_numbers": false
+  },
+  {
+    "code": 25,
+    "correct_decision_numbers_and_reason": true,
+    "incorrect_decision_despite_correct_numbers": false
+  },
+  {
+    "code": 26,
+    "correct_decision_numbers_and_reason": true,
+    "incorrect_decision_despite_correct_numbers": false
+  },
+  {
+    "code": 27,
+    "correct_decision_numbers_and_reason": true,
+    "incorrect_decision_despite_correct_numbers": false
+  },
+  {
+    "code": 28,
+    "correct_decision_numbers_and_reason": false,
+    "incorrect_decision_despite_correct_numbers": false
+  },
+  {
+    "code": 29,
+    "correct_decision_numbers_and_reason": false,
+    "incorrect_decision_despite_correct_numbers": true
+  },
+  {
+    "code": 30,
+    "correct_decision_numbers_and_reason": false,
+    "incorrect_decision_despite_correct_numbers": false
+  },
+  {
+    "code": 31,
+    "correct_decision_numbers_and_reason": false,
+    "incorrect_decision_despite_correct_numbers": false
+  },
+  {
+    "code": 32,
+    "correct_decision_numbers_and_reason": true,
+    "incorrect_decision_despite_correct_numbers": false
+  },
+  {
+    "code": 33,
+    "correct_decision_numbers_and_reason": false,
+    "incorrect_decision_despite_correct_numbers": false
+  },
+  {
+    "code": 34,
+    "correct_decision_numbers_and_reason": false,
+    "incorrect_decision_despite_correct_numbers": true
+  },
+  {
+    "code": 35,
+    "correct_decision_numbers_and_reason": true,
+    "incorrect_decision_despite_correct_numbers": false
+  },
+  {
+    "code": 36,
+    "correct_decision_numbers_and_reason": true,
+    "incorrect_decision_despite_correct_numbers": false
+  }
+]

@@ -1,0 +1,210 @@
+{
+  "base-original": [
+    {
+      "id": "3268288",
+      "verdict": true,
+      "correct": true,
+      "capped": false
+    },
+    {
+      "id": "3234769",
+      "verdict": true,
+      "correct": false,
+      "capped": false
+    },
+    {
+      "id": "vicc-cleaner",
+      "verdict": true,
+      "correct": true,
+      "capped": false
+    },
+    {
+      "id": "vicc-motor",
+      "verdict": true,
+      "correct": true,
+      "capped": false
+    }
+  ],
+  "base-reordered": [
+    {
+      "id": "3268288",
+      "verdict": true,
+      "correct": true,
+      "capped": false
+    },
+    {
+      "id": "3234769",
+      "verdict": true,
+      "correct": false,
+      "capped": false
+    },
+    {
+      "id": "vicc-cleaner",
+      "verdict": true,
+      "correct": true,
+      "capped": false
+    },
+    {
+      "id": "vicc-motor",
+      "verdict": true,
+      "correct": true,
+      "capped": false
+    }
+  ],
+  "42-original": [
+    {
+      "id": "3268288",
+      "verdict": true,
+      "correct": true,
+      "capped": false
+    },
+    {
+      "id": "3234769",
+      "verdict": true,
+      "correct": false,
+      "capped": false
+    },
+    {
+      "id": "vicc-cleaner",
+      "verdict": true,
+      "correct": true,
+      "capped": false
+    },
+    {
+      "id": "vicc-motor",
+      "verdict": true,
+      "correct": true,
+      "capped": false
+    }
+  ],
+  "43-original": [
+    {
+      "id": "3268288",
+      "verdict": true,
+      "correct": true,
+      "capped": false
+    },
+    {
+      "id": "3234769",
+      "verdict": true,
+      "correct": false,
+      "capped": false
+    },
+    {
+      "id": "vicc-cleaner",
+      "verdict": true,
+      "correct": true,
+      "capped": false
+    },
+    {
+      "id": "vicc-motor",
+      "verdict": true,
+      "correct": true,
+      "capped": false
+    }
+  ],
+  "44-original": [
+    {
+      "id": "3268288",
+      "verdict": true,
+      "correct": true,
+      "capped": false
+    },
+    {
+      "id": "3234769",
+      "verdict": true,
+      "correct": false,
+      "capped": false
+    },
+    {
+      "id": "vicc-cleaner",
+      "verdict": true,
+      "correct": true,
+      "capped": false
+    },
+    {
+      "id": "vicc-motor",
+      "verdict": true,
+      "correct": true,
+      "capped": false
+    }
+  ],
+  "42-reordered": [
+    {
+      "id": "3268288",
+      "verdict": true,
+      "correct": true,
+      "capped": false
+    },
+    {
+      "id": "3234769",
+      "verdict": true,
+      "correct": false,
+      "capped": false
+    },
+    {
+      "id": "vicc-cleaner",
+      "verdict": false,
+      "correct": false,
+      "capped": false
+    },
+    {
+      "id": "vicc-motor",
+      "verdict": false,
+      "correct": false,
+      "capped": false
+    }
+  ],
+  "43-reordered": [
+    {
+      "id": "3268288",
+      "verdict": true,
+      "correct": true,
+      "capped": false
+    },
+    {
+      "id": "3234769",
+      "verdict": true,
+      "correct": false,
+      "capped": false
+    },
+    {
+      "id": "vicc-cleaner",
+      "verdict": false,
+      "correct": false,
+      "capped": false
+    },
+    {
+      "id": "vicc-motor",
+      "verdict": false,
+      "correct": false,
+      "capped": false
+    }
+  ],
+  "44-reordered": [
+    {
+      "id": "3268288",
+      "verdict": true,
+      "correct": true,
+      "capped": false
+    },
+    {
+      "id": "3234769",
+      "verdict": true,
+      "correct": false,
+      "capped": false
+    },
+    {
+      "id": "vicc-cleaner",
+      "verdict": false,
+      "correct": false,
+      "capped": false
+    },
+    {
+      "id": "vicc-motor",
+      "verdict": false,
+      "correct": false,
+      "capped": false
+    }
+  ]
+}

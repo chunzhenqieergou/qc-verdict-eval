@@ -1,0 +1,102 @@
+{
+  "runs/base-0/predictions.json": {
+    "correct": 64,
+    "pair": 4,
+    "unparsed": 0
+  },
+  "runs/paraphrase-42/predictions.json": {
+    "correct": 60,
+    "pair": 0,
+    "unparsed": 0
+  },
+  "runs/paraphrase-43/predictions.json": {
+    "correct": 60,
+    "pair": 2,
+    "unparsed": 0
+  },
+  "runs/paraphrase-44/predictions.json": {
+    "correct": 60,
+    "pair": 1,
+    "unparsed": 0
+  },
+  "runs/scenario-42/predictions.json": {
+    "correct": 60,
+    "pair": 0,
+    "unparsed": 0
+  },
+  "runs/scenario-43/predictions.json": {
+    "correct": 62,
+    "pair": 2,
+    "unparsed": 0
+  },
+  "runs/scenario-44/predictions.json": {
+    "correct": 61,
+    "pair": 1,
+    "unparsed": 0
+  },
+  "order-probe/base-0/predictions.json": {
+    "correct": 52,
+    "pair": 4,
+    "unparsed": 19
+  },
+  "order-probe/paraphrase-42/predictions.json": {
+    "correct": 61,
+    "pair": 2,
+    "unparsed": 0
+  },
+  "order-probe/paraphrase-43/predictions.json": {
+    "correct": 44,
+    "pair": 4,
+    "unparsed": 5
+  },
+  "order-probe/paraphrase-44/predictions.json": {
+    "correct": 55,
+    "pair": 4,
+    "unparsed": 7
+  },
+  "order-probe/scenario-42/predictions.json": {
+    "correct": 63,
+    "pair": 7,
+    "unparsed": 0
+  },
+  "order-probe/scenario-43/predictions.json": {
+    "correct": 48,
+    "pair": 3,
+    "unparsed": 9
+  },
+  "order-probe/scenario-44/predictions.json": {
+    "correct": 48,
+    "pair": 0,
+    "unparsed": 6
+  },
+  "order-training/scenario-42/original/predictions.json": {
+    "correct": 63,
+    "pair": 4,
+    "unparsed": 0
+  },
+  "order-training/scenario-42/reordered/predictions.json": {
+    "correct": 74,
+    "pair": 14,
+    "unparsed": 2
+  },
+  "order-training/scenario-43/original/predictions.json": {
+    "correct": 64,
+    "pair": 4,
+    "unparsed": 0
+  },
+  "order-training/scenario-43/reordered/predictions.json": {
+    "correct": 80,
+    "pair": 23,
+    "unparsed": 0
+  },
+  "order-training/scenario-44/original/predictions.json": {
+    "correct": 66,
+    "pair": 6,
+    "unparsed": 0
+  },
+  "order-training/scenario-44/reordered/predictions.json": {
+    "correct": 85,
+    "pair": 26,
+    "unparsed": 0
+  }
+}

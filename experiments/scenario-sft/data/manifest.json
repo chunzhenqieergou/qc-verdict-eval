@@ -1,0 +1,18 @@
+{
+  "paraphrase": {
+    "n": 96,
+    "sha256": "71c03e70da125fc317adcf49e77740b61d086d15072d9cdee4906d3efce8ab13"
+  },
+  "scenario": {
+    "n": 96,
+    "sha256": "b9c798ecd5b3e90b1179e9017bc1a6a8bbbe943ae2414f57017b8201d9b6fd55"
+  },
+  "near": {
+    "n": 24,
+    "sha256": "674d3cf291401fb99e7c2de131719c2a0df3745e5bfa2b98b09a52bbbe17f0f8"
+  },
+  "far": {
+    "n": 120,
+    "sha256": "b5b8ccdf0cc480ba5dbc449f12fbca958f921735991e62b1ad254e25df9ca176"
+  }
+}

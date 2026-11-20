@@ -1,0 +1,48 @@
+
+Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]
+Loading checkpoint shards:  50%|����������     | 1/2 [00:03<00:03,  3.77s/it]
+Loading checkpoint shards: 100%|��������������������| 2/2 [00:05<00:00,  2.65s/it]
+Loading checkpoint shards: 100%|��������������������| 2/2 [00:05<00:00,  2.82s/it]
+base-original 4
+
+Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]
+Loading checkpoint shards:  50%|����������     | 1/2 [00:03<00:03,  3.44s/it]
+Loading checkpoint shards: 100%|��������������������| 2/2 [00:05<00:00,  2.51s/it]
+Loading checkpoint shards: 100%|��������������������| 2/2 [00:05<00:00,  2.65s/it]
+base-reordered 4
+
+Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]
+Loading checkpoint shards:  50%|����������     | 1/2 [00:03<00:03,  3.22s/it]
+Loading checkpoint shards: 100%|��������������������| 2/2 [00:05<00:00,  2.43s/it]
+Loading checkpoint shards: 100%|��������������������| 2/2 [00:05<00:00,  2.55s/it]
+42-original 4
+
+Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]
+Loading checkpoint shards:  50%|����������     | 1/2 [00:03<00:03,  3.41s/it]
+Loading checkpoint shards: 100%|��������������������| 2/2 [00:05<00:00,  2.56s/it]
+Loading checkpoint shards: 100%|��������������������| 2/2 [00:05<00:00,  2.68s/it]
+42-reordered 4
+
+Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]
+Loading checkpoint shards:  50%|����������     | 1/2 [00:03<00:03,  3.38s/it]
+Loading checkpoint shards: 100%|��������������������| 2/2 [00:05<00:00,  2.55s/it]
+Loading checkpoint shards: 100%|��������������������| 2/2 [00:05<00:00,  2.67s/it]
+43-original 4
+
+Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]
+Loading checkpoint shards:  50%|����������     | 1/2 [00:03<00:03,  3.15s/it]
+Loading checkpoint shards: 100%|��������������������| 2/2 [00:04<00:00,  2.37s/it]
+Loading checkpoint shards: 100%|��������������������| 2/2 [00:04<00:00,  2.48s/it]
+43-reordered 4
+
+Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]
+Loading checkpoint shards:  50%|����������     | 1/2 [00:02<00:02,  3.00s/it]
+Loading checkpoint shards: 100%|��������������������| 2/2 [00:04<00:00,  2.27s/it]
+Loading checkpoint shards: 100%|��������������������| 2/2 [00:04<00:00,  2.38s/it]
+44-original 4
+
+Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]
+Loading checkpoint shards:  50%|����������     | 1/2 [00:02<00:02,  2.99s/it]
+Loading checkpoint shards: 100%|��������������������| 2/2 [00:04<00:00,  2.23s/it]
+Loading checkpoint shards: 100%|��������������������| 2/2 [00:04<00:00,  2.34s/it]
+44-reordered 4

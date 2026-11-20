@@ -1,0 +1,722 @@
+[
+  {
+    "id": "near-single-0-0",
+    "text": "成立\n统计量=3\n阈值=2\n一次抽样的不合格品数须小于或等于接收数。",
+    "capped": false
+  },
+  {
+    "id": "near-single-0-1",
+    "text": "成立\n统计量=2\n阈值=2\n一次抽样的不合格品数须不超过接收数。",
+    "capped": false
+  },
+  {
+    "id": "near-first_accept-0-0",
+    "text": "成立\n统计量=3\n阈值=2\n首样直接接收要求不合格品数不超过首样接收数。",
+    "capped": false
+  },
+  {
+    "id": "near-first_accept-0-1",
+    "text": "成立\n统计量=2\n阈值=2\n首样直接接收要求不合格品数不超过首样接收数。",
+    "capped": false
+  },
+  {
+    "id": "near-first_reject-0-0",
+    "text": "不成立\n统计量=1\n拒收数=2\n首样直接拒收要求不合格品数达到或超过拒收数。",
+    "capped": false
+  },
+  {
+    "id": "near-first_reject-0-1",
+    "text": "不成立\n统计量=2\n拒收数为2\n首样直接拒收要求不合格品数达到或超过拒收数。",
+    "capped": false
+  },
+  {
+    "id": "near-second_accept-0-0",
+    "text": "成立\n统计量=2\n阈值=2\n两次抽样的不合格品数之和须不超过累计接收数。",
+    "capped": false
+  },
+  {
+    "id": "near-second_accept-0-1",
+    "text": "成立\n统计量=2\n阈值=2\n两次抽样的不合格品数之和须不超过累计接收数。",
+    "capped": false
+  },
+  {
+    "id": "near-weco3-0-0",
+    "text": "成立\n统计量=2\n阈值=3\n单点至界线间标准化偏差须大于3。",
+    "capped": false
+  },
+  {
+    "id": "near-weco3-0-1",
+    "text": "成立\n统计量=4\n阈值=3\n单点落于上侧三倍标准差之外。",
+    "capped": false
+  },
+  {
+    "id": "near-weco2-0-0",
+    "text": "成立\n统计量=2\n阈值=2\n窗口内高于指定界线的点数至少应有2个。",
+    "capped": false
+  },
+  {
+    "id": "near-weco2-0-1",
+    "text": "成立\n统计量=2\n阈值=2\n窗口内高于指定界线的点数至少应有2个。",
+    "capped": false
+  },
+  {
+    "id": "near-weco1-0-0",
+    "text": "成立\n统计量=4\n阈值=4\n窗口内高于指定界线的点数至少应有4个。",
+    "capped": false
+  },
+  {
+    "id": "near-weco1-0-1",
+    "text": "成立\n统计量=4\n阈值=4\n窗口内高于指定界线的点数至少应有4个。",
+    "capped": false
+  },
+  {
+    "id": "near-weco8-0-0",
+    "text": "成立\n统计量=7\n阈值=8\n窗口内高于指定界线的点数至少应有8个。",
+    "capped": false
+  },
+  {
+    "id": "near-weco8-0-1",
+    "text": "成立\n统计量=7\n阈值=8\n窗口内高于指定界线的点数至少应有8个。",
+    "capped": false
+  },
+  {
+    "id": "near-cp-0-0",
+    "text": "成立\n统计量=0.5\nCp等于规格宽度除以六倍标准差。",
+    "capped": false
+  },
+  {
+    "id": "near-cp-0-1",
+    "text": "成立\n统计量=1.5\n阈值=1\nCp等于规格宽度除以六倍标准差。",
+    "capped": false
+  },
+  {
+    "id": "near-cpu-0-0",
+    "text": "成立\n统计量=0.5\nCpu等于上规格限与均值之差除以三倍标准差。",
+    "capped": false
+  },
+  {
+    "id": "near-cpu-0-1",
+    "text": "成立\n统计量=0.5\nCpu等于上规格限与均值之差除以三倍标准差。",
+    "capped": false
+  },
+  {
+    "id": "near-cpl-0-0",
+    "text": "成立\n统计量=0.5\nCpl等于均值与下规格限之差除以三倍标准差。",
+    "capped": false
+  },
+  {
+    "id": "near-cpl-0-1",
+    "text": "成立\n统计量=0.5\nCpl等于均值与下规格限之差除以三倍标准差。",
+    "capped": false
+  },
+  {
+    "id": "near-cpk-0-0",
+    "text": "成立\n统计量=0.5\nCpk取最小的规格宽度与能力指数之比。",
+    "capped": false
+  },
+  {
+    "id": "near-cpk-0-1",
+    "text": "成立\n统计量=1.5\nCpk取最小的规格宽度与能力指数之比。",
+    "capped": false
+  },
+  {
+    "id": "far-single-0-0",
+    "text": "成立\n统计量=8，阈值=7\n一次抽样的不合格品数须小于或等于接收数。",
+    "capped": false
+  },
+  {
+    "id": "far-single-0-1",
+    "text": "成立\n统计量=7\n阈值=7\n一次抽样的不合格品数须小于或等于接收数。",
+    "capped": false
+  },
+  {
+    "id": "far-single-1-0",
+    "text": "成立\n统计量=9\n阈值=8\n一次抽样的不合格品数须小于或等于接收数。",
+    "capped": false
+  },
+  {
+    "id": "far-single-1-1",
+    "text": "成立\n统计量=8\n阈值=8\n一次抽样的不合格品数须小于或等于接收数。",
+    "capped": false
+  },
+  {
+    "id": "far-single-2-0",
+    "text": "成立\n统计量=10\n阈值=9\n一次抽样的不合格品数须小于或等于接收数。",
+    "capped": false
+  },
+  {
+    "id": "far-single-2-1",
+    "text": "成立\n统计量=9\n阈值=9\n一次抽样的不合格品数须小于或等于接收数。",
+    "capped": false
+  },
+  {
+    "id": "far-single-3-0",
+    "text": "成立\n统计量=11\n阈值=10\n一次抽样的不合格品数须小于或等于接收数。",
+    "capped": false
+  },
+  {
+    "id": "far-single-3-1",
+    "text": "成立\n统计量=10\n阈值=10\n一次抽样的不合格品数须小于或等于接收数。",
+    "capped": false
+  },
+  {
+    "id": "far-single-4-0",
+    "text": "成立\n统计量=12，阈值=11\n一次抽样的不合格品数须小于或等于接收数。",
+    "capped": false
+  },
+  {
+    "id": "far-single-4-1",
+    "text": "成立\n统计量=11\n阈值=11\n一次抽样的不合格品数须小于或等于接收数。",
+    "capped": false
+  },
+  {
+    "id": "far-first_accept-0-0",
+    "text": "成立\n统计量=8\n阈值=7\n首样直接接收要求不合格品数不超过首样接收数。",
+    "capped": false
+  },
+  {
+    "id": "far-first_accept-0-1",
+    "text": "成立\n统计量=7\n阈值=7\n首样直接接收要求不合格品数不超过首样接收数。",
+    "capped": false
+  },
+  {
+    "id": "far-first_accept-1-0",
+    "text": "成立\n统计量=9\n阈值=8\n首样直接接收要求不合格品数不超过首样接收数。",
+    "capped": false
+  },
+  {
+    "id": "far-first_accept-1-1",
+    "text": "成立\n统计量=8\n阈值=8\n首样直接接收要求不合格品数不超过首样接收数。",
+    "capped": false
+  },
+  {
+    "id": "far-first_accept-2-0",
+    "text": "成立\n统计量=9\n阈值=12\n首样直接接收要求首样不合格品数不超过首样接收数。",
+    "capped": false
+  },
+  {
+    "id": "far-first_accept-2-1",
+    "text": "成立\n统计量=9\n阈值=9\n首样直接接收要求不合格品数不超过首样接收数。",
+    "capped": false
+  },
+  {
+    "id": "far-first_accept-3-0",
+    "text": "成立\n统计量=11\n阈值=10\n首样直接接收要求不合格品数不超过首样接收数。",
+    "capped": false
+  },
+  {
+    "id": "far-first_accept-3-1",
+    "text": "成立\n统计量=10\n阈值=10\n首样直接接收要求不合格品数不超过首样接收数。",
+    "capped": false
+  },
+  {
+    "id": "far-first_accept-4-0",
+    "text": "成立\n统计量=12\n阈值=11\n首样直接评定要求不合格品数不超过首样接收数。",
+    "capped": false
+  },
+  {
+    "id": "far-first_accept-4-1",
+    "text": "成立\n统计量=11\n阈值=11\n首样直接接收要求不合格品数不超过首样接收数。",
+    "capped": false
+  },
+  {
+    "id": "far-first_reject-0-0",
+    "text": "不成立\n统计量=6\n阈值=7\n首样直接拒收要求不合格品数达到或超过拒收数。",
+    "capped": false
+  },
+  {
+    "id": "far-first_reject-0-1",
+    "text": "不成立\n统计量=7\n拒收数=7\n首样直接拒收要求不合格品数达到或超过拒收数。",
+    "capped": false
+  },
+  {
+    "id": "far-first_reject-1-0",
+    "text": "不成立\n统计量=7\n阈值=8\n首样直接拒收要求不合格品数达到或超过拒收数。",
+    "capped": false
+  },
+  {
+    "id": "far-first_reject-1-1",
+    "text": "不成立\n统计量=6\n阈值=8\n首样直接拒收要求首样不合格品数达到或超过首样拒收数。",
+    "capped": false
+  },
+  {
+    "id": "far-first_reject-2-0",
+    "text": "不成立\n统计量=8\n阈值=8\n首样直接拒收要求首样不合格品数达到或超过拒收数。",
+    "capped": false
+  },
+  {
+    "id": "far-first_reject-2-1",
+    "text": "不成立\n统计量=8\n阈值=13\n首样直接拒收要求不合格品数达到或超过拒收数。",
+    "capped": false
+  },
+  {
+    "id": "far-first_reject-3-0",
+    "text": "不成立\n统计量=9\n阈值=8\n首样直接拒收要求不合格品数达到或超过首样拒收数。",
+    "capped": false
+  },
+  {
+    "id": "far-first_reject-3-1",
+    "text": "成立\n统计量=10\n阈值=10\n首样直接拒收要求不合格品数达到或超过拒收数。",
+    "capped": false
+  },
+  {
+    "id": "far-first_reject-4-0",
+    "text": "不成立\n统计量=10\n拒收数=11\n首样直接拒收要求不合格品数达到或超过拒收数。",
+    "capped": false
+  },
+  {
+    "id": "far-first_reject-4-1",
+    "text": "不成立\n统计量=11\n拒收数=1mlayerymlayery",
+    "capped": false
+  },
+  {
+    "id": "far-second_accept-0-0",
+    "text": "成立\n统计量=7\n阈值=7\n两次抽样的不合格品数之和应不超过累计接收数。",
+    "capped": false
+  },
+  {
+    "id": "far-second_accept-0-1",
+    "text": "成立\n统计量=6\n阈值=2\n两次抽样的不合格品数之和须不超过累计接收数。",
+    "capped": false
+  },
+  {
+    "id": "far-second_accept-1-0",
+    "text": "成立\n统计量=8\n阈值=8\n两次抽样的不合格品数之和须不超过累计接收数。",
+    "capped": false
+  },
+  {
+    "id": "far-second_accept-1-1",
+    "text": "成立\n统计量=7\n阈值=2\n两次抽样的不合格品数之和须不超过累计接收数。",
+    "capped": false
+  },
+  {
+    "id": "far-second_accept-2-0",
+    "text": "成立\n统计量=9\n阈值=10\n两次抽样的不合格品数之和须不超过累计接收数。",
+    "capped": false
+  },
+  {
+    "id": "far-second_accept-2-1",
+    "text": "成立\n统计量=8\n阈值=1\n两次抽样的不合格品数之和须不超过累计接收数。",
+    "capped": false
+  },
+  {
+    "id": "far-second_accept-3-0",
+    "text": "成立\n统计量=11\n阈值=2\n两次抽样的不合格品数之和须不超过累计接收数。",
+    "capped": false
+  },
+  {
+    "id": "far-second_accept-3-1",
+    "text": "成立\n统计量=9\n阈值=2\n两次抽样的不合格品数之和须不超过累计接收数。",
+    "capped": false
+  },
+  {
+    "id": "far-second_accept-4-0",
+    "text": "成立\n统计量=11\n阈值=11\n两次抽样的不合格品数之和须不超过累计接收数。",
+    "capped": false
+  },
+  {
+    "id": "far-second_accept-4-1",
+    "text": "成立\n统计量=11\n阈值=11\n两次抽样的不合格品数之和应不超过累计接收数。",
+    "capped": false
+  },
+  {
+    "id": "far-weco3-0-0",
+    "text": "不成立\n统计量=1.5\n上侧单点越限要求标准化偏差大于3。",
+    "capped": false
+  },
+  {
+    "id": "far-weco3-0-1",
+    "text": "成立\n统计量=4.5\n阈值=3\n单点越上界要求标准化偏差大于3。",
+    "capped": false
+  },
+  {
+    "id": "far-weco3-1-0",
+    "text": "不成立\n统计量=1.4\n上侧三西格玛越限的标准化偏差阈值为3。",
+    "capped": false
+  },
+  {
+    "id": "far-weco3-1-1",
+    "text": "成立\n统计量=4.6\n阈值=3\n单点越出上侧控制界限即触发上侧单点三西格玛越限。",
+    "capped": false
+  },
+  {
+    "id": "far-weco3-2-0",
+    "text": "不成立\n统计量=1.3\n上侧单点越限要求标准化偏差大于3。",
+    "capped": false
+  },
+  {
+    "id": "far-weco3-2-1",
+    "text": "成立\n统计量=4.7\n阈值=3\n单点越限要求标准化距离大于3。",
+    "capped": false
+  },
+  {
+    "id": "far-weco3-3-0",
+    "text": "不成立\n统计量=1.2\n上侧单点越限要求标准化偏差大于3。",
+    "capped": false
+  },
+  {
+    "id": "far-weco3-3-1",
+    "text": "成立\n统计量=4.8\n阈值=3\n单侧上界越限要求标准化偏差大于3。",
+    "capped": false
+  },
+  {
+    "id": "far-weco3-4-0",
+    "text": "不成立\n统计量=1.1\n上侧单点越限要求标准化偏差大于3。",
+    "capped": false
+  },
+  {
+    "id": "far-weco3-4-1",
+    "text": "成立\n统计量=4.9\n阈值=3\n单点越限要求标准化偏差大于3。",
+    "capped": false
+  },
+  {
+    "id": "far-weco2-0-0",
+    "text": "成立\n统计量=2\n阈值=2\n窗口内高于指定界线的点数至少应有2个。",
+    "capped": false
+  },
+  {
+    "id": "far-weco2-0-1",
+    "text": "成立\n统计量=2\n阈值=2\n窗口内高于指定界线的点数至少应有2个。",
+    "capped": false
+  },
+  {
+    "id": "far-weco2-1-0",
+    "text": "成立\n统计量=2\n阈值=2\n窗口内高于指定界线的点数至少应有2个。",
+    "capped": false
+  },
+  {
+    "id": "far-weco2-1-1",
+    "text": "成立\n统计量=2\n阈值=2\n窗口内高于指定界线的点数至少应有2个。",
+    "capped": false
+  },
+  {
+    "id": "far-weco2-2-0",
+    "text": "成立\n统计量=2\n阈值=2\n窗口内高于指定界线的点数至少应有2个。",
+    "capped": false
+  },
+  {
+    "id": "far-weco2-2-1",
+    "text": "成立\n统计量=2\n阈值=2\n窗口内高于指定界线的点数至少应有2个。",
+    "capped": false
+  },
+  {
+    "id": "far-weco2-3-0",
+    "text": "成立\n统计量=2\n阈值=2\n窗口内高于指定界线的点数至少应有2个。",
+    "capped": false
+  },
+  {
+    "id": "far-weco2-3-1",
+    "text": "成立\n统计量=2\n阈值=2\n窗口内高于指定界线的点数至少应有2个。",
+    "capped": false
+  },
+  {
+    "id": "far-weco2-4-0",
+    "text": "成立\n统计量=2\n阈值=2\n窗口内高于指定界线的点数至少应有2个。",
+    "capped": false
+  },
+  {
+    "id": "far-weco2-4-1",
+    "text": "成立\n统计量=2\n阈值=2\n窗口内高于指定界线的点数至少应有2个。",
+    "capped": false
+  },
+  {
+    "id": "far-weco1-0-0",
+    "text": "成立\n统计量=4\n窗口内高于指定界线的点数至少应有4个。",
+    "capped": false
+  },
+  {
+    "id": "far-weco1-0-1",
+    "text": "成立\n统计量=4\n阈值=4\n窗口内高于指定界线的点数至少应有4个。",
+    "capped": false
+  },
+  {
+    "id": "far-weco1-1-0",
+    "text": "成立\n统计量=4\n阈值=4\n窗口内高于指定界线的点数至少应有4个。",
+    "capped": false
+  },
+  {
+    "id": "far-weco1-1-1",
+    "text": "成立\n统计量=4\n阈值=4\n窗口内高于指定界线的点数至少应有4个。",
+    "capped": false
+  },
+  {
+    "id": "far-weco1-2-0",
+    "text": "成立\n统计量=4\n阈值=4\n窗口内高于指定界线的点数至少应有4个。",
+    "capped": false
+  },
+  {
+    "id": "far-weco1-2-1",
+    "text": "成立\n统计量=4\n阈值=4\n窗口内高于指定界线的点数至少应有4个。",
+    "capped": false
+  },
+  {
+    "id": "far-weco1-3-0",
+    "text": "成立\n统计量=4\n阈值=4\n窗口内高于指定界线的点数至少应有4个。",
+    "capped": false
+  },
+  {
+    "id": "far-weco1-3-1",
+    "text": "成立\n统计量=4\n阈值=4\n窗口内高于指定界线的点数至少应有4个。",
+    "capped": false
+  },
+  {
+    "id": "far-weco1-4-0",
+    "text": "成立\n统计量=4\n阈值=4\n窗口内高于指定界线的点数至少应有4个。",
+    "capped": false
+  },
+  {
+    "id": "far-weco1-4-1",
+    "text": "成立\n统计量=4\n阈值=4\n窗口内高于指定界线的点数至少应有4个。",
+    "capped": false
+  },
+  {
+    "id": "far-weco8-0-0",
+    "text": "成立\n统计量=5\n阈值=8\n窗口内高于指定界线的点数至少应有8个。",
+    "capped": false
+  },
+  {
+    "id": "far-weco8-0-1",
+    "text": "成立\n统计量=8\n阈值=8\n窗口内高于指定界线的点数至少应有8个。",
+    "capped": false
+  },
+  {
+    "id": "far-weco8-1-0",
+    "text": "成立\n统计量=8\n阈值=8\n窗口内高于指定界线的点数至少应有8个。",
+    "capped": false
+  },
+  {
+    "id": "far-weco8-1-1",
+    "text": "成立\n统计量=8\n阈值=8\n窗口内高于指定界线的点数至少应有8个。",
+    "capped": false
+  },
+  {
+    "id": "far-weco8-2-0",
+    "text": "成立\n统计量=7\n阈值=8\n窗口内高于指定界线的点数至少应有8个。",
+    "capped": false
+  },
+  {
+    "id": "far-weco8-2-1",
+    "text": "成立\n统计量=8\n阈值=8\n窗口内高于指定界线的点数至少应有8个。",
+    "capped": false
+  },
+  {
+    "id": "far-weco8-3-0",
+    "text": "成立\n统计量=7\n阈值=8\n窗口内高于指定界线的点数至少应有8个。",
+    "capped": false
+  },
+  {
+    "id": "far-weco8-3-1",
+    "text": "成立\n统计量=8\n阈值=8\n窗口内高于指定界线的点数至少应有8个。",
+    "capped": false
+  },
+  {
+    "id": "far-weco8-4-0",
+    "text": "成立\n统计量=7\n阈值=8\n窗口内高于指定界线的点数至少应有8个。",
+    "capped": false
+  },
+  {
+    "id": "far-weco8-4-1",
+    "text": "成立\n统计量=7\n阈值=8\n窗口内高于指定界线的点数至少应有8个。",
+    "capped": false
+  },
+  {
+    "id": "far-cp-0-0",
+    "text": "成立\n统计量=1\n阈值=1\nCp等于规格宽度除以六倍标准差。",
+    "capped": false
+  },
+  {
+    "id": "far-cp-0-1",
+    "text": "成立\n统计量=1.33\n阈值=1\nCp等于规格宽度除以六倍标准差。",
+    "capped": false
+  },
+  {
+    "id": "far-cp-1-0",
+    "text": "成立\n统计量=1.5\n规格宽度=21",
+    "capped": false
+  },
+  {
+    "id": "far-cp-1-1",
+    "text": "成立\n统计量=1.5\n规格宽度=25.0\n理由：Cp等于规格宽度与六倍标准差的比值。",
+    "capped": false
+  },
+  {
+    "id": "far-cp-2-0",
+    "text": "成立\n统计量=0.875\n规格宽度=24\n理由：Cp等于规格宽度与六倍标准差的比值。",
+    "capped": false
+  },
+  {
+    "id": "far-cp-2-1",
+    "text": "成立\n统计量=1.5\n阈值=1\nCp等于规格宽度除以六倍标准差。",
+    "capped": false
+  },
+  {
+    "id": "far-cp-3-0",
+    "text": "成立\n统计量=1.56\n阈值=1\nCp等于规格宽度除以六倍标准差。",
+    "capped": false
+  },
+  {
+    "id": "far-cp-3-1",
+    "text": "成立\n统计量=1.56\n阈值=1\nCp等于规格宽度除以六倍标准差。",
+    "capped": false
+  },
+  {
+    "id": "far-cp-4-0",
+    "text": "成立\n统计量=0.5\nCp等于规格宽度除以六倍标准差。",
+    "capped": false
+  },
+  {
+    "id": "far-cp-4-1",
+    "text": "成立\n统计量=0.5\nCp等于规格宽度除以六倍标准差。",
+    "capped": false
+  },
+  {
+    "id": "far-cpu-0-0",
+    "text": "成立\n统计量=1.5\n上单侧Cpu等于上规格限与均值之差除以三倍标准差。",
+    "capped": false
+  },
+  {
+    "id": "far-cpu-0-1",
+    "text": "成立\n统计量=1.5\n阈值=1\nCpu等于上规格限与均值之差除以三倍标准差。",
+    "capped": false
+  },
+  {
+    "id": "far-cpu-1-0",
+    "text": "成立\n统计量=0.5\nCpu等于上规格限与均值之差除以三倍标准差。",
+    "capped": false
+  },
+  {
+    "id": "far-cpu-1-1",
+    "text": "成立\n统计量=0.5\nCpu等于上规格限与均值之差除以三倍标准差。",
+    "capped": false
+  },
+  {
+    "id": "far-cpu-2-0",
+    "text": "成立\n统计量=0.5\nCpu等于上规格限与均值之差除以三倍标准差。",
+    "capped": false
+  },
+  {
+    "id": "far-cpu-2-1",
+    "text": "成立\n统计量=1.5\nCpu等于上规格限与均值之差除以三倍标准差。",
+    "capped": false
+  },
+  {
+    "id": "far-cpu-3-0",
+    "text": "成立\n统计量=1.5\nCpu等于上规格限与均值之差除以三倍标准差。",
+    "capped": false
+  },
+  {
+    "id": "far-cpu-3-1",
+    "text": "成立\n统计量=0.5\nCpu等于上规格限与均值之差除以三倍标准差。",
+    "capped": false
+  },
+  {
+    "id": "far-cpu-4-0",
+    "text": "成立\n统计量=1.5\n上单侧Cpu等于上规格限与均值之差除以三倍标准差。",
+    "capped": false
+  },
+  {
+    "id": "far-cpu-4-1",
+    "text": "成立\n统计量=1.5\nCpu等于上规格限与均值之差除以三倍标准差。",
+    "capped": false
+  },
+  {
+    "id": "far-cpl-0-0",
+    "text": "成立\n统计量=1.5\nCpl等于均值与下规格限之差除以三倍标准差。",
+    "capped": false
+  },
+  {
+    "id": "far-cpl-0-1",
+    "text": "成立\n统计量=1.5\nCpl等于均值与下规格限之差除以三倍标准差。",
+    "capped": false
+  },
+  {
+    "id": "far-cpl-1-0",
+    "text": "成立\n统计量=0.5\nCpl等于均值与下规格限之差除以三倍标准差。",
+    "capped": false
+  },
+  {
+    "id": "far-cpl-1-1",
+    "text": "成立\n统计量=0.5\nCpl等于均值与下规格限之差除以三倍标准差。",
+    "capped": false
+  },
+  {
+    "id": "far-cpl-2-0",
+    "text": "成立\n统计量=0.5\nCpl等于均值与下规格限之差除以三倍标准差。",
+    "capped": false
+  },
+  {
+    "id": "far-cpl-2-1",
+    "text": "成立\n统计量=2.5\nCpl等于均值与下规格限之差除以三倍标准差。",
+    "capped": false
+  },
+  {
+    "id": "far-cpl-3-0",
+    "text": "成立\n统计量=0.5\nCpl等于均值与下规格限之差除以三倍标准差。",
+    "capped": false
+  },
+  {
+    "id": "far-cpl-3-1",
+    "text": "成立\n统计量=0.5\nCpl等于均值与下规格限之差除以三倍标准差。",
+    "capped": false
+  },
+  {
+    "id": "far-cpl-4-0",
+    "text": "成立\n统计量=1.5\nCpl等于均值与下规格限之差除以三倍标准差。",
+    "capped": false
+  },
+  {
+    "id": "far-cpl-4-1",
+    "text": "成立\n统计量=1.5\nCpl等于均值与下规格限之差除以三倍标准差。",
+    "capped": false
+  },
+  {
+    "id": "far-cpk-0-0",
+    "text": "成立\n统计量=1.5\nCpk取最小的规格界与均值之差除以三倍标准差。",
+    "capped": false
+  },
+  {
+    "id": "far-cpk-0-1",
+    "text": "成立\n统计量=1.5\nCpk取最小的规格界与均值之差除以三倍标准差。",
+    "capped": false
+  },
+  {
+    "id": "far-cpk-1-0",
+    "text": "成立\n统计量=1.5\nCpk取最小的规格界与均值之差除以六倍标准差。",
+    "capped": false
+  },
+  {
+    "id": "far-cpk-1-1",
+    "text": "成立\n统计量=1.5\nCpk取最小的规格界与均值之差除以三倍标准差。",
+    "capped": false
+  },
+  {
+    "id": "far-cpk-2-0",
+    "text": "成立\n统计量=1.5\nCpk取最小的规格界与均值之差除以三倍标准差。",
+    "capped": false
+  },
+  {
+    "id": "far-cpk-2-1",
+    "text": "成立\n统计量=1.5\nCpk取最小的规格界与均值之差除以六倍标准差。",
+    "capped": false
+  },
+  {
+    "id": "far-cpk-3-0",
+    "text": "成立\n统计量=1.5\nCpk取最小的过程能力指数。",
+    "capped": false
+  },
+  {
+    "id": "far-cpk-3-1",
+    "text": "成立\n统计量=1.5\nCpk取最小的规格界与均值之差除以三倍标准差。",
+    "capped": false
+  },
+  {
+    "id": "far-cpk-4-0",
+    "text": "成立\n统计量=1.5\nCpk取最小的规格界与均值之差除以三倍标准差。",
+    "capped": false
+  },
+  {
+    "id": "far-cpk-4-1",
+    "text": "成立\n统计量=1.5\nCpk取最小的规格界与均值之差除以三倍标准差。",
+    "capped": false
+  }
+]

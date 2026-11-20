@@ -1,0 +1,24 @@
+{
+  "call_number": 1,
+  "purpose": "topic-screen",
+  "tool": "collaboration.spawn_agent",
+  "backend": "codex",
+  "model": "gpt-6-astra",
+  "effort": "xhigh",
+  "requested_reviewer_model": "gpt-6-astra",
+  "reported_reviewer_model": null,
+  "reviewer_model": "gpt-6-astra",
+  "reviewer_model_source": "requested",
+  "review_independence": "same-family",
+  "acceptance_status": "provisional",
+  "review_completed": true,
+  "review_scope_complete": true,
+  "review_positive": true,
+  "verdict": {
+    "A": "PROCEED",
+    "B": "PROCEED WITH CAUTION",
+    "C": "PROCEED WITH CAUTION"
+  },
+  "files_referenced": [],
+  "prompt": "ARIS novelty-check fresh reviewer, read-only, no recursion. User seeks first-pass paper topic choices (Chinese, applied SCI Q3/Q4 ambition, no training now). Review only civilian industrial maintenance and quality-management open-ended QA. Do not read original mixed-domain examples or use mixed-domain adapters as experimental baselines. Evidence aggregate: existing Qwen2.5-3B 4-bit QLoRA pipeline on RTX 5060 Ti 8 GB. Historical v8 763 records had all 39 gold question texts in training; v9 709 removed exact questions but multiple data edits and held questions have potential semantic overlap. Reused 30 question evaluation had inconsistent scores and base sometimes hit output cap. Existing civilian EOS pilot freezes 159 train, 24 dev, 19 scenario-holdout (shared concepts), same initial adapter and 80 steps. EOS normal vs EOS downweighted: 15/57 vs 13/57 keypoints, 3/19 vs 6/19 substantive wrong, 0 complete both, median 38 vs 35 Chinese chars, seed 42 only. Candidate A: equal-size and answer-length matched SFT variants comparing same-scenario paraphrases with diverse civilian scenarios each grounded in same source concept; test on concept-shared unseen situations and, separately if feasible, source-family holdout. Candidate B: pure SFT controlled incomplete vs complete annotations (match length using correct nonessential content), measure answer completeness and study cross entropy vs coverage for checkpoint selection. Candidate C: civil four-way base/QLoRA × no evidence/retrieved civil manual evidence plus manually selected excerpt as retrieval upper diagnostic, grading missing or unused evidence. Candidate D: EOS-alone extension. Relevant sources official: https://www.mdpi.com/2075-1702/14/9/1044 progressive LoRA+evidence; https://arxiv.org/abs/2605.08614 DiagnosticIQ symbolic multiple-choice with condition inversion; https://aclanthology.org/2025.findings-naacl.329/ systematic knowledge augmentation; https://aclanthology.org/2025.findings-emnlp.589/ knowledge transfer; https://arxiv.org/abs/2311.04850 rephrase contamination; https://aclanthology.org/2020.blackboxnlp-1.26/ EOS; https://aclanthology.org/2024.emnlp-main.15/ retrieval vs fine tuning. Can search public prior work if needed. Return concise 3 ranked ideas, most defensible delta, nearest confound and pilot design. Separate significance from acceptance prospects.\n=== NOVELTY VERDICT LIMITS (these bound how you judge, never how widely you search) ===\nSearch exhaustively; judge calibrated. Two failures waste months equally:\npassing an idea a published paper already contains, and killing a viable idea\nthe territory has neighbors.\n1. Proximity is information, not a verdict. Someone working nearby goes in\n   the report; it is not by itself a reason to reject.\n2. ABANDON has exactly one qualification: a specific published paper already\n   contains this result — name that paper. No named paper, no ABANDON.\n3. Crowded-but-deltaed is PROCEED: state the delta in one sentence a reviewer\n   could verify. Thin or contested delta is PROCEED WITH CAUTION — say what\n   would make it carry, not why it should die. CAUTION is not a safe middle:\n   if you cannot name the specific thing that makes the delta thin, the\n   verdict is PROCEED.\n4. Concurrent or competing work is not a veto. That is a race — report it\n   and let the user decide whether to run it.\n5. A direct attack on a central problem is legitimate novelty when nobody has\n   executed it well. \"This area is hot\" does not mean \"this area is taken.\"\n6. This check is an early gate, never the last one — more triage, pilots, or\n   external review still stand between any idea and a paper, whatever order\n   this run is in. When torn between two verdicts, choose the more permissive\n   one.\nSay plainly when an idea clears the check. Do not manufacture overlap."
+}

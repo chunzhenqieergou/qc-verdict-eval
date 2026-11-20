@@ -1,0 +1,3666 @@
+[
+  {
+    "id": "old_word__old_num__single__p0__1",
+    "cell": "old_word__old_num",
+    "wording": "old_word",
+    "num_cfg": "old_num",
+    "pair_id": "old_word__old_num__single__p0",
+    "rule": "single",
+    "family": "sampling",
+    "op": "<=",
+    "question": "下面是抽查人员抄录的数据。纺织机衬套质量记录。现有数据：一次计数抽样的接收数为7，抽取80件，发现不合格品7件。审核员据此写下“该批可按方案接收”。这句话成立吗？",
+    "inputs": {
+      "n": 80,
+      "c": 7,
+      "x": 7
+    },
+    "value": 7.0,
+    "limit": 7.0,
+    "positive": true
+  },
+  {
+    "id": "old_word__old_num__single__p0__0",
+    "cell": "old_word__old_num",
+    "wording": "old_word",
+    "num_cfg": "old_num",
+    "pair_id": "old_word__old_num__single__p0",
+    "rule": "single",
+    "family": "sampling",
+    "op": "<=",
+    "question": "下面是抽查人员抄录的数据。纺织机衬套质量记录。现有数据：一次计数抽样的接收数为7，抽取80件，发现不合格品8件。审核员据此写下“该批可按方案接收”。这句话成立吗？",
+    "inputs": {
+      "n": 80,
+      "c": 7,
+      "x": 8
+    },
+    "value": 8.0,
+    "limit": 7.0,
+    "positive": false
+  },
+  {
+    "id": "new_word__old_num__single__p0__1",
+    "cell": "new_word__old_num",
+    "wording": "new_word",
+    "num_cfg": "old_num",
+    "pair_id": "new_word__old_num__single__p0",
+    "rule": "single",
+    "family": "sampling",
+    "op": "<=",
+    "question": "入库抽检台账（物料：空压机阀片）：本批执行一次计数抽样，样本量80件，方案规定接收数为7件，实测发现不合格品7件。检验员据此提出“该批可按抽样方案接收”。请判断该结论是否成立。",
+    "inputs": {
+      "n": 80,
+      "c": 7,
+      "x": 7
+    },
+    "value": 7.0,
+    "limit": 7.0,
+    "positive": true
+  },
+  {
+    "id": "new_word__old_num__single__p0__0",
+    "cell": "new_word__old_num",
+    "wording": "new_word",
+    "num_cfg": "old_num",
+    "pair_id": "new_word__old_num__single__p0",
+    "rule": "single",
+    "family": "sampling",
+    "op": "<=",
+    "question": "入库抽检台账（物料：空压机阀片）：本批执行一次计数抽样，样本量80件，方案规定接收数为7件，实测发现不合格品8件。检验员据此提出“该批可按抽样方案接收”。请判断该结论是否成立。",
+    "inputs": {
+      "n": 80,
+      "c": 7,
+      "x": 8
+    },
+    "value": 8.0,
+    "limit": 7.0,
+    "positive": false
+  },
+  {
+    "id": "old_word__old_num__single__p1__1",
+    "cell": "old_word__old_num",
+    "wording": "old_word",
+    "num_cfg": "old_num",
+    "pair_id": "old_word__old_num__single__p1",
+    "rule": "single",
+    "family": "sampling",
+    "op": "<=",
+    "question": "下面是抽查人员抄录的数据。水表壳体质量记录。现有数据：一次计数抽样的接收数为8，抽取80件，发现不合格品8件。审核员据此写下“该批可按方案接收”。这句话成立吗？",
+    "inputs": {
+      "n": 80,
+      "c": 8,
+      "x": 8
+    },
+    "value": 8.0,
+    "limit": 8.0,
+    "positive": true
+  },
+  {
+    "id": "old_word__old_num__single__p1__0",
+    "cell": "old_word__old_num",
+    "wording": "old_word",
+    "num_cfg": "old_num",
+    "pair_id": "old_word__old_num__single__p1",
+    "rule": "single",
+    "family": "sampling",
+    "op": "<=",
+    "question": "下面是抽查人员抄录的数据。水表壳体质量记录。现有数据：一次计数抽样的接收数为8，抽取80件，发现不合格品9件。审核员据此写下“该批可按方案接收”。这句话成立吗？",
+    "inputs": {
+      "n": 80,
+      "c": 8,
+      "x": 9
+    },
+    "value": 9.0,
+    "limit": 8.0,
+    "positive": false
+  },
+  {
+    "id": "new_word__old_num__single__p1__1",
+    "cell": "new_word__old_num",
+    "wording": "new_word",
+    "num_cfg": "old_num",
+    "pair_id": "new_word__old_num__single__p1",
+    "rule": "single",
+    "family": "sampling",
+    "op": "<=",
+    "question": "【来料抽验单】品名：减速箱油封；抽样方式：一次计数抽样；样本数：80件；接收数：8；检出不合格品：8件。审核栏填写意见为“本批满足一次抽样接收条件”。该意见是否成立？",
+    "inputs": {
+      "n": 80,
+      "c": 8,
+      "x": 8
+    },
+    "value": 8.0,
+    "limit": 8.0,
+    "positive": true
+  },
+  {
+    "id": "new_word__old_num__single__p1__0",
+    "cell": "new_word__old_num",
+    "wording": "new_word",
+    "num_cfg": "old_num",
+    "pair_id": "new_word__old_num__single__p1",
+    "rule": "single",
+    "family": "sampling",
+    "op": "<=",
+    "question": "【来料抽验单】品名：减速箱油封；抽样方式：一次计数抽样；样本数：80件；接收数：8；检出不合格品：9件。审核栏填写意见为“本批满足一次抽样接收条件”。该意见是否成立？",
+    "inputs": {
+      "n": 80,
+      "c": 8,
+      "x": 9
+    },
+    "value": 9.0,
+    "limit": 8.0,
+    "positive": false
+  },
+  {
+    "id": "old_word__new_num__single__p0__1",
+    "cell": "old_word__new_num",
+    "wording": "old_word",
+    "num_cfg": "new_num",
+    "pair_id": "old_word__new_num__single__p0",
+    "rule": "single",
+    "family": "sampling",
+    "op": "<=",
+    "question": "下面是抽查人员抄录的数据。纺织机衬套质量记录。现有数据：一次计数抽样的接收数为4，抽取80件，发现不合格品4件。审核员据此写下“该批可按方案接收”。这句话成立吗？",
+    "inputs": {
+      "n": 80,
+      "c": 4,
+      "x": 4
+    },
+    "value": 4.0,
+    "limit": 4.0,
+    "positive": true
+  },
+  {
+    "id": "old_word__new_num__single__p0__0",
+    "cell": "old_word__new_num",
+    "wording": "old_word",
+    "num_cfg": "new_num",
+    "pair_id": "old_word__new_num__single__p0",
+    "rule": "single",
+    "family": "sampling",
+    "op": "<=",
+    "question": "下面是抽查人员抄录的数据。纺织机衬套质量记录。现有数据：一次计数抽样的接收数为4，抽取80件，发现不合格品5件。审核员据此写下“该批可按方案接收”。这句话成立吗？",
+    "inputs": {
+      "n": 80,
+      "c": 4,
+      "x": 5
+    },
+    "value": 5.0,
+    "limit": 4.0,
+    "positive": false
+  },
+  {
+    "id": "new_word__new_num__single__p0__1",
+    "cell": "new_word__new_num",
+    "wording": "new_word",
+    "num_cfg": "new_num",
+    "pair_id": "new_word__new_num__single__p0",
+    "rule": "single",
+    "family": "sampling",
+    "op": "<=",
+    "question": "入库抽检台账（物料：空压机阀片）：本批执行一次计数抽样，样本量80件，方案规定接收数为4件，实测发现不合格品4件。检验员据此提出“该批可按抽样方案接收”。请判断该结论是否成立。",
+    "inputs": {
+      "n": 80,
+      "c": 4,
+      "x": 4
+    },
+    "value": 4.0,
+    "limit": 4.0,
+    "positive": true
+  },
+  {
+    "id": "new_word__new_num__single__p0__0",
+    "cell": "new_word__new_num",
+    "wording": "new_word",
+    "num_cfg": "new_num",
+    "pair_id": "new_word__new_num__single__p0",
+    "rule": "single",
+    "family": "sampling",
+    "op": "<=",
+    "question": "入库抽检台账（物料：空压机阀片）：本批执行一次计数抽样，样本量80件，方案规定接收数为4件，实测发现不合格品5件。检验员据此提出“该批可按抽样方案接收”。请判断该结论是否成立。",
+    "inputs": {
+      "n": 80,
+      "c": 4,
+      "x": 5
+    },
+    "value": 5.0,
+    "limit": 4.0,
+    "positive": false
+  },
+  {
+    "id": "old_word__new_num__single__p1__1",
+    "cell": "old_word__new_num",
+    "wording": "old_word",
+    "num_cfg": "new_num",
+    "pair_id": "old_word__new_num__single__p1",
+    "rule": "single",
+    "family": "sampling",
+    "op": "<=",
+    "question": "下面是抽查人员抄录的数据。水表壳体质量记录。现有数据：一次计数抽样的接收数为6，抽取100件，发现不合格品6件。审核员据此写下“该批可按方案接收”。这句话成立吗？",
+    "inputs": {
+      "n": 100,
+      "c": 6,
+      "x": 6
+    },
+    "value": 6.0,
+    "limit": 6.0,
+    "positive": true
+  },
+  {
+    "id": "old_word__new_num__single__p1__0",
+    "cell": "old_word__new_num",
+    "wording": "old_word",
+    "num_cfg": "new_num",
+    "pair_id": "old_word__new_num__single__p1",
+    "rule": "single",
+    "family": "sampling",
+    "op": "<=",
+    "question": "下面是抽查人员抄录的数据。水表壳体质量记录。现有数据：一次计数抽样的接收数为6，抽取100件，发现不合格品7件。审核员据此写下“该批可按方案接收”。这句话成立吗？",
+    "inputs": {
+      "n": 100,
+      "c": 6,
+      "x": 7
+    },
+    "value": 7.0,
+    "limit": 6.0,
+    "positive": false
+  },
+  {
+    "id": "new_word__new_num__single__p1__1",
+    "cell": "new_word__new_num",
+    "wording": "new_word",
+    "num_cfg": "new_num",
+    "pair_id": "new_word__new_num__single__p1",
+    "rule": "single",
+    "family": "sampling",
+    "op": "<=",
+    "question": "【来料抽验单】品名：减速箱油封；抽样方式：一次计数抽样；样本数：100件；接收数：6；检出不合格品：6件。审核栏填写意见为“本批满足一次抽样接收条件”。该意见是否成立？",
+    "inputs": {
+      "n": 100,
+      "c": 6,
+      "x": 6
+    },
+    "value": 6.0,
+    "limit": 6.0,
+    "positive": true
+  },
+  {
+    "id": "new_word__new_num__single__p1__0",
+    "cell": "new_word__new_num",
+    "wording": "new_word",
+    "num_cfg": "new_num",
+    "pair_id": "new_word__new_num__single__p1",
+    "rule": "single",
+    "family": "sampling",
+    "op": "<=",
+    "question": "【来料抽验单】品名：减速箱油封；抽样方式：一次计数抽样；样本数：100件；接收数：6；检出不合格品：7件。审核栏填写意见为“本批满足一次抽样接收条件”。该意见是否成立？",
+    "inputs": {
+      "n": 100,
+      "c": 6,
+      "x": 7
+    },
+    "value": 7.0,
+    "limit": 6.0,
+    "positive": false
+  },
+  {
+    "id": "old_word__old_num__first_accept__p0__1",
+    "cell": "old_word__old_num",
+    "wording": "old_word",
+    "num_cfg": "old_num",
+    "pair_id": "old_word__old_num__first_accept__p0",
+    "rule": "first_accept",
+    "family": "sampling",
+    "op": "<=",
+    "question": "下面是抽查人员抄录的数据。水表壳体质量记录。现有数据：二次抽样方案首样接收数为7、拒收数为10。首样80件中不合格品有7件。审核员据此写下“首样结束即可接收”。这句话成立吗？",
+    "inputs": {
+      "n1": 80,
+      "c1": 7,
+      "r1": 10,
+      "x1": 7
+    },
+    "value": 7.0,
+    "limit": 7.0,
+    "positive": true
+  },
+  {
+    "id": "old_word__old_num__first_accept__p0__0",
+    "cell": "old_word__old_num",
+    "wording": "old_word",
+    "num_cfg": "old_num",
+    "pair_id": "old_word__old_num__first_accept__p0",
+    "rule": "first_accept",
+    "family": "sampling",
+    "op": "<=",
+    "question": "下面是抽查人员抄录的数据。水表壳体质量记录。现有数据：二次抽样方案首样接收数为7、拒收数为10。首样80件中不合格品有8件。审核员据此写下“首样结束即可接收”。这句话成立吗？",
+    "inputs": {
+      "n1": 80,
+      "c1": 7,
+      "r1": 10,
+      "x1": 8
+    },
+    "value": 8.0,
+    "limit": 7.0,
+    "positive": false
+  },
+  {
+    "id": "new_word__old_num__first_accept__p0__1",
+    "cell": "new_word__old_num",
+    "wording": "new_word",
+    "num_cfg": "old_num",
+    "pair_id": "new_word__old_num__first_accept__p0",
+    "rule": "first_accept",
+    "family": "sampling",
+    "op": "<=",
+    "question": "二次计数抽样首样记录（伺服电机端盖）：首样样本量80件，首样接收数7，首样拒收数10。实检首样不合格品7件。现场结论为“首样检验结束即可直接接收该批”。请判断。",
+    "inputs": {
+      "n1": 80,
+      "c1": 7,
+      "r1": 10,
+      "x1": 7
+    },
+    "value": 7.0,
+    "limit": 7.0,
+    "positive": true
+  },
+  {
+    "id": "new_word__old_num__first_accept__p0__0",
+    "cell": "new_word__old_num",
+    "wording": "new_word",
+    "num_cfg": "old_num",
+    "pair_id": "new_word__old_num__first_accept__p0",
+    "rule": "first_accept",
+    "family": "sampling",
+    "op": "<=",
+    "question": "二次计数抽样首样记录（伺服电机端盖）：首样样本量80件，首样接收数7，首样拒收数10。实检首样不合格品8件。现场结论为“首样检验结束即可直接接收该批”。请判断。",
+    "inputs": {
+      "n1": 80,
+      "c1": 7,
+      "r1": 10,
+      "x1": 8
+    },
+    "value": 8.0,
+    "limit": 7.0,
+    "positive": false
+  },
+  {
+    "id": "old_word__old_num__first_accept__p1__1",
+    "cell": "old_word__old_num",
+    "wording": "old_word",
+    "num_cfg": "old_num",
+    "pair_id": "old_word__old_num__first_accept__p1",
+    "rule": "first_accept",
+    "family": "sampling",
+    "op": "<=",
+    "question": "下面是抽查人员抄录的数据。家具滑轨质量记录。现有数据：二次抽样方案首样接收数为8、拒收数为11。首样80件中不合格品有8件。审核员据此写下“首样结束即可接收”。这句话成立吗？",
+    "inputs": {
+      "n1": 80,
+      "c1": 8,
+      "r1": 11,
+      "x1": 8
+    },
+    "value": 8.0,
+    "limit": 8.0,
+    "positive": true
+  },
+  {
+    "id": "old_word__old_num__first_accept__p1__0",
+    "cell": "old_word__old_num",
+    "wording": "old_word",
+    "num_cfg": "old_num",
+    "pair_id": "old_word__old_num__first_accept__p1",
+    "rule": "first_accept",
+    "family": "sampling",
+    "op": "<=",
+    "question": "下面是抽查人员抄录的数据。家具滑轨质量记录。现有数据：二次抽样方案首样接收数为8、拒收数为11。首样80件中不合格品有9件。审核员据此写下“首样结束即可接收”。这句话成立吗？",
+    "inputs": {
+      "n1": 80,
+      "c1": 8,
+      "r1": 11,
+      "x1": 9
+    },
+    "value": 9.0,
+    "limit": 8.0,
+    "positive": false
+  },
+  {
+    "id": "new_word__old_num__first_accept__p1__1",
+    "cell": "new_word__old_num",
+    "wording": "new_word",
+    "num_cfg": "old_num",
+    "pair_id": "new_word__old_num__first_accept__p1",
+    "rule": "first_accept",
+    "family": "sampling",
+    "op": "<=",
+    "question": "【首样复核】工件：农机齿轮套筒｜方案：二次抽样｜首样量：80件｜首样接收数：8｜首样拒收数：11｜首样不合格品：8件。提交结论：“无需抽第二样本，首样即可接收”。请审核。",
+    "inputs": {
+      "n1": 80,
+      "c1": 8,
+      "r1": 11,
+      "x1": 8
+    },
+    "value": 8.0,
+    "limit": 8.0,
+    "positive": true
+  },
+  {
+    "id": "new_word__old_num__first_accept__p1__0",
+    "cell": "new_word__old_num",
+    "wording": "new_word",
+    "num_cfg": "old_num",
+    "pair_id": "new_word__old_num__first_accept__p1",
+    "rule": "first_accept",
+    "family": "sampling",
+    "op": "<=",
+    "question": "【首样复核】工件：农机齿轮套筒｜方案：二次抽样｜首样量：80件｜首样接收数：8｜首样拒收数：11｜首样不合格品：9件。提交结论：“无需抽第二样本，首样即可接收”。请审核。",
+    "inputs": {
+      "n1": 80,
+      "c1": 8,
+      "r1": 11,
+      "x1": 9
+    },
+    "value": 9.0,
+    "limit": 8.0,
+    "positive": false
+  },
+  {
+    "id": "old_word__new_num__first_accept__p0__1",
+    "cell": "old_word__new_num",
+    "wording": "old_word",
+    "num_cfg": "new_num",
+    "pair_id": "old_word__new_num__first_accept__p0",
+    "rule": "first_accept",
+    "family": "sampling",
+    "op": "<=",
+    "question": "下面是抽查人员抄录的数据。水表壳体质量记录。现有数据：二次抽样方案首样接收数为3、拒收数为6。首样60件中不合格品有3件。审核员据此写下“首样结束即可接收”。这句话成立吗？",
+    "inputs": {
+      "n1": 60,
+      "c1": 3,
+      "r1": 6,
+      "x1": 3
+    },
+    "value": 3.0,
+    "limit": 3.0,
+    "positive": true
+  },
+  {
+    "id": "old_word__new_num__first_accept__p0__0",
+    "cell": "old_word__new_num",
+    "wording": "old_word",
+    "num_cfg": "new_num",
+    "pair_id": "old_word__new_num__first_accept__p0",
+    "rule": "first_accept",
+    "family": "sampling",
+    "op": "<=",
+    "question": "下面是抽查人员抄录的数据。水表壳体质量记录。现有数据：二次抽样方案首样接收数为3、拒收数为6。首样60件中不合格品有4件。审核员据此写下“首样结束即可接收”。这句话成立吗？",
+    "inputs": {
+      "n1": 60,
+      "c1": 3,
+      "r1": 6,
+      "x1": 4
+    },
+    "value": 4.0,
+    "limit": 3.0,
+    "positive": false
+  },
+  {
+    "id": "new_word__new_num__first_accept__p0__1",
+    "cell": "new_word__new_num",
+    "wording": "new_word",
+    "num_cfg": "new_num",
+    "pair_id": "new_word__new_num__first_accept__p0",
+    "rule": "first_accept",
+    "family": "sampling",
+    "op": "<=",
+    "question": "二次计数抽样首样记录（伺服电机端盖）：首样样本量60件，首样接收数3，首样拒收数6。实检首样不合格品3件。现场结论为“首样检验结束即可直接接收该批”。请判断。",
+    "inputs": {
+      "n1": 60,
+      "c1": 3,
+      "r1": 6,
+      "x1": 3
+    },
+    "value": 3.0,
+    "limit": 3.0,
+    "positive": true
+  },
+  {
+    "id": "new_word__new_num__first_accept__p0__0",
+    "cell": "new_word__new_num",
+    "wording": "new_word",
+    "num_cfg": "new_num",
+    "pair_id": "new_word__new_num__first_accept__p0",
+    "rule": "first_accept",
+    "family": "sampling",
+    "op": "<=",
+    "question": "二次计数抽样首样记录（伺服电机端盖）：首样样本量60件，首样接收数3，首样拒收数6。实检首样不合格品4件。现场结论为“首样检验结束即可直接接收该批”。请判断。",
+    "inputs": {
+      "n1": 60,
+      "c1": 3,
+      "r1": 6,
+      "x1": 4
+    },
+    "value": 4.0,
+    "limit": 3.0,
+    "positive": false
+  },
+  {
+    "id": "old_word__new_num__first_accept__p1__1",
+    "cell": "old_word__new_num",
+    "wording": "old_word",
+    "num_cfg": "new_num",
+    "pair_id": "old_word__new_num__first_accept__p1",
+    "rule": "first_accept",
+    "family": "sampling",
+    "op": "<=",
+    "question": "下面是抽查人员抄录的数据。家具滑轨质量记录。现有数据：二次抽样方案首样接收数为5、拒收数为9。首样80件中不合格品有5件。审核员据此写下“首样结束即可接收”。这句话成立吗？",
+    "inputs": {
+      "n1": 80,
+      "c1": 5,
+      "r1": 9,
+      "x1": 5
+    },
+    "value": 5.0,
+    "limit": 5.0,
+    "positive": true
+  },
+  {
+    "id": "old_word__new_num__first_accept__p1__0",
+    "cell": "old_word__new_num",
+    "wording": "old_word",
+    "num_cfg": "new_num",
+    "pair_id": "old_word__new_num__first_accept__p1",
+    "rule": "first_accept",
+    "family": "sampling",
+    "op": "<=",
+    "question": "下面是抽查人员抄录的数据。家具滑轨质量记录。现有数据：二次抽样方案首样接收数为5、拒收数为9。首样80件中不合格品有6件。审核员据此写下“首样结束即可接收”。这句话成立吗？",
+    "inputs": {
+      "n1": 80,
+      "c1": 5,
+      "r1": 9,
+      "x1": 6
+    },
+    "value": 6.0,
+    "limit": 5.0,
+    "positive": false
+  },
+  {
+    "id": "new_word__new_num__first_accept__p1__1",
+    "cell": "new_word__new_num",
+    "wording": "new_word",
+    "num_cfg": "new_num",
+    "pair_id": "new_word__new_num__first_accept__p1",
+    "rule": "first_accept",
+    "family": "sampling",
+    "op": "<=",
+    "question": "【首样复核】工件：农机齿轮套筒｜方案：二次抽样｜首样量：80件｜首样接收数：5｜首样拒收数：9｜首样不合格品：5件。提交结论：“无需抽第二样本，首样即可接收”。请审核。",
+    "inputs": {
+      "n1": 80,
+      "c1": 5,
+      "r1": 9,
+      "x1": 5
+    },
+    "value": 5.0,
+    "limit": 5.0,
+    "positive": true
+  },
+  {
+    "id": "new_word__new_num__first_accept__p1__0",
+    "cell": "new_word__new_num",
+    "wording": "new_word",
+    "num_cfg": "new_num",
+    "pair_id": "new_word__new_num__first_accept__p1",
+    "rule": "first_accept",
+    "family": "sampling",
+    "op": "<=",
+    "question": "【首样复核】工件：农机齿轮套筒｜方案：二次抽样｜首样量：80件｜首样接收数：5｜首样拒收数：9｜首样不合格品：6件。提交结论：“无需抽第二样本，首样即可接收”。请审核。",
+    "inputs": {
+      "n1": 80,
+      "c1": 5,
+      "r1": 9,
+      "x1": 6
+    },
+    "value": 6.0,
+    "limit": 5.0,
+    "positive": false
+  },
+  {
+    "id": "old_word__old_num__first_reject__p0__1",
+    "cell": "old_word__old_num",
+    "wording": "old_word",
+    "num_cfg": "old_num",
+    "pair_id": "old_word__old_num__first_reject__p0",
+    "rule": "first_reject",
+    "family": "sampling",
+    "op": ">=",
+    "question": "下面是抽查人员抄录的数据。家具滑轨质量记录。现有数据：二次抽样首样接收数为5、拒收数为7。首样80件中有7件不合格品。审核员据此写下“首样结束即可拒收”。这句话成立吗？",
+    "inputs": {
+      "n1": 80,
+      "c1": 5,
+      "r1": 7,
+      "x1": 7
+    },
+    "value": 7.0,
+    "limit": 7.0,
+    "positive": true
+  },
+  {
+    "id": "old_word__old_num__first_reject__p0__0",
+    "cell": "old_word__old_num",
+    "wording": "old_word",
+    "num_cfg": "old_num",
+    "pair_id": "old_word__old_num__first_reject__p0",
+    "rule": "first_reject",
+    "family": "sampling",
+    "op": ">=",
+    "question": "下面是抽查人员抄录的数据。家具滑轨质量记录。现有数据：二次抽样首样接收数为5、拒收数为7。首样80件中有6件不合格品。审核员据此写下“首样结束即可拒收”。这句话成立吗？",
+    "inputs": {
+      "n1": 80,
+      "c1": 5,
+      "r1": 7,
+      "x1": 6
+    },
+    "value": 6.0,
+    "limit": 7.0,
+    "positive": false
+  },
+  {
+    "id": "new_word__old_num__first_reject__p0__1",
+    "cell": "new_word__old_num",
+    "wording": "new_word",
+    "num_cfg": "old_num",
+    "pair_id": "new_word__old_num__first_reject__p0",
+    "rule": "first_reject",
+    "family": "sampling",
+    "op": ">=",
+    "question": "二次抽样首样检验单（电动推杆螺母）：首样抽检80件，方案设定首样接收数为5、首样拒收数为7，实测检出不合格品7件。报告写明“首样结束即可直接拒收该批”。请核实。",
+    "inputs": {
+      "n1": 80,
+      "c1": 5,
+      "r1": 7,
+      "x1": 7
+    },
+    "value": 7.0,
+    "limit": 7.0,
+    "positive": true
+  },
+  {
+    "id": "new_word__old_num__first_reject__p0__0",
+    "cell": "new_word__old_num",
+    "wording": "new_word",
+    "num_cfg": "old_num",
+    "pair_id": "new_word__old_num__first_reject__p0",
+    "rule": "first_reject",
+    "family": "sampling",
+    "op": ">=",
+    "question": "二次抽样首样检验单（电动推杆螺母）：首样抽检80件，方案设定首样接收数为5、首样拒收数为7，实测检出不合格品6件。报告写明“首样结束即可直接拒收该批”。请核实。",
+    "inputs": {
+      "n1": 80,
+      "c1": 5,
+      "r1": 7,
+      "x1": 6
+    },
+    "value": 6.0,
+    "limit": 7.0,
+    "positive": false
+  },
+  {
+    "id": "old_word__old_num__first_reject__p1__1",
+    "cell": "old_word__old_num",
+    "wording": "old_word",
+    "num_cfg": "old_num",
+    "pair_id": "old_word__old_num__first_reject__p1",
+    "rule": "first_reject",
+    "family": "sampling",
+    "op": ">=",
+    "question": "下面是抽查人员抄录的数据。纸机轴套质量记录。现有数据：二次抽样首样接收数为6、拒收数为8。首样80件中有8件不合格品。审核员据此写下“首样结束即可拒收”。这句话成立吗？",
+    "inputs": {
+      "n1": 80,
+      "c1": 6,
+      "r1": 8,
+      "x1": 8
+    },
+    "value": 8.0,
+    "limit": 8.0,
+    "positive": true
+  },
+  {
+    "id": "old_word__old_num__first_reject__p1__0",
+    "cell": "old_word__old_num",
+    "wording": "old_word",
+    "num_cfg": "old_num",
+    "pair_id": "old_word__old_num__first_reject__p1",
+    "rule": "first_reject",
+    "family": "sampling",
+    "op": ">=",
+    "question": "下面是抽查人员抄录的数据。纸机轴套质量记录。现有数据：二次抽样首样接收数为6、拒收数为8。首样80件中有7件不合格品。审核员据此写下“首样结束即可拒收”。这句话成立吗？",
+    "inputs": {
+      "n1": 80,
+      "c1": 6,
+      "r1": 8,
+      "x1": 7
+    },
+    "value": 7.0,
+    "limit": 8.0,
+    "positive": false
+  },
+  {
+    "id": "new_word__old_num__first_reject__p1__1",
+    "cell": "new_word__old_num",
+    "wording": "new_word",
+    "num_cfg": "old_num",
+    "pair_id": "new_word__old_num__first_reject__p1",
+    "rule": "first_reject",
+    "family": "sampling",
+    "op": ">=",
+    "question": "【首样拒收核对】物料：注塑机顶针；二次抽样首样量80件；首样接收数6，首样拒收数8；实测不合格品8件。检验结论：“本批在首样阶段即应判定拒收”。请判断。",
+    "inputs": {
+      "n1": 80,
+      "c1": 6,
+      "r1": 8,
+      "x1": 8
+    },
+    "value": 8.0,
+    "limit": 8.0,
+    "positive": true
+  },
+  {
+    "id": "new_word__old_num__first_reject__p1__0",
+    "cell": "new_word__old_num",
+    "wording": "new_word",
+    "num_cfg": "old_num",
+    "pair_id": "new_word__old_num__first_reject__p1",
+    "rule": "first_reject",
+    "family": "sampling",
+    "op": ">=",
+    "question": "【首样拒收核对】物料：注塑机顶针；二次抽样首样量80件；首样接收数6，首样拒收数8；实测不合格品7件。检验结论：“本批在首样阶段即应判定拒收”。请判断。",
+    "inputs": {
+      "n1": 80,
+      "c1": 6,
+      "r1": 8,
+      "x1": 7
+    },
+    "value": 7.0,
+    "limit": 8.0,
+    "positive": false
+  },
+  {
+    "id": "old_word__new_num__first_reject__p0__1",
+    "cell": "old_word__new_num",
+    "wording": "old_word",
+    "num_cfg": "new_num",
+    "pair_id": "old_word__new_num__first_reject__p0",
+    "rule": "first_reject",
+    "family": "sampling",
+    "op": ">=",
+    "question": "下面是抽查人员抄录的数据。家具滑轨质量记录。现有数据：二次抽样首样接收数为2、拒收数为6。首样60件中有6件不合格品。审核员据此写下“首样结束即可拒收”。这句话成立吗？",
+    "inputs": {
+      "n1": 60,
+      "c1": 2,
+      "r1": 6,
+      "x1": 6
+    },
+    "value": 6.0,
+    "limit": 6.0,
+    "positive": true
+  },
+  {
+    "id": "old_word__new_num__first_reject__p0__0",
+    "cell": "old_word__new_num",
+    "wording": "old_word",
+    "num_cfg": "new_num",
+    "pair_id": "old_word__new_num__first_reject__p0",
+    "rule": "first_reject",
+    "family": "sampling",
+    "op": ">=",
+    "question": "下面是抽查人员抄录的数据。家具滑轨质量记录。现有数据：二次抽样首样接收数为2、拒收数为6。首样60件中有5件不合格品。审核员据此写下“首样结束即可拒收”。这句话成立吗？",
+    "inputs": {
+      "n1": 60,
+      "c1": 2,
+      "r1": 6,
+      "x1": 5
+    },
+    "value": 5.0,
+    "limit": 6.0,
+    "positive": false
+  },
+  {
+    "id": "new_word__new_num__first_reject__p0__1",
+    "cell": "new_word__new_num",
+    "wording": "new_word",
+    "num_cfg": "new_num",
+    "pair_id": "new_word__new_num__first_reject__p0",
+    "rule": "first_reject",
+    "family": "sampling",
+    "op": ">=",
+    "question": "二次抽样首样检验单（电动推杆螺母）：首样抽检60件，方案设定首样接收数为2、首样拒收数为6，实测检出不合格品6件。报告写明“首样结束即可直接拒收该批”。请核实。",
+    "inputs": {
+      "n1": 60,
+      "c1": 2,
+      "r1": 6,
+      "x1": 6
+    },
+    "value": 6.0,
+    "limit": 6.0,
+    "positive": true
+  },
+  {
+    "id": "new_word__new_num__first_reject__p0__0",
+    "cell": "new_word__new_num",
+    "wording": "new_word",
+    "num_cfg": "new_num",
+    "pair_id": "new_word__new_num__first_reject__p0",
+    "rule": "first_reject",
+    "family": "sampling",
+    "op": ">=",
+    "question": "二次抽样首样检验单（电动推杆螺母）：首样抽检60件，方案设定首样接收数为2、首样拒收数为6，实测检出不合格品5件。报告写明“首样结束即可直接拒收该批”。请核实。",
+    "inputs": {
+      "n1": 60,
+      "c1": 2,
+      "r1": 6,
+      "x1": 5
+    },
+    "value": 5.0,
+    "limit": 6.0,
+    "positive": false
+  },
+  {
+    "id": "old_word__new_num__first_reject__p1__1",
+    "cell": "old_word__new_num",
+    "wording": "old_word",
+    "num_cfg": "new_num",
+    "pair_id": "old_word__new_num__first_reject__p1",
+    "rule": "first_reject",
+    "family": "sampling",
+    "op": ">=",
+    "question": "下面是抽查人员抄录的数据。纸机轴套质量记录。现有数据：二次抽样首样接收数为3、拒收数为8。首样80件中有8件不合格品。审核员据此写下“首样结束即可拒收”。这句话成立吗？",
+    "inputs": {
+      "n1": 80,
+      "c1": 3,
+      "r1": 8,
+      "x1": 8
+    },
+    "value": 8.0,
+    "limit": 8.0,
+    "positive": true
+  },
+  {
+    "id": "old_word__new_num__first_reject__p1__0",
+    "cell": "old_word__new_num",
+    "wording": "old_word",
+    "num_cfg": "new_num",
+    "pair_id": "old_word__new_num__first_reject__p1",
+    "rule": "first_reject",
+    "family": "sampling",
+    "op": ">=",
+    "question": "下面是抽查人员抄录的数据。纸机轴套质量记录。现有数据：二次抽样首样接收数为3、拒收数为8。首样80件中有7件不合格品。审核员据此写下“首样结束即可拒收”。这句话成立吗？",
+    "inputs": {
+      "n1": 80,
+      "c1": 3,
+      "r1": 8,
+      "x1": 7
+    },
+    "value": 7.0,
+    "limit": 8.0,
+    "positive": false
+  },
+  {
+    "id": "new_word__new_num__first_reject__p1__1",
+    "cell": "new_word__new_num",
+    "wording": "new_word",
+    "num_cfg": "new_num",
+    "pair_id": "new_word__new_num__first_reject__p1",
+    "rule": "first_reject",
+    "family": "sampling",
+    "op": ">=",
+    "question": "【首样拒收核对】物料：注塑机顶针；二次抽样首样量80件；首样接收数3，首样拒收数8；实测不合格品8件。检验结论：“本批在首样阶段即应判定拒收”。请判断。",
+    "inputs": {
+      "n1": 80,
+      "c1": 3,
+      "r1": 8,
+      "x1": 8
+    },
+    "value": 8.0,
+    "limit": 8.0,
+    "positive": true
+  },
+  {
+    "id": "new_word__new_num__first_reject__p1__0",
+    "cell": "new_word__new_num",
+    "wording": "new_word",
+    "num_cfg": "new_num",
+    "pair_id": "new_word__new_num__first_reject__p1",
+    "rule": "first_reject",
+    "family": "sampling",
+    "op": ">=",
+    "question": "【首样拒收核对】物料：注塑机顶针；二次抽样首样量80件；首样接收数3，首样拒收数8；实测不合格品7件。检验结论：“本批在首样阶段即应判定拒收”。请判断。",
+    "inputs": {
+      "n1": 80,
+      "c1": 3,
+      "r1": 8,
+      "x1": 7
+    },
+    "value": 7.0,
+    "limit": 8.0,
+    "positive": false
+  },
+  {
+    "id": "old_word__old_num__second_accept__p0__1",
+    "cell": "old_word__old_num",
+    "wording": "old_word",
+    "num_cfg": "old_num",
+    "pair_id": "old_word__old_num__second_accept__p0",
+    "rule": "second_accept",
+    "family": "sampling",
+    "op": "<=",
+    "question": "下面是抽查人员抄录的数据。纸机轴套质量记录。现有数据：已按方案进入第二次抽样。首样有1件不合格品，次样有6件不合格品，累计接收数为7。审核员据此写下“完成两次抽样后可接收该批”。这句话成立吗？",
+    "inputs": {
+      "n1": 80,
+      "n2": 80,
+      "x1": 1,
+      "x2": 6,
+      "c2": 7
+    },
+    "value": 7.0,
+    "limit": 7.0,
+    "positive": true
+  },
+  {
+    "id": "old_word__old_num__second_accept__p0__0",
+    "cell": "old_word__old_num",
+    "wording": "old_word",
+    "num_cfg": "old_num",
+    "pair_id": "old_word__old_num__second_accept__p0",
+    "rule": "second_accept",
+    "family": "sampling",
+    "op": "<=",
+    "question": "下面是抽查人员抄录的数据。纸机轴套质量记录。现有数据：已按方案进入第二次抽样。首样有1件不合格品，次样有7件不合格品，累计接收数为7。审核员据此写下“完成两次抽样后可接收该批”。这句话成立吗？",
+    "inputs": {
+      "n1": 80,
+      "n2": 80,
+      "x1": 1,
+      "x2": 7,
+      "c2": 7
+    },
+    "value": 8.0,
+    "limit": 7.0,
+    "positive": false
+  },
+  {
+    "id": "new_word__old_num__second_accept__p0__1",
+    "cell": "new_word__old_num",
+    "wording": "new_word",
+    "num_cfg": "old_num",
+    "pair_id": "new_word__old_num__second_accept__p0",
+    "rule": "second_accept",
+    "family": "sampling",
+    "op": "<=",
+    "question": "电梯门机滑块批次已进入二次抽样第二阶段：首样80件中检出不合格品1件，次样80件中检出不合格品6件，方案累计接收数为7。质检员认为“两次抽样合并后可接收该批”。请判断。",
+    "inputs": {
+      "n1": 80,
+      "n2": 80,
+      "x1": 1,
+      "x2": 6,
+      "c2": 7
+    },
+    "value": 7.0,
+    "limit": 7.0,
+    "positive": true
+  },
+  {
+    "id": "new_word__old_num__second_accept__p0__0",
+    "cell": "new_word__old_num",
+    "wording": "new_word",
+    "num_cfg": "old_num",
+    "pair_id": "new_word__old_num__second_accept__p0",
+    "rule": "second_accept",
+    "family": "sampling",
+    "op": "<=",
+    "question": "电梯门机滑块批次已进入二次抽样第二阶段：首样80件中检出不合格品1件，次样80件中检出不合格品7件，方案累计接收数为7。质检员认为“两次抽样合并后可接收该批”。请判断。",
+    "inputs": {
+      "n1": 80,
+      "n2": 80,
+      "x1": 1,
+      "x2": 7,
+      "c2": 7
+    },
+    "value": 8.0,
+    "limit": 7.0,
+    "positive": false
+  },
+  {
+    "id": "old_word__old_num__second_accept__p1__1",
+    "cell": "old_word__old_num",
+    "wording": "old_word",
+    "num_cfg": "old_num",
+    "pair_id": "old_word__old_num__second_accept__p1",
+    "rule": "second_accept",
+    "family": "sampling",
+    "op": "<=",
+    "question": "下面是抽查人员抄录的数据。印刷机隔圈质量记录。现有数据：已按方案进入第二次抽样。首样有1件不合格品，次样有7件不合格品，累计接收数为8。审核员据此写下“完成两次抽样后可接收该批”。这句话成立吗？",
+    "inputs": {
+      "n1": 80,
+      "n2": 80,
+      "x1": 1,
+      "x2": 7,
+      "c2": 8
+    },
+    "value": 8.0,
+    "limit": 8.0,
+    "positive": true
+  },
+  {
+    "id": "old_word__old_num__second_accept__p1__0",
+    "cell": "old_word__old_num",
+    "wording": "old_word",
+    "num_cfg": "old_num",
+    "pair_id": "old_word__old_num__second_accept__p1",
+    "rule": "second_accept",
+    "family": "sampling",
+    "op": "<=",
+    "question": "下面是抽查人员抄录的数据。印刷机隔圈质量记录。现有数据：已按方案进入第二次抽样。首样有1件不合格品，次样有8件不合格品，累计接收数为8。审核员据此写下“完成两次抽样后可接收该批”。这句话成立吗？",
+    "inputs": {
+      "n1": 80,
+      "n2": 80,
+      "x1": 1,
+      "x2": 8,
+      "c2": 8
+    },
+    "value": 9.0,
+    "limit": 8.0,
+    "positive": false
+  },
+  {
+    "id": "new_word__old_num__second_accept__p1__1",
+    "cell": "new_word__old_num",
+    "wording": "new_word",
+    "num_cfg": "old_num",
+    "pair_id": "new_word__old_num__second_accept__p1",
+    "rule": "second_accept",
+    "family": "sampling",
+    "op": "<=",
+    "question": "【二次抽样汇总】产品：净水器滤瓶盖；首样80件不合格1件；次样80件不合格7件；两样累计接收数：8。上报意见为“完成二次抽样后准予接收”。该意见成立吗？",
+    "inputs": {
+      "n1": 80,
+      "n2": 80,
+      "x1": 1,
+      "x2": 7,
+      "c2": 8
+    },
+    "value": 8.0,
+    "limit": 8.0,
+    "positive": true
+  },
+  {
+    "id": "new_word__old_num__second_accept__p1__0",
+    "cell": "new_word__old_num",
+    "wording": "new_word",
+    "num_cfg": "old_num",
+    "pair_id": "new_word__old_num__second_accept__p1",
+    "rule": "second_accept",
+    "family": "sampling",
+    "op": "<=",
+    "question": "【二次抽样汇总】产品：净水器滤瓶盖；首样80件不合格1件；次样80件不合格8件；两样累计接收数：8。上报意见为“完成二次抽样后准予接收”。该意见成立吗？",
+    "inputs": {
+      "n1": 80,
+      "n2": 80,
+      "x1": 1,
+      "x2": 8,
+      "c2": 8
+    },
+    "value": 9.0,
+    "limit": 8.0,
+    "positive": false
+  },
+  {
+    "id": "old_word__new_num__second_accept__p0__1",
+    "cell": "old_word__new_num",
+    "wording": "old_word",
+    "num_cfg": "new_num",
+    "pair_id": "old_word__new_num__second_accept__p0",
+    "rule": "second_accept",
+    "family": "sampling",
+    "op": "<=",
+    "question": "下面是抽查人员抄录的数据。纸机轴套质量记录。现有数据：已按方案进入第二次抽样。首样有3件不合格品，次样有5件不合格品，累计接收数为8。审核员据此写下“完成两次抽样后可接收该批”。这句话成立吗？",
+    "inputs": {
+      "n1": 50,
+      "n2": 50,
+      "x1": 3,
+      "x2": 5,
+      "c2": 8
+    },
+    "value": 8.0,
+    "limit": 8.0,
+    "positive": true
+  },
+  {
+    "id": "old_word__new_num__second_accept__p0__0",
+    "cell": "old_word__new_num",
+    "wording": "old_word",
+    "num_cfg": "new_num",
+    "pair_id": "old_word__new_num__second_accept__p0",
+    "rule": "second_accept",
+    "family": "sampling",
+    "op": "<=",
+    "question": "下面是抽查人员抄录的数据。纸机轴套质量记录。现有数据：已按方案进入第二次抽样。首样有3件不合格品，次样有6件不合格品，累计接收数为8。审核员据此写下“完成两次抽样后可接收该批”。这句话成立吗？",
+    "inputs": {
+      "n1": 50,
+      "n2": 50,
+      "x1": 3,
+      "x2": 6,
+      "c2": 8
+    },
+    "value": 9.0,
+    "limit": 8.0,
+    "positive": false
+  },
+  {
+    "id": "new_word__new_num__second_accept__p0__1",
+    "cell": "new_word__new_num",
+    "wording": "new_word",
+    "num_cfg": "new_num",
+    "pair_id": "new_word__new_num__second_accept__p0",
+    "rule": "second_accept",
+    "family": "sampling",
+    "op": "<=",
+    "question": "电梯门机滑块批次已进入二次抽样第二阶段：首样50件中检出不合格品3件，次样50件中检出不合格品5件，方案累计接收数为8。质检员认为“两次抽样合并后可接收该批”。请判断。",
+    "inputs": {
+      "n1": 50,
+      "n2": 50,
+      "x1": 3,
+      "x2": 5,
+      "c2": 8
+    },
+    "value": 8.0,
+    "limit": 8.0,
+    "positive": true
+  },
+  {
+    "id": "new_word__new_num__second_accept__p0__0",
+    "cell": "new_word__new_num",
+    "wording": "new_word",
+    "num_cfg": "new_num",
+    "pair_id": "new_word__new_num__second_accept__p0",
+    "rule": "second_accept",
+    "family": "sampling",
+    "op": "<=",
+    "question": "电梯门机滑块批次已进入二次抽样第二阶段：首样50件中检出不合格品3件，次样50件中检出不合格品6件，方案累计接收数为8。质检员认为“两次抽样合并后可接收该批”。请判断。",
+    "inputs": {
+      "n1": 50,
+      "n2": 50,
+      "x1": 3,
+      "x2": 6,
+      "c2": 8
+    },
+    "value": 9.0,
+    "limit": 8.0,
+    "positive": false
+  },
+  {
+    "id": "old_word__new_num__second_accept__p1__1",
+    "cell": "old_word__new_num",
+    "wording": "old_word",
+    "num_cfg": "new_num",
+    "pair_id": "old_word__new_num__second_accept__p1",
+    "rule": "second_accept",
+    "family": "sampling",
+    "op": "<=",
+    "question": "下面是抽查人员抄录的数据。印刷机隔圈质量记录。现有数据：已按方案进入第二次抽样。首样有4件不合格品，次样有6件不合格品，累计接收数为10。审核员据此写下“完成两次抽样后可接收该批”。这句话成立吗？",
+    "inputs": {
+      "n1": 60,
+      "n2": 60,
+      "x1": 4,
+      "x2": 6,
+      "c2": 10
+    },
+    "value": 10.0,
+    "limit": 10.0,
+    "positive": true
+  },
+  {
+    "id": "old_word__new_num__second_accept__p1__0",
+    "cell": "old_word__new_num",
+    "wording": "old_word",
+    "num_cfg": "new_num",
+    "pair_id": "old_word__new_num__second_accept__p1",
+    "rule": "second_accept",
+    "family": "sampling",
+    "op": "<=",
+    "question": "下面是抽查人员抄录的数据。印刷机隔圈质量记录。现有数据：已按方案进入第二次抽样。首样有4件不合格品，次样有7件不合格品，累计接收数为10。审核员据此写下“完成两次抽样后可接收该批”。这句话成立吗？",
+    "inputs": {
+      "n1": 60,
+      "n2": 60,
+      "x1": 4,
+      "x2": 7,
+      "c2": 10
+    },
+    "value": 11.0,
+    "limit": 10.0,
+    "positive": false
+  },
+  {
+    "id": "new_word__new_num__second_accept__p1__1",
+    "cell": "new_word__new_num",
+    "wording": "new_word",
+    "num_cfg": "new_num",
+    "pair_id": "new_word__new_num__second_accept__p1",
+    "rule": "second_accept",
+    "family": "sampling",
+    "op": "<=",
+    "question": "【二次抽样汇总】产品：净水器滤瓶盖；首样60件不合格4件；次样60件不合格6件；两样累计接收数：10。上报意见为“完成二次抽样后准予接收”。该意见成立吗？",
+    "inputs": {
+      "n1": 60,
+      "n2": 60,
+      "x1": 4,
+      "x2": 6,
+      "c2": 10
+    },
+    "value": 10.0,
+    "limit": 10.0,
+    "positive": true
+  },
+  {
+    "id": "new_word__new_num__second_accept__p1__0",
+    "cell": "new_word__new_num",
+    "wording": "new_word",
+    "num_cfg": "new_num",
+    "pair_id": "new_word__new_num__second_accept__p1",
+    "rule": "second_accept",
+    "family": "sampling",
+    "op": "<=",
+    "question": "【二次抽样汇总】产品：净水器滤瓶盖；首样60件不合格4件；次样60件不合格7件；两样累计接收数：10。上报意见为“完成二次抽样后准予接收”。该意见成立吗？",
+    "inputs": {
+      "n1": 60,
+      "n2": 60,
+      "x1": 4,
+      "x2": 7,
+      "c2": 10
+    },
+    "value": 11.0,
+    "limit": 10.0,
+    "positive": false
+  },
+  {
+    "id": "old_word__old_num__weco3__p0__1",
+    "cell": "old_word__old_num",
+    "wording": "old_word",
+    "num_cfg": "old_num",
+    "pair_id": "old_word__old_num__weco3__p0",
+    "rule": "weco3",
+    "family": "control_chart",
+    "op": ">",
+    "question": "下面是抽查人员抄录的数据。印刷机隔圈质量记录。现有数据：本期监测点相对中心线的标准化偏差为+4.5。审核员据此写下“该点触发上侧三西格玛越限”。这句话成立吗？",
+    "inputs": {
+      "z": "+4.5"
+    },
+    "value": 4.5,
+    "limit": 3.0,
+    "positive": true
+  },
+  {
+    "id": "old_word__old_num__weco3__p0__0",
+    "cell": "old_word__old_num",
+    "wording": "old_word",
+    "num_cfg": "old_num",
+    "pair_id": "old_word__old_num__weco3__p0",
+    "rule": "weco3",
+    "family": "control_chart",
+    "op": ">",
+    "question": "下面是抽查人员抄录的数据。印刷机隔圈质量记录。现有数据：本期监测点相对中心线的标准化偏差为+1.5。审核员据此写下“该点触发上侧三西格玛越限”。这句话成立吗？",
+    "inputs": {
+      "z": "+1.5"
+    },
+    "value": 1.5,
+    "limit": 3.0,
+    "positive": false
+  },
+  {
+    "id": "new_word__old_num__weco3__p0__1",
+    "cell": "new_word__old_num",
+    "wording": "new_word",
+    "num_cfg": "old_num",
+    "pair_id": "new_word__old_num__weco3__p0",
+    "rule": "weco3",
+    "family": "control_chart",
+    "op": ">",
+    "question": "光伏支架卡扣加工工序SPC监控记录：当前巡检点相对中心线的标准化偏差为+4.5。质量员标记“该监测点触发上侧三西格玛单点越限告警”。请核实此标记是否成立。",
+    "inputs": {
+      "z": "+4.5"
+    },
+    "value": 4.5,
+    "limit": 3.0,
+    "positive": true
+  },
+  {
+    "id": "new_word__old_num__weco3__p0__0",
+    "cell": "new_word__old_num",
+    "wording": "new_word",
+    "num_cfg": "old_num",
+    "pair_id": "new_word__old_num__weco3__p0",
+    "rule": "weco3",
+    "family": "control_chart",
+    "op": ">",
+    "question": "光伏支架卡扣加工工序SPC监控记录：当前巡检点相对中心线的标准化偏差为+1.5。质量员标记“该监测点触发上侧三西格玛单点越限告警”。请核实此标记是否成立。",
+    "inputs": {
+      "z": "+1.5"
+    },
+    "value": 1.5,
+    "limit": 3.0,
+    "positive": false
+  },
+  {
+    "id": "old_word__old_num__weco3__p1__1",
+    "cell": "old_word__old_num",
+    "wording": "old_word",
+    "num_cfg": "old_num",
+    "pair_id": "old_word__old_num__weco3__p1",
+    "rule": "weco3",
+    "family": "control_chart",
+    "op": ">",
+    "question": "下面是抽查人员抄录的数据。饮料线导轨质量记录。现有数据：本期监测点相对中心线的标准化偏差为+4.6。审核员据此写下“该点触发上侧三西格玛越限”。这句话成立吗？",
+    "inputs": {
+      "z": "+4.6"
+    },
+    "value": 4.6,
+    "limit": 3.0,
+    "positive": true
+  },
+  {
+    "id": "old_word__old_num__weco3__p1__0",
+    "cell": "old_word__old_num",
+    "wording": "old_word",
+    "num_cfg": "old_num",
+    "pair_id": "old_word__old_num__weco3__p1",
+    "rule": "weco3",
+    "family": "control_chart",
+    "op": ">",
+    "question": "下面是抽查人员抄录的数据。饮料线导轨质量记录。现有数据：本期监测点相对中心线的标准化偏差为+1.4。审核员据此写下“该点触发上侧三西格玛越限”。这句话成立吗？",
+    "inputs": {
+      "z": "+1.4"
+    },
+    "value": 1.4,
+    "limit": 3.0,
+    "positive": false
+  },
+  {
+    "id": "new_word__old_num__weco3__p1__1",
+    "cell": "new_word__old_num",
+    "wording": "new_word",
+    "num_cfg": "old_num",
+    "pair_id": "new_word__old_num__weco3__p1",
+    "rule": "weco3",
+    "family": "control_chart",
+    "op": ">",
+    "question": "【控制图单点审核】工件：风机叶轮法兰；本期样本点标准化偏差：+4.6；核查规则：上侧单点3σ越限。审核单结论为“本期点已触发上侧3σ越限”。请判断。",
+    "inputs": {
+      "z": "+4.6"
+    },
+    "value": 4.6,
+    "limit": 3.0,
+    "positive": true
+  },
+  {
+    "id": "new_word__old_num__weco3__p1__0",
+    "cell": "new_word__old_num",
+    "wording": "new_word",
+    "num_cfg": "old_num",
+    "pair_id": "new_word__old_num__weco3__p1",
+    "rule": "weco3",
+    "family": "control_chart",
+    "op": ">",
+    "question": "【控制图单点审核】工件：风机叶轮法兰；本期样本点标准化偏差：+1.4；核查规则：上侧单点3σ越限。审核单结论为“本期点已触发上侧3σ越限”。请判断。",
+    "inputs": {
+      "z": "+1.4"
+    },
+    "value": 1.4,
+    "limit": 3.0,
+    "positive": false
+  },
+  {
+    "id": "old_word__new_num__weco3__p0__1",
+    "cell": "old_word__new_num",
+    "wording": "old_word",
+    "num_cfg": "new_num",
+    "pair_id": "old_word__new_num__weco3__p0",
+    "rule": "weco3",
+    "family": "control_chart",
+    "op": ">",
+    "question": "下面是抽查人员抄录的数据。印刷机隔圈质量记录。现有数据：本期监测点相对中心线的标准化偏差为+3.15。审核员据此写下“该点触发上侧三西格玛越限”。这句话成立吗？",
+    "inputs": {
+      "z": "+3.15"
+    },
+    "value": 3.15,
+    "limit": 3.0,
+    "positive": true
+  },
+  {
+    "id": "old_word__new_num__weco3__p0__0",
+    "cell": "old_word__new_num",
+    "wording": "old_word",
+    "num_cfg": "new_num",
+    "pair_id": "old_word__new_num__weco3__p0",
+    "rule": "weco3",
+    "family": "control_chart",
+    "op": ">",
+    "question": "下面是抽查人员抄录的数据。印刷机隔圈质量记录。现有数据：本期监测点相对中心线的标准化偏差为+2.85。审核员据此写下“该点触发上侧三西格玛越限”。这句话成立吗？",
+    "inputs": {
+      "z": "+2.85"
+    },
+    "value": 2.85,
+    "limit": 3.0,
+    "positive": false
+  },
+  {
+    "id": "new_word__new_num__weco3__p0__1",
+    "cell": "new_word__new_num",
+    "wording": "new_word",
+    "num_cfg": "new_num",
+    "pair_id": "new_word__new_num__weco3__p0",
+    "rule": "weco3",
+    "family": "control_chart",
+    "op": ">",
+    "question": "光伏支架卡扣加工工序SPC监控记录：当前巡检点相对中心线的标准化偏差为+3.15。质量员标记“该监测点触发上侧三西格玛单点越限告警”。请核实此标记是否成立。",
+    "inputs": {
+      "z": "+3.15"
+    },
+    "value": 3.15,
+    "limit": 3.0,
+    "positive": true
+  },
+  {
+    "id": "new_word__new_num__weco3__p0__0",
+    "cell": "new_word__new_num",
+    "wording": "new_word",
+    "num_cfg": "new_num",
+    "pair_id": "new_word__new_num__weco3__p0",
+    "rule": "weco3",
+    "family": "control_chart",
+    "op": ">",
+    "question": "光伏支架卡扣加工工序SPC监控记录：当前巡检点相对中心线的标准化偏差为+2.85。质量员标记“该监测点触发上侧三西格玛单点越限告警”。请核实此标记是否成立。",
+    "inputs": {
+      "z": "+2.85"
+    },
+    "value": 2.85,
+    "limit": 3.0,
+    "positive": false
+  },
+  {
+    "id": "old_word__new_num__weco3__p1__1",
+    "cell": "old_word__new_num",
+    "wording": "old_word",
+    "num_cfg": "new_num",
+    "pair_id": "old_word__new_num__weco3__p1",
+    "rule": "weco3",
+    "family": "control_chart",
+    "op": ">",
+    "question": "下面是抽查人员抄录的数据。饮料线导轨质量记录。现有数据：本期监测点相对中心线的标准化偏差为+3.20。审核员据此写下“该点触发上侧三西格玛越限”。这句话成立吗？",
+    "inputs": {
+      "z": "+3.20"
+    },
+    "value": 3.2,
+    "limit": 3.0,
+    "positive": true
+  },
+  {
+    "id": "old_word__new_num__weco3__p1__0",
+    "cell": "old_word__new_num",
+    "wording": "old_word",
+    "num_cfg": "new_num",
+    "pair_id": "old_word__new_num__weco3__p1",
+    "rule": "weco3",
+    "family": "control_chart",
+    "op": ">",
+    "question": "下面是抽查人员抄录的数据。饮料线导轨质量记录。现有数据：本期监测点相对中心线的标准化偏差为+3.00。审核员据此写下“该点触发上侧三西格玛越限”。这句话成立吗？",
+    "inputs": {
+      "z": "+3.00"
+    },
+    "value": 3.0,
+    "limit": 3.0,
+    "positive": false
+  },
+  {
+    "id": "new_word__new_num__weco3__p1__1",
+    "cell": "new_word__new_num",
+    "wording": "new_word",
+    "num_cfg": "new_num",
+    "pair_id": "new_word__new_num__weco3__p1",
+    "rule": "weco3",
+    "family": "control_chart",
+    "op": ">",
+    "question": "【控制图单点审核】工件：风机叶轮法兰；本期样本点标准化偏差：+3.20；核查规则：上侧单点3σ越限。审核单结论为“本期点已触发上侧3σ越限”。请判断。",
+    "inputs": {
+      "z": "+3.20"
+    },
+    "value": 3.2,
+    "limit": 3.0,
+    "positive": true
+  },
+  {
+    "id": "new_word__new_num__weco3__p1__0",
+    "cell": "new_word__new_num",
+    "wording": "new_word",
+    "num_cfg": "new_num",
+    "pair_id": "new_word__new_num__weco3__p1",
+    "rule": "weco3",
+    "family": "control_chart",
+    "op": ">",
+    "question": "【控制图单点审核】工件：风机叶轮法兰；本期样本点标准化偏差：+3.00；核查规则：上侧单点3σ越限。审核单结论为“本期点已触发上侧3σ越限”。请判断。",
+    "inputs": {
+      "z": "+3.00"
+    },
+    "value": 3.0,
+    "limit": 3.0,
+    "positive": false
+  },
+  {
+    "id": "old_word__old_num__weco2__p0__1",
+    "cell": "old_word__old_num",
+    "wording": "old_word",
+    "num_cfg": "old_num",
+    "pair_id": "old_word__old_num__weco2__p0",
+    "rule": "weco2",
+    "family": "control_chart",
+    "op": ">=",
+    "question": "下面是抽查人员抄录的数据。饮料线导轨质量记录。现有数据：最近3点相对中心线的标准化偏差依次为+1.7、+2.7、+2.8。统计量取高于+2的点数。审核员据此写下“触发上侧WECO的3点中至少2点高于+2规则”。这句话成立吗？",
+    "inputs": {
+      "seq": "+1.7、+2.7、+2.8"
+    },
+    "value": 2.0,
+    "limit": 2.0,
+    "positive": true
+  },
+  {
+    "id": "old_word__old_num__weco2__p0__0",
+    "cell": "old_word__old_num",
+    "wording": "old_word",
+    "num_cfg": "old_num",
+    "pair_id": "old_word__old_num__weco2__p0",
+    "rule": "weco2",
+    "family": "control_chart",
+    "op": ">=",
+    "question": "下面是抽查人员抄录的数据。饮料线导轨质量记录。现有数据：最近3点相对中心线的标准化偏差依次为+1.7、+2.7、+1.8。统计量取高于+2的点数。审核员据此写下“触发上侧WECO的3点中至少2点高于+2规则”。这句话成立吗？",
+    "inputs": {
+      "seq": "+1.7、+2.7、+1.8"
+    },
+    "value": 1.0,
+    "limit": 2.0,
+    "positive": false
+  },
+  {
+    "id": "new_word__old_num__weco2__p0__1",
+    "cell": "new_word__old_num",
+    "wording": "new_word",
+    "num_cfg": "old_num",
+    "pair_id": "new_word__old_num__weco2__p0",
+    "rule": "weco2",
+    "family": "control_chart",
+    "op": ">=",
+    "question": "气缸缓冲衬环工序控制图连续3个监测点相对中心线的标准化偏差依次为+1.7、+2.7、+2.8。统计量取其中严格高于+2的点数。现场判断：“触发上侧WECO的3点中至少2点高于+2规则”。请判断。",
+    "inputs": {
+      "seq": "+1.7、+2.7、+2.8"
+    },
+    "value": 2.0,
+    "limit": 2.0,
+    "positive": true
+  },
+  {
+    "id": "new_word__old_num__weco2__p0__0",
+    "cell": "new_word__old_num",
+    "wording": "new_word",
+    "num_cfg": "old_num",
+    "pair_id": "new_word__old_num__weco2__p0",
+    "rule": "weco2",
+    "family": "control_chart",
+    "op": ">=",
+    "question": "气缸缓冲衬环工序控制图连续3个监测点相对中心线的标准化偏差依次为+1.7、+2.7、+1.8。统计量取其中严格高于+2的点数。现场判断：“触发上侧WECO的3点中至少2点高于+2规则”。请判断。",
+    "inputs": {
+      "seq": "+1.7、+2.7、+1.8"
+    },
+    "value": 1.0,
+    "limit": 2.0,
+    "positive": false
+  },
+  {
+    "id": "old_word__old_num__weco2__p1__1",
+    "cell": "old_word__old_num",
+    "wording": "old_word",
+    "num_cfg": "old_num",
+    "pair_id": "old_word__old_num__weco2__p1",
+    "rule": "weco2",
+    "family": "control_chart",
+    "op": ">=",
+    "question": "下面是抽查人员抄录的数据。输送机托辊质量记录。现有数据：最近3点相对中心线的标准化偏差依次为+2.8、+2.2、+1.6。统计量取高于+2的点数。审核员据此写下“触发上侧WECO的3点中至少2点高于+2规则”。这句话成立吗？",
+    "inputs": {
+      "seq": "+2.8、+2.2、+1.6"
+    },
+    "value": 2.0,
+    "limit": 2.0,
+    "positive": true
+  },
+  {
+    "id": "old_word__old_num__weco2__p1__0",
+    "cell": "old_word__old_num",
+    "wording": "old_word",
+    "num_cfg": "old_num",
+    "pair_id": "old_word__old_num__weco2__p1",
+    "rule": "weco2",
+    "family": "control_chart",
+    "op": ">=",
+    "question": "下面是抽查人员抄录的数据。输送机托辊质量记录。现有数据：最近3点相对中心线的标准化偏差依次为+2.8、+1.7、+1.6。统计量取高于+2的点数。审核员据此写下“触发上侧WECO的3点中至少2点高于+2规则”。这句话成立吗？",
+    "inputs": {
+      "seq": "+2.8、+1.7、+1.6"
+    },
+    "value": 1.0,
+    "limit": 2.0,
+    "positive": false
+  },
+  {
+    "id": "new_word__old_num__weco2__p1__1",
+    "cell": "new_word__old_num",
+    "wording": "new_word",
+    "num_cfg": "old_num",
+    "pair_id": "new_word__old_num__weco2__p1",
+    "rule": "weco2",
+    "family": "control_chart",
+    "op": ">=",
+    "question": "【WECO告警复核】工序件：空压机阀片；最近3点标准化偏差：+2.8、+2.2、+1.6；口径：统计量取严格高于+2的点数。提交意见：“满足上侧WECO 3点中至少2点高于+2的报警条件”。请审核。",
+    "inputs": {
+      "seq": "+2.8、+2.2、+1.6"
+    },
+    "value": 2.0,
+    "limit": 2.0,
+    "positive": true
+  },
+  {
+    "id": "new_word__old_num__weco2__p1__0",
+    "cell": "new_word__old_num",
+    "wording": "new_word",
+    "num_cfg": "old_num",
+    "pair_id": "new_word__old_num__weco2__p1",
+    "rule": "weco2",
+    "family": "control_chart",
+    "op": ">=",
+    "question": "【WECO告警复核】工序件：空压机阀片；最近3点标准化偏差：+2.8、+1.7、+1.6；口径：统计量取严格高于+2的点数。提交意见：“满足上侧WECO 3点中至少2点高于+2的报警条件”。请审核。",
+    "inputs": {
+      "seq": "+2.8、+1.7、+1.6"
+    },
+    "value": 1.0,
+    "limit": 2.0,
+    "positive": false
+  },
+  {
+    "id": "old_word__new_num__weco2__p0__1",
+    "cell": "old_word__new_num",
+    "wording": "old_word",
+    "num_cfg": "new_num",
+    "pair_id": "old_word__new_num__weco2__p0",
+    "rule": "weco2",
+    "family": "control_chart",
+    "op": ">=",
+    "question": "下面是抽查人员抄录的数据。饮料线导轨质量记录。现有数据：最近3点相对中心线的标准化偏差依次为+2.83、+1.66、+2.55。统计量取高于+2的点数。审核员据此写下“触发上侧WECO的3点中至少2点高于+2规则”。这句话成立吗？",
+    "inputs": {
+      "seq": "+2.83、+1.66、+2.55"
+    },
+    "value": 2.0,
+    "limit": 2.0,
+    "positive": true
+  },
+  {
+    "id": "old_word__new_num__weco2__p0__0",
+    "cell": "old_word__new_num",
+    "wording": "old_word",
+    "num_cfg": "new_num",
+    "pair_id": "old_word__new_num__weco2__p0",
+    "rule": "weco2",
+    "family": "control_chart",
+    "op": ">=",
+    "question": "下面是抽查人员抄录的数据。饮料线导轨质量记录。现有数据：最近3点相对中心线的标准化偏差依次为+1.18、+1.66、+2.55。统计量取高于+2的点数。审核员据此写下“触发上侧WECO的3点中至少2点高于+2规则”。这句话成立吗？",
+    "inputs": {
+      "seq": "+1.18、+1.66、+2.55"
+    },
+    "value": 1.0,
+    "limit": 2.0,
+    "positive": false
+  },
+  {
+    "id": "new_word__new_num__weco2__p0__1",
+    "cell": "new_word__new_num",
+    "wording": "new_word",
+    "num_cfg": "new_num",
+    "pair_id": "new_word__new_num__weco2__p0",
+    "rule": "weco2",
+    "family": "control_chart",
+    "op": ">=",
+    "question": "气缸缓冲衬环工序控制图连续3个监测点相对中心线的标准化偏差依次为+2.83、+1.66、+2.55。统计量取其中严格高于+2的点数。现场判断：“触发上侧WECO的3点中至少2点高于+2规则”。请判断。",
+    "inputs": {
+      "seq": "+2.83、+1.66、+2.55"
+    },
+    "value": 2.0,
+    "limit": 2.0,
+    "positive": true
+  },
+  {
+    "id": "new_word__new_num__weco2__p0__0",
+    "cell": "new_word__new_num",
+    "wording": "new_word",
+    "num_cfg": "new_num",
+    "pair_id": "new_word__new_num__weco2__p0",
+    "rule": "weco2",
+    "family": "control_chart",
+    "op": ">=",
+    "question": "气缸缓冲衬环工序控制图连续3个监测点相对中心线的标准化偏差依次为+1.18、+1.66、+2.55。统计量取其中严格高于+2的点数。现场判断：“触发上侧WECO的3点中至少2点高于+2规则”。请判断。",
+    "inputs": {
+      "seq": "+1.18、+1.66、+2.55"
+    },
+    "value": 1.0,
+    "limit": 2.0,
+    "positive": false
+  },
+  {
+    "id": "old_word__new_num__weco2__p1__1",
+    "cell": "old_word__new_num",
+    "wording": "old_word",
+    "num_cfg": "new_num",
+    "pair_id": "old_word__new_num__weco2__p1",
+    "rule": "weco2",
+    "family": "control_chart",
+    "op": ">=",
+    "question": "下面是抽查人员抄录的数据。输送机托辊质量记录。现有数据：最近3点相对中心线的标准化偏差依次为+1.26、+2.97、+2.90。统计量取高于+2的点数。审核员据此写下“触发上侧WECO的3点中至少2点高于+2规则”。这句话成立吗？",
+    "inputs": {
+      "seq": "+1.26、+2.97、+2.90"
+    },
+    "value": 2.0,
+    "limit": 2.0,
+    "positive": true
+  },
+  {
+    "id": "old_word__new_num__weco2__p1__0",
+    "cell": "old_word__new_num",
+    "wording": "old_word",
+    "num_cfg": "new_num",
+    "pair_id": "old_word__new_num__weco2__p1",
+    "rule": "weco2",
+    "family": "control_chart",
+    "op": ">=",
+    "question": "下面是抽查人员抄录的数据。输送机托辊质量记录。现有数据：最近3点相对中心线的标准化偏差依次为+1.26、+0.78、+2.90。统计量取高于+2的点数。审核员据此写下“触发上侧WECO的3点中至少2点高于+2规则”。这句话成立吗？",
+    "inputs": {
+      "seq": "+1.26、+0.78、+2.90"
+    },
+    "value": 1.0,
+    "limit": 2.0,
+    "positive": false
+  },
+  {
+    "id": "new_word__new_num__weco2__p1__1",
+    "cell": "new_word__new_num",
+    "wording": "new_word",
+    "num_cfg": "new_num",
+    "pair_id": "new_word__new_num__weco2__p1",
+    "rule": "weco2",
+    "family": "control_chart",
+    "op": ">=",
+    "question": "【WECO告警复核】工序件：空压机阀片；最近3点标准化偏差：+1.26、+2.97、+2.90；口径：统计量取严格高于+2的点数。提交意见：“满足上侧WECO 3点中至少2点高于+2的报警条件”。请审核。",
+    "inputs": {
+      "seq": "+1.26、+2.97、+2.90"
+    },
+    "value": 2.0,
+    "limit": 2.0,
+    "positive": true
+  },
+  {
+    "id": "new_word__new_num__weco2__p1__0",
+    "cell": "new_word__new_num",
+    "wording": "new_word",
+    "num_cfg": "new_num",
+    "pair_id": "new_word__new_num__weco2__p1",
+    "rule": "weco2",
+    "family": "control_chart",
+    "op": ">=",
+    "question": "【WECO告警复核】工序件：空压机阀片；最近3点标准化偏差：+1.26、+0.78、+2.90；口径：统计量取严格高于+2的点数。提交意见：“满足上侧WECO 3点中至少2点高于+2的报警条件”。请审核。",
+    "inputs": {
+      "seq": "+1.26、+0.78、+2.90"
+    },
+    "value": 1.0,
+    "limit": 2.0,
+    "positive": false
+  },
+  {
+    "id": "old_word__old_num__weco1__p0__1",
+    "cell": "old_word__old_num",
+    "wording": "old_word",
+    "num_cfg": "old_num",
+    "pair_id": "old_word__old_num__weco1__p0",
+    "rule": "weco1",
+    "family": "control_chart",
+    "op": ">=",
+    "question": "下面是抽查人员抄录的数据。输送机托辊质量记录。现有数据：最近5点相对中心线的标准化偏差依次为+1.7、+1.8、+1.2、+1.3、+0.8。统计量取高于+1的点数。审核员据此写下“触发上侧WECO的5点中至少4点高于+1规则”。这句话成立吗？",
+    "inputs": {
+      "seq": "+1.7、+1.8、+1.2、+1.3、+0.8"
+    },
+    "value": 4.0,
+    "limit": 4.0,
+    "positive": true
+  },
+  {
+    "id": "old_word__old_num__weco1__p0__0",
+    "cell": "old_word__old_num",
+    "wording": "old_word",
+    "num_cfg": "old_num",
+    "pair_id": "old_word__old_num__weco1__p0",
+    "rule": "weco1",
+    "family": "control_chart",
+    "op": ">=",
+    "question": "下面是抽查人员抄录的数据。输送机托辊质量记录。现有数据：最近5点相对中心线的标准化偏差依次为+1.7、+1.8、+1.2、+0.6、+0.8。统计量取高于+1的点数。审核员据此写下“触发上侧WECO的5点中至少4点高于+1规则”。这句话成立吗？",
+    "inputs": {
+      "seq": "+1.7、+1.8、+1.2、+0.6、+0.8"
+    },
+    "value": 3.0,
+    "limit": 4.0,
+    "positive": false
+  },
+  {
+    "id": "new_word__old_num__weco1__p0__1",
+    "cell": "new_word__old_num",
+    "wording": "new_word",
+    "num_cfg": "old_num",
+    "pair_id": "new_word__old_num__weco1__p0",
+    "rule": "weco1",
+    "family": "control_chart",
+    "op": ">=",
+    "question": "叉车链轮销轴产线控制图最近连续5个样本点相对中心线的标准化偏差依次为+1.7、+1.8、+1.2、+1.3、+0.8。统计量取其中严格高于+1的点数。值班记录写明：“触发上侧WECO的5点中至少4点高于+1规则”。请判断。",
+    "inputs": {
+      "seq": "+1.7、+1.8、+1.2、+1.3、+0.8"
+    },
+    "value": 4.0,
+    "limit": 4.0,
+    "positive": true
+  },
+  {
+    "id": "new_word__old_num__weco1__p0__0",
+    "cell": "new_word__old_num",
+    "wording": "new_word",
+    "num_cfg": "old_num",
+    "pair_id": "new_word__old_num__weco1__p0",
+    "rule": "weco1",
+    "family": "control_chart",
+    "op": ">=",
+    "question": "叉车链轮销轴产线控制图最近连续5个样本点相对中心线的标准化偏差依次为+1.7、+1.8、+1.2、+0.6、+0.8。统计量取其中严格高于+1的点数。值班记录写明：“触发上侧WECO的5点中至少4点高于+1规则”。请判断。",
+    "inputs": {
+      "seq": "+1.7、+1.8、+1.2、+0.6、+0.8"
+    },
+    "value": 3.0,
+    "limit": 4.0,
+    "positive": false
+  },
+  {
+    "id": "old_word__old_num__weco1__p1__1",
+    "cell": "old_word__old_num",
+    "wording": "old_word",
+    "num_cfg": "old_num",
+    "pair_id": "old_word__old_num__weco1__p1",
+    "rule": "weco1",
+    "family": "control_chart",
+    "op": ">=",
+    "question": "下面是抽查人员抄录的数据。泵站垫圈质量记录。现有数据：最近5点相对中心线的标准化偏差依次为+1.2、+1.3、+1.4、+0.7、+1.8。统计量取高于+1的点数。审核员据此写下“触发上侧WECO的5点中至少4点高于+1规则”。这句话成立吗？",
+    "inputs": {
+      "seq": "+1.2、+1.3、+1.4、+0.7、+1.8"
+    },
+    "value": 4.0,
+    "limit": 4.0,
+    "positive": true
+  },
+  {
+    "id": "old_word__old_num__weco1__p1__0",
+    "cell": "old_word__old_num",
+    "wording": "old_word",
+    "num_cfg": "old_num",
+    "pair_id": "old_word__old_num__weco1__p1",
+    "rule": "weco1",
+    "family": "control_chart",
+    "op": ">=",
+    "question": "下面是抽查人员抄录的数据。泵站垫圈质量记录。现有数据：最近5点相对中心线的标准化偏差依次为+1.2、+1.3、+0.8、+0.7、+1.8。统计量取高于+1的点数。审核员据此写下“触发上侧WECO的5点中至少4点高于+1规则”。这句话成立吗？",
+    "inputs": {
+      "seq": "+1.2、+1.3、+0.8、+0.7、+1.8"
+    },
+    "value": 3.0,
+    "limit": 4.0,
+    "positive": false
+  },
+  {
+    "id": "new_word__old_num__weco1__p1__1",
+    "cell": "new_word__old_num",
+    "wording": "new_word",
+    "num_cfg": "old_num",
+    "pair_id": "new_word__old_num__weco1__p1",
+    "rule": "weco1",
+    "family": "control_chart",
+    "op": ">=",
+    "question": "【5点窗口监控】产品：伺服电机端盖；连续5点标准化偏差：+1.2、+1.3、+1.4、+0.7、+1.8；统计量定义：严格高于+1的点数。审核声明：“上侧WECO 5点中至少4点高于+1告警成立”。请判定。",
+    "inputs": {
+      "seq": "+1.2、+1.3、+1.4、+0.7、+1.8"
+    },
+    "value": 4.0,
+    "limit": 4.0,
+    "positive": true
+  },
+  {
+    "id": "new_word__old_num__weco1__p1__0",
+    "cell": "new_word__old_num",
+    "wording": "new_word",
+    "num_cfg": "old_num",
+    "pair_id": "new_word__old_num__weco1__p1",
+    "rule": "weco1",
+    "family": "control_chart",
+    "op": ">=",
+    "question": "【5点窗口监控】产品：伺服电机端盖；连续5点标准化偏差：+1.2、+1.3、+0.8、+0.7、+1.8；统计量定义：严格高于+1的点数。审核声明：“上侧WECO 5点中至少4点高于+1告警成立”。请判定。",
+    "inputs": {
+      "seq": "+1.2、+1.3、+0.8、+0.7、+1.8"
+    },
+    "value": 3.0,
+    "limit": 4.0,
+    "positive": false
+  },
+  {
+    "id": "old_word__new_num__weco1__p0__1",
+    "cell": "old_word__new_num",
+    "wording": "old_word",
+    "num_cfg": "new_num",
+    "pair_id": "old_word__new_num__weco1__p0",
+    "rule": "weco1",
+    "family": "control_chart",
+    "op": ">=",
+    "question": "下面是抽查人员抄录的数据。输送机托辊质量记录。现有数据：最近5点相对中心线的标准化偏差依次为+0.02、+1.90、+1.41、+1.97、+1.83。统计量取高于+1的点数。审核员据此写下“触发上侧WECO的5点中至少4点高于+1规则”。这句话成立吗？",
+    "inputs": {
+      "seq": "+0.02、+1.90、+1.41、+1.97、+1.83"
+    },
+    "value": 4.0,
+    "limit": 4.0,
+    "positive": true
+  },
+  {
+    "id": "old_word__new_num__weco1__p0__0",
+    "cell": "old_word__new_num",
+    "wording": "old_word",
+    "num_cfg": "new_num",
+    "pair_id": "old_word__new_num__weco1__p0",
+    "rule": "weco1",
+    "family": "control_chart",
+    "op": ">=",
+    "question": "下面是抽查人员抄录的数据。输送机托辊质量记录。现有数据：最近5点相对中心线的标准化偏差依次为+0.02、-0.22、+1.41、+1.97、+1.83。统计量取高于+1的点数。审核员据此写下“触发上侧WECO的5点中至少4点高于+1规则”。这句话成立吗？",
+    "inputs": {
+      "seq": "+0.02、-0.22、+1.41、+1.97、+1.83"
+    },
+    "value": 3.0,
+    "limit": 4.0,
+    "positive": false
+  },
+  {
+    "id": "new_word__new_num__weco1__p0__1",
+    "cell": "new_word__new_num",
+    "wording": "new_word",
+    "num_cfg": "new_num",
+    "pair_id": "new_word__new_num__weco1__p0",
+    "rule": "weco1",
+    "family": "control_chart",
+    "op": ">=",
+    "question": "叉车链轮销轴产线控制图最近连续5个样本点相对中心线的标准化偏差依次为+0.02、+1.90、+1.41、+1.97、+1.83。统计量取其中严格高于+1的点数。值班记录写明：“触发上侧WECO的5点中至少4点高于+1规则”。请判断。",
+    "inputs": {
+      "seq": "+0.02、+1.90、+1.41、+1.97、+1.83"
+    },
+    "value": 4.0,
+    "limit": 4.0,
+    "positive": true
+  },
+  {
+    "id": "new_word__new_num__weco1__p0__0",
+    "cell": "new_word__new_num",
+    "wording": "new_word",
+    "num_cfg": "new_num",
+    "pair_id": "new_word__new_num__weco1__p0",
+    "rule": "weco1",
+    "family": "control_chart",
+    "op": ">=",
+    "question": "叉车链轮销轴产线控制图最近连续5个样本点相对中心线的标准化偏差依次为+0.02、-0.22、+1.41、+1.97、+1.83。统计量取其中严格高于+1的点数。值班记录写明：“触发上侧WECO的5点中至少4点高于+1规则”。请判断。",
+    "inputs": {
+      "seq": "+0.02、-0.22、+1.41、+1.97、+1.83"
+    },
+    "value": 3.0,
+    "limit": 4.0,
+    "positive": false
+  },
+  {
+    "id": "old_word__new_num__weco1__p1__1",
+    "cell": "old_word__new_num",
+    "wording": "old_word",
+    "num_cfg": "new_num",
+    "pair_id": "old_word__new_num__weco1__p1",
+    "rule": "weco1",
+    "family": "control_chart",
+    "op": ">=",
+    "question": "下面是抽查人员抄录的数据。泵站垫圈质量记录。现有数据：最近5点相对中心线的标准化偏差依次为+0.18、+2.11、+1.97、+1.34、+1.27。统计量取高于+1的点数。审核员据此写下“触发上侧WECO的5点中至少4点高于+1规则”。这句话成立吗？",
+    "inputs": {
+      "seq": "+0.18、+2.11、+1.97、+1.34、+1.27"
+    },
+    "value": 4.0,
+    "limit": 4.0,
+    "positive": true
+  },
+  {
+    "id": "old_word__new_num__weco1__p1__0",
+    "cell": "old_word__new_num",
+    "wording": "old_word",
+    "num_cfg": "new_num",
+    "pair_id": "old_word__new_num__weco1__p1",
+    "rule": "weco1",
+    "family": "control_chart",
+    "op": ">=",
+    "question": "下面是抽查人员抄录的数据。泵站垫圈质量记录。现有数据：最近5点相对中心线的标准化偏差依次为+0.18、+2.11、+0.10、+1.34、+1.27。统计量取高于+1的点数。审核员据此写下“触发上侧WECO的5点中至少4点高于+1规则”。这句话成立吗？",
+    "inputs": {
+      "seq": "+0.18、+2.11、+0.10、+1.34、+1.27"
+    },
+    "value": 3.0,
+    "limit": 4.0,
+    "positive": false
+  },
+  {
+    "id": "new_word__new_num__weco1__p1__1",
+    "cell": "new_word__new_num",
+    "wording": "new_word",
+    "num_cfg": "new_num",
+    "pair_id": "new_word__new_num__weco1__p1",
+    "rule": "weco1",
+    "family": "control_chart",
+    "op": ">=",
+    "question": "【5点窗口监控】产品：伺服电机端盖；连续5点标准化偏差：+0.18、+2.11、+1.97、+1.34、+1.27；统计量定义：严格高于+1的点数。审核声明：“上侧WECO 5点中至少4点高于+1告警成立”。请判定。",
+    "inputs": {
+      "seq": "+0.18、+2.11、+1.97、+1.34、+1.27"
+    },
+    "value": 4.0,
+    "limit": 4.0,
+    "positive": true
+  },
+  {
+    "id": "new_word__new_num__weco1__p1__0",
+    "cell": "new_word__new_num",
+    "wording": "new_word",
+    "num_cfg": "new_num",
+    "pair_id": "new_word__new_num__weco1__p1",
+    "rule": "weco1",
+    "family": "control_chart",
+    "op": ">=",
+    "question": "【5点窗口监控】产品：伺服电机端盖；连续5点标准化偏差：+0.18、+2.11、+0.10、+1.34、+1.27；统计量定义：严格高于+1的点数。审核声明：“上侧WECO 5点中至少4点高于+1告警成立”。请判定。",
+    "inputs": {
+      "seq": "+0.18、+2.11、+0.10、+1.34、+1.27"
+    },
+    "value": 3.0,
+    "limit": 4.0,
+    "positive": false
+  },
+  {
+    "id": "old_word__old_num__weco8__p0__1",
+    "cell": "old_word__old_num",
+    "wording": "old_word",
+    "num_cfg": "old_num",
+    "pair_id": "old_word__old_num__weco8__p0",
+    "rule": "weco8",
+    "family": "control_chart",
+    "op": ">=",
+    "question": "下面是抽查人员抄录的数据。泵站垫圈质量记录。现有数据：最近8点相对中心线的标准化偏差依次为+0.5、+0.6、+0.7、+0.7、+0.8、+0.2、+0.3、+0.4。统计量取高于+0的点数。审核员据此写下“触发上侧WECO的8点中至少8点高于+0规则”。这句话成立吗？",
+    "inputs": {
+      "seq": "+0.5、+0.6、+0.7、+0.7、+0.8、+0.2、+0.3、+0.4"
+    },
+    "value": 8.0,
+    "limit": 8.0,
+    "positive": true
+  },
+  {
+    "id": "old_word__old_num__weco8__p0__0",
+    "cell": "old_word__old_num",
+    "wording": "old_word",
+    "num_cfg": "old_num",
+    "pair_id": "old_word__old_num__weco8__p0",
+    "rule": "weco8",
+    "family": "control_chart",
+    "op": ">=",
+    "question": "下面是抽查人员抄录的数据。泵站垫圈质量记录。现有数据：最近8点相对中心线的标准化偏差依次为+0.5、+0.6、-0.2、+0.7、+0.8、+0.2、+0.3、+0.4。统计量取高于+0的点数。审核员据此写下“触发上侧WECO的8点中至少8点高于+0规则”。这句话成立吗？",
+    "inputs": {
+      "seq": "+0.5、+0.6、-0.2、+0.7、+0.8、+0.2、+0.3、+0.4"
+    },
+    "value": 7.0,
+    "limit": 8.0,
+    "positive": false
+  },
+  {
+    "id": "new_word__old_num__weco8__p0__1",
+    "cell": "new_word__old_num",
+    "wording": "new_word",
+    "num_cfg": "old_num",
+    "pair_id": "new_word__old_num__weco8__p0",
+    "rule": "weco8",
+    "family": "control_chart",
+    "op": ">=",
+    "question": "减速箱油封关键尺寸控制图最近连续8点相对中心线的标准化偏差依次为+0.5、+0.6、+0.7、+0.7、+0.8、+0.2、+0.3、+0.4。统计量取其中严格高于+0的点数。工程部结论：“触发上侧WECO的连续8点均高于中心线规则”。请判断。",
+    "inputs": {
+      "seq": "+0.5、+0.6、+0.7、+0.7、+0.8、+0.2、+0.3、+0.4"
+    },
+    "value": 8.0,
+    "limit": 8.0,
+    "positive": true
+  },
+  {
+    "id": "new_word__old_num__weco8__p0__0",
+    "cell": "new_word__old_num",
+    "wording": "new_word",
+    "num_cfg": "old_num",
+    "pair_id": "new_word__old_num__weco8__p0",
+    "rule": "weco8",
+    "family": "control_chart",
+    "op": ">=",
+    "question": "减速箱油封关键尺寸控制图最近连续8点相对中心线的标准化偏差依次为+0.5、+0.6、-0.2、+0.7、+0.8、+0.2、+0.3、+0.4。统计量取其中严格高于+0的点数。工程部结论：“触发上侧WECO的连续8点均高于中心线规则”。请判断。",
+    "inputs": {
+      "seq": "+0.5、+0.6、-0.2、+0.7、+0.8、+0.2、+0.3、+0.4"
+    },
+    "value": 7.0,
+    "limit": 8.0,
+    "positive": false
+  },
+  {
+    "id": "old_word__old_num__weco8__p1__1",
+    "cell": "old_word__old_num",
+    "wording": "old_word",
+    "num_cfg": "old_num",
+    "pair_id": "old_word__old_num__weco8__p1",
+    "rule": "weco8",
+    "family": "control_chart",
+    "op": ">=",
+    "question": "下面是抽查人员抄录的数据。冷库门铰链质量记录。现有数据：最近8点相对中心线的标准化偏差依次为+0.7、+0.8、+0.8、+0.2、+0.3、+0.4、+0.5、+0.6。统计量取高于+0的点数。审核员据此写下“触发上侧WECO的8点中至少8点高于+0规则”。这句话成立吗？",
+    "inputs": {
+      "seq": "+0.7、+0.8、+0.8、+0.2、+0.3、+0.4、+0.5、+0.6"
+    },
+    "value": 8.0,
+    "limit": 8.0,
+    "positive": true
+  },
+  {
+    "id": "old_word__old_num__weco8__p1__0",
+    "cell": "old_word__old_num",
+    "wording": "old_word",
+    "num_cfg": "old_num",
+    "pair_id": "old_word__old_num__weco8__p1",
+    "rule": "weco8",
+    "family": "control_chart",
+    "op": ">=",
+    "question": "下面是抽查人员抄录的数据。冷库门铰链质量记录。现有数据：最近8点相对中心线的标准化偏差依次为+0.7、-0.3、+0.8、+0.2、+0.3、+0.4、+0.5、+0.6。统计量取高于+0的点数。审核员据此写下“触发上侧WECO的8点中至少8点高于+0规则”。这句话成立吗？",
+    "inputs": {
+      "seq": "+0.7、-0.3、+0.8、+0.2、+0.3、+0.4、+0.5、+0.6"
+    },
+    "value": 7.0,
+    "limit": 8.0,
+    "positive": false
+  },
+  {
+    "id": "new_word__old_num__weco8__p1__1",
+    "cell": "new_word__old_num",
+    "wording": "new_word",
+    "num_cfg": "old_num",
+    "pair_id": "new_word__old_num__weco8__p1",
+    "rule": "weco8",
+    "family": "control_chart",
+    "op": ">=",
+    "question": "【8点连侧核查】零件：电动推杆螺母；最近8点标准化偏差：+0.7、+0.8、+0.8、+0.2、+0.3、+0.4、+0.5、+0.6；统计量：严格高于+0的点数。报告结论：“已触发上侧WECO 8点中至少8点高于+0告警”。请审核。",
+    "inputs": {
+      "seq": "+0.7、+0.8、+0.8、+0.2、+0.3、+0.4、+0.5、+0.6"
+    },
+    "value": 8.0,
+    "limit": 8.0,
+    "positive": true
+  },
+  {
+    "id": "new_word__old_num__weco8__p1__0",
+    "cell": "new_word__old_num",
+    "wording": "new_word",
+    "num_cfg": "old_num",
+    "pair_id": "new_word__old_num__weco8__p1",
+    "rule": "weco8",
+    "family": "control_chart",
+    "op": ">=",
+    "question": "【8点连侧核查】零件：电动推杆螺母；最近8点标准化偏差：+0.7、-0.3、+0.8、+0.2、+0.3、+0.4、+0.5、+0.6；统计量：严格高于+0的点数。报告结论：“已触发上侧WECO 8点中至少8点高于+0告警”。请审核。",
+    "inputs": {
+      "seq": "+0.7、-0.3、+0.8、+0.2、+0.3、+0.4、+0.5、+0.6"
+    },
+    "value": 7.0,
+    "limit": 8.0,
+    "positive": false
+  },
+  {
+    "id": "old_word__new_num__weco8__p0__1",
+    "cell": "old_word__new_num",
+    "wording": "old_word",
+    "num_cfg": "new_num",
+    "pair_id": "old_word__new_num__weco8__p0",
+    "rule": "weco8",
+    "family": "control_chart",
+    "op": ">=",
+    "question": "下面是抽查人员抄录的数据。泵站垫圈质量记录。现有数据：最近8点相对中心线的标准化偏差依次为+1.04、+0.83、+0.69、+0.27、+0.41、+0.62、+0.34、+0.97。统计量取高于+0的点数。审核员据此写下“触发上侧WECO的8点中至少8点高于+0规则”。这句话成立吗？",
+    "inputs": {
+      "seq": "+1.04、+0.83、+0.69、+0.27、+0.41、+0.62、+0.34、+0.97"
+    },
+    "value": 8.0,
+    "limit": 8.0,
+    "positive": true
+  },
+  {
+    "id": "old_word__new_num__weco8__p0__0",
+    "cell": "old_word__new_num",
+    "wording": "old_word",
+    "num_cfg": "new_num",
+    "pair_id": "old_word__new_num__weco8__p0",
+    "rule": "weco8",
+    "family": "control_chart",
+    "op": ">=",
+    "question": "下面是抽查人员抄录的数据。泵站垫圈质量记录。现有数据：最近8点相对中心线的标准化偏差依次为+1.04、+0.83、+0.69、+0.27、+0.41、+0.62、+0.34、-0.26。统计量取高于+0的点数。审核员据此写下“触发上侧WECO的8点中至少8点高于+0规则”。这句话成立吗？",
+    "inputs": {
+      "seq": "+1.04、+0.83、+0.69、+0.27、+0.41、+0.62、+0.34、-0.26"
+    },
+    "value": 7.0,
+    "limit": 8.0,
+    "positive": false
+  },
+  {
+    "id": "new_word__new_num__weco8__p0__1",
+    "cell": "new_word__new_num",
+    "wording": "new_word",
+    "num_cfg": "new_num",
+    "pair_id": "new_word__new_num__weco8__p0",
+    "rule": "weco8",
+    "family": "control_chart",
+    "op": ">=",
+    "question": "减速箱油封关键尺寸控制图最近连续8点相对中心线的标准化偏差依次为+1.04、+0.83、+0.69、+0.27、+0.41、+0.62、+0.34、+0.97。统计量取其中严格高于+0的点数。工程部结论：“触发上侧WECO的连续8点均高于中心线规则”。请判断。",
+    "inputs": {
+      "seq": "+1.04、+0.83、+0.69、+0.27、+0.41、+0.62、+0.34、+0.97"
+    },
+    "value": 8.0,
+    "limit": 8.0,
+    "positive": true
+  },
+  {
+    "id": "new_word__new_num__weco8__p0__0",
+    "cell": "new_word__new_num",
+    "wording": "new_word",
+    "num_cfg": "new_num",
+    "pair_id": "new_word__new_num__weco8__p0",
+    "rule": "weco8",
+    "family": "control_chart",
+    "op": ">=",
+    "question": "减速箱油封关键尺寸控制图最近连续8点相对中心线的标准化偏差依次为+1.04、+0.83、+0.69、+0.27、+0.41、+0.62、+0.34、-0.26。统计量取其中严格高于+0的点数。工程部结论：“触发上侧WECO的连续8点均高于中心线规则”。请判断。",
+    "inputs": {
+      "seq": "+1.04、+0.83、+0.69、+0.27、+0.41、+0.62、+0.34、-0.26"
+    },
+    "value": 7.0,
+    "limit": 8.0,
+    "positive": false
+  },
+  {
+    "id": "old_word__new_num__weco8__p1__1",
+    "cell": "old_word__new_num",
+    "wording": "old_word",
+    "num_cfg": "new_num",
+    "pair_id": "old_word__new_num__weco8__p1",
+    "rule": "weco8",
+    "family": "control_chart",
+    "op": ">=",
+    "question": "下面是抽查人员抄录的数据。冷库门铰链质量记录。现有数据：最近8点相对中心线的标准化偏差依次为+0.48、+0.27、+0.62、+0.97、+0.90、+1.11、+0.76、+1.04。统计量取高于+0的点数。审核员据此写下“触发上侧WECO的8点中至少8点高于+0规则”。这句话成立吗？",
+    "inputs": {
+      "seq": "+0.48、+0.27、+0.62、+0.97、+0.90、+1.11、+0.76、+1.04"
+    },
+    "value": 8.0,
+    "limit": 8.0,
+    "positive": true
+  },
+  {
+    "id": "old_word__new_num__weco8__p1__0",
+    "cell": "old_word__new_num",
+    "wording": "old_word",
+    "num_cfg": "new_num",
+    "pair_id": "old_word__new_num__weco8__p1",
+    "rule": "weco8",
+    "family": "control_chart",
+    "op": ">=",
+    "question": "下面是抽查人员抄录的数据。冷库门铰链质量记录。现有数据：最近8点相对中心线的标准化偏差依次为+0.48、+0.27、+0.62、+0.97、-1.22、+1.11、+0.76、+1.04。统计量取高于+0的点数。审核员据此写下“触发上侧WECO的8点中至少8点高于+0规则”。这句话成立吗？",
+    "inputs": {
+      "seq": "+0.48、+0.27、+0.62、+0.97、-1.22、+1.11、+0.76、+1.04"
+    },
+    "value": 7.0,
+    "limit": 8.0,
+    "positive": false
+  },
+  {
+    "id": "new_word__new_num__weco8__p1__1",
+    "cell": "new_word__new_num",
+    "wording": "new_word",
+    "num_cfg": "new_num",
+    "pair_id": "new_word__new_num__weco8__p1",
+    "rule": "weco8",
+    "family": "control_chart",
+    "op": ">=",
+    "question": "【8点连侧核查】零件：电动推杆螺母；最近8点标准化偏差：+0.48、+0.27、+0.62、+0.97、+0.90、+1.11、+0.76、+1.04；统计量：严格高于+0的点数。报告结论：“已触发上侧WECO 8点中至少8点高于+0告警”。请审核。",
+    "inputs": {
+      "seq": "+0.48、+0.27、+0.62、+0.97、+0.90、+1.11、+0.76、+1.04"
+    },
+    "value": 8.0,
+    "limit": 8.0,
+    "positive": true
+  },
+  {
+    "id": "new_word__new_num__weco8__p1__0",
+    "cell": "new_word__new_num",
+    "wording": "new_word",
+    "num_cfg": "new_num",
+    "pair_id": "new_word__new_num__weco8__p1",
+    "rule": "weco8",
+    "family": "control_chart",
+    "op": ">=",
+    "question": "【8点连侧核查】零件：电动推杆螺母；最近8点标准化偏差：+0.48、+0.27、+0.62、+0.97、-1.22、+1.11、+0.76、+1.04；统计量：严格高于+0的点数。报告结论：“已触发上侧WECO 8点中至少8点高于+0告警”。请审核。",
+    "inputs": {
+      "seq": "+0.48、+0.27、+0.62、+0.97、-1.22、+1.11、+0.76、+1.04"
+    },
+    "value": 7.0,
+    "limit": 8.0,
+    "positive": false
+  },
+  {
+    "id": "old_word__old_num__cp__p0__1",
+    "cell": "old_word__old_num",
+    "wording": "old_word",
+    "num_cfg": "old_num",
+    "pair_id": "old_word__old_num__cp__p0",
+    "rule": "cp",
+    "family": "capability",
+    "op": ">=",
+    "question": "下面是抽查人员抄录的数据。冷库门铰链质量记录。现有数据：过程稳定且近似正态，已知标准差为6，规格限为82至136。审核员据此写下“CP达到合同门槛1”。这句话成立吗？",
+    "inputs": {
+      "lo": "82",
+      "hi": "136",
+      "sd": "6",
+      "target": "1"
+    },
+    "value": 1.5,
+    "limit": 1.0,
+    "positive": true
+  },
+  {
+    "id": "old_word__old_num__cp__p0__0",
+    "cell": "old_word__old_num",
+    "wording": "old_word",
+    "num_cfg": "old_num",
+    "pair_id": "old_word__old_num__cp__p0",
+    "rule": "cp",
+    "family": "capability",
+    "op": ">=",
+    "question": "下面是抽查人员抄录的数据。冷库门铰链质量记录。现有数据：过程稳定且近似正态，已知标准差为6，规格限为82至100。审核员据此写下“CP达到合同门槛1”。这句话成立吗？",
+    "inputs": {
+      "lo": "82",
+      "hi": "100",
+      "sd": "6",
+      "target": "1"
+    },
+    "value": 0.5,
+    "limit": 1.0,
+    "positive": false
+  },
+  {
+    "id": "new_word__old_num__cp__p0__1",
+    "cell": "new_word__old_num",
+    "wording": "new_word",
+    "num_cfg": "old_num",
+    "pair_id": "new_word__old_num__cp__p0",
+    "rule": "cp",
+    "family": "capability",
+    "op": ">=",
+    "question": "农机齿轮套筒尺寸加工过程稳定且近似正态。已知过程标准差为6，规格限为82至136，合同要求Cp门槛为1。试产报告称“该工序Cp达到合同门槛1”。请判断。",
+    "inputs": {
+      "lo": "82",
+      "hi": "136",
+      "sd": "6",
+      "target": "1"
+    },
+    "value": 1.5,
+    "limit": 1.0,
+    "positive": true
+  },
+  {
+    "id": "new_word__old_num__cp__p0__0",
+    "cell": "new_word__old_num",
+    "wording": "new_word",
+    "num_cfg": "old_num",
+    "pair_id": "new_word__old_num__cp__p0",
+    "rule": "cp",
+    "family": "capability",
+    "op": ">=",
+    "question": "农机齿轮套筒尺寸加工过程稳定且近似正态。已知过程标准差为6，规格限为82至100，合同要求Cp门槛为1。试产报告称“该工序Cp达到合同门槛1”。请判断。",
+    "inputs": {
+      "lo": "82",
+      "hi": "100",
+      "sd": "6",
+      "target": "1"
+    },
+    "value": 0.5,
+    "limit": 1.0,
+    "positive": false
+  },
+  {
+    "id": "old_word__old_num__cp__p1__1",
+    "cell": "old_word__old_num",
+    "wording": "old_word",
+    "num_cfg": "old_num",
+    "pair_id": "old_word__old_num__cp__p1",
+    "rule": "cp",
+    "family": "capability",
+    "op": ">=",
+    "question": "下面是抽查人员抄录的数据。分拣机导轮质量记录。现有数据：过程稳定且近似正态，已知标准差为7，规格限为79至142。审核员据此写下“CP达到合同门槛1”。这句话成立吗？",
+    "inputs": {
+      "lo": "79",
+      "hi": "142",
+      "sd": "7",
+      "target": "1"
+    },
+    "value": 1.5,
+    "limit": 1.0,
+    "positive": true
+  },
+  {
+    "id": "old_word__old_num__cp__p1__0",
+    "cell": "old_word__old_num",
+    "wording": "old_word",
+    "num_cfg": "old_num",
+    "pair_id": "old_word__old_num__cp__p1",
+    "rule": "cp",
+    "family": "capability",
+    "op": ">=",
+    "question": "下面是抽查人员抄录的数据。分拣机导轮质量记录。现有数据：过程稳定且近似正态，已知标准差为7，规格限为79至100。审核员据此写下“CP达到合同门槛1”。这句话成立吗？",
+    "inputs": {
+      "lo": "79",
+      "hi": "100",
+      "sd": "7",
+      "target": "1"
+    },
+    "value": 0.5,
+    "limit": 1.0,
+    "positive": false
+  },
+  {
+    "id": "new_word__old_num__cp__p1__1",
+    "cell": "new_word__old_num",
+    "wording": "new_word",
+    "num_cfg": "old_num",
+    "pair_id": "new_word__old_num__cp__p1",
+    "rule": "cp",
+    "family": "capability",
+    "op": ">=",
+    "question": "【过程能力评估】产品：电梯门机滑块（稳定正态分布）；下规格限：79；上规格限：142；标准差：7；Cp目标值：1。待审结论：“工序潜在能力指数Cp满足目标1”。请判定。",
+    "inputs": {
+      "lo": "79",
+      "hi": "142",
+      "sd": "7",
+      "target": "1"
+    },
+    "value": 1.5,
+    "limit": 1.0,
+    "positive": true
+  },
+  {
+    "id": "new_word__old_num__cp__p1__0",
+    "cell": "new_word__old_num",
+    "wording": "new_word",
+    "num_cfg": "old_num",
+    "pair_id": "new_word__old_num__cp__p1",
+    "rule": "cp",
+    "family": "capability",
+    "op": ">=",
+    "question": "【过程能力评估】产品：电梯门机滑块（稳定正态分布）；下规格限：79；上规格限：100；标准差：7；Cp目标值：1。待审结论：“工序潜在能力指数Cp满足目标1”。请判定。",
+    "inputs": {
+      "lo": "79",
+      "hi": "100",
+      "sd": "7",
+      "target": "1"
+    },
+    "value": 0.5,
+    "limit": 1.0,
+    "positive": false
+  },
+  {
+    "id": "old_word__new_num__cp__p0__1",
+    "cell": "old_word__new_num",
+    "wording": "old_word",
+    "num_cfg": "new_num",
+    "pair_id": "old_word__new_num__cp__p0",
+    "rule": "cp",
+    "family": "capability",
+    "op": ">=",
+    "question": "下面是抽查人员抄录的数据。冷库门铰链质量记录。现有数据：过程稳定且近似正态，已知标准差为0.5，规格限为38.5至41.5。审核员据此写下“CP达到合同门槛1”。这句话成立吗？",
+    "inputs": {
+      "lo": "38.5",
+      "hi": "41.5",
+      "sd": "0.5",
+      "target": "1"
+    },
+    "value": 1.0,
+    "limit": 1.0,
+    "positive": true
+  },
+  {
+    "id": "old_word__new_num__cp__p0__0",
+    "cell": "old_word__new_num",
+    "wording": "old_word",
+    "num_cfg": "new_num",
+    "pair_id": "old_word__new_num__cp__p0",
+    "rule": "cp",
+    "family": "capability",
+    "op": ">=",
+    "question": "下面是抽查人员抄录的数据。冷库门铰链质量记录。现有数据：过程稳定且近似正态，已知标准差为0.5，规格限为38.5至40.9。审核员据此写下“CP达到合同门槛1”。这句话成立吗？",
+    "inputs": {
+      "lo": "38.5",
+      "hi": "40.9",
+      "sd": "0.5",
+      "target": "1"
+    },
+    "value": 0.8,
+    "limit": 1.0,
+    "positive": false
+  },
+  {
+    "id": "new_word__new_num__cp__p0__1",
+    "cell": "new_word__new_num",
+    "wording": "new_word",
+    "num_cfg": "new_num",
+    "pair_id": "new_word__new_num__cp__p0",
+    "rule": "cp",
+    "family": "capability",
+    "op": ">=",
+    "question": "农机齿轮套筒尺寸加工过程稳定且近似正态。已知过程标准差为0.5，规格限为38.5至41.5，合同要求Cp门槛为1。试产报告称“该工序Cp达到合同门槛1”。请判断。",
+    "inputs": {
+      "lo": "38.5",
+      "hi": "41.5",
+      "sd": "0.5",
+      "target": "1"
+    },
+    "value": 1.0,
+    "limit": 1.0,
+    "positive": true
+  },
+  {
+    "id": "new_word__new_num__cp__p0__0",
+    "cell": "new_word__new_num",
+    "wording": "new_word",
+    "num_cfg": "new_num",
+    "pair_id": "new_word__new_num__cp__p0",
+    "rule": "cp",
+    "family": "capability",
+    "op": ">=",
+    "question": "农机齿轮套筒尺寸加工过程稳定且近似正态。已知过程标准差为0.5，规格限为38.5至40.9，合同要求Cp门槛为1。试产报告称“该工序Cp达到合同门槛1”。请判断。",
+    "inputs": {
+      "lo": "38.5",
+      "hi": "40.9",
+      "sd": "0.5",
+      "target": "1"
+    },
+    "value": 0.8,
+    "limit": 1.0,
+    "positive": false
+  },
+  {
+    "id": "old_word__new_num__cp__p1__1",
+    "cell": "old_word__new_num",
+    "wording": "old_word",
+    "num_cfg": "new_num",
+    "pair_id": "old_word__new_num__cp__p1",
+    "rule": "cp",
+    "family": "capability",
+    "op": ">=",
+    "question": "下面是抽查人员抄录的数据。分拣机导轮质量记录。现有数据：过程稳定且近似正态，已知标准差为1，规格限为56.4至63.6。审核员据此写下“CP达到合同门槛1.2”。这句话成立吗？",
+    "inputs": {
+      "lo": "56.4",
+      "hi": "63.6",
+      "sd": "1",
+      "target": "1.2"
+    },
+    "value": 1.2,
+    "limit": 1.2,
+    "positive": true
+  },
+  {
+    "id": "old_word__new_num__cp__p1__0",
+    "cell": "old_word__new_num",
+    "wording": "old_word",
+    "num_cfg": "new_num",
+    "pair_id": "old_word__new_num__cp__p1",
+    "rule": "cp",
+    "family": "capability",
+    "op": ">=",
+    "question": "下面是抽查人员抄录的数据。分拣机导轮质量记录。现有数据：过程稳定且近似正态，已知标准差为1，规格限为56.4至62.4。审核员据此写下“CP达到合同门槛1.2”。这句话成立吗？",
+    "inputs": {
+      "lo": "56.4",
+      "hi": "62.4",
+      "sd": "1",
+      "target": "1.2"
+    },
+    "value": 1.0,
+    "limit": 1.2,
+    "positive": false
+  },
+  {
+    "id": "new_word__new_num__cp__p1__1",
+    "cell": "new_word__new_num",
+    "wording": "new_word",
+    "num_cfg": "new_num",
+    "pair_id": "new_word__new_num__cp__p1",
+    "rule": "cp",
+    "family": "capability",
+    "op": ">=",
+    "question": "【过程能力评估】产品：电梯门机滑块（稳定正态分布）；下规格限：56.4；上规格限：63.6；标准差：1；Cp目标值：1.2。待审结论：“工序潜在能力指数Cp满足目标1.2”。请判定。",
+    "inputs": {
+      "lo": "56.4",
+      "hi": "63.6",
+      "sd": "1",
+      "target": "1.2"
+    },
+    "value": 1.2,
+    "limit": 1.2,
+    "positive": true
+  },
+  {
+    "id": "new_word__new_num__cp__p1__0",
+    "cell": "new_word__new_num",
+    "wording": "new_word",
+    "num_cfg": "new_num",
+    "pair_id": "new_word__new_num__cp__p1",
+    "rule": "cp",
+    "family": "capability",
+    "op": ">=",
+    "question": "【过程能力评估】产品：电梯门机滑块（稳定正态分布）；下规格限：56.4；上规格限：62.4；标准差：1；Cp目标值：1.2。待审结论：“工序潜在能力指数Cp满足目标1.2”。请判定。",
+    "inputs": {
+      "lo": "56.4",
+      "hi": "62.4",
+      "sd": "1",
+      "target": "1.2"
+    },
+    "value": 1.0,
+    "limit": 1.2,
+    "positive": false
+  },
+  {
+    "id": "old_word__old_num__cpu__p0__1",
+    "cell": "old_word__old_num",
+    "wording": "old_word",
+    "num_cfg": "old_num",
+    "pair_id": "old_word__old_num__cpu__p0",
+    "rule": "cpu",
+    "family": "capability",
+    "op": ">=",
+    "question": "下面是抽查人员抄录的数据。分拣机导轮质量记录。现有数据：过程稳定且近似正态，已知标准差为6，均值为100，上规格限为127。审核员据此写下“CPU达到合同门槛1”。这句话成立吗？",
+    "inputs": {
+      "mean": "100",
+      "hi": "127",
+      "sd": "6",
+      "target": "1"
+    },
+    "value": 1.5,
+    "limit": 1.0,
+    "positive": true
+  },
+  {
+    "id": "old_word__old_num__cpu__p0__0",
+    "cell": "old_word__old_num",
+    "wording": "old_word",
+    "num_cfg": "old_num",
+    "pair_id": "old_word__old_num__cpu__p0",
+    "rule": "cpu",
+    "family": "capability",
+    "op": ">=",
+    "question": "下面是抽查人员抄录的数据。分拣机导轮质量记录。现有数据：过程稳定且近似正态，已知标准差为6，均值为100，上规格限为109。审核员据此写下“CPU达到合同门槛1”。这句话成立吗？",
+    "inputs": {
+      "mean": "100",
+      "hi": "109",
+      "sd": "6",
+      "target": "1"
+    },
+    "value": 0.5,
+    "limit": 1.0,
+    "positive": false
+  },
+  {
+    "id": "new_word__old_num__cpu__p0__1",
+    "cell": "new_word__old_num",
+    "wording": "new_word",
+    "num_cfg": "old_num",
+    "pair_id": "new_word__old_num__cpu__p0",
+    "rule": "cpu",
+    "family": "capability",
+    "op": ">=",
+    "question": "注塑机顶针单侧上限受控工序稳定且近似正态。实测过程均值为100，标准差为6，上规格限为127，要求Cpu门槛为1。质量总结认为“该工序Cpu达到门槛1”。请判断。",
+    "inputs": {
+      "mean": "100",
+      "hi": "127",
+      "sd": "6",
+      "target": "1"
+    },
+    "value": 1.5,
+    "limit": 1.0,
+    "positive": true
+  },
+  {
+    "id": "new_word__old_num__cpu__p0__0",
+    "cell": "new_word__old_num",
+    "wording": "new_word",
+    "num_cfg": "old_num",
+    "pair_id": "new_word__old_num__cpu__p0",
+    "rule": "cpu",
+    "family": "capability",
+    "op": ">=",
+    "question": "注塑机顶针单侧上限受控工序稳定且近似正态。实测过程均值为100，标准差为6，上规格限为109，要求Cpu门槛为1。质量总结认为“该工序Cpu达到门槛1”。请判断。",
+    "inputs": {
+      "mean": "100",
+      "hi": "109",
+      "sd": "6",
+      "target": "1"
+    },
+    "value": 0.5,
+    "limit": 1.0,
+    "positive": false
+  },
+  {
+    "id": "old_word__old_num__cpu__p1__1",
+    "cell": "old_word__old_num",
+    "wording": "old_word",
+    "num_cfg": "old_num",
+    "pair_id": "old_word__old_num__cpu__p1",
+    "rule": "cpu",
+    "family": "capability",
+    "op": ">=",
+    "question": "下面是抽查人员抄录的数据。包装机滚筒质量记录。现有数据：过程稳定且近似正态，已知标准差为7，均值为100，上规格限为131.5。审核员据此写下“CPU达到合同门槛1”。这句话成立吗？",
+    "inputs": {
+      "mean": "100",
+      "hi": "131.5",
+      "sd": "7",
+      "target": "1"
+    },
+    "value": 1.5,
+    "limit": 1.0,
+    "positive": true
+  },
+  {
+    "id": "old_word__old_num__cpu__p1__0",
+    "cell": "old_word__old_num",
+    "wording": "old_word",
+    "num_cfg": "old_num",
+    "pair_id": "old_word__old_num__cpu__p1",
+    "rule": "cpu",
+    "family": "capability",
+    "op": ">=",
+    "question": "下面是抽查人员抄录的数据。包装机滚筒质量记录。现有数据：过程稳定且近似正态，已知标准差为7，均值为100，上规格限为110.5。审核员据此写下“CPU达到合同门槛1”。这句话成立吗？",
+    "inputs": {
+      "mean": "100",
+      "hi": "110.5",
+      "sd": "7",
+      "target": "1"
+    },
+    "value": 0.5,
+    "limit": 1.0,
+    "positive": false
+  },
+  {
+    "id": "new_word__old_num__cpu__p1__1",
+    "cell": "new_word__old_num",
+    "wording": "new_word",
+    "num_cfg": "old_num",
+    "pair_id": "new_word__old_num__cpu__p1",
+    "rule": "cpu",
+    "family": "capability",
+    "op": ">=",
+    "question": "【上单侧能力审核】物料：光伏支架卡扣（稳定近似正态）；过程均值：100；上规格限：131.5；标准差：7；Cpu要求：1。结论栏写明：“CPU达到规定门槛1”。请核查。",
+    "inputs": {
+      "mean": "100",
+      "hi": "131.5",
+      "sd": "7",
+      "target": "1"
+    },
+    "value": 1.5,
+    "limit": 1.0,
+    "positive": true
+  },
+  {
+    "id": "new_word__old_num__cpu__p1__0",
+    "cell": "new_word__old_num",
+    "wording": "new_word",
+    "num_cfg": "old_num",
+    "pair_id": "new_word__old_num__cpu__p1",
+    "rule": "cpu",
+    "family": "capability",
+    "op": ">=",
+    "question": "【上单侧能力审核】物料：光伏支架卡扣（稳定近似正态）；过程均值：100；上规格限：110.5；标准差：7；Cpu要求：1。结论栏写明：“CPU达到规定门槛1”。请核查。",
+    "inputs": {
+      "mean": "100",
+      "hi": "110.5",
+      "sd": "7",
+      "target": "1"
+    },
+    "value": 0.5,
+    "limit": 1.0,
+    "positive": false
+  },
+  {
+    "id": "old_word__new_num__cpu__p0__1",
+    "cell": "old_word__new_num",
+    "wording": "old_word",
+    "num_cfg": "new_num",
+    "pair_id": "old_word__new_num__cpu__p0",
+    "rule": "cpu",
+    "family": "capability",
+    "op": ">=",
+    "question": "下面是抽查人员抄录的数据。分拣机导轮质量记录。现有数据：过程稳定且近似正态，已知标准差为0.5，均值为40，上规格限为41.5。审核员据此写下“CPU达到合同门槛1”。这句话成立吗？",
+    "inputs": {
+      "mean": "40",
+      "hi": "41.5",
+      "sd": "0.5",
+      "target": "1"
+    },
+    "value": 1.0,
+    "limit": 1.0,
+    "positive": true
+  },
+  {
+    "id": "old_word__new_num__cpu__p0__0",
+    "cell": "old_word__new_num",
+    "wording": "old_word",
+    "num_cfg": "new_num",
+    "pair_id": "old_word__new_num__cpu__p0",
+    "rule": "cpu",
+    "family": "capability",
+    "op": ">=",
+    "question": "下面是抽查人员抄录的数据。分拣机导轮质量记录。现有数据：过程稳定且近似正态，已知标准差为0.5，均值为40，上规格限为41.2。审核员据此写下“CPU达到合同门槛1”。这句话成立吗？",
+    "inputs": {
+      "mean": "40",
+      "hi": "41.2",
+      "sd": "0.5",
+      "target": "1"
+    },
+    "value": 0.8,
+    "limit": 1.0,
+    "positive": false
+  },
+  {
+    "id": "new_word__new_num__cpu__p0__1",
+    "cell": "new_word__new_num",
+    "wording": "new_word",
+    "num_cfg": "new_num",
+    "pair_id": "new_word__new_num__cpu__p0",
+    "rule": "cpu",
+    "family": "capability",
+    "op": ">=",
+    "question": "注塑机顶针单侧上限受控工序稳定且近似正态。实测过程均值为40，标准差为0.5，上规格限为41.5，要求Cpu门槛为1。质量总结认为“该工序Cpu达到门槛1”。请判断。",
+    "inputs": {
+      "mean": "40",
+      "hi": "41.5",
+      "sd": "0.5",
+      "target": "1"
+    },
+    "value": 1.0,
+    "limit": 1.0,
+    "positive": true
+  },
+  {
+    "id": "new_word__new_num__cpu__p0__0",
+    "cell": "new_word__new_num",
+    "wording": "new_word",
+    "num_cfg": "new_num",
+    "pair_id": "new_word__new_num__cpu__p0",
+    "rule": "cpu",
+    "family": "capability",
+    "op": ">=",
+    "question": "注塑机顶针单侧上限受控工序稳定且近似正态。实测过程均值为40，标准差为0.5，上规格限为41.2，要求Cpu门槛为1。质量总结认为“该工序Cpu达到门槛1”。请判断。",
+    "inputs": {
+      "mean": "40",
+      "hi": "41.2",
+      "sd": "0.5",
+      "target": "1"
+    },
+    "value": 0.8,
+    "limit": 1.0,
+    "positive": false
+  },
+  {
+    "id": "old_word__new_num__cpu__p1__1",
+    "cell": "old_word__new_num",
+    "wording": "old_word",
+    "num_cfg": "new_num",
+    "pair_id": "old_word__new_num__cpu__p1",
+    "rule": "cpu",
+    "family": "capability",
+    "op": ">=",
+    "question": "下面是抽查人员抄录的数据。包装机滚筒质量记录。现有数据：过程稳定且近似正态，已知标准差为1，均值为60，上规格限为63.6。审核员据此写下“CPU达到合同门槛1.2”。这句话成立吗？",
+    "inputs": {
+      "mean": "60",
+      "hi": "63.6",
+      "sd": "1",
+      "target": "1.2"
+    },
+    "value": 1.2,
+    "limit": 1.2,
+    "positive": true
+  },
+  {
+    "id": "old_word__new_num__cpu__p1__0",
+    "cell": "old_word__new_num",
+    "wording": "old_word",
+    "num_cfg": "new_num",
+    "pair_id": "old_word__new_num__cpu__p1",
+    "rule": "cpu",
+    "family": "capability",
+    "op": ">=",
+    "question": "下面是抽查人员抄录的数据。包装机滚筒质量记录。现有数据：过程稳定且近似正态，已知标准差为1，均值为60，上规格限为63。审核员据此写下“CPU达到合同门槛1.2”。这句话成立吗？",
+    "inputs": {
+      "mean": "60",
+      "hi": "63",
+      "sd": "1",
+      "target": "1.2"
+    },
+    "value": 1.0,
+    "limit": 1.2,
+    "positive": false
+  },
+  {
+    "id": "new_word__new_num__cpu__p1__1",
+    "cell": "new_word__new_num",
+    "wording": "new_word",
+    "num_cfg": "new_num",
+    "pair_id": "new_word__new_num__cpu__p1",
+    "rule": "cpu",
+    "family": "capability",
+    "op": ">=",
+    "question": "【上单侧能力审核】物料：光伏支架卡扣（稳定近似正态）；过程均值：60；上规格限：63.6；标准差：1；Cpu要求：1.2。结论栏写明：“CPU达到规定门槛1.2”。请核查。",
+    "inputs": {
+      "mean": "60",
+      "hi": "63.6",
+      "sd": "1",
+      "target": "1.2"
+    },
+    "value": 1.2,
+    "limit": 1.2,
+    "positive": true
+  },
+  {
+    "id": "new_word__new_num__cpu__p1__0",
+    "cell": "new_word__new_num",
+    "wording": "new_word",
+    "num_cfg": "new_num",
+    "pair_id": "new_word__new_num__cpu__p1",
+    "rule": "cpu",
+    "family": "capability",
+    "op": ">=",
+    "question": "【上单侧能力审核】物料：光伏支架卡扣（稳定近似正态）；过程均值：60；上规格限：63；标准差：1；Cpu要求：1.2。结论栏写明：“CPU达到规定门槛1.2”。请核查。",
+    "inputs": {
+      "mean": "60",
+      "hi": "63",
+      "sd": "1",
+      "target": "1.2"
+    },
+    "value": 1.0,
+    "limit": 1.2,
+    "positive": false
+  },
+  {
+    "id": "old_word__old_num__cpl__p0__1",
+    "cell": "old_word__old_num",
+    "wording": "old_word",
+    "num_cfg": "old_num",
+    "pair_id": "old_word__old_num__cpl__p0",
+    "rule": "cpl",
+    "family": "capability",
+    "op": ">=",
+    "question": "下面是抽查人员抄录的数据。包装机滚筒质量记录。现有数据：过程稳定且近似正态，已知标准差为6，均值为100，下规格限为73。审核员据此写下“CPL达到合同门槛1”。这句话成立吗？",
+    "inputs": {
+      "mean": "100",
+      "lo": "73",
+      "sd": "6",
+      "target": "1"
+    },
+    "value": 1.5,
+    "limit": 1.0,
+    "positive": true
+  },
+  {
+    "id": "old_word__old_num__cpl__p0__0",
+    "cell": "old_word__old_num",
+    "wording": "old_word",
+    "num_cfg": "old_num",
+    "pair_id": "old_word__old_num__cpl__p0",
+    "rule": "cpl",
+    "family": "capability",
+    "op": ">=",
+    "question": "下面是抽查人员抄录的数据。包装机滚筒质量记录。现有数据：过程稳定且近似正态，已知标准差为6，均值为100，下规格限为91。审核员据此写下“CPL达到合同门槛1”。这句话成立吗？",
+    "inputs": {
+      "mean": "100",
+      "lo": "91",
+      "sd": "6",
+      "target": "1"
+    },
+    "value": 0.5,
+    "limit": 1.0,
+    "positive": false
+  },
+  {
+    "id": "new_word__old_num__cpl__p0__1",
+    "cell": "new_word__old_num",
+    "wording": "new_word",
+    "num_cfg": "old_num",
+    "pair_id": "new_word__old_num__cpl__p0",
+    "rule": "cpl",
+    "family": "capability",
+    "op": ">=",
+    "question": "净水器滤瓶盖单侧下限受控工序稳定且近似正态。过程均值为100，标准差为6，下规格限为73，规定Cpl门槛为1。工艺单称“该工序Cpl达到门槛1”。请判断。",
+    "inputs": {
+      "mean": "100",
+      "lo": "73",
+      "sd": "6",
+      "target": "1"
+    },
+    "value": 1.5,
+    "limit": 1.0,
+    "positive": true
+  },
+  {
+    "id": "new_word__old_num__cpl__p0__0",
+    "cell": "new_word__old_num",
+    "wording": "new_word",
+    "num_cfg": "old_num",
+    "pair_id": "new_word__old_num__cpl__p0",
+    "rule": "cpl",
+    "family": "capability",
+    "op": ">=",
+    "question": "净水器滤瓶盖单侧下限受控工序稳定且近似正态。过程均值为100，标准差为6，下规格限为91，规定Cpl门槛为1。工艺单称“该工序Cpl达到门槛1”。请判断。",
+    "inputs": {
+      "mean": "100",
+      "lo": "91",
+      "sd": "6",
+      "target": "1"
+    },
+    "value": 0.5,
+    "limit": 1.0,
+    "positive": false
+  },
+  {
+    "id": "old_word__old_num__cpl__p1__1",
+    "cell": "old_word__old_num",
+    "wording": "old_word",
+    "num_cfg": "old_num",
+    "pair_id": "old_word__old_num__cpl__p1",
+    "rule": "cpl",
+    "family": "capability",
+    "op": ">=",
+    "question": "下面是抽查人员抄录的数据。纺织机衬套质量记录。现有数据：过程稳定且近似正态，已知标准差为7，均值为100，下规格限为68.5。审核员据此写下“CPL达到合同门槛1”。这句话成立吗？",
+    "inputs": {
+      "mean": "100",
+      "lo": "68.5",
+      "sd": "7",
+      "target": "1"
+    },
+    "value": 1.5,
+    "limit": 1.0,
+    "positive": true
+  },
+  {
+    "id": "old_word__old_num__cpl__p1__0",
+    "cell": "old_word__old_num",
+    "wording": "old_word",
+    "num_cfg": "old_num",
+    "pair_id": "old_word__old_num__cpl__p1",
+    "rule": "cpl",
+    "family": "capability",
+    "op": ">=",
+    "question": "下面是抽查人员抄录的数据。纺织机衬套质量记录。现有数据：过程稳定且近似正态，已知标准差为7，均值为100，下规格限为89.5。审核员据此写下“CPL达到合同门槛1”。这句话成立吗？",
+    "inputs": {
+      "mean": "100",
+      "lo": "89.5",
+      "sd": "7",
+      "target": "1"
+    },
+    "value": 0.5,
+    "limit": 1.0,
+    "positive": false
+  },
+  {
+    "id": "new_word__old_num__cpl__p1__1",
+    "cell": "new_word__old_num",
+    "wording": "new_word",
+    "num_cfg": "old_num",
+    "pair_id": "new_word__old_num__cpl__p1",
+    "rule": "cpl",
+    "family": "capability",
+    "op": ">=",
+    "question": "【下单侧能力审核】工件：气缸缓冲衬环（稳定近似正态）；均值：100；下规格限：68.5；标准差：7；Cpl目标：1。提交结论：“CPL满足门槛要求1”。请审核。",
+    "inputs": {
+      "mean": "100",
+      "lo": "68.5",
+      "sd": "7",
+      "target": "1"
+    },
+    "value": 1.5,
+    "limit": 1.0,
+    "positive": true
+  },
+  {
+    "id": "new_word__old_num__cpl__p1__0",
+    "cell": "new_word__old_num",
+    "wording": "new_word",
+    "num_cfg": "old_num",
+    "pair_id": "new_word__old_num__cpl__p1",
+    "rule": "cpl",
+    "family": "capability",
+    "op": ">=",
+    "question": "【下单侧能力审核】工件：气缸缓冲衬环（稳定近似正态）；均值：100；下规格限：89.5；标准差：7；Cpl目标：1。提交结论：“CPL满足门槛要求1”。请审核。",
+    "inputs": {
+      "mean": "100",
+      "lo": "89.5",
+      "sd": "7",
+      "target": "1"
+    },
+    "value": 0.5,
+    "limit": 1.0,
+    "positive": false
+  },
+  {
+    "id": "old_word__new_num__cpl__p0__1",
+    "cell": "old_word__new_num",
+    "wording": "old_word",
+    "num_cfg": "new_num",
+    "pair_id": "old_word__new_num__cpl__p0",
+    "rule": "cpl",
+    "family": "capability",
+    "op": ">=",
+    "question": "下面是抽查人员抄录的数据。包装机滚筒质量记录。现有数据：过程稳定且近似正态，已知标准差为0.5，均值为40，下规格限为38.5。审核员据此写下“CPL达到合同门槛1”。这句话成立吗？",
+    "inputs": {
+      "mean": "40",
+      "lo": "38.5",
+      "sd": "0.5",
+      "target": "1"
+    },
+    "value": 1.0,
+    "limit": 1.0,
+    "positive": true
+  },
+  {
+    "id": "old_word__new_num__cpl__p0__0",
+    "cell": "old_word__new_num",
+    "wording": "old_word",
+    "num_cfg": "new_num",
+    "pair_id": "old_word__new_num__cpl__p0",
+    "rule": "cpl",
+    "family": "capability",
+    "op": ">=",
+    "question": "下面是抽查人员抄录的数据。包装机滚筒质量记录。现有数据：过程稳定且近似正态，已知标准差为0.5，均值为40，下规格限为38.8。审核员据此写下“CPL达到合同门槛1”。这句话成立吗？",
+    "inputs": {
+      "mean": "40",
+      "lo": "38.8",
+      "sd": "0.5",
+      "target": "1"
+    },
+    "value": 0.8,
+    "limit": 1.0,
+    "positive": false
+  },
+  {
+    "id": "new_word__new_num__cpl__p0__1",
+    "cell": "new_word__new_num",
+    "wording": "new_word",
+    "num_cfg": "new_num",
+    "pair_id": "new_word__new_num__cpl__p0",
+    "rule": "cpl",
+    "family": "capability",
+    "op": ">=",
+    "question": "净水器滤瓶盖单侧下限受控工序稳定且近似正态。过程均值为40，标准差为0.5，下规格限为38.5，规定Cpl门槛为1。工艺单称“该工序Cpl达到门槛1”。请判断。",
+    "inputs": {
+      "mean": "40",
+      "lo": "38.5",
+      "sd": "0.5",
+      "target": "1"
+    },
+    "value": 1.0,
+    "limit": 1.0,
+    "positive": true
+  },
+  {
+    "id": "new_word__new_num__cpl__p0__0",
+    "cell": "new_word__new_num",
+    "wording": "new_word",
+    "num_cfg": "new_num",
+    "pair_id": "new_word__new_num__cpl__p0",
+    "rule": "cpl",
+    "family": "capability",
+    "op": ">=",
+    "question": "净水器滤瓶盖单侧下限受控工序稳定且近似正态。过程均值为40，标准差为0.5，下规格限为38.8，规定Cpl门槛为1。工艺单称“该工序Cpl达到门槛1”。请判断。",
+    "inputs": {
+      "mean": "40",
+      "lo": "38.8",
+      "sd": "0.5",
+      "target": "1"
+    },
+    "value": 0.8,
+    "limit": 1.0,
+    "positive": false
+  },
+  {
+    "id": "old_word__new_num__cpl__p1__1",
+    "cell": "old_word__new_num",
+    "wording": "old_word",
+    "num_cfg": "new_num",
+    "pair_id": "old_word__new_num__cpl__p1",
+    "rule": "cpl",
+    "family": "capability",
+    "op": ">=",
+    "question": "下面是抽查人员抄录的数据。纺织机衬套质量记录。现有数据：过程稳定且近似正态，已知标准差为1，均值为60，下规格限为56.4。审核员据此写下“CPL达到合同门槛1.2”。这句话成立吗？",
+    "inputs": {
+      "mean": "60",
+      "lo": "56.4",
+      "sd": "1",
+      "target": "1.2"
+    },
+    "value": 1.2,
+    "limit": 1.2,
+    "positive": true
+  },
+  {
+    "id": "old_word__new_num__cpl__p1__0",
+    "cell": "old_word__new_num",
+    "wording": "old_word",
+    "num_cfg": "new_num",
+    "pair_id": "old_word__new_num__cpl__p1",
+    "rule": "cpl",
+    "family": "capability",
+    "op": ">=",
+    "question": "下面是抽查人员抄录的数据。纺织机衬套质量记录。现有数据：过程稳定且近似正态，已知标准差为1，均值为60，下规格限为57。审核员据此写下“CPL达到合同门槛1.2”。这句话成立吗？",
+    "inputs": {
+      "mean": "60",
+      "lo": "57",
+      "sd": "1",
+      "target": "1.2"
+    },
+    "value": 1.0,
+    "limit": 1.2,
+    "positive": false
+  },
+  {
+    "id": "new_word__new_num__cpl__p1__1",
+    "cell": "new_word__new_num",
+    "wording": "new_word",
+    "num_cfg": "new_num",
+    "pair_id": "new_word__new_num__cpl__p1",
+    "rule": "cpl",
+    "family": "capability",
+    "op": ">=",
+    "question": "【下单侧能力审核】工件：气缸缓冲衬环（稳定近似正态）；均值：60；下规格限：56.4；标准差：1；Cpl目标：1.2。提交结论：“CPL满足门槛要求1.2”。请审核。",
+    "inputs": {
+      "mean": "60",
+      "lo": "56.4",
+      "sd": "1",
+      "target": "1.2"
+    },
+    "value": 1.2,
+    "limit": 1.2,
+    "positive": true
+  },
+  {
+    "id": "new_word__new_num__cpl__p1__0",
+    "cell": "new_word__new_num",
+    "wording": "new_word",
+    "num_cfg": "new_num",
+    "pair_id": "new_word__new_num__cpl__p1",
+    "rule": "cpl",
+    "family": "capability",
+    "op": ">=",
+    "question": "【下单侧能力审核】工件：气缸缓冲衬环（稳定近似正态）；均值：60；下规格限：57；标准差：1；Cpl目标：1.2。提交结论：“CPL满足门槛要求1.2”。请审核。",
+    "inputs": {
+      "mean": "60",
+      "lo": "57",
+      "sd": "1",
+      "target": "1.2"
+    },
+    "value": 1.0,
+    "limit": 1.2,
+    "positive": false
+  },
+  {
+    "id": "old_word__old_num__cpk__p0__1",
+    "cell": "old_word__old_num",
+    "wording": "old_word",
+    "num_cfg": "old_num",
+    "pair_id": "old_word__old_num__cpk__p0",
+    "rule": "cpk",
+    "family": "capability",
+    "op": ">=",
+    "question": "下面是抽查人员抄录的数据。纺织机衬套质量记录。现有数据：过程稳定且近似正态，已知标准差为6，均值为100，规格限为64至127。审核员据此写下“CPK达到合同门槛1”。这句话成立吗？",
+    "inputs": {
+      "mean": "100",
+      "lo": "64",
+      "hi": "127",
+      "sd": "6",
+      "target": "1"
+    },
+    "value": 1.5,
+    "limit": 1.0,
+    "positive": true
+  },
+  {
+    "id": "old_word__old_num__cpk__p0__0",
+    "cell": "old_word__old_num",
+    "wording": "old_word",
+    "num_cfg": "old_num",
+    "pair_id": "old_word__old_num__cpk__p0",
+    "rule": "cpk",
+    "family": "capability",
+    "op": ">=",
+    "question": "下面是抽查人员抄录的数据。纺织机衬套质量记录。现有数据：过程稳定且近似正态，已知标准差为6，均值为100，规格限为64至109。审核员据此写下“CPK达到合同门槛1”。这句话成立吗？",
+    "inputs": {
+      "mean": "100",
+      "lo": "64",
+      "hi": "109",
+      "sd": "6",
+      "target": "1"
+    },
+    "value": 0.5,
+    "limit": 1.0,
+    "positive": false
+  },
+  {
+    "id": "new_word__old_num__cpk__p0__1",
+    "cell": "new_word__old_num",
+    "wording": "new_word",
+    "num_cfg": "old_num",
+    "pair_id": "new_word__old_num__cpk__p0",
+    "rule": "cpk",
+    "family": "capability",
+    "op": ">=",
+    "question": "风机叶轮法兰关键特征加工过程稳定且近似正态。已知均值100、标准差6、规格限64至127，客户规定Cpk门槛为1。报告结论为“该工序Cpk达到门槛1”。请判断。",
+    "inputs": {
+      "mean": "100",
+      "lo": "64",
+      "hi": "127",
+      "sd": "6",
+      "target": "1"
+    },
+    "value": 1.5,
+    "limit": 1.0,
+    "positive": true
+  },
+  {
+    "id": "new_word__old_num__cpk__p0__0",
+    "cell": "new_word__old_num",
+    "wording": "new_word",
+    "num_cfg": "old_num",
+    "pair_id": "new_word__old_num__cpk__p0",
+    "rule": "cpk",
+    "family": "capability",
+    "op": ">=",
+    "question": "风机叶轮法兰关键特征加工过程稳定且近似正态。已知均值100、标准差6、规格限64至109，客户规定Cpk门槛为1。报告结论为“该工序Cpk达到门槛1”。请判断。",
+    "inputs": {
+      "mean": "100",
+      "lo": "64",
+      "hi": "109",
+      "sd": "6",
+      "target": "1"
+    },
+    "value": 0.5,
+    "limit": 1.0,
+    "positive": false
+  },
+  {
+    "id": "old_word__old_num__cpk__p1__1",
+    "cell": "old_word__old_num",
+    "wording": "old_word",
+    "num_cfg": "old_num",
+    "pair_id": "old_word__old_num__cpk__p1",
+    "rule": "cpk",
+    "family": "capability",
+    "op": ">=",
+    "question": "下面是抽查人员抄录的数据。水表壳体质量记录。现有数据：过程稳定且近似正态，已知标准差为7，均值为100，规格限为58至131.5。审核员据此写下“CPK达到合同门槛1”。这句话成立吗？",
+    "inputs": {
+      "mean": "100",
+      "lo": "58",
+      "hi": "131.5",
+      "sd": "7",
+      "target": "1"
+    },
+    "value": 1.5,
+    "limit": 1.0,
+    "positive": true
+  },
+  {
+    "id": "old_word__old_num__cpk__p1__0",
+    "cell": "old_word__old_num",
+    "wording": "old_word",
+    "num_cfg": "old_num",
+    "pair_id": "old_word__old_num__cpk__p1",
+    "rule": "cpk",
+    "family": "capability",
+    "op": ">=",
+    "question": "下面是抽查人员抄录的数据。水表壳体质量记录。现有数据：过程稳定且近似正态，已知标准差为7，均值为100，规格限为58至110.5。审核员据此写下“CPK达到合同门槛1”。这句话成立吗？",
+    "inputs": {
+      "mean": "100",
+      "lo": "58",
+      "hi": "110.5",
+      "sd": "7",
+      "target": "1"
+    },
+    "value": 0.5,
+    "limit": 1.0,
+    "positive": false
+  },
+  {
+    "id": "new_word__old_num__cpk__p1__1",
+    "cell": "new_word__old_num",
+    "wording": "new_word",
+    "num_cfg": "old_num",
+    "pair_id": "new_word__old_num__cpk__p1",
+    "rule": "cpk",
+    "family": "capability",
+    "op": ">=",
+    "question": "【Cpk准入复核】零件：叉车链轮销轴（稳定近似正态）；规格限：58～131.5；均值：100；标准差：7；门槛：1。拟签意见：“过程能力指数CPK达到1”。请判断。",
+    "inputs": {
+      "mean": "100",
+      "lo": "58",
+      "hi": "131.5",
+      "sd": "7",
+      "target": "1"
+    },
+    "value": 1.5,
+    "limit": 1.0,
+    "positive": true
+  },
+  {
+    "id": "new_word__old_num__cpk__p1__0",
+    "cell": "new_word__old_num",
+    "wording": "new_word",
+    "num_cfg": "old_num",
+    "pair_id": "new_word__old_num__cpk__p1",
+    "rule": "cpk",
+    "family": "capability",
+    "op": ">=",
+    "question": "【Cpk准入复核】零件：叉车链轮销轴（稳定近似正态）；规格限：58～110.5；均值：100；标准差：7；门槛：1。拟签意见：“过程能力指数CPK达到1”。请判断。",
+    "inputs": {
+      "mean": "100",
+      "lo": "58",
+      "hi": "110.5",
+      "sd": "7",
+      "target": "1"
+    },
+    "value": 0.5,
+    "limit": 1.0,
+    "positive": false
+  },
+  {
+    "id": "old_word__new_num__cpk__p0__1",
+    "cell": "old_word__new_num",
+    "wording": "old_word",
+    "num_cfg": "new_num",
+    "pair_id": "old_word__new_num__cpk__p0",
+    "rule": "cpk",
+    "family": "capability",
+    "op": ">=",
+    "question": "下面是抽查人员抄录的数据。纺织机衬套质量记录。现有数据：过程稳定且近似正态，已知标准差为0.5，均值为40，规格限为37.3至41.5。审核员据此写下“CPK达到合同门槛1”。这句话成立吗？",
+    "inputs": {
+      "mean": "40",
+      "lo": "37.3",
+      "hi": "41.5",
+      "sd": "0.5",
+      "target": "1"
+    },
+    "value": 1.0,
+    "limit": 1.0,
+    "positive": true
+  },
+  {
+    "id": "old_word__new_num__cpk__p0__0",
+    "cell": "old_word__new_num",
+    "wording": "old_word",
+    "num_cfg": "new_num",
+    "pair_id": "old_word__new_num__cpk__p0",
+    "rule": "cpk",
+    "family": "capability",
+    "op": ">=",
+    "question": "下面是抽查人员抄录的数据。纺织机衬套质量记录。现有数据：过程稳定且近似正态，已知标准差为0.5，均值为40，规格限为37.3至41.2。审核员据此写下“CPK达到合同门槛1”。这句话成立吗？",
+    "inputs": {
+      "mean": "40",
+      "lo": "37.3",
+      "hi": "41.2",
+      "sd": "0.5",
+      "target": "1"
+    },
+    "value": 0.8,
+    "limit": 1.0,
+    "positive": false
+  },
+  {
+    "id": "new_word__new_num__cpk__p0__1",
+    "cell": "new_word__new_num",
+    "wording": "new_word",
+    "num_cfg": "new_num",
+    "pair_id": "new_word__new_num__cpk__p0",
+    "rule": "cpk",
+    "family": "capability",
+    "op": ">=",
+    "question": "风机叶轮法兰关键特征加工过程稳定且近似正态。已知均值40、标准差0.5、规格限37.3至41.5，客户规定Cpk门槛为1。报告结论为“该工序Cpk达到门槛1”。请判断。",
+    "inputs": {
+      "mean": "40",
+      "lo": "37.3",
+      "hi": "41.5",
+      "sd": "0.5",
+      "target": "1"
+    },
+    "value": 1.0,
+    "limit": 1.0,
+    "positive": true
+  },
+  {
+    "id": "new_word__new_num__cpk__p0__0",
+    "cell": "new_word__new_num",
+    "wording": "new_word",
+    "num_cfg": "new_num",
+    "pair_id": "new_word__new_num__cpk__p0",
+    "rule": "cpk",
+    "family": "capability",
+    "op": ">=",
+    "question": "风机叶轮法兰关键特征加工过程稳定且近似正态。已知均值40、标准差0.5、规格限37.3至41.2，客户规定Cpk门槛为1。报告结论为“该工序Cpk达到门槛1”。请判断。",
+    "inputs": {
+      "mean": "40",
+      "lo": "37.3",
+      "hi": "41.2",
+      "sd": "0.5",
+      "target": "1"
+    },
+    "value": 0.8,
+    "limit": 1.0,
+    "positive": false
+  },
+  {
+    "id": "old_word__new_num__cpk__p1__1",
+    "cell": "old_word__new_num",
+    "wording": "old_word",
+    "num_cfg": "new_num",
+    "pair_id": "old_word__new_num__cpk__p1",
+    "rule": "cpk",
+    "family": "capability",
+    "op": ">=",
+    "question": "下面是抽查人员抄录的数据。水表壳体质量记录。现有数据：过程稳定且近似正态，已知标准差为1，均值为60，规格限为56.4至66。审核员据此写下“CPK达到合同门槛1.2”。这句话成立吗？",
+    "inputs": {
+      "mean": "60",
+      "lo": "56.4",
+      "hi": "66",
+      "sd": "1",
+      "target": "1.2"
+    },
+    "value": 1.2,
+    "limit": 1.2,
+    "positive": true
+  },
+  {
+    "id": "old_word__new_num__cpk__p1__0",
+    "cell": "old_word__new_num",
+    "wording": "old_word",
+    "num_cfg": "new_num",
+    "pair_id": "old_word__new_num__cpk__p1",
+    "rule": "cpk",
+    "family": "capability",
+    "op": ">=",
+    "question": "下面是抽查人员抄录的数据。水表壳体质量记录。现有数据：过程稳定且近似正态，已知标准差为1，均值为60，规格限为57至66。审核员据此写下“CPK达到合同门槛1.2”。这句话成立吗？",
+    "inputs": {
+      "mean": "60",
+      "lo": "57",
+      "hi": "66",
+      "sd": "1",
+      "target": "1.2"
+    },
+    "value": 1.0,
+    "limit": 1.2,
+    "positive": false
+  },
+  {
+    "id": "new_word__new_num__cpk__p1__1",
+    "cell": "new_word__new_num",
+    "wording": "new_word",
+    "num_cfg": "new_num",
+    "pair_id": "new_word__new_num__cpk__p1",
+    "rule": "cpk",
+    "family": "capability",
+    "op": ">=",
+    "question": "【Cpk准入复核】零件：叉车链轮销轴（稳定近似正态）；规格限：56.4～66；均值：60；标准差：1；门槛：1.2。拟签意见：“过程能力指数CPK达到1.2”。请判断。",
+    "inputs": {
+      "mean": "60",
+      "lo": "56.4",
+      "hi": "66",
+      "sd": "1",
+      "target": "1.2"
+    },
+    "value": 1.2,
+    "limit": 1.2,
+    "positive": true
+  },
+  {
+    "id": "new_word__new_num__cpk__p1__0",
+    "cell": "new_word__new_num",
+    "wording": "new_word",
+    "num_cfg": "new_num",
+    "pair_id": "new_word__new_num__cpk__p1",
+    "rule": "cpk",
+    "family": "capability",
+    "op": ">=",
+    "question": "【Cpk准入复核】零件：叉车链轮销轴（稳定近似正态）；规格限：57～66；均值：60；标准差：1；门槛：1.2。拟签意见：“过程能力指数CPK达到1.2”。请判断。",
+    "inputs": {
+      "mean": "60",
+      "lo": "57",
+      "hi": "66",
+      "sd": "1",
+      "target": "1.2"
+    },
+    "value": 1.0,
+    "limit": 1.2,
+    "positive": false
+  }
+]

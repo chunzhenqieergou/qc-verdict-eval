@@ -1,0 +1,58 @@
+{
+  "base-0": {
+    "both_numerical_fields_correct": 17,
+    "wrong_decision_with_both_fields_correct": 6,
+    "oracle_rule_id_recomputed_correct": 49,
+    "oracle_rule_id_recomputed_pairs_correct": 10,
+    "n": 120,
+    "pairs": 60
+  },
+  "paraphrase-42": {
+    "both_numerical_fields_correct": 57,
+    "wrong_decision_with_both_fields_correct": 33,
+    "oracle_rule_id_recomputed_correct": 81,
+    "oracle_rule_id_recomputed_pairs_correct": 22,
+    "n": 120,
+    "pairs": 60
+  },
+  "paraphrase-43": {
+    "both_numerical_fields_correct": 52,
+    "wrong_decision_with_both_fields_correct": 16,
+    "oracle_rule_id_recomputed_correct": 71,
+    "oracle_rule_id_recomputed_pairs_correct": 15,
+    "n": 120,
+    "pairs": 60
+  },
+  "paraphrase-44": {
+    "both_numerical_fields_correct": 60,
+    "wrong_decision_with_both_fields_correct": 36,
+    "oracle_rule_id_recomputed_correct": 78,
+    "oracle_rule_id_recomputed_pairs_correct": 20,
+    "n": 120,
+    "pairs": 60
+  },
+  "scenario-42": {
+    "both_numerical_fields_correct": 71,
+    "wrong_decision_with_both_fields_correct": 26,
+    "oracle_rule_id_recomputed_correct": 80,
+    "oracle_rule_id_recomputed_pairs_correct": 24,
+    "n": 120,
+    "pairs": 60
+  },
+  "scenario-43": {
+    "both_numerical_fields_correct": 83,
+    "wrong_decision_with_both_fields_correct": 32,
+    "oracle_rule_id_recomputed_correct": 90,
+    "oracle_rule_id_recomputed_pairs_correct": 30,
+    "n": 120,
+    "pairs": 60
+  },
+  "scenario-44": {
+    "both_numerical_fields_correct": 81,
+    "wrong_decision_with_both_fields_correct": 41,
+    "oracle_rule_id_recomputed_correct": 87,
+    "oracle_rule_id_recomputed_pairs_correct": 27,
+    "n": 120,
+    "pairs": 60
+  }
+}

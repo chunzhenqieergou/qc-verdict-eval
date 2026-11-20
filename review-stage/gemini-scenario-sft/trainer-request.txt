@@ -1,0 +1,108 @@
+请承担配对微调实验的实现。回复只给可运行的 Python 代码块，不执行命令、不自行改工作区。我会在 experiments/scenario-sft/order_train.py 执行。复用随附 run.py 与 data.py 的现有 train()、evaluate()、read()，只需要多场景组，种子42,43,44；启动前验证目录已有原权重和训练记录。从同一底座全新训练，不加载历史适配器，输出 ROOT/order-training/scenario-<seed>/training.json 和 adapter。唯一区别是用同义的新SYSTEM要求第一行数值、第二行结论、第三行理由，并把每条训练答案的前两行互换。复用 order_probe.PROBE_SYSTEM。保持种子、优化器、步数等完全一致，可通过 try/finally 临时注入 run.SYSTEM 和 run.read，恢复原对象。写入冻结的重新排列训练集和实际提示。运行后用新权重在两个提示 original 与 reordered 上分别跑相同 near+far，同 96 token / batch12，输出 ROOT/order-training/scenario-<seed>/<condition>/predictions.json。支持复用完整结果，每次评估后 gc 和清 GPU 缓存。不得改动原实验任何文件。记录这是在同一套已使用测试题上所做的配对机理诊断。请勿生成冗余框架。from pathlib import Path
+import os
+from data import ROOT, DATA, SYSTEM, freeze, save
+for key in ("TEMP","TMP","HF_HOME","TORCH_HOME","TRITON_CACHE_DIR","TORCHINDUCTOR_CACHE_DIR","CUDA_CACHE_PATH"):
+    path = ROOT / ".cache" / key.lower()
+    path.mkdir(parents=True,exist_ok=True)
+    os.environ[key] = str(path)
+os.environ["HF_HUB_OFFLINE"] = "1"
+import gc
+import hashlib
+import json
+import time
+import sys
+from importlib.metadata import version
+import torch
+from transformers import AutoTokenizer, AutoModelForCausalLM, BitsAndBytesConfig, set_seed, get_cosine_schedule_with_warmup, GenerationConfig
+from peft import get_peft_model, LoraConfig, prepare_model_for_kbit_training, PeftModel
+
+BASE = ROOT.parents[2] / "models/Qwen2.5-3B-Instruct"
+SEEDS = [42,43,44]
+tok = AutoTokenizer.from_pretrained(BASE,local_files_only=True)
+tok.pad_token = tok.eos_token
+
+def read(split):
+    return json.loads((DATA/(split+".json")).read_text(encoding="utf8"))
+
+def messages(r):
+    return [{"role":"system","content":SYSTEM},{"role":"user","content":r["question"]}]
+
+def tokens(r):
+    chat = messages(r)
+    prefix = tok.apply_chat_template(chat, tokenize=True, add_generation_prompt=True,return_dict=False)
+    full = tok.apply_chat_template(chat+[{"role":"assistant","content":r["answer"]}],tokenize=True,return_dict=False)
+    assert full[:len(prefix)]==prefix
+    return full, [-100]*len(prefix)+full[len(prefix):]
+
+def base():
+    return AutoModelForCausalLM.from_pretrained(BASE,local_files_only=True,device_map={"":0},dtype=torch.bfloat16,attn_implementation="sdpa",quantization_config=BitsAndBytesConfig(load_in_4bit=True,bnb_4bit_use_double_quant=True,bnb_4bit_compute_dtype=torch.bfloat16,bnb_4bit_quant_type="nf4"))
+
+def train(arm, seed, out):
+    set_seed(seed)
+    m = prepare_model_for_kbit_training(base(),use_gradient_checkpointing=True,gradient_checkpointing_kwargs={"use_reentrant":False})
+    m = get_peft_model(m,LoraConfig(r=16,lora_alpha=32,lora_dropout=.05,target_modules="all-linear",task_type="CAUSAL_LM"))
+    m.config.use_cache=False
+    m.train()
+    encoded = list(map(tokens,read(arm)))
+    steps = 2*len(encoded)//4
+    opt = torch.optim.AdamW((p for p in m.parameters() if p.requires_grad),lr=7e-5,weight_decay=0.)
+    sched = get_cosine_schedule_with_warmup(opt,2,steps)
+    gen = torch.Generator().manual_seed(seed)
+    log=[]
+    start=time.monotonic()
+    torch.cuda.reset_peak_memory_stats()
+    for epoch in range(2):
+        order = torch.randperm(len(encoded),generator=gen).tolist()
+        for i in range(0,len(order),4):
+            batch=[encoded[k] for k in order[i:i+4]]
+            width=max(len(a) for a,b in batch)
+            ids=torch.tensor([a+[tok.pad_token_id]*(width-len(a)) for a,b in batch],device="cuda")
+            mask=torch.tensor([[1]*len(a)+[0]*(width-len(a)) for a,b in batch],device="cuda")
+            labels=torch.tensor([b+[-100]*(width-len(b)) for a,b in batch],device="cuda")
+            loss=m(input_ids=ids,attention_mask=mask,labels=labels).loss
+            if not torch.isfinite(loss): raise ValueError("Nonfinite training loss")
+            loss.backward()
+            torch.nn.utils.clip_grad_norm_(m.parameters(),1.)
+            opt.step()
+            sched.step()
+            opt.zero_grad(set_to_none=True)
+            log.append(loss.item())
+    m.save_pretrained(out/"adapter")
+    save(out/"training.json",dict(seed=seed,steps=steps,loss=log,elapsed=time.monotonic()-start,peak_gib=torch.cuda.max_memory_allocated()/2**30,input_tokens=sum(len(x) for x,y in encoded),supervised_tokens=sum(sum(v!=-100 for v in y) for x,y in encoded)))
+    print("Trained",arm,seed,flush=True)
+
+def evaluate(out,adapter,budget=96):
+    m=base()
+    if adapter: m=PeftModel.from_pretrained(m,adapter)
+    tok.padding_side="left"
+    m.eval()
+    cases=read("near")+read("far")
+    predictions=[]
+    cfg=GenerationConfig(max_new_tokens=budget,do_sample=False,eos_token_id=m.generation_config.eos_token_id,pad_token_id=tok.pad_token_id,use_cache=True)
+    ends=cfg.eos_token_id if isinstance(cfg.eos_token_id,list) else [cfg.eos_token_id]
+    with torch.inference_mode():
+        for i in range(0,len(cases),12):
+            chunk=cases[i:i+12]
+            enc=tok.apply_chat_template([messages(r) for r in chunk],padding=True,tokenize=True,add_generation_prompt=True,return_dict=True,return_tensors="pt").to("cuda")
+            new=m.generate(**enc,generation_config=cfg)[:,enc.input_ids.shape[1]:].tolist()
+            for r,ids in zip(chunk,new):
+                predictions.append(dict(id=r["id"],text=tok.decode(ids,skip_special_tokens=True).strip(),capped=not any(k in ends for k in ids)))
+    save(out/"predictions.json",predictions)
+    print("Evaluated",out.name,len(predictions),flush=True)
+
+if __name__=="__main__":
+    freeze()
+    save(ROOT/"environment.json",dict(base=str(BASE),gpu=torch.cuda.get_device_name(0),packages={n:version(n) for n in ["torch","transformers","bitsandbytes","peft"]}))
+    for arm,seed in [(a,s) for s in SEEDS for a in ("paraphrase","scenario")]+[("base",0)]:
+        out=ROOT/"runs"/(arm+"-"+str(seed))
+        if arm!="base" and not (out/"training.json").exists():
+            train(arm,seed,out)
+            gc.collect()
+            torch.cuda.empty_cache()
+        if not (out/"predictions.json").exists():
+            evaluate(out,None if arm=="base" else out/"adapter")
+            gc.collect()
+            torch.cuda.empty_cache()
+
+
+

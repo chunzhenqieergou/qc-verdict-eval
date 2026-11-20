@@ -1,0 +1,42 @@
+
+Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]
+Loading checkpoint shards:  50%|█████     | 1/2 [00:04<00:04,  4.36s/it]
+Loading checkpoint shards: 100%|██████████| 2/2 [00:06<00:00,  3.08s/it]
+Loading checkpoint shards: 100%|██████████| 2/2 [00:06<00:00,  3.27s/it]
+Evaluated base-0 144
+
+Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]
+Loading checkpoint shards:  50%|█████     | 1/2 [00:03<00:03,  3.71s/it]
+Loading checkpoint shards: 100%|██████████| 2/2 [00:05<00:00,  2.66s/it]
+Loading checkpoint shards: 100%|██████████| 2/2 [00:05<00:00,  2.82s/it]
+Evaluated paraphrase-42 144
+
+Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]
+Loading checkpoint shards:  50%|█████     | 1/2 [00:03<00:03,  3.32s/it]
+Loading checkpoint shards: 100%|██████████| 2/2 [00:05<00:00,  2.47s/it]
+Loading checkpoint shards: 100%|██████████| 2/2 [00:05<00:00,  2.60s/it]
+Evaluated paraphrase-43 144
+
+Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]
+Loading checkpoint shards:  50%|█████     | 1/2 [00:03<00:03,  3.49s/it]
+Loading checkpoint shards: 100%|██████████| 2/2 [00:05<00:00,  2.69s/it]
+Loading checkpoint shards: 100%|██████████| 2/2 [00:05<00:00,  2.81s/it]
+Evaluated paraphrase-44 144
+
+Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]
+Loading checkpoint shards:  50%|█████     | 1/2 [00:03<00:03,  3.43s/it]
+Loading checkpoint shards: 100%|██████████| 2/2 [00:05<00:00,  2.58s/it]
+Loading checkpoint shards: 100%|██████████| 2/2 [00:05<00:00,  2.71s/it]
+Evaluated scenario-42 144
+
+Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]
+Loading checkpoint shards:  50%|█████     | 1/2 [00:03<00:03,  3.41s/it]
+Loading checkpoint shards: 100%|██████████| 2/2 [00:05<00:00,  2.57s/it]
+Loading checkpoint shards: 100%|██████████| 2/2 [00:05<00:00,  2.70s/it]
+Evaluated scenario-43 144
+
+Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]
+Loading checkpoint shards:  50%|█████     | 1/2 [00:03<00:03,  3.39s/it]
+Loading checkpoint shards: 100%|██████████| 2/2 [00:05<00:00,  2.57s/it]
+Loading checkpoint shards: 100%|██████████| 2/2 [00:05<00:00,  2.69s/it]
+Evaluated scenario-44 144

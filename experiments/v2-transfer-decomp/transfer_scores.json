@@ -1,0 +1,538 @@
+{
+  "base_VF": {
+    "by_cell": {
+      "new_word__new_num": {
+        "items": 48,
+        "item_ok": 24,
+        "num_ok": 5,
+        "pairs": 24,
+        "e2e_pair_ok": 1,
+        "ora_pair_ok": 3
+      },
+      "new_word__old_num": {
+        "items": 48,
+        "item_ok": 25,
+        "num_ok": 6,
+        "pairs": 24,
+        "e2e_pair_ok": 1,
+        "ora_pair_ok": 5
+      },
+      "old_word__new_num": {
+        "items": 48,
+        "item_ok": 24,
+        "num_ok": 9,
+        "pairs": 24,
+        "e2e_pair_ok": 0,
+        "ora_pair_ok": 4
+      },
+      "old_word__old_num": {
+        "items": 48,
+        "item_ok": 25,
+        "num_ok": 7,
+        "pairs": 24,
+        "e2e_pair_ok": 2,
+        "ora_pair_ok": 4
+      }
+    },
+    "by_cell_fam": {
+      "new_word__new_num|capability": {
+        "items": 16,
+        "item_ok": 8,
+        "num_ok": 1,
+        "pairs": 8,
+        "e2e_pair_ok": 0,
+        "ora_pair_ok": 0
+      },
+      "new_word__new_num|control_chart": {
+        "items": 16,
+        "item_ok": 8,
+        "num_ok": 4,
+        "pairs": 8,
+        "e2e_pair_ok": 1,
+        "ora_pair_ok": 2
+      },
+      "new_word__new_num|sampling": {
+        "items": 16,
+        "item_ok": 8,
+        "num_ok": 0,
+        "pairs": 8,
+        "e2e_pair_ok": 0,
+        "ora_pair_ok": 1
+      },
+      "new_word__old_num|capability": {
+        "items": 16,
+        "item_ok": 8,
+        "num_ok": 0,
+        "pairs": 8,
+        "e2e_pair_ok": 0,
+        "ora_pair_ok": 1
+      },
+      "new_word__old_num|control_chart": {
+        "items": 16,
+        "item_ok": 9,
+        "num_ok": 5,
+        "pairs": 8,
+        "e2e_pair_ok": 1,
+        "ora_pair_ok": 3
+      },
+      "new_word__old_num|sampling": {
+        "items": 16,
+        "item_ok": 8,
+        "num_ok": 1,
+        "pairs": 8,
+        "e2e_pair_ok": 0,
+        "ora_pair_ok": 1
+      },
+      "old_word__new_num|capability": {
+        "items": 16,
+        "item_ok": 8,
+        "num_ok": 2,
+        "pairs": 8,
+        "e2e_pair_ok": 0,
+        "ora_pair_ok": 0
+      },
+      "old_word__new_num|control_chart": {
+        "items": 16,
+        "item_ok": 8,
+        "num_ok": 7,
+        "pairs": 8,
+        "e2e_pair_ok": 0,
+        "ora_pair_ok": 4
+      },
+      "old_word__new_num|sampling": {
+        "items": 16,
+        "item_ok": 8,
+        "num_ok": 0,
+        "pairs": 8,
+        "e2e_pair_ok": 0,
+        "ora_pair_ok": 0
+      },
+      "old_word__old_num|capability": {
+        "items": 16,
+        "item_ok": 8,
+        "num_ok": 0,
+        "pairs": 8,
+        "e2e_pair_ok": 0,
+        "ora_pair_ok": 0
+      },
+      "old_word__old_num|control_chart": {
+        "items": 16,
+        "item_ok": 9,
+        "num_ok": 6,
+        "pairs": 8,
+        "e2e_pair_ok": 2,
+        "ora_pair_ok": 3
+      },
+      "old_word__old_num|sampling": {
+        "items": 16,
+        "item_ok": 8,
+        "num_ok": 1,
+        "pairs": 8,
+        "e2e_pair_ok": 0,
+        "ora_pair_ok": 1
+      }
+    }
+  },
+  "base_NF": {
+    "by_cell": {
+      "new_word__new_num": {
+        "items": 48,
+        "item_ok": 26,
+        "num_ok": 7,
+        "pairs": 24,
+        "e2e_pair_ok": 3,
+        "ora_pair_ok": 1
+      },
+      "new_word__old_num": {
+        "items": 48,
+        "item_ok": 21,
+        "num_ok": 6,
+        "pairs": 24,
+        "e2e_pair_ok": 0,
+        "ora_pair_ok": 2
+      },
+      "old_word__new_num": {
+        "items": 48,
+        "item_ok": 21,
+        "num_ok": 4,
+        "pairs": 24,
+        "e2e_pair_ok": 1,
+        "ora_pair_ok": 3
+      },
+      "old_word__old_num": {
+        "items": 48,
+        "item_ok": 19,
+        "num_ok": 8,
+        "pairs": 24,
+        "e2e_pair_ok": 1,
+        "ora_pair_ok": 3
+      }
+    },
+    "by_cell_fam": {
+      "new_word__new_num|capability": {
+        "items": 16,
+        "item_ok": 9,
+        "num_ok": 2,
+        "pairs": 8,
+        "e2e_pair_ok": 1,
+        "ora_pair_ok": 0
+      },
+      "new_word__new_num|control_chart": {
+        "items": 16,
+        "item_ok": 9,
+        "num_ok": 5,
+        "pairs": 8,
+        "e2e_pair_ok": 1,
+        "ora_pair_ok": 1
+      },
+      "new_word__new_num|sampling": {
+        "items": 16,
+        "item_ok": 8,
+        "num_ok": 0,
+        "pairs": 8,
+        "e2e_pair_ok": 1,
+        "ora_pair_ok": 0
+      },
+      "new_word__old_num|capability": {
+        "items": 16,
+        "item_ok": 8,
+        "num_ok": 0,
+        "pairs": 8,
+        "e2e_pair_ok": 0,
+        "ora_pair_ok": 0
+      },
+      "new_word__old_num|control_chart": {
+        "items": 16,
+        "item_ok": 6,
+        "num_ok": 6,
+        "pairs": 8,
+        "e2e_pair_ok": 0,
+        "ora_pair_ok": 2
+      },
+      "new_word__old_num|sampling": {
+        "items": 16,
+        "item_ok": 7,
+        "num_ok": 0,
+        "pairs": 8,
+        "e2e_pair_ok": 0,
+        "ora_pair_ok": 0
+      },
+      "old_word__new_num|capability": {
+        "items": 16,
+        "item_ok": 7,
+        "num_ok": 0,
+        "pairs": 8,
+        "e2e_pair_ok": 0,
+        "ora_pair_ok": 0
+      },
+      "old_word__new_num|control_chart": {
+        "items": 16,
+        "item_ok": 7,
+        "num_ok": 4,
+        "pairs": 8,
+        "e2e_pair_ok": 1,
+        "ora_pair_ok": 2
+      },
+      "old_word__new_num|sampling": {
+        "items": 16,
+        "item_ok": 7,
+        "num_ok": 0,
+        "pairs": 8,
+        "e2e_pair_ok": 0,
+        "ora_pair_ok": 1
+      },
+      "old_word__old_num|capability": {
+        "items": 16,
+        "item_ok": 6,
+        "num_ok": 0,
+        "pairs": 8,
+        "e2e_pair_ok": 0,
+        "ora_pair_ok": 0
+      },
+      "old_word__old_num|control_chart": {
+        "items": 16,
+        "item_ok": 7,
+        "num_ok": 8,
+        "pairs": 8,
+        "e2e_pair_ok": 1,
+        "ora_pair_ok": 3
+      },
+      "old_word__old_num|sampling": {
+        "items": 16,
+        "item_ok": 6,
+        "num_ok": 0,
+        "pairs": 8,
+        "e2e_pair_ok": 0,
+        "ora_pair_ok": 0
+      }
+    }
+  },
+  "VF_VF": {
+    "by_cell": {
+      "new_word__new_num": {
+        "items": 144,
+        "item_ok": 75,
+        "num_ok": 75,
+        "pairs": 72,
+        "e2e_pair_ok": 4,
+        "ora_pair_ok": 27
+      },
+      "new_word__old_num": {
+        "items": 144,
+        "item_ok": 72,
+        "num_ok": 79,
+        "pairs": 72,
+        "e2e_pair_ok": 1,
+        "ora_pair_ok": 32
+      },
+      "old_word__new_num": {
+        "items": 144,
+        "item_ok": 73,
+        "num_ok": 82,
+        "pairs": 72,
+        "e2e_pair_ok": 1,
+        "ora_pair_ok": 31
+      },
+      "old_word__old_num": {
+        "items": 144,
+        "item_ok": 73,
+        "num_ok": 93,
+        "pairs": 72,
+        "e2e_pair_ok": 1,
+        "ora_pair_ok": 34
+      }
+    },
+    "by_cell_fam": {
+      "new_word__new_num|capability": {
+        "items": 48,
+        "item_ok": 25,
+        "num_ok": 15,
+        "pairs": 24,
+        "e2e_pair_ok": 1,
+        "ora_pair_ok": 2
+      },
+      "new_word__new_num|control_chart": {
+        "items": 48,
+        "item_ok": 25,
+        "num_ok": 23,
+        "pairs": 24,
+        "e2e_pair_ok": 2,
+        "ora_pair_ok": 6
+      },
+      "new_word__new_num|sampling": {
+        "items": 48,
+        "item_ok": 25,
+        "num_ok": 37,
+        "pairs": 24,
+        "e2e_pair_ok": 1,
+        "ora_pair_ok": 19
+      },
+      "new_word__old_num|capability": {
+        "items": 48,
+        "item_ok": 23,
+        "num_ok": 13,
+        "pairs": 24,
+        "e2e_pair_ok": 0,
+        "ora_pair_ok": 1
+      },
+      "new_word__old_num|control_chart": {
+        "items": 48,
+        "item_ok": 24,
+        "num_ok": 26,
+        "pairs": 24,
+        "e2e_pair_ok": 0,
+        "ora_pair_ok": 8
+      },
+      "new_word__old_num|sampling": {
+        "items": 48,
+        "item_ok": 25,
+        "num_ok": 40,
+        "pairs": 24,
+        "e2e_pair_ok": 1,
+        "ora_pair_ok": 23
+      },
+      "old_word__new_num|capability": {
+        "items": 48,
+        "item_ok": 24,
+        "num_ok": 9,
+        "pairs": 24,
+        "e2e_pair_ok": 0,
+        "ora_pair_ok": 2
+      },
+      "old_word__new_num|control_chart": {
+        "items": 48,
+        "item_ok": 24,
+        "num_ok": 30,
+        "pairs": 24,
+        "e2e_pair_ok": 0,
+        "ora_pair_ok": 7
+      },
+      "old_word__new_num|sampling": {
+        "items": 48,
+        "item_ok": 25,
+        "num_ok": 43,
+        "pairs": 24,
+        "e2e_pair_ok": 1,
+        "ora_pair_ok": 22
+      },
+      "old_word__old_num|capability": {
+        "items": 48,
+        "item_ok": 24,
+        "num_ok": 22,
+        "pairs": 24,
+        "e2e_pair_ok": 0,
+        "ora_pair_ok": 5
+      },
+      "old_word__old_num|control_chart": {
+        "items": 48,
+        "item_ok": 24,
+        "num_ok": 31,
+        "pairs": 24,
+        "e2e_pair_ok": 0,
+        "ora_pair_ok": 7
+      },
+      "old_word__old_num|sampling": {
+        "items": 48,
+        "item_ok": 25,
+        "num_ok": 40,
+        "pairs": 24,
+        "e2e_pair_ok": 1,
+        "ora_pair_ok": 22
+      }
+    }
+  },
+  "NF_NF": {
+    "by_cell": {
+      "new_word__new_num": {
+        "items": 144,
+        "item_ok": 93,
+        "num_ok": 79,
+        "pairs": 72,
+        "e2e_pair_ok": 24,
+        "ora_pair_ok": 29
+      },
+      "new_word__old_num": {
+        "items": 144,
+        "item_ok": 99,
+        "num_ok": 82,
+        "pairs": 72,
+        "e2e_pair_ok": 29,
+        "ora_pair_ok": 30
+      },
+      "old_word__new_num": {
+        "items": 144,
+        "item_ok": 96,
+        "num_ok": 75,
+        "pairs": 72,
+        "e2e_pair_ok": 24,
+        "ora_pair_ok": 23
+      },
+      "old_word__old_num": {
+        "items": 144,
+        "item_ok": 97,
+        "num_ok": 92,
+        "pairs": 72,
+        "e2e_pair_ok": 28,
+        "ora_pair_ok": 30
+      }
+    },
+    "by_cell_fam": {
+      "new_word__new_num|capability": {
+        "items": 48,
+        "item_ok": 23,
+        "num_ok": 11,
+        "pairs": 24,
+        "e2e_pair_ok": 1,
+        "ora_pair_ok": 1
+      },
+      "new_word__new_num|control_chart": {
+        "items": 48,
+        "item_ok": 27,
+        "num_ok": 27,
+        "pairs": 24,
+        "e2e_pair_ok": 4,
+        "ora_pair_ok": 7
+      },
+      "new_word__new_num|sampling": {
+        "items": 48,
+        "item_ok": 43,
+        "num_ok": 41,
+        "pairs": 24,
+        "e2e_pair_ok": 19,
+        "ora_pair_ok": 21
+      },
+      "new_word__old_num|capability": {
+        "items": 48,
+        "item_ok": 26,
+        "num_ok": 19,
+        "pairs": 24,
+        "e2e_pair_ok": 2,
+        "ora_pair_ok": 2
+      },
+      "new_word__old_num|control_chart": {
+        "items": 48,
+        "item_ok": 30,
+        "num_ok": 23,
+        "pairs": 24,
+        "e2e_pair_ok": 7,
+        "ora_pair_ok": 6
+      },
+      "new_word__old_num|sampling": {
+        "items": 48,
+        "item_ok": 43,
+        "num_ok": 40,
+        "pairs": 24,
+        "e2e_pair_ok": 20,
+        "ora_pair_ok": 22
+      },
+      "old_word__new_num|capability": {
+        "items": 48,
+        "item_ok": 26,
+        "num_ok": 12,
+        "pairs": 24,
+        "e2e_pair_ok": 2,
+        "ora_pair_ok": 2
+      },
+      "old_word__new_num|control_chart": {
+        "items": 48,
+        "item_ok": 27,
+        "num_ok": 30,
+        "pairs": 24,
+        "e2e_pair_ok": 3,
+        "ora_pair_ok": 6
+      },
+      "old_word__new_num|sampling": {
+        "items": 48,
+        "item_ok": 43,
+        "num_ok": 33,
+        "pairs": 24,
+        "e2e_pair_ok": 19,
+        "ora_pair_ok": 15
+      },
+      "old_word__old_num|capability": {
+        "items": 48,
+        "item_ok": 30,
+        "num_ok": 26,
+        "pairs": 24,
+        "e2e_pair_ok": 6,
+        "ora_pair_ok": 6
+      },
+      "old_word__old_num|control_chart": {
+        "items": 48,
+        "item_ok": 30,
+        "num_ok": 30,
+        "pairs": 24,
+        "e2e_pair_ok": 6,
+        "ora_pair_ok": 6
+      },
+      "old_word__old_num|sampling": {
+        "items": 48,
+        "item_ok": 37,
+        "num_ok": 36,
+        "pairs": 24,
+        "e2e_pair_ok": 16,
+        "ora_pair_ok": 18
+      }
+    }
+  }
+}

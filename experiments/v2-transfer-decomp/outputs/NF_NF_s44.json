@@ -1,0 +1,962 @@
+[
+  {
+    "id": "old_word__old_num__single__p0__1",
+    "text": "统计量=7，阈值=7\n成立\n一次抽样的不合格品数须小于或等于接收数。",
+    "capped": false
+  },
+  {
+    "id": "old_word__old_num__single__p0__0",
+    "text": "统计量=8，阈值=7\n不成立\n一次抽样的不合格品数须小于或等于接收数。",
+    "capped": false
+  },
+  {
+    "id": "new_word__old_num__single__p0__1",
+    "text": "统计量=7，阈值=7\n成立\n一次抽样的不合格品数须小于或等于接收数。",
+    "capped": false
+  },
+  {
+    "id": "new_word__old_num__single__p0__0",
+    "text": "统计量=8，阈值=7\n不成立\n一次抽样的不合格品数须小于或等于接收数。",
+    "capped": false
+  },
+  {
+    "id": "old_word__old_num__single__p1__1",
+    "text": "统计量=8，阈值=8\n成立\n一次抽样的不合格品数须小于或等于接收数。",
+    "capped": false
+  },
+  {
+    "id": "old_word__old_num__single__p1__0",
+    "text": "统计量=9，阈值=8\n不成立\n一次抽样的不合格品数须小于或等于接收数。",
+    "capped": false
+  },
+  {
+    "id": "new_word__old_num__single__p1__1",
+    "text": "统计量=8，阈值=8\n成立\n一次抽样的单次抽样检验要求不合格品数达到或超过接收数。",
+    "capped": false
+  },
+  {
+    "id": "new_word__old_num__single__p1__0",
+    "text": "统计量=9，阈值=8\n不成立\n一次抽样的不合格品数须小于或等于接收数。",
+    "capped": false
+  },
+  {
+    "id": "old_word__new_num__single__p0__1",
+    "text": "统计量=4，阈值=4\n成立\n一次抽样的不合格品数须小于或等于接收数。",
+    "capped": false
+  },
+  {
+    "id": "old_word__new_num__single__p0__0",
+    "text": "统计量=5，阈值=4\n不成立\n一次抽样的不合格品数须小于或等于接收数。",
+    "capped": false
+  },
+  {
+    "id": "new_word__new_num__single__p0__1",
+    "text": "统计量=4，阈值=4\n成立\n一次抽样的不合格品数须小于或等于接收数。",
+    "capped": false
+  },
+  {
+    "id": "new_word__new_num__single__p0__0",
+    "text": "统计量=5，阈值=4\n不成立\n一次抽样的不合格品数须小于或等于接收数。",
+    "capped": false
+  },
+  {
+    "id": "old_word__new_num__single__p1__1",
+    "text": "统计量=6，阈值=6\n成立\n一次抽样的不合格品数须小于或等于接收数。",
+    "capped": false
+  },
+  {
+    "id": "old_word__new_num__single__p1__0",
+    "text": "统计量=7，阈值=6\n不成立\n一次抽样的不合格品数须小于或等于接收数。",
+    "capped": false
+  },
+  {
+    "id": "new_word__new_num__single__p1__1",
+    "text": "统计量=6，阈值=6\n成立\n一次抽样的不合格品数须小于或等于接收数。",
+    "capped": false
+  },
+  {
+    "id": "new_word__new_num__single__p1__0",
+    "text": "统计量=7，阈值=6\n不成立\n一次抽样的不合格品数须小于或等于接收数。",
+    "capped": false
+  },
+  {
+    "id": "old_word__old_num__first_accept__p0__1",
+    "text": "统计量=7，阈值=7\n成立\n首样直接接收要求不合格品数不超过首样接收数。",
+    "capped": false
+  },
+  {
+    "id": "old_word__old_num__first_accept__p0__0",
+    "text": "统计量=8，阈值=7\n不成立\n首样直接接收要求不合格品数不超过首样接收数。",
+    "capped": false
+  },
+  {
+    "id": "new_word__old_num__first_accept__p0__1",
+    "text": "统计量=7，阈值=7\n成立\n首样直接接收要求不合格品数不超过接收数。",
+    "capped": false
+  },
+  {
+    "id": "new_word__old_num__first_accept__p0__0",
+    "text": "统计量=8，阈值=10\n不成立\n首样直接拒收要求不合格品数达到或超过拒收数。",
+    "capped": false
+  },
+  {
+    "id": "old_word__old_num__first_accept__p1__1",
+    "text": "统计量=8，阈值=8\n成立\n首样直接接收要求不合格品数不超过首样接收数。",
+    "capped": false
+  },
+  {
+    "id": "old_word__old_num__first_accept__p1__0",
+    "text": "统计量=9，阈值=8\n不成立\n首样直接接收要求不合格品数不超过首样接收数。",
+    "capped": false
+  },
+  {
+    "id": "new_word__old_num__first_accept__p1__1",
+    "text": "统计量=8，阈值=8\n成立\n首样直接接收要求不合格品数不超过首样接收数。",
+    "capped": false
+  },
+  {
+    "id": "new_word__old_num__first_accept__p1__0",
+    "text": "统计量=9，阈值=8\n不成立\n首样不合格品数须小于首样接收数。",
+    "capped": false
+  },
+  {
+    "id": "old_word__new_num__first_accept__p0__1",
+    "text": "统计量=3，阈值=3\n成立\n首样直接接收要求不合格品数不超过首样接收数。",
+    "capped": false
+  },
+  {
+    "id": "old_word__new_num__first_accept__p0__0",
+    "text": "统计量=4，阈值=3\n不成立\n首样直接接收要求不合格品数不超过首样接收数。",
+    "capped": false
+  },
+  {
+    "id": "new_word__new_num__first_accept__p0__1",
+    "text": "统计量=3，阈值=6\n不成立\n首样直接拒收要求不合格品数达到或超过拒收数。",
+    "capped": false
+  },
+  {
+    "id": "new_word__new_num__first_accept__p0__0",
+    "text": "统计量=4，阈值=6\n不成立\n首样直接拒收要求不合格品数达到或超过拒收数。",
+    "capped": false
+  },
+  {
+    "id": "old_word__new_num__first_accept__p1__1",
+    "text": "统计量=5，阈值=5\n成立\n首样直接接收要求不合格品数不超过首样接收数。",
+    "capped": false
+  },
+  {
+    "id": "old_word__new_num__first_accept__p1__0",
+    "text": "统计量=6，阈值=5\n不成立\n首样直接接收要求不合格品数不超过首样接收数。",
+    "capped": false
+  },
+  {
+    "id": "new_word__new_num__first_accept__p1__1",
+    "text": "统计量=5，阈值=5\n成立\n首样直接接收要求不合格品数不超过首样接收数。",
+    "capped": false
+  },
+  {
+    "id": "new_word__new_num__first_accept__p1__0",
+    "text": "统计量=6，阈值=5\n不成立\n首样不合格品数须小于首样接收数。",
+    "capped": false
+  },
+  {
+    "id": "old_word__old_num__first_reject__p0__1",
+    "text": "统计量=7，阈值=7\n成立\n首样直接拒收要求不合格品数达到或超过拒收数。",
+    "capped": false
+  },
+  {
+    "id": "old_word__old_num__first_reject__p0__0",
+    "text": "统计量=6，阈值=7\n不成立\n首样直接拒收要求不合格品数达到或超过拒收数。",
+    "capped": false
+  },
+  {
+    "id": "new_word__old_num__first_reject__p0__1",
+    "text": "统计量=7，阈值=7\n成立\n首样直接拒收要求检出不合格品数达到或超过首样拒收数。",
+    "capped": false
+  },
+  {
+    "id": "new_word__old_num__first_reject__p0__0",
+    "text": "统计量=6，阈值=7\n不成立\n首样直接拒收要求检出不合格品数达到或超过首样拒收数。",
+    "capped": false
+  },
+  {
+    "id": "old_word__old_num__first_reject__p1__1",
+    "text": "统计量=8，阈值=8\n成立\n首样直接拒收要求首样不合格品数达到或超过拒收数。",
+    "capped": false
+  },
+  {
+    "id": "old_word__old_num__first_reject__p1__0",
+    "text": "统计量=7，阈值=8\n不成立\n首样直接拒收要求不合格品数达到或超过拒收数。",
+    "capped": false
+  },
+  {
+    "id": "new_word__old_num__first_reject__p1__1",
+    "text": "统计量=8，阈值=8\n成立\n首样直接拒收要求不合格品数达到或超过拒收数。",
+    "capped": false
+  },
+  {
+    "id": "new_word__old_num__first_reject__p1__0",
+    "text": "统计量=7，阈值=8\n不成立\n首样直接拒收要求不合格品数达到或超过拒收数。",
+    "capped": false
+  },
+  {
+    "id": "old_word__new_num__first_reject__p0__1",
+    "text": "统计量=6，阈值=6\n成立\n首样直接拒收要求首样不合格品数达到或超过拒收数。",
+    "capped": false
+  },
+  {
+    "id": "old_word__new_num__first_reject__p0__0",
+    "text": "统计量=5，阈值=6\n不成立\n首样直接拒收要求不合格品数达到或超过拒收数。",
+    "capped": false
+  },
+  {
+    "id": "new_word__new_num__first_reject__p0__1",
+    "text": "统计量=6，阈值=6\n成立\n首样直接拒收要求检出不合格品数达到或超过首样拒收数。",
+    "capped": false
+  },
+  {
+    "id": "new_word__new_num__first_reject__p0__0",
+    "text": "统计量=5，阈值=6\n不成立\n首样直接拒收要求不合格品数达到或超过拒收数。",
+    "capped": false
+  },
+  {
+    "id": "old_word__new_num__first_reject__p1__1",
+    "text": "统计量=8，阈值=8\n成立\n首样直接拒收要求不合格品数达到或超过拒收数。",
+    "capped": false
+  },
+  {
+    "id": "old_word__new_num__first_reject__p1__0",
+    "text": "统计量=7，阈值=8\n不成立\n首样直接拒收要求不合格品数达到或超过拒收数。",
+    "capped": false
+  },
+  {
+    "id": "new_word__new_num__first_reject__p1__1",
+    "text": "统计量=8，阈值=8\n成立\n首样直接拒收要求不合格品数达到或超过拒收数。",
+    "capped": false
+  },
+  {
+    "id": "new_word__new_num__first_reject__p1__0",
+    "text": "统计量=7，阈值=8\n不成立\n首样直接拒收要求不合格品数达到或超过拒收数。",
+    "capped": false
+  },
+  {
+    "id": "old_word__old_num__second_accept__p0__1",
+    "text": "统计量=6，阈值=2\n成立\n两次抽样的不合格品数之和须不超过累计接收数。",
+    "capped": false
+  },
+  {
+    "id": "old_word__old_num__second_accept__p0__0",
+    "text": "统计量=7，阈值=7\n成立\n两次抽样的不合格品数之和须不超过累计接收数。",
+    "capped": false
+  },
+  {
+    "id": "new_word__old_num__second_accept__p0__1",
+    "text": "统计量=7，阈值=7\n成立\n合并两次抽样的不合格品数须不超过累计接收数。",
+    "capped": false
+  },
+  {
+    "id": "new_word__old_num__second_accept__p0__0",
+    "text": "统计量=15，阈值=7\n不成立\n合并两次抽样的不合格品数须不超过累计接收数。",
+    "capped": false
+  },
+  {
+    "id": "old_word__old_num__second_accept__p1__1",
+    "text": "统计量=7，阈值=8\n不成立\n两次抽样的不合格品数之和须不超过累计接收数。",
+    "capped": false
+  },
+  {
+    "id": "old_word__old_num__second_accept__p1__0",
+    "text": "统计量=8，阈值=8\n成立\n两次抽样的不合格品数之和须不超过累计接收数。",
+    "capped": false
+  },
+  {
+    "id": "new_word__old_num__second_accept__p1__1",
+    "text": "统计量=7，阈值=8\n不成立\n两次抽样的不合格品数之和须不超过累计接收数。",
+    "capped": false
+  },
+  {
+    "id": "new_word__old_num__second_accept__p1__0",
+    "text": "统计量=8，阈值=8\n成立\n二次抽样的不合格品数之和须不超过累计接收数。",
+    "capped": false
+  },
+  {
+    "id": "old_word__new_num__second_accept__p0__1",
+    "text": "统计量=5，阈值=8\n不成立\n累计接收数应不小于对应抽样的不合格品数。",
+    "capped": false
+  },
+  {
+    "id": "old_word__new_num__second_accept__p0__0",
+    "text": "统计量=6，阈值=8\n不成立\n累计接收数应不小于指定接收数。",
+    "capped": false
+  },
+  {
+    "id": "new_word__new_num__second_accept__p0__1",
+    "text": "统计量=8，阈值=8\n成立\n合并两次抽样的不合格品数须不超过累计接收数。",
+    "capped": false
+  },
+  {
+    "id": "new_word__new_num__second_accept__p0__0",
+    "text": "统计量=11，阈值=8\n不成立\n合并两次抽样的不合格品数须不超过累计接收数。",
+    "capped": false
+  },
+  {
+    "id": "old_word__new_num__second_accept__p1__1",
+    "text": "统计量=6，阈值=4\n成立\n次样不合格品数须不超过累计接收数。",
+    "capped": false
+  },
+  {
+    "id": "old_word__new_num__second_accept__p1__0",
+    "text": "统计量=7，阈值=10\n不成立\n累计接收数应等于或超过对应抽样数。",
+    "capped": false
+  },
+  {
+    "id": "new_word__new_num__second_accept__p1__1",
+    "text": "统计量=10，阈值=10\n成立\n二次抽样的累计不合格品数须不超过累计接收数。",
+    "capped": false
+  },
+  {
+    "id": "new_word__new_num__second_accept__p1__0",
+    "text": "统计量=11，阈值=10\n成立\n两次抽样的不合格品数之和须不超过累计接收数。",
+    "capped": false
+  },
+  {
+    "id": "old_word__old_num__weco3__p0__1",
+    "text": "统计量=4.5，阈值=3\n成立\n上侧单点越限要求标准化偏差大于3。",
+    "capped": false
+  },
+  {
+    "id": "old_word__old_num__weco3__p0__0",
+    "text": "统计量=1.5，阈值=3\n不成立\n上侧单点越限要求标准化偏差大于3。",
+    "capped": false
+  },
+  {
+    "id": "new_word__old_num__weco3__p0__1",
+    "text": "统计量=4.5，阈值=3\n成立\n单点越限要求标准化偏差须大于3。",
+    "capped": false
+  },
+  {
+    "id": "new_word__old_num__weco3__p0__0",
+    "text": "统计量=1.5，阈值=3\n不成立\n单点越限要求标准化偏差须大于3。",
+    "capped": false
+  },
+  {
+    "id": "old_word__old_num__weco3__p1__1",
+    "text": "统计量=4.6，阈值=3\n成立\n上侧单点越限要求标准化偏差大于3。",
+    "capped": false
+  },
+  {
+    "id": "old_word__old_num__weco3__p1__0",
+    "text": "统计量=1.4，阈值=3\n不成立\n上侧单点越限要求标准化偏差大于3。",
+    "capped": false
+  },
+  {
+    "id": "new_word__old_num__weco3__p1__1",
+    "text": "统计量=4.6，阈值=3\n成立\n上侧单点3σ越限要求标准化偏差大于3。",
+    "capped": false
+  },
+  {
+    "id": "new_word__old_num__weco3__p1__0",
+    "text": "统计量=1.4，阈值=3\n不成立\n上侧单点3σ越限要求标准化偏差须大于3。",
+    "capped": false
+  },
+  {
+    "id": "old_word__new_num__weco3__p0__1",
+    "text": "统计量=3.15，阈值=3\n成立\n上侧单点越限要求标准化偏差大于3。",
+    "capped": false
+  },
+  {
+    "id": "old_word__new_num__weco3__p0__0",
+    "text": "统计量=2.85，阈值=3\n不成立\n上侧单点越限要求标准化偏差大于3。",
+    "capped": false
+  },
+  {
+    "id": "new_word__new_num__weco3__p0__1",
+    "text": "统计量=3.15，阈值=3\n成立\n单点越限要求标准化偏差须大于等于该点所在界线的界线宽度。",
+    "capped": false
+  },
+  {
+    "id": "new_word__new_num__weco3__p0__0",
+    "text": "统计量=2.85，阈值=3\n不成立\n单点越限要求标准化偏差须大于等于上侧单点三西格玛界线。",
+    "capped": false
+  },
+  {
+    "id": "old_word__new_num__weco3__p1__1",
+    "text": "统计量=3.20，阈值=3\n成立\n上侧单点越限要求标准化偏差大于3。",
+    "capped": false
+  },
+  {
+    "id": "old_word__new_num__weco3__p1__0",
+    "text": "统计量=3.00，阈值=3.00\n成立\n上侧单点越限要求标准化偏差大于3。",
+    "capped": false
+  },
+  {
+    "id": "new_word__new_num__weco3__p1__1",
+    "text": "统计量=3.20，阈值=3\n成立\n单点落在上侧界线外。",
+    "capped": false
+  },
+  {
+    "id": "new_word__new_num__weco3__p1__0",
+    "text": "统计量=3.00，阈值=3.00\n成立\n上侧单点3σ越限要求标准化偏差须大于3。",
+    "capped": false
+  },
+  {
+    "id": "old_word__old_num__weco2__p0__1",
+    "text": "统计量=2，阈值=2\n成立\n窗口内高于指定界线的点数至少应有2个。",
+    "capped": false
+  },
+  {
+    "id": "old_word__old_num__weco2__p0__0",
+    "text": "统计量=2，阈值=2\n成立\n窗口内高于指定界线的点数至少应有2个。",
+    "capped": false
+  },
+  {
+    "id": "new_word__old_num__weco2__p0__1",
+    "text": "统计量=2，阈值=2\n成立\n窗口内至少应有2个点位于上侧界之外。",
+    "capped": false
+  },
+  {
+    "id": "new_word__old_num__weco2__p0__0",
+    "text": "统计量=2，阈值=2\n成立\n窗口内高于指定界线的点数至少应有2个。",
+    "capped": false
+  },
+  {
+    "id": "old_word__old_num__weco2__p1__1",
+    "text": "统计量=2，阈值=2\n成立\n窗口内高于指定界线的点数至少应有2个。",
+    "capped": false
+  },
+  {
+    "id": "old_word__old_num__weco2__p1__0",
+    "text": "统计量=2，阈值=2\n成立\n窗口内高于指定界线的点数至少应有2个。",
+    "capped": false
+  },
+  {
+    "id": "new_word__old_num__weco2__p1__1",
+    "text": "统计量=3，阈值=2\n成立\n窗口内高于指定界线的点数至少应有2个。",
+    "capped": false
+  },
+  {
+    "id": "new_word__old_num__weco2__p1__0",
+    "text": "统计量=2.8，阈值=2\n成立\n窗口内高于指定界线的点数至少应有2个。",
+    "capped": false
+  },
+  {
+    "id": "old_word__new_num__weco2__p0__1",
+    "text": "统计量=2，阈值=2\n成立\n窗口内高于指定界线的点数至少应有2个。",
+    "capped": false
+  },
+  {
+    "id": "old_word__new_num__weco2__p0__0",
+    "text": "统计量=2，阈值=2\n成立\n窗口内高于指定界线的点数至少应有2个。",
+    "capped": false
+  },
+  {
+    "id": "new_word__new_num__weco2__p0__1",
+    "text": "统计量=2，阈值=2\n成立\n窗口内至少应有2个点落在上侧控制线以外。",
+    "capped": false
+  },
+  {
+    "id": "new_word__new_num__weco2__p0__0",
+    "text": "统计量=2，阈值=2\n成立\n窗口内至少应有2个点落在上侧控制线以外。",
+    "capped": false
+  },
+  {
+    "id": "old_word__new_num__weco2__p1__1",
+    "text": "统计量=2，阈值=2\n成立\n窗口内高于指定界线的点数至少应有2个。",
+    "capped": false
+  },
+  {
+    "id": "old_word__new_num__weco2__p1__0",
+    "text": "统计量=2，阈值=2\n成立\n窗口内高于指定界线的点数至少应有2个。",
+    "capped": false
+  },
+  {
+    "id": "new_word__new_num__weco2__p1__1",
+    "text": "统计量=3，阈值=2\n成立\n窗口内高于指定界线的点数至少应有2个。",
+    "capped": false
+  },
+  {
+    "id": "new_word__new_num__weco2__p1__0",
+    "text": "统计量=3，阈值=2\n成立\n窗口内高于指定界线的点数至少应有2个。",
+    "capped": false
+  },
+  {
+    "id": "old_word__old_num__weco1__p0__1",
+    "text": "统计量=4，阈值=4\n成立\n窗口内高于指定界线的点数至少应有4个。",
+    "capped": false
+  },
+  {
+    "id": "old_word__old_num__weco1__p0__0",
+    "text": "统计量=4，阈值=4\n成立\n窗口内高于指定界线的点数至少应有4个。",
+    "capped": false
+  },
+  {
+    "id": "new_word__old_num__weco1__p0__1",
+    "text": "统计量=4，阈值=4\n成立\n窗口内高于指定界线的点数至少应有4个。",
+    "capped": false
+  },
+  {
+    "id": "new_word__old_num__weco1__p0__0",
+    "text": "统计量=4，阈值=4\n成立\n窗口内高于指定界线的点数至少应有4个。",
+    "capped": false
+  },
+  {
+    "id": "old_word__old_num__weco1__p1__1",
+    "text": "统计量=4，阈值=4\n成立\n窗口内高于指定界线的点数至少应有4个。",
+    "capped": false
+  },
+  {
+    "id": "old_word__old_num__weco1__p1__0",
+    "text": "统计量=4，阈值=4\n成立\n窗口内高于指定界线的点数至少应有4个。",
+    "capped": false
+  },
+  {
+    "id": "new_word__old_num__weco1__p1__1",
+    "text": "统计量=4，阈值=4\n成立\n窗口内高于指定界线的点数至少应有4个。",
+    "capped": false
+  },
+  {
+    "id": "new_word__old_num__weco1__p1__0",
+    "text": "统计量=4，阈值=4\n成立\n窗口内高于指定界线的点数至少应有4个。",
+    "capped": false
+  },
+  {
+    "id": "old_word__new_num__weco1__p0__1",
+    "text": "统计量=4，阈值=4\n成立\n窗口内高于指定界线的点数至少应有4个。",
+    "capped": false
+  },
+  {
+    "id": "old_word__new_num__weco1__p0__0",
+    "text": "统计量=4，阈值=4\n成立\n窗口内高于指定界线的点数至少应有4个。",
+    "capped": false
+  },
+  {
+    "id": "new_word__new_num__weco1__p0__1",
+    "text": "统计量=4，阈值=4\n成立\n窗口内高于指定界线的点数至少应有4个。",
+    "capped": false
+  },
+  {
+    "id": "new_word__new_num__weco1__p0__0",
+    "text": "统计量=4，阈值=4\n成立\n窗口内高于指定界线的点数至少应有4个。",
+    "capped": false
+  },
+  {
+    "id": "old_word__new_num__weco1__p1__1",
+    "text": "统计量=4，阈值=4\n成立\n窗口内高于指定界线的点数至少应有4个。",
+    "capped": false
+  },
+  {
+    "id": "old_word__new_num__weco1__p1__0",
+    "text": "统计量=4，阈值=4\n成立\n窗口内高于指定界线的点数至少应有4个。",
+    "capped": false
+  },
+  {
+    "id": "new_word__new_num__weco1__p1__1",
+    "text": "统计量=4，阈值=4\n成立\n窗口内严格高于指定界线的点数至少应有4个。",
+    "capped": false
+  },
+  {
+    "id": "new_word__new_num__weco1__p1__0",
+    "text": "统计量=4，阈值=4\n成立\n窗口内高于指定界线的点数至少应有4个。",
+    "capped": false
+  },
+  {
+    "id": "old_word__old_num__weco8__p0__1",
+    "text": "统计量=7，阈值=8\n不成立\n窗口内高于指定界线的点数至少应有8个。",
+    "capped": false
+  },
+  {
+    "id": "old_word__old_num__weco8__p0__0",
+    "text": "统计量=7，阈值=8\n不成立\n窗口内高于指定界线的点数至少应有8个。",
+    "capped": false
+  },
+  {
+    "id": "new_word__old_num__weco8__p0__1",
+    "text": "统计量=7，阈值=8\n不成立\n窗口内高于中心线的点数至少应有8个。",
+    "capped": false
+  },
+  {
+    "id": "new_word__old_num__weco8__p0__0",
+    "text": "统计量=5，阈值=8\n不成立\n窗口内高于中心线的点数至少应有8个。",
+    "capped": false
+  },
+  {
+    "id": "old_word__old_num__weco8__p1__1",
+    "text": "统计量=7，阈值=8\n不成立\n窗口内高于指定界线的点数至少应有8个。",
+    "capped": false
+  },
+  {
+    "id": "old_word__old_num__weco8__p1__0",
+    "text": "统计量=7，阈值=8\n不成立\n窗口内高于指定界线的点数至少应有8个。",
+    "capped": false
+  },
+  {
+    "id": "new_word__old_num__weco8__p1__1",
+    "text": "统计量=7，阈值=8\n不成立\n窗口内高于指定界线的点数至少应有8个。",
+    "capped": false
+  },
+  {
+    "id": "new_word__old_num__weco8__p1__0",
+    "text": "统计量=5，阈值=8\n不成立\n窗口内高于指定界线的点数至少应有8个。",
+    "capped": false
+  },
+  {
+    "id": "old_word__new_num__weco8__p0__1",
+    "text": "统计量=8，阈值=8\n成立\n窗口内高于指定界线的点数至少应有8个。",
+    "capped": false
+  },
+  {
+    "id": "old_word__new_num__weco8__p0__0",
+    "text": "统计量=8，阈值=8\n成立\n窗口内高于指定界线的点数至少应有8个。",
+    "capped": false
+  },
+  {
+    "id": "new_word__new_num__weco8__p0__1",
+    "text": "统计量=8，阈值=8\n成立\n窗口内高于中心线的点数至少应有8个。",
+    "capped": false
+  },
+  {
+    "id": "new_word__new_num__weco8__p0__0",
+    "text": "统计量=7，阈值=8\n不成立\n窗口内高于指定界线的点数至少应有8个。",
+    "capped": false
+  },
+  {
+    "id": "old_word__new_num__weco8__p1__1",
+    "text": "统计量=8，阈值=8\n成立\n窗口内高于指定界线的点数至少应有8个。",
+    "capped": false
+  },
+  {
+    "id": "old_word__new_num__weco8__p1__0",
+    "text": "统计量=8，阈值=8\n成立\n窗口内高于指定界线的点数至少应有8个。",
+    "capped": false
+  },
+  {
+    "id": "new_word__new_num__weco8__p1__1",
+    "text": "统计量=7，阈值=8\n不成立\n窗口内高于指定界线的点数至少应有8个。",
+    "capped": false
+  },
+  {
+    "id": "new_word__new_num__weco8__p1__0",
+    "text": "统计量=7，阈值=8\n不成立\n窗口内高于指定界线的点数至少应有8个。",
+    "capped": false
+  },
+  {
+    "id": "old_word__old_num__cp__p0__1",
+    "text": "统计量=1.33，阈值=1\n成立\nCp等于规格宽度除以六倍标准差。",
+    "capped": false
+  },
+  {
+    "id": "old_word__old_num__cp__p0__0",
+    "text": "统计量=0.5，阈值=1\n不成立\nCp等于规格宽度除以六倍标准差。",
+    "capped": false
+  },
+  {
+    "id": "new_word__old_num__cp__p0__1",
+    "text": "统计量=0.5，阈值=1\n不成立\nCp等于规格宽度除以六倍标准差。",
+    "capped": false
+  },
+  {
+    "id": "new_word__old_num__cp__p0__0",
+    "text": "统计量=0.5，阈值=1\n不成立\nCp等于规格宽度除以六倍标准差。",
+    "capped": false
+  },
+  {
+    "id": "old_word__old_num__cp__p1__1",
+    "text": "统计量=1.25，阈值=1\n成立\nCp等于规格宽度除以六倍标准差。",
+    "capped": false
+  },
+  {
+    "id": "old_word__old_num__cp__p1__0",
+    "text": "统计量=0.5，阈值=1\n不成立\nCp等于规格宽度除以六倍标准差。",
+    "capped": false
+  },
+  {
+    "id": "new_word__old_num__cp__p1__1",
+    "text": "统计量=1，阈值=1\n成立\nCp等于规格宽度除以六倍标准差。",
+    "capped": false
+  },
+  {
+    "id": "new_word__old_num__cp__p1__0",
+    "text": "统计量=1，阈值=1\n成立\nCp等于规格宽度除以六倍标准差。",
+    "capped": false
+  },
+  {
+    "id": "old_word__new_num__cp__p0__1",
+    "text": "统计量=1，阈值=1\n成立\nCp等于规格宽度除以六倍标准差。",
+    "capped": false
+  },
+  {
+    "id": "old_word__new_num__cp__p0__0",
+    "text": "统计量=0.8，阈值=1\n不成立\nCp等于规格宽度除以六倍标准差。",
+    "capped": false
+  },
+  {
+    "id": "new_word__new_num__cp__p0__1",
+    "text": "统计量=0.5，阈值=1\n不成立\nCp等于规格宽度除以六倍标准差。",
+    "capped": false
+  },
+  {
+    "id": "new_word__new_num__cp__p0__0",
+    "text": "统计量=0.5，阈值=1\n不成立\nCp等于规格宽度除以六倍标准差。",
+    "capped": false
+  },
+  {
+    "id": "old_word__new_num__cp__p1__1",
+    "text": "统计量=1.2，阈值=1.2\n成立\nCp等于规格宽度除以六倍标准差。",
+    "capped": false
+  },
+  {
+    "id": "old_word__new_num__cp__p1__0",
+    "text": "统计量=0.8，阈值=1.2\n不成立\nCp等于规格宽度除以六倍标准差。",
+    "capped": false
+  },
+  {
+    "id": "new_word__new_num__cp__p1__1",
+    "text": "统计量=1.2，阈值=1.2\n成立\nCp等于规格宽度除以六倍标准差。",
+    "capped": false
+  },
+  {
+    "id": "new_word__new_num__cp__p1__0",
+    "text": "统计量=0.8，阈值=1.2\n不成立\nCp等于规格宽度除以六倍标准差。",
+    "capped": false
+  },
+  {
+    "id": "old_word__old_num__cpu__p0__1",
+    "text": "统计量=1.5，阈值=1\n成立\nCpu等于上规格限与均值之差除以三倍标准差。",
+    "capped": false
+  },
+  {
+    "id": "old_word__old_num__cpu__p0__0",
+    "text": "统计量=0.5，阈值=1\n不成立\nCpu等于上规格限与均值之差除以三倍标准差。",
+    "capped": false
+  },
+  {
+    "id": "new_word__old_num__cpu__p0__1",
+    "text": "统计量=1.5，阈值=1\n成立\nCpu等于上规格限与过程均值之差除以三倍标准差。",
+    "capped": false
+  },
+  {
+    "id": "new_word__old_num__cpu__p0__0",
+    "text": "统计量=1.5，阈值=1\n成立\nCpu等于上侧单侧上控制限与过程均值之差除以三倍标准差。",
+    "capped": false
+  },
+  {
+    "id": "old_word__old_num__cpu__p1__1",
+    "text": "统计量=0.5，阈值=1\n不成立\nCpu等于上规格限与均值之差除以三倍标准差。",
+    "capped": false
+  },
+  {
+    "id": "old_word__old_num__cpu__p1__0",
+    "text": "统计量=0.5，阈值=1\n不成立\nCpu等于上规格限与均值之差除以三倍标准差。",
+    "capped": false
+  },
+  {
+    "id": "new_word__old_num__cpu__p1__1",
+    "text": "统计量=1.4286，阈值=1\n成立\nCpu等于上规格限与过程均值之差除以三倍标准差。",
+    "capped": false
+  },
+  {
+    "id": "new_word__old_num__cpu__p1__0",
+    "text": "统计量=1.4286，阈值=1\n成立\nCpu等于上规格限与过程均值之差除以三倍标准差。",
+    "capped": false
+  },
+  {
+    "id": "old_word__new_num__cpu__p0__1",
+    "text": "统计量=0.2，阈值=1\n不成立\nCpu等于上规格限与均值之差除以三倍标准差。",
+    "capped": false
+  },
+  {
+    "id": "old_word__new_num__cpu__p0__0",
+    "text": "统计量=0.4，阈值=1\n不成立\nCpu等于上规格限与均值之差除以三倍标准差。",
+    "capped": false
+  },
+  {
+    "id": "new_word__new_num__cpu__p0__1",
+    "text": "统计量=1.5，阈值=1\n成立\nCpu等于上单侧规格上限与过程均值之差除以三倍标准差。",
+    "capped": false
+  },
+  {
+    "id": "new_word__new_num__cpu__p0__0",
+    "text": "统计量=1.2，阈值=1\n成立\nCpu等于上单侧规格上限与过程均值之差除以三倍标准差。",
+    "capped": false
+  },
+  {
+    "id": "old_word__new_num__cpu__p1__1",
+    "text": "统计量=0.6，阈值=1.2\n不成立\nCpu等于上规格限与均值之差除以三倍标准差。",
+    "capped": false
+  },
+  {
+    "id": "old_word__new_num__cpu__p1__0",
+    "text": "统计量=0.5，阈值=1\n不成立\nCpu等于上规格限与均值之差除以三倍标准差。",
+    "capped": false
+  },
+  {
+    "id": "new_word__new_num__cpu__p1__1",
+    "text": "统计量=1.2，阈值=1.2\n成立\nCpu等于上规格上限与过程均值之差除以三倍标准差。",
+    "capped": false
+  },
+  {
+    "id": "new_word__new_num__cpu__p1__0",
+    "text": "统计量=1.2，阈值=1.2\n成立\nCpu等于上规格上限与过程均值之差除以三倍标准差。",
+    "capped": false
+  },
+  {
+    "id": "old_word__old_num__cpl__p0__1",
+    "text": "统计量=0.833，阈值=1\n不成立\nCpl等于均值与下规格限之差除以三倍标准差。",
+    "capped": false
+  },
+  {
+    "id": "old_word__old_num__cpl__p0__0",
+    "text": "统计量=0.5，阈值=1\n不成立\nCpl等于均值与下规格限之差除以三倍标准差。",
+    "capped": false
+  },
+  {
+    "id": "new_word__old_num__cpl__p0__1",
+    "text": "统计量=0.83，阈值=1\n不成立\nCpl等于下规格限与过程均值之差除以三倍标准差。",
+    "capped": false
+  },
+  {
+    "id": "new_word__old_num__cpl__p0__0",
+    "text": "统计量=0.83，阈值=1\n不成立\nCpl等于下规格限与过程均值之差除以三倍标准差。",
+    "capped": false
+  },
+  {
+    "id": "old_word__old_num__cpl__p1__1",
+    "text": "统计量=0.5，阈值=1\n不成立\nCpl等于均值与下规格限之差除以三倍标准差。",
+    "capped": false
+  },
+  {
+    "id": "old_word__old_num__cpl__p1__0",
+    "text": "统计量=0.5，阈值=1\n不成立\nCpl等于均值与下规格限之差除以三倍标准差。",
+    "capped": false
+  },
+  {
+    "id": "new_word__old_num__cpl__p1__1",
+    "text": "统计量=0.5，阈值=1\n不成立\nCpl等于均值与下规格限之差与三倍标准差之比。",
+    "capped": false
+  },
+  {
+    "id": "new_word__old_num__cpl__p1__0",
+    "text": "统计量=0.5，阈值=1\n不成立\nCpl等于均值与下规格限之差与三倍标准差之比。",
+    "capped": false
+  },
+  {
+    "id": "old_word__new_num__cpl__p0__1",
+    "text": "统计量=0.5，阈值=1\n不成立\nCpl等于均值与下规格限之差除以三倍标准差。",
+    "capped": false
+  },
+  {
+    "id": "old_word__new_num__cpl__p0__0",
+    "text": "统计量=0.2，阈值=1\n不成立\nCpl等于均值与下规格限之差除以三倍标准差。",
+    "capped": false
+  },
+  {
+    "id": "new_word__new_num__cpl__p0__1",
+    "text": "统计量=0.5，阈值=1\n不成立\nCpl等于单侧规格上限与过程均值之差除以三倍标准差。",
+    "capped": false
+  },
+  {
+    "id": "new_word__new_num__cpl__p0__0",
+    "text": "统计量=0.4，阈值=1\n不成立\nCpl等于单侧规格上限与过程均值之差除以三倍标准差。",
+    "capped": false
+  },
+  {
+    "id": "old_word__new_num__cpl__p1__1",
+    "text": "统计量=0.6，阈值=1\n不成立\nCpl等于均值与下规格限之差除以三倍标准差。",
+    "capped": false
+  },
+  {
+    "id": "old_word__new_num__cpl__p1__0",
+    "text": "统计量=0.6，阈值=1\n不成立\nCpl等于均值与下规格限之差除以三倍标准差。",
+    "capped": false
+  },
+  {
+    "id": "new_word__new_num__cpl__p1__1",
+    "text": "统计量=0.6，阈值=1.2\n不成立\n下单侧Cpl等于下规格限与均值之差除以三倍标准差。",
+    "capped": false
+  },
+  {
+    "id": "new_word__new_num__cpl__p1__0",
+    "text": "统计量=0.6，阈值=1.2\n不成立\n下单侧Cpl等于下规格限与均值之差除以三倍标准差。",
+    "capped": false
+  },
+  {
+    "id": "old_word__old_num__cpk__p0__1",
+    "text": "统计量=1.5，阈值=1\n成立\nCpk取上下单侧能力指数中的较小值。",
+    "capped": false
+  },
+  {
+    "id": "old_word__old_num__cpk__p0__0",
+    "text": "统计量=1.5，阈值=1\n成立\nCpk取上下单侧能力指数中的较小值。",
+    "capped": false
+  },
+  {
+    "id": "new_word__old_num__cpk__p0__1",
+    "text": "统计量=0.5，阈值=1\n不成立\nCpk取上下单侧能力指数中的较小值。",
+    "capped": false
+  },
+  {
+    "id": "new_word__old_num__cpk__p0__0",
+    "text": "统计量=0.5，阈值=1\n不成立\nCpk取上下单侧能力指数中的较小值。",
+    "capped": false
+  },
+  {
+    "id": "old_word__old_num__cpk__p1__1",
+    "text": "统计量=1.5，阈值=1\n成立\nCpk取上下单侧能力指数中的较小值。",
+    "capped": false
+  },
+  {
+    "id": "old_word__old_num__cpk__p1__0",
+    "text": "统计量=1.5，阈值=1\n成立\nCpk取上下单侧能力指数中的较小值。",
+    "capped": false
+  },
+  {
+    "id": "new_word__old_num__cpk__p1__1",
+    "text": "统计量=0.5，阈值=1\n不成立\nCpk取上下单侧能力指数中的较小值。",
+    "capped": false
+  },
+  {
+    "id": "new_word__old_num__cpk__p1__0",
+    "text": "统计量=0.5，阈值=1\n不成立\nCpk取上下单侧能力指数中的较小值。",
+    "capped": false
+  },
+  {
+    "id": "old_word__new_num__cpk__p0__1",
+    "text": "统计量=0.8，阈值=1\n不成立\nCpk取上下单侧能力指数中的较小值。",
+    "capped": false
+  },
+  {
+    "id": "old_word__new_num__cpk__p0__0",
+    "text": "统计量=0.8，阈值=1\n不成立\nCpk取上下单侧能力指数中的较小值。",
+    "capped": false
+  },
+  {
+    "id": "new_word__new_num__cpk__p0__1",
+    "text": "统计量=0.8，阈值=1\n不成立\nCpk取上下单侧能力指数中的较小值。",
+    "capped": false
+  },
+  {
+    "id": "new_word__new_num__cpk__p0__0",
+    "text": "统计量=0.8，阈值=1\n不成立\nCpk取上下单侧能力指数中的较小值。",
+    "capped": false
+  },
+  {
+    "id": "old_word__new_num__cpk__p1__1",
+    "text": "统计量=1.2，阈值=1.2\n成立\nCpk取上下单侧能力指数中的较小值。",
+    "capped": false
+  },
+  {
+    "id": "old_word__new_num__cpk__p1__0",
+    "text": "统计量=1.2，阈值=1.2\n成立\nCpk取上下单侧能力指数中的较小值。",
+    "capped": false
+  },
+  {
+    "id": "new_word__new_num__cpk__p1__1",
+    "text": "统计量=0.5，阈值=1.2\n不成立\nCpk取上下单侧能力指数中的较小值。",
+    "capped": false
+  },
+  {
+    "id": "new_word__new_num__cpk__p1__0",
+    "text": "统计量=1.2，阈值=1.2\n成立\nCpk取上下单侧能力指数中的较小值。",
+    "capped": false
+  }
+]

@@ -1,0 +1,18 @@
+{
+  "skill": "novelty-check",
+  "run_id": "2026-11-18_run01",
+  "date": "2026-11-18",
+  "executor": "codex",
+  "reviewer_backend": "codex",
+  "project_dir": "D:\\Users\\Administrator\\Desktop\\finetune\\project",
+  "route": {
+    "backend": "codex",
+    "host": "codex",
+    "source": "host-default",
+    "model": "gpt-6-astra",
+    "effort": "xhigh",
+    "transport": "native",
+    "fresh_tool": "spawn_agent",
+    "continuation_tool": "send_input"
+  }
+}

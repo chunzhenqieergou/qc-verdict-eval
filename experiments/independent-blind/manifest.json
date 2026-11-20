@@ -1,0 +1,18 @@
+{
+  "cases": "deda0dbb7c17c10825c9e840bd84f6101bedc97a7d1756a7e1b72ca6cd332a80",
+  "protocol": "55fbd3ef9c601ed0296d3bdb8d8499b151dc2f4af2775311f4aeb0a2cdf770c6",
+  "reviewer": "gemini-4-hydrogen-xhigh",
+  "sources": {
+    "single": "https://support.minitab.com/en-us/minitab/help-and-how-to/quality-and-process-improvement/acceptance-sampling/how-to/attributes-acceptance-sampling/interpret-the-results/all-statistics-and-graphs/",
+    "capability": "https://support.minitab.com/en-us/minitab/help-and-how-to/quality-and-process-improvement/capability-analysis/how-to/capability-analysis/normal-capability-analysis/interpret-the-results/all-statistics-and-graphs/potential-within-capability/",
+    "zone": "https://www.jmp.com/content/dam/jmp/documents/en/support/jmp19/quality-and-process-methods.pdf"
+  },
+  "weights": {
+    "runs\\scenario-42\\adapter\\adapter_model.safetensors": "30a0185d84157cf44f00467d582235442d70403ca809e308f0644113ce31cc19",
+    "order-training\\scenario-42\\adapter\\adapter_model.safetensors": "509513895c76d2bea844459f8e3bac84e8772985cfc509683b31910c40d11373",
+    "runs\\scenario-43\\adapter\\adapter_model.safetensors": "da99c754b13e42b4a1ace322e28588cad36198c70e819c5f6608b4c57436f209",
+    "order-training\\scenario-43\\adapter\\adapter_model.safetensors": "b8ce50541c1115a0c18545e8bc01aaf193c024c13dfa707e1d5337dd21a82549",
+    "runs\\scenario-44\\adapter\\adapter_model.safetensors": "dd8fb5e61fe4066ed698f1e182626a86d6abad8345a09f6f2e72aa0185139869",
+    "order-training\\scenario-44\\adapter\\adapter_model.safetensors": "a785241cdcb5049c9706b5dd4154790d1cc714c5432bc635f21146e983dcf197"
+  }
+}
